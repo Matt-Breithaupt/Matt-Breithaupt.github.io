@@ -1,22 +1,380 @@
-<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>portfolio</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">                    
-  </head>
 
-  <body>
-  <center><div class="container-fluid">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <title>Portfolio Home Page</title>
+  <!--Custom stylesheets and scripts (for GitHub)-->
+  <!--Custom CSS-->
+  <!--Vendor-->
+  <!--Bootstrap Core CSS-->
+  <script>
+    AOS.init();
+  </script>
+</head>
 
-    <h1>Hello</h1>
-  
-  </div></center>
-  </body>
+
+<body>
+  <div class="wrapper">
+    <header class="page-head">
+      <!-- NAVBAR -->
+      <nav id="mainNav" class="navbar navbar-default navbar-top navbar-custom navbar-top">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+            <a class="navbar-brand" href="#page-top">Name</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <!--Currently using page anchors/anchor tags-->
+          <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="hidden">
+                <a href="#page-top"></a>
+              </li>
+              <li class="page-scroll">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li class="page-scroll">
+                <a href="#about">About</a>
+              </li>
+              <li class="page-scroll">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <!--/.navbar-collapse-->
+        </div>
+        <!--/.container-fluid-->
+      </nav>
+    </header>
+
+
+    <section class="image-wrapper">
+      <div class="responsive-container">
+        <div class="triangle-1-container">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1508539969/portfolio/triangle1.svg" class="img-responsive triangle-1" alt="photo">
+        </div>
+        <img sizes="(max-width: 2040px) 100vw, 2040px" srcset="
+  https://res.cloudinary.com/dgoasjucg/image/upload/q_auto/v1507998395/portfolio/hero-image_eeh0ff_c_scale_w_400.jpg 400w,	
+  https://res.cloudinary.com/dgoasjucg/image/upload/q_auto/v1507998395/portfolio/hero-image_eeh0ff_c_scale_w_820.jpg 820w,	
+  https://res.cloudinary.com/dgoasjucg/image/upload/q_auto/v1507998396/portfolio/hero-image_eeh0ff_c_scale_w_1093.jpg 1093w,
+  https://res.cloudinary.com/dgoasjucg/image/upload/q_auto/v1507998395/portfolio/hero-image_eeh0ff_c_scale_w_1378.jpg 1378w,
+  https://res.cloudinary.com/dgoasjucg/image/upload/q_auto/v1508012887/portfolio/hero-image_qda102_c_scale_w_2040.jpg 2040w" src=“https://res.cloudinary.com/dgoasjucg/image/upload/q_auto/v1508012887/portfolio/hero-image_qda102_c_scale_w_2040.jpg” alt="My responsive image">
+        <div id=“triangle-hero”></div>
+        </img>
+      </div>
+    </section>
+
+
+    <div id="separate-test">
+      <div id="front" class="transformed"></div>
+      <div id="back" class="transformed"></div>
+      <div class="proto-box-top-backdrop-2-wide"></div>
+      <div class="proto-box-top-overlap-narrow"></div>
+    </div>
+
+    <section class="box-container">
+      <div class="box-backdrop"></div>
+      <div class="inset">
+        <div class="mobile-prototype">
+          <h3 style="margin-top: 0px;">Final product/resulting prototype</h3>
+          <!--Marval App embeds. Iframes.-->
+          <p class="paragraph1">UX design concept for restaurant website. Lead into my design process that resulted with this prototype. text text text text text text text text text text text text text text text text text</p>
+          <iframe src="https://marvelapp.com/h242jh?emb=1" frameborder="0" allowtransparency="true" style="center"></iframe>
+          <div class="proto-box-bottom-backdrop"></div>
+        </div>
+      </div>
+    </section>
+
+
+    <hr id="separate-2" />
+
+
+    <section class="past-container">
+      <div class="past-backdrop"></div>
+      <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1509374188/portfolio/triangle2.svg" class="img-responsive triangle-2" alt="photo">
+      <div id="past-text">
+        <span>Founded in 1967 as ‘Sushi Shop’ by an entrepreneurial couple, this Mom & Pop business flourished as a local staple for years, but had reached a plateau. They have since passed the mantle down to their three sons, who carry on this family-run
+            business for a new generation. Their tenure has reinvigorated the business, developing a franchise with several new locations and expanding the menu.<br/><br/>This left them with one last issue to be addressed, their weak digital footprint.
+            Any franchise worth their salt requires a strong digital presence to back it up. The first way to tackle that is with a new website. This means designing a digital user experience that is in-sync with their new brand identity, target market
+            and business strategy.</span>
+      </div>
+      <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1509374198/portfolio/triangle3.svg" class="img-responsive triangle-3" alt="photo">
+    </section>
+
+
+    <section class="process">
+      <h1 id="process-header">PROJECT PROCESS</h1>
+    </section>
+
+
+    <section class="container-fluid temp1">
+      <h2 id="title2">1. PROBLEMS</h2>
+      <div class="row equal-height-pt1">
+        <div class="col-sm-4 card2">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503507166/portfolio/sbr_artboard_v3.svg" class="img-responsive icon" alt="photo">
+          <div class="problems equal-height-pt2-v2">
+            <h4 class="title">Small Brand Reach</h4>
+            <p class="description">While ‘Sushi Shop’ has an established brand, this is a base of locally driven traffic, built up over years of history in that location and community word-of-mouth. This support is not a guarantee following the expansion to a multi-location
+              franchise, so a broader appeal is necessary to those unfamiliar with this brand.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4 card2">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503506229/portfolio/ow_artboard_v3.svg" class="img-responsive icon" alt="photo">
+          <div class="problems equal-height-pt2-v2">
+            <h4 class="title">Outdated Website</h4>
+            <p class="description">The old website is a relic, last updated in 1998, that is not up to date with modern web standards. Lacking responsive design, riddled with broken links, dated UI, and usability issues abound, this website needs serious renovation.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4 card2">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503507239/portfolio/eos_artboard_v3.svg" class="img-responsive icon" alt="photo">
+          <div class="problems equal-height-pt2-v2">
+            <h4 class="title">Encumbured Ordering System</h4>
+            <p class="description">During peak business hours, a frequently backed-up phone-line presents a deterrent to customers trying to place orders and a situation ripe for human error with swamped employees keeping track of them. An additional method of placing orders
+              needs to be provided.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container-fluid temp1">
+      <h2>2. GOALS</h2>
+      <div class="row equal-height-pt1">
+        <div class="col-sm-4 card2">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503509017/portfolio/nbi_artboard_v3.svg" class="img-responsive icon" alt="photo">
+          <div class="goals equal-height-pt2-v2">
+            <h4 class="title">New Brand Identity</h4>
+            <p class="description">Update the restaurant’s brand appeal with a modern cosmopolitan identity, tapping into a larger customer base. Develop a larger digital footprint. The old generic name ‘Sushi Shop’ will swap out for ‘Sushi Fuze’, a better reflection of a contemporary
+              restaurant brand that is host to a fusion of dish types. </p>
+          </div>
+        </div>
+
+        <div class="col-sm-4 card2">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503509028/portfolio/rdus_artboard_v3.svg" class="img-responsive icon" alt="photo">
+          <div class="goals equal-height-pt2-v2">
+            <h4 class="title">Responsive Design/User Flow</h4>
+            <p class="description">Design a site and app that smoothly scales across a myriad of devices and screen dimensions. Also, develop a streamlined sitemap that minimizes the number of steps required to accomplish a goal.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4 card2">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503509036/portfolio/oem_artboard_v3.svg" class="img-responsive icon" alt="photo">
+          <div class="goals equal-height-pt2-v2">
+            <h4 class="title">Order Efficiency and Management</h4>
+            <p class="description">Provide an additional method for customers to request take-out/delivery by implementing an online ordering system. Prove this is the more efficient alternative by offering a checkout process that has user-friendly task navigation and does
+              not tax the working memory.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503669662/portfolio/logo_reduced_artboard_width_with_text_outline_2.svg" class="logo" alt="image">
+
+
+    <section class="container-fluid temp1">
+      <h2>SOLUTIONS</h2>
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1501886372/portfolio/Apple_Watch_sushi_info_arch.jpg" class="img-responsive info-arch" alt="sitemap1">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1501886332/portfolio/Mobile_sushi_info_arch.jpg" class="img-responsive info-arch" alt="sitemap2">
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <h4 class="title">Sitemap</h4>
+          <p class="paragraph1">First, I create two slightly different sitemaps to outline the navigational layout. The information architecture for the apple watch app serves as the starting base, which the second map then expands on and gives a little more depth for the
+            general website.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container-fluid temp1">
+      <div class="chunk">
+        <h4 class="title">Profiles and User Journey</h4>
+        <p class="paragraph1">Developing several character profiles as points of reference, I use these summaries to explore the potential needs of users. I then select one profile and conduct a user journey to explore their possible pleasure/pain-points, touch-points, and
+          thoughts as they navigate through all stages of the website. This evaluation helps shine a light on potential usability issues I may have overlooked.</p>
+      </div>
+
+      <input id="how-other" type="radio" name="click">
+      <label for="how-other" class="new-label-class">
+  <div data-content="Profile 1" class="image">
+    <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831194/portfolio/profile1.jpg">
+  </div>
+</label>
+
+      <input id="how-other-2" type="radio" name="click">
+      <label for="how-other-2" class="new-label-class">
+  <div data-content="Profile 2" class="image">
+    <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831202/portfolio/profile2.jpg">
+  </div>
+</label>
+
+      <input id="how-other-3" type="radio" name="click">
+      <label for="how-other-3" class="new-label-class">
+  <div data-content="Profile 3" class="image">
+    <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831210/portfolio/profile3.jpg">
+  </div>
+</label>
+
+      <div class="how-other-disclosure">
+        <table>
+          <tr>
+            <th>Rachel</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td class="start-bio">
+              <b>Details:</b> In a relationship, skydiving instructor, 28 years old, thrill seeker, lives in an unincorporated area.
+              <br><b>Quote:</b> “I want someplace that offers light meals for lunch, but can also provide formal dishes for dinner events.”
+              <br><b>Notes:</b> Rachel loves the Sushi Fuze branded prepackaged shrimp wraps from the local market, yet would like to have meals delivered to her apartment complex. Her building, hidden down a poorly marked side street, is easy to miss
+              and she would like an easy way to track the car delivering her food. She would also like easy access to her favorite dishes when ordering online.
+            </td>
+            <td class="end-bio">
+              <b>Health consciousness:</b> High
+              <br><b>Time constraints:</b> Medium
+              <br><b>Meal variety:</b> High
+              <br><b>Digital proficiency:</b> Medium
+              <br><b>Hobbies:</b> Rock climbing, swimming
+              <br><b>Spends most time:</b> Small airport runway
+              <br><b>Social networks:</b> Pinterest, Facebook
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="how-other-disclosure-2">
+        <table>
+          <tr>
+            <th>Adam</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td class="start-bio">
+              <b>Details:</b> Married, brand consultant, 41 years old, quality conscious, lives in the suburbs.
+              <br><b>Quote:</b> “I want a dining environment where I can hold business casual meetings with clients.”
+              <br><b>Notes:</b> Adam is searching for a new contemporary restaurant that works as an informal gathering spot with his colleagues and clients. The laid back nature of meeting at the restaurant, as opposed to the boardroom, allows for less
+              time constraints. Yet, Adam is concerned about accommodations for larger groups and the schedules of others accompanying him. Therefore, he likes to set reservations and place some orders in advance for early evening meetings, taking into
+              account the dinner rush.
+            </td>
+            <td class="end-bio">
+              <b>Health consciousness:</b> Low
+              <br><b>Time constraints:</b> Medium
+              <br><b>Meal variety:</b> Medium
+              <br><b>Digital proficiency:</b> High
+              <br><b>Hobbies:</b> Reading, blogging
+              <br><b>Spends most time:</b> Meetings
+              <br><b>Social networks:</b> LinkedIn, Google+
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="how-other-disclosure-3">
+        <table>
+          <tr>
+            <th>Mike</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td class="start-bio">
+              <b>Details:</b> Single, night shift and on-call surgeon, 32 years old, efficient, lives downtown.
+              <br><b>Quote:</b> “I want a quick meal I can pick up on my way to work.”
+              <br><b>Notes:</b> Picking up a to-go meal is convenient for Mike, since the restaurant is on his way to work. With erratic work hours, an efficient and reliable service are highly appealing traits make Mike a frequent customer. He has very
+              conservative pallet, in that he sticks with only a handful of familiar meals, opting not to explore different dishes.
+            </td>
+            <td class="end-bio">
+              <b>Health consciousness:</b> High
+              <br><b>Time constraints:</b> High
+              <br><b>Meal variety:</b> Low
+              <br><b>Digital proficiency:</b> Medium
+              <br><b>Hobbies:</b> Biking, basketball
+              <br><b>Spends most time:</b> Hospital
+              <br><b>Social networks:</b> LinkedIn, Facebook
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </section>
+
+
+    <!--USER JOURNEY CHART-->
+    <section class="container-fluid temp1">
+      <div id="myChart1"></div>
+    </section>
+
+
+    <section class="container-fluid">
+      <div class="row equal-height-pt1">
+        <div class="col-sm-6 col-sm-push-6 equal-height-pt2">
+          <h4 class="title">Wireframe and Responsive Design</h4>
+          <p class="paragraph1">Adhering to the mobile first approach, I wireframe the entire website and then adjust dimensions to cover the various device screen sizes.</p>
+        </div>
+
+        <div class="col-xs-4 col-sm-2 col-sm-pull-6">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503692169/portfolio/Mobile_wireframe.jpg" class="img-responsive wireframe" alt="photo">
+        </div>
+
+        <div class="col-xs-8 col-sm-4 col-sm-pull-6">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503693137/portfolio/responsive.jpg" class="img-responsive" alt="photo">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container-fluid">
+      <div class="row equal-height-pt1">
+        <div class="col-sm-6 col-md-6 col-lg-6 equal-height-pt2">
+          <h4 class="title">Digital Assets</h4>
+          <p class="paragraph1">With a UX structure in place, I design UI elements that adhere to the brand identity. After importing these deliverables into a copy of the wireframe, they overlay the structure and receive additional size adjustments.</p>
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-6">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503693498/portfolio/digital_assets.jpg" class="img-responsive" alt="photo">
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container-fluid">
+      <div class="row equal-height-pt1">
+        <div class="col-sm-6 col-sm-push-6 equal-height-pt2">
+          <h4 class="title">Interactive Prototype</h4>
+          <p class="paragraph1">Finally, I export the UI assets from the Sketch program into Marvel-App to create an interactive prototype. This mockup can then receive user testing for further input.</p>
+        </div>
+
+        <div class="col-sm-6 col-sm-pull-6">
+          <iframe width="275" height="467" src="https://marvelapp.com/j2333b?emb=1" frameborder="0" allowtransparency="true"></iframe>
+        </div>
+      </div>
+    </section>
+    </section>
+
+
+    <!--**FOOTER**-->
+    <footer class="page-foot">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <a class="btn btn-default" href="">Email link</a>
+          </div>
+          <div class="col-xs-6">
+            <a class="btn btn-default" href="">Linkedin</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+</body>
+
 </html>
