@@ -190,11 +190,40 @@
 
     <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1503669662/portfolio/logo_reduced_artboard_width_with_text_outline_2.svg" class="logo" alt="image">
    
-    <script src="https://code.highcharts.com/highcharts.js"></script>
-    <div id="area-negative-demo" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <!--<script src="https://code.highcharts.com/highcharts.js"></script>
+    <div id="area-negative-demo" style="min-width: 310px; height: 400px; margin: 0 auto"></div>-->
 
+    <div id="container2" style="width:100%; height:400px;"></div>
+<script>
+$(function () {
+    var myChart = Highcharts.chart('container2', {
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'Fruit Consumption'
+        },
+        xAxis: {
+            categories: ['Apples', 'Bananas', 'Oranges']
+        },
+        yAxis: {
+            title: {
+                text: 'Fruit eaten'
+            }
+        },
+        series: [{
+            name: 'Jane',
+            data: [1, 0, 4]
+        }, {
+            name: 'John',
+            data: [5, 7, 3]
+        }]
+    });
+});
+</script>
 	
-	
+
+
 	
     <section class="container-fluid temp1">
       <h2>SOLUTIONS</h2>
@@ -399,7 +428,7 @@ Highcharts.chart('container', {
   
   
 	
-	<div id=“myChart1”></div>
+	<!--<div id=“myChart1”></div>
 						<script>
 				jQuery.noConflict();
 				var example = 'area-negative', 
@@ -595,7 +624,7 @@ Highcharts.chart('container', {
 	  ]
 	});
 	})(jQuery);
-	</script>
+	</script>-->
 
 	
 	
@@ -603,9 +632,9 @@ Highcharts.chart('container', {
   
 
     <!--USER JOURNEY CHART-->
-    <section class="container-fluid temp1">
+    <!--<section class="container-fluid temp1">
       <div id="myChart1"></div>
-    </section>
+    </section>-->
 
 
     <section class="container-fluid">
