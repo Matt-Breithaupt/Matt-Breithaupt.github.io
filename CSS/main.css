@@ -1,5 +1,28 @@
 /** MAIN CUSTOM STYLES **/
 
+/** Font Awesome icons styling **/
+.fa {
+  padding: 1.2rem;
+  font-size: 2rem;
+  width: 3.2rem;
+  text-align: center;
+  text-decoration: none;
+  margin: .4rem .1rem;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+
+
+
+
 section {
   margin: auto;
 }
