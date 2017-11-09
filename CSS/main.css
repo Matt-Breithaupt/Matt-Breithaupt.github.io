@@ -4,11 +4,11 @@
 /** LINKS **/
 a {
     color: white;
-    text-decoration: none
+    text-decoration: none;
 }
 a:focus, a:hover {
     opacity: 0.7;
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 
