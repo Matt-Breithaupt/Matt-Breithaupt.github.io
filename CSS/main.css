@@ -1,35 +1,15 @@
 /** MAIN CUSTOM STYLES **/
 
 
-/** Icon8 webicon styling **/
-.social2 {
-  width: 3em;
-  height: 3em;
-  color: green;
+/** LINKS **/
+a {
+    color: white;
+    text-decoration: none
 }
-
-
-
-/** Font Awesome icons styling **/
-.fa {
-  padding: 1.2rem;
-  font-size: 2rem;
-  width: 3.2rem;
-  text-align: center;
-  text-decoration: none;
-  margin: .4rem .1rem;
-}
-.fa:hover {
+a:focus, a:hover {
     opacity: 0.7;
+    text-decoration: underline
 }
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-
-
-
 
 
 
