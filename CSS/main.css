@@ -1,5 +1,15 @@
 /** MAIN CUSTOM STYLES **/
 
+
+/** Icon8 webicon styling **/
+.social2 {
+  width: 3em;
+  height: 3em;
+  color: green;
+}
+
+
+
 /** Font Awesome icons styling **/
 .fa {
   padding: 1.2rem;
