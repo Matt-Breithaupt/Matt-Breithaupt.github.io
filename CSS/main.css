@@ -543,13 +543,26 @@ th {
   display: none;
   }
 }
+/**Mobile view: bar text**/
+.profile-bar-text {
+  color: white;
+  margin: 0;
+  }
+/**Desktop view: disabled bar text**/
+@media(min-width: 45em) {
+.profile-bar-text {
+  display: none;
+  }
+}
 /**Mobile view: bar replacement**/ 
 @media (max-width: 45em) {
   .new-label-class {
     width: 100%;
     height: 4em;
-    display: block;
     background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
 }
 
