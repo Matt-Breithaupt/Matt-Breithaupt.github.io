@@ -445,11 +445,14 @@ body {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+/**Desktop view: limit hover effect**/
+@media(min-width: 45em) {
 .image:hover:before {
   opacity: 1;
   /*keep opacity value change*/
   height: 22%;
   /*NEW VALUE v2*/
+  }
 }
 .how-other-disclosure {
   display: none;
