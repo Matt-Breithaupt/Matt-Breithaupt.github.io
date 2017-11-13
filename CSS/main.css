@@ -454,20 +454,12 @@ body {
 .how-other-disclosure {
   display: none;
 }
-#how-other:checked ~ .how-other-disclosure {
+input[type="radio"]:checked + label + .how-other-disclosure {
   display: block;
 }
-.how-other-disclosure-2 {
-  display: none;
-}
-#how-other-2:checked ~ .how-other-disclosure-2 {
-  display: block;
-}
-.how-other-disclosure-3 {
-  display: none;
-}
-#how-other-3:checked ~ .how-other-disclosure-3 {
-  display: block;
+.profile-parent {
+  display: flex;
+  flex-wrap: wrap;
 }
 /*Removes circular radio button*/
 input[type="radio"] {
@@ -510,6 +502,13 @@ th {
   width: 40%;
   display: inline-block;
   vertical-align: top;
+  position: relative;
+}
+/*Mobile view*/
+@media(max-width: 45em) {
+  .chunk {
+    width: 100%;
+  }
 }
 @media (max-width: 45em) {
   .hovereffect .tab,
@@ -522,6 +521,26 @@ th {
     margin-top: 0.2rem;
   }
 }
+/**Mobile view**/
+@media (max-width: 45em) {
+  .new-label-class {
+    width: 100%;
+    display: block;
+  }
+}
+/**Mobile view**/
+@media (max-width: 45em) {
+.how-other-disclosure {
+   order: initial;
+  }
+}
+/**Desktop view**/
+.how-other-disclosure {
+  order: 99;
+ }
+
+
+
 
 /** USER JOURNEY CHART **/
 .highcharts-tooltip > span {
