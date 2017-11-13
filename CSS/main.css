@@ -513,6 +513,7 @@ th {
     width: 100%;
   }
 }
+/*Mobile view*/
 @media (max-width: 45em) {
   .hovereffect .tab,
   .hovereffect label {
@@ -522,13 +523,6 @@ th {
     width: 100%;
     margin-right: 0;
     margin-top: 0.2rem;
-  }
-}
-/**Mobile view**/
-@media (max-width: 45em) {
-  .new-label-class {
-    width: 100%;
-    display: block;
   }
 }
 /**Mobile view**/
@@ -543,20 +537,21 @@ th {
   order: 99;
  }
 }
-/**Mobile view: bar replacement**/
-@media(max-width: 45em) {
-div.image {
-  line-height: 3;
-  background: blue;
-  }
-}
 /**Mobile view: disable photo**/
 @media(max-width: 45em) {
 .headshot {
   display: none;
   }
 }
-
+/**Mobile view: bar replacement**/ 
+@media (max-width: 45em) {
+  .new-label-class {
+    width: 100%;
+    height: 4em;
+    display: block;
+    background: blue;
+    }
+}
 
 
 /** USER JOURNEY CHART **/
