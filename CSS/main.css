@@ -538,10 +538,24 @@ th {
   }
 }
 /**Desktop view**/
+@media (min-width: 45em) {
 .how-other-disclosure {
   order: 99;
  }
-
+}
+/**Mobile view: bar replacement**/
+@media(max-width: 45em) {
+div.image {
+  line-height: 3;
+  background: blue;
+  }
+}
+/**Mobile view: disable photo**/
+@media(max-width: 45em) {
+.headshot {
+  display: none;
+  }
+}
 
 
 
