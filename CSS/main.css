@@ -104,8 +104,18 @@ ul {
   padding-top: 30px;
   padding-bottom: 50px;
 }
+.title2 {
+  color: ;
+  font-weight: bold;
+}
 .title {
+  text-decoration: underline;
+  font-weight: bold;
   padding-top: 10px;
+}
+.description {
+  padding: 0 1em;
+  text-align: left;
 }
 .paragraph1 {
   text-align: left;
