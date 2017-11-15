@@ -439,14 +439,21 @@ body {
   background: #33495d;
   transform: translateY(-.5px);
 }
+/**Mobile view: text scaling: default**/ 
 #process-header {
   font-weight: bold;
-  font-size: 400%;
+  font-size: 200%;
   color: white;
   margin: 0;
   line-height: 1;
   white-space: nowrap;
   transform: translateY(16%);
+}
+/**Desktop view: text scaling**/
+@media (min-width: 45em) {
+#process-header {
+  font-size: 400%;
+  }
 }
 
 
