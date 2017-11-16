@@ -376,10 +376,10 @@ body {
 }
 
 
-/**Mobile view: past container: default**/
+/**Mobile view: default**/
 .past-container {
   position: relative;
-  height: 45em;    
+  height: 47em;
 }
 /**Desktop view: past container**/
 @media (min-width: 45em) {
@@ -388,12 +388,19 @@ body {
   height: 30em;
   }
 }
+/**Mobile view: default**/
 .past-container .past-backdrop {
   position: absolute;
   top: -5%;
   height: 109%;
   width: 100%;
   background-image: url("https://raw.githubusercontent.com/Matt-Breithaupt/Matt-Breithaupt.github.io/master/Founding_background_pre-tile_v2.jpg");
+}
+/**Desktop view**/
+@media (min-width: 45em) {
+.past-container .past-backdrop {
+  top: -8%;
+  }
 }
 
 
@@ -417,16 +424,23 @@ body {
   bottom: 0;
   transform: translateZ(32px);
 }
+/**Mobile view: non-parallax: default**/
 .past-container .triangle-2 {
-  position: absolute;
-  height: 25%;
+  position: relative;
   width: 100%;
   z-index: 1;
   left: 0;
   top: 0;
+}
+/**Desktop view: parallax and height**/
+@media (min-width: 45em) {
+.past-container .triangle-2 {
   transform: translateZ(32px)
   translateY(-.5px);
+  height: 25%;
+  }
 }
+/**Mobile view: default**/
 .past-container .triangle-3 {
   position: absolute;
   height: 25%;
@@ -435,14 +449,21 @@ body {
   left: 0;
   bottom: 0;
 }
-/**Mobile view: past text: default**/
+/**Desktop view: height**/
+@media (min-width: 45em) {
+.past-container .triangle-3 {
+  height: 25%;
+  }
+}
+/**Mobile view: default**/
 #past-text {
   position: relative;
   text-align: left;
   max-width: 80%;
-  top: 20%;
+  /*top: 20%;*/
 }
-/**Desktop view: past text**/
+
+/**Desktop view**/
 @media (min-width: 45em) {
 #past-text {
   position: absolute;
