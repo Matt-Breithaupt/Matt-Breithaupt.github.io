@@ -218,19 +218,37 @@ body {
   perspective: 306px;
 }
 
+/**Mobile view: default**/
 .box-container {
-  /*backdrop color for left and right sides allusion*/
-  background: #aaa;
-  height: 70em;
+  height: 53em;
   position: relative;
 }
+/**Desktop view:**/
+@media (min-width: 45em) {
+.box-container {
+/*backdrop color for left and right sides allusion*/	
+  background: #aaa;
+  }
+}
+
+/**Mobile view: default**/
+.box-backdrop {
+  background-color: #D8D8D8;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  }
+/**Desktop view**/
+@media (min-width: 45em) {
 .box-container .box-backdrop {
   position: absolute;
   top: -1%;
   background: #aaa;
   height: 102%;
   width: 100%;
+  }
 }
+
 .inset {
   position: relative;
   width: 90%;
@@ -321,38 +339,56 @@ body {
   position: relative;
 }
 
-/*Additional backdrop*/
-.proto-box-top-backdrop-2-wide {
-	transform-origin: 100% 100%;
-	transform: rotateX(-89deg)
-	translateX(-10%);
-	width: 120%;
-	height: 32px;
-	background: #aaa;
-  bottom: 0;
-  position: absolute;
-}
+/**Mobile view: non-parallax: default**/
 .proto-box-top-backdrop {
-	transform-origin: 100% 100%;
-	transform: rotateX(-90deg)
-	translateX(-10%);
-	width: 120%;
-	height: 32px;
-	background: orange;
-	/*z-index: -1;*/
+  width: 120%;
+  height: 32px;
+  background: orange;
   top: 0;
   position: absolute;
 }
+/**Desktop view: parallax**/
+@media (min-width: 45em) {
+.proto-box-top-backdrop {
+  transform-origin: 100% 100%;
+  transform: rotateX(-90deg)
+  translateX(-10%);
+  }
+}
+
+/**Mobile view: non-parallax: default**/
 .proto-box-bottom-backdrop {
-	transform-origin: 100% 100%;
-	transform: rotateX(-90deg)
-	translateX(-10%);
-	width: 120%;
-	height: 32px;
-	background: #aaa;
-	z-index: -1;
+  width: 120%;
+  height: 32px;
+  background: #aaa;
+  z-index: -1;
   bottom: 0;
   position: absolute;
+}
+/**Desktop view: parallax**/
+@media (min-width: 45em) {
+.proto-box-bottom-backdrop {
+  transform-origin: 100% 100%;
+  transform: rotateX(-90deg)
+  translateX(-10%);
+  }
+}
+
+/**Mobile view: non-parallax: default**/
+.proto-box-top-backdrop-2-wide {
+  width: 120%;
+  height: 32px;
+  background: #aaa;
+  bottom: 0;
+  position: absolute;
+}
+/**Desktop view: parallax**/
+@media (min-width: 45em) {
+.proto-box-top-backdrop-2-wide {
+  transform-origin: 100% 100%;
+  transform: rotateX(-89deg)
+  translateX(-10%);
+ }
 }
 
 
