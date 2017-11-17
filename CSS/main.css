@@ -144,7 +144,7 @@ ul {
 }
 .paragraph1 {
   text-align: left;
-  max-width: 80%;
+  max-width: 90%;
   padding-bottom: 10px;
 }
 .temp1 {
@@ -703,18 +703,37 @@ th {
 .end-bio {
   width: 30%;
 }
+
+/*Mobile view: default*/
+.chunk2 {
+  width: 100%;
+}
+/**Desktop view**/
+@media(min-width: 45em) {
+.chunk2 {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  }
+}
+
+/*Mobile view: default*/
+.chunk {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+/**Desktop view**/
+@media(min-width: 45em) {
 .chunk {
   width: 50%;
   display: inline-block;
   vertical-align: top;
   position: relative;
-}
-/*Mobile view*/
-@media(max-width: 45em) {
-  .chunk {
-    width: 100%;
   }
 }
+
 /*Mobile view*/
 @media (max-width: 45em) {
   .hovereffect .tab,
