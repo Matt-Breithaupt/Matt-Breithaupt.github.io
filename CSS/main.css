@@ -283,14 +283,14 @@ body {
   }
 }
 
-/*.inset::after {
+.inset::after {
   content: "";
   right: -100%;
-}*/
-/*.inset::after {
+}
+.inset::after {
   content: "";
   right: -100%;
-}*/
+}
 
 /**Mobile view: non-parallax: default**/
 .inset .mobile-prototype::after{
