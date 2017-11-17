@@ -739,11 +739,27 @@ th {
   order: 99;
  }
 }
-/**Mobile view: disable photo**/
-@media(max-width: 45em) {
+/**Mobile view: default**/
 .headshot {
   display: none;
   }
+/**Desktop view: enable photo**/
+@media(min-width: 45em) {
+.headshot {
+  display: block;
+  }
+}
+
+/**Mobile view: bar replacement**/ 
+@media (max-width: 45em) {
+  .new-label-class {
+    width: 100%;
+    height: 4em;
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
 }
 /**Mobile view: bar text**/
 .profile-bar-text {
@@ -755,17 +771,6 @@ th {
 .profile-bar-text {
   display: none;
   }
-}
-/**Mobile view: bar replacement**/ 
-@media (max-width: 45em) {
-  .new-label-class {
-    width: 100%;
-    height: 4em;
-    background: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
 }
 
 
