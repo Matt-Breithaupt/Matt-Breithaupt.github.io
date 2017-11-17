@@ -402,40 +402,37 @@ body {
   }
 }
 
-/**Mobile view: non-parallax: default**/
-.proto-box-bottom-backdrop {
-  width: 120%;
-  height: 32px;
-  background: #aaa;
-  z-index: -1;
-  bottom: 0;
-  position: absolute;
-}
-/**Desktop view: parallax**/
-@media (min-width: 45em) {
-.proto-box-bottom-backdrop {
-  transform-origin: 100% 100%;
-  transform: rotateX(-90deg)
-  translateX(-10%);
-  }
-}
-
-/**Mobile view: non-parallax: default**/
-.proto-box-top-backdrop-2-wide {
-  width: 120%;
-  height: 32px;
-  background: #aaa;
-  bottom: 0;
-  position: absolute;
-}
 /**Desktop view: parallax**/
 @media (min-width: 45em) {
 .proto-box-top-backdrop-2-wide {
   transform-origin: 100% 100%;
   transform: rotateX(-89deg)
   translateX(-10%);
+  width: 120%;
+  height: 32px;
+  background: #aaa;
+  bottom: 0;
+  position: absolute;
  }
 }
+
+/**Desktop view: parallax**/
+@media (min-width: 45em) {
+.proto-box-bottom-backdrop {
+  transform-origin: 100% 100%;
+  transform: rotateX(-90deg)
+  translateX(-10%);
+  width: 120%;
+  height: 32px;
+  background: #aaa;
+  z-index: -1;
+  bottom: 0;
+  position: absolute;
+  }
+}
+
+
+
 
 
 /**Mobile view: non-parallax: default**/
