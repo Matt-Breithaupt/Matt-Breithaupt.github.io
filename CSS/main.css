@@ -87,7 +87,7 @@ ul {
 }
 @media(min-width: 1366px) {
 .problems, .goals {
-  height: 220px;
+  height: 210px;
   }
 }
 .goals {
