@@ -432,14 +432,20 @@ body {
 }
 
 
+/**Mobile view: non-parallax: default**/
 #separate-1 {
   position: relative;
   border: 0;
   margin: 0;
   height: 40px;
   background: #c88cff;
-  transform: translateZ(32px);
   z-index: 1;
+}
+/**Desktop view: parallax**/
+@media (min-width: 45em) {
+#separate-1 {
+  transform: translateZ(32px);
+  }
 }
 .separate-1-backdrop {
   position: absolute;
@@ -450,15 +456,23 @@ body {
   transform: translateZ(0);
   z-index: 33;
 }
+
+/**Mobile view: non-parallax: default**/
 #separate-2 {
   position: relative;
   border: 0;
   margin: 0;
   height: 40px;
   background: #33495d;
-  transform: translateZ(32px);
   z-index: 1;
 }
+/**Desktop view: parallax**/
+@media (min-width: 45em) {
+#separate-2 {
+  transform: translateZ(32px);
+ }
+}
+
 /* hide pseudo elements in IE9 and IE10 (no 3D transforms) */
 @media screen and (min-width: 0\0) {
   p::before,
@@ -508,13 +522,19 @@ body {
   height: 65%;
   width: 100%;
 }
+/**Mobile view: non-parallax: default**/
 .triangle-1 {
   position: absolute;
   width: 100%;
   z-index: 1;
   left: 0;
   bottom: 0;
+}
+/**Desktop view: parallax**/
+@media (min-width: 45em) {
+.triangle-1 {
   transform: translateZ(32px);
+ }
 }
 /**Mobile view: non-parallax: default**/
 .past-container .triangle-2 {
