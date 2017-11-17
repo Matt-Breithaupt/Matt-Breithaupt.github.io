@@ -67,6 +67,7 @@ ul {
   background-color: #d7786c;
   color: white;
   border-radius: 10px;
+  overflow: hidden;
 }
 /**Desktop view: New equal height**/
 @media (min-width: 45em) {
@@ -94,6 +95,7 @@ ul {
   background-color: #58c68a;
   color: white;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 /** WIREFRAME/ASSETS/WATCH BOXES **/
