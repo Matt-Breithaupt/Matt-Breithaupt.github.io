@@ -293,7 +293,7 @@ body {
 }
 
 /**Mobile view: non-parallax: default**/
-.inset .mobile-prototype::after{
+.inset .mobile-prototype::after {
   content: "";
   bottom: 0;
 }
@@ -370,7 +370,7 @@ body {
 }
 /**Desktop view**/
 @media (min-width: 45em) {
-.inset .mobile-prototype
+.inset .mobile-prototype {
   height: 100%;
   background-color: #ccc;
   }
