@@ -630,6 +630,7 @@ body {
   /*OLD VALUE v2*/
   transition: height, opacity, 0.5s;
   -webkit-transition: height, opacity, 0.5s;
+  transform: translateX(-50%);
 }
 .image:before {
   content: attr(data-content);
