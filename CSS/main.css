@@ -741,12 +741,15 @@ input[type="radio"]:checked + label + .bio-container {
 
 /*Mobile view: default*/
 .name-of-bio {
+  width: 90%;
   margin: 0;
   padding-bottom: 30px;
   border-bottom: 1px solid black;
   line-height: 1.2;
   font-size: 2.2em;
   font-weight: normal;
+  text-align: left;
+  display: block;
 }
 
 
