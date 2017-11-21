@@ -682,17 +682,19 @@ input[type="radio"] {
 
 /*Mobile view: default*/
 .bio-container {
-  padding: 15px;
   background-color: #eee;
-  display: none;
+  overflow: hidden;
 }
 input[type="radio"]:checked + label + .bio-container {
   display: block;
+  max-height: 40em;
 }
-/**Mobile view**/
+/**Mobile ONLY**/
 @media (max-width: 45em) {
 .bio-container {
    order: initial;
+   max-height: 0; 
+   transition: max-height 1s;
   }
 }
 /**Desktop view: keeps bio text under images**/
@@ -710,7 +712,7 @@ input[type="radio"]:checked + label + .bio-container {
 
 /*Mobile view: default*/
 .start-bio-v2 {
-  width: 90%;
+  width: 83%;
   text-align: left;
   display: block;
   } 
@@ -726,9 +728,10 @@ input[type="radio"]:checked + label + .bio-container {
 
 /*Mobile view: default*/
 .end-bio-v2 {
-  width: 90%;
+  width: 83%;
   text-align: left;
   display: block;
+  padding-bottom: 15px;
   } 
 /**Desktop view**/
 @media(min-width: 45em) {
@@ -741,8 +744,9 @@ input[type="radio"]:checked + label + .bio-container {
 
 /*Mobile view: default*/
 .name-of-bio {
-  width: 90%;
+  width: 83%;
   margin: 0;
+  padding-top: 15px;
   padding-bottom: 30px;
   border-bottom: 1px solid black;
   line-height: 1.2;
@@ -751,7 +755,12 @@ input[type="radio"]:checked + label + .bio-container {
   text-align: left;
   display: block;
 }
-
+/**Desktop view media query**/ 
+@media(min-width: 45em) {
+.name-of-bio {
+  width: 91%
+  }
+}
 
 
 
