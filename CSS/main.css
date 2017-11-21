@@ -701,6 +701,7 @@ input[type="radio"]:checked + label + .bio-container {
 @media (min-width: 45em) {
 .bio-container {
   order: 99;
+  display: none;
  }
 }
 /*PINS CONTENT TO TOP, for desktop view*/
