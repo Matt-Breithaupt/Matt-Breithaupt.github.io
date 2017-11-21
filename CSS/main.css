@@ -694,7 +694,7 @@ input[type="radio"]:checked + label + .bio-container {
 .bio-container {
    order: initial;
    max-height: 0; 
-   transition: max-height 1s;
+   transition: max-height .5s;
   }
 }
 /**Desktop view: keeps bio text under images**/
