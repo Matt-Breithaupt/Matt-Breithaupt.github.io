@@ -742,55 +742,47 @@ input[type="radio"] {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/**BIO SETUP**/
+/**NEW BIO SETUP**/
 
 /*Mobile view: default*/
 .bio-container {
   background-color: #eee;
   overflow: hidden;
 }
-input[type="radio"]:checked + label + .bio-container {
+/*Mobile view: default*/
+input[id^="bio"]:checked + label + .bio-container {
   display: block;
   max-height: 40em;
 }
-/**Mobile ONLY**/
-@media (max-width: 45em) {
-.bio-container {
-   order: initial;
-   max-height: 0; 
-   transition: max-height .5s;
+/**Desktop query**/
+@media (min-width: 45em) {
+input[id^="bio"]:checked + label + .bio-container {
+  /*new bio slides in*/
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out;
   }
 }
-/**Desktop view: keeps bio text under images**/
-@media (min-width: 45em) {
-.bio-container {
-  order: 99;
-  display: none;
- }
+
+/**MOBILE ONLY**/
+@media (max-width: 45em) {
+  .bio-container {
+    order: initial;
+  }
 }
-/*PINS CONTENT TO TOP, for desktop view*/
-@media(min-width: 45em) {
-.bio-container > p {
-  vertical-align: top;
- }
+/**Desktop query: keeps bio text under images, also for slide in**/
+@media (min-width: 45em) {
+  .bio-container {
+    order: 99;
+    height: 21.5em;
+    /*display: none;*/
+  }
+}
+/**PINS CONTENT TO TOP, for desktop view**/
+@media (min-width: 45em) {
+  .bio-container > p {
+    vertical-align: top;
+  }
 }
 
 /*Mobile view: default*/
@@ -798,14 +790,14 @@ input[type="radio"]:checked + label + .bio-container {
   width: 83%;
   text-align: left;
   display: block;
-  } 
+}
 /**Desktop view**/
-@media(min-width: 45em) {
-.start-bio-v2 {
-  width: 65%;
-  padding-right: 3em;
-  text-align: left;
-  display: inline-block;
+@media (min-width: 45em) {
+  .start-bio-v2 {
+    width: 65%;
+    padding-right: 3em;
+    text-align: left;
+    display: inline-block;
   }
 }
 
@@ -815,13 +807,13 @@ input[type="radio"]:checked + label + .bio-container {
   text-align: left;
   display: block;
   padding-bottom: 15px;
-  } 
+}
 /**Desktop view**/
-@media(min-width: 45em) {
-.end-bio-v2 {
-  width: 25%;
-  text-align: left;
-  display: inline-block;
+@media (min-width: 45em) {
+  .end-bio-v2 {
+    width: 25%;
+    text-align: left;
+    display: inline-block;
   }
 }
 
@@ -838,15 +830,12 @@ input[type="radio"]:checked + label + .bio-container {
   text-align: left;
   display: block;
 }
-/**Desktop view media query**/ 
-@media(min-width: 45em) {
-.name-of-bio {
-  width: 91%
+/**Desktop query**/
+@media (min-width: 45em) {
+  .name-of-bio {
+    width: 91%;
   }
 }
-
-
-
 
 /* Additional styling */
 .start-bio {
@@ -861,15 +850,14 @@ input[type="radio"]:checked + label + .bio-container {
   width: 100%;
 }
 /**Desktop view**/
-@media(min-width: 45em) {
-.chunk2 {
-  width: 50%;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
+@media (min-width: 45em) {
+  .chunk2 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
   }
 }
-
 /*Mobile view: default*/
 .chunk {
   width: 100%;
@@ -877,16 +865,16 @@ input[type="radio"]:checked + label + .bio-container {
   padding-left: 15px;
 }
 /**Desktop view**/
-@media(min-width: 45em) {
-.chunk {
-  width: 50%;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
+@media (min-width: 45em) {
+  .chunk {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
   }
 }
 
-/*Mobile view*/
+/**Mobile view**/
 @media (max-width: 45em) {
   .hovereffect .tab,
   .hovereffect label {
@@ -898,30 +886,18 @@ input[type="radio"]:checked + label + .bio-container {
     margin-top: 0.2rem;
   }
 }
-/**Mobile view**/
-@media (max-width: 45em) {
-.how-other-disclosure {
-   order: initial;
-  }
-}
-/**Desktop view**/
-@media (min-width: 45em) {
-.how-other-disclosure {
-  order: 99;
- }
-}
+
 /**Mobile view: default**/
 .headshot {
   display: none;
-  }
+}
 /**Desktop view: enable photo**/
-@media(min-width: 45em) {
-.headshot {
-  display: block;
+@media (min-width: 45em) {
+  .headshot {
+    display: block;
   }
 }
-
-/**Mobile view: bar replacement**/ 
+/**Mobile view: bar replacement**/
 @media (max-width: 45em) {
   .new-label-class {
     width: 100%;
@@ -930,19 +906,28 @@ input[type="radio"]:checked + label + .bio-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+  }
 }
 /**Mobile view: bar text**/
 .profile-bar-text {
   color: white;
   margin: 0;
-  }
-/**Desktop view: disabled bar text**/
-@media(min-width: 45em) {
-.profile-bar-text {
-  display: none;
+}
+/**Desktop view: disable bar text**/
+@media (min-width: 45em) {
+  .profile-bar-text {
+    display: none;
+    /*only visible in mobile*/
   }
 }
+
+
+
+
+
+
+
+
 
 
 /** USER JOURNEY CHART **/
