@@ -620,39 +620,39 @@ body {
   width: 100%;
   vertical-align: top;
 }
-
 /*Important*/
 .image:before {
-  position: absolute;
-  opacity: 0;
-  /*keep opacity value change*/
-  height: 0%;
-  /*OLD VALUE v2*/
-  transition: height, opacity, 0.5s;
-  -webkit-transition: height, opacity, 0.5s;
-  transform: translateX(-50%);
-}
-.image:before {
-  content: attr(data-content);
+  content: attr(content-attribute_hover);
   width: 100%;
   color: #fff;
   z-index: 1;
   bottom: 0;
   /*Pins to the bottom*/
   text-align: center;
+  font-size: 3vw;
   background: red;
   box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  position: absolute;
+  opacity: 0;
+  /*keep opacity value change*/
+  height: 0%;
+  /*OLD VALUE v2*/
+  transition: height, opacity, 0.5s;
+  transform: translateX(-50%);
 }
 /**Desktop view: limit hover effect**/
-@media(min-width: 45em) {
+@media (min-width: 45em) {
 .image:hover:before {
-  opacity: 1;
-  /*keep opacity value change*/
-  height: 22%;
-  /*NEW VALUE v2*/
+    opacity: 1;
+    /*keep opacity value change*/
+    height: 22%;
+    /*NEW VALUE v2*/
   }
 }
+
+
+
+
 .profile-parent {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -671,6 +671,88 @@ input[type="radio"] {
   width: 15%;
 }
 /*Important*/
+
+
+
+
+
+/*FINAL SLIDER*/
+
+.page-slider {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  /*background: #120103;
+  color: #fff;
+  text-align: center;*/
+}
+/*Desktop query*/
+@media (min-width: 45em) {
+.page-slider {
+  height: 40em;
+  }
+}
+
+.slide {
+  /*height: 100%;*/
+  width: 100%;
+  /*top: 0;*/
+  left: 100%;
+  z-index: 10;
+  /*padding: 8em 1em 0;*/
+  background-color: #120103;
+  background-position: 50% 50%;
+  background-size: cover;
+  transition: left 0s 0.75s;
+}
+/*Mobile view ONLY:*/
+@media (max-width: 45em) {
+.slide {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s;
+  }
+}
+/*Desktop query*/
+@media (min-width: 45em) {
+.slide {
+  position: absolute;
+  }
+}
+
+/*Mobile view ONLY*/
+@media (max-width: 45em) {
+[id^="bio"]:checked + .slide {
+  max-height: 40em;
+  }
+}
+/*Desktop query*/
+@media (min-width: 45em) {
+[id^="bio"]:checked + .slide {
+  left: 0;
+  z-index: 100;
+  transition: left 0.65s ease-out;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
