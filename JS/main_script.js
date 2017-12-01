@@ -1,5 +1,5 @@
 /*PROFILE: overlay show/hide on click: jQuery*/
- $(function() {
+ $(document).ready(function() {
    var $divs = $('.divs > div');
    $divs.first().show()
    $('input[type=radio]').on('change', function() {
