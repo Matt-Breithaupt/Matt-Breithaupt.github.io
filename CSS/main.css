@@ -840,12 +840,16 @@ input[id^="bio"]:checked + label + .bio-container {
 @media (max-width: 45em) {
   .bio-container {
     order: initial;
+    -webkit-box-ordinal-group: initial;
+    -ms-flex-order: initial;
   }
 }
 /**Desktop query: keeps bio text under images, also for slide in**/
 @media (min-width: 45em) {
   .bio-container {
     order: 99;
+    -webkit-box-ordinal-group: 100;
+    -ms-flex-order: 99;
     height: 21.5em;
     /*display: none;*/
   }
@@ -951,6 +955,8 @@ input[id^="bio"]:checked + label + .bio-container {
   .hovereffect .tab,
   .hovereffect label {
     order: initial;
+    -webkit-box-ordinal-group: initial;
+    -ms-flex-order: initial;
   }
   .hovereffect label {
     width: 100%;
@@ -976,8 +982,14 @@ input[id^="bio"]:checked + label + .bio-container {
     height: 4em;
     background: blue;
     display: flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
     justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
   }
 }
 /**Mobile view: bar text**/
