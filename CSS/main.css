@@ -401,8 +401,9 @@ body {
 @media (min-width: 45em) {
 .proto-box-top-backdrop {
   transform-origin: 100% 100%;
-  transform: rotateX(-90deg)
-  translateX(-10%);
+  -webkit-transform-origin: 100% 100%;
+  transform: rotateX(-90deg) translateX(-10%);
+  -webkit-transform: rotateX(-90deg) translateX(-10%);  
   }
 }
 
@@ -410,8 +411,9 @@ body {
 @media (min-width: 45em) {
 .proto-box-top-backdrop-2-wide {
   transform-origin: 100% 100%;
-  transform: rotateX(-89deg)
-  translateX(-10%);
+  -webkit-transform-origin: 100% 100%;
+  transform: rotateX(-89deg) translateX(-10%);
+  -webkit-transform: rotateX(-89deg) translateX(-10%);
   width: 120%;
   height: 32px;
   background: #aaa;
@@ -424,8 +426,9 @@ body {
 @media (min-width: 45em) {
 .proto-box-bottom-backdrop {
   transform-origin: 100% 100%;
-  transform: rotateX(-90deg)
-  translateX(-10%);
+  -webkit-transform-origin: 100% 100%;
+  transform: rotateX(-90deg) translateX(-10%);
+  -webkit-transform: rotateX(-90deg) translateX(-10%);
   width: 120%;
   height: 32px;
   background: #aaa;
@@ -452,6 +455,7 @@ body {
 @media (min-width: 45em) {
 #separate-1 {
   transform: translateZ(32px);
+  -webkit-transform: translateZ(32px);
   }
 }
 .separate-1-backdrop {
@@ -461,6 +465,7 @@ body {
   height: 40px;
   background: blue;
   transform: translateZ(0);
+  -webkit-transform: translateZ(0);
   z-index: 33;
 }
 
@@ -477,6 +482,7 @@ body {
 @media (min-width: 45em) {
 #separate-2 {
   transform: translateZ(32px);
+  -webkit-transform: translateZ(32px);
  }
 }
 
@@ -541,6 +547,7 @@ body {
 @media (min-width: 45em) {
 .triangle-1 {
   transform: translateZ(32px);
+  -webkit-transform: translateZ(32px);
  }
 }
 /**Mobile view: non-parallax: default**/
@@ -554,8 +561,8 @@ body {
 /**Desktop view: parallax and height**/
 @media (min-width: 45em) {
 .past-container .triangle-2 {
-  transform: translateZ(32px)
-  translateY(-.5px);
+  transform: translateZ(32px) translateY(-0.5px);
+  -webkit-transform: translateZ(32px) translateY(-0.5px);
   height: 25%;
   }
 }
@@ -590,6 +597,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
   }
 }
 
@@ -598,6 +606,7 @@ body {
   position: relative;
   background: #33495d;
   transform: translateY(-.5px);
+  -webkit-transform: translateY(-0.5px);
 }
 /**Mobile view: text scaling: default**/ 
 #process-header {
@@ -608,6 +617,7 @@ body {
   line-height: 1;
   white-space: nowrap;
   transform: translateY(16%);
+  -webkit-transform: translateY(16%);
 }
 /**Desktop view: text scaling**/
 @media (min-width: 45em) {
@@ -642,7 +652,9 @@ body {
   height: 0%;
   /*OLD VALUE v2*/
   transition: height, opacity, 0.5s;
+  -webkit-transition: height, opacity, 0.5s;
   transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
 }
 /**Desktop view: limit hover effect**/
 @media (min-width: 45em) {
