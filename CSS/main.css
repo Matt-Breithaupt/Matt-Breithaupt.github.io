@@ -760,7 +760,7 @@ input[type="radio"] {
 /*Desktop query*/
 @media (min-width: 45em) {
 .page-slider {
-  height: 40em;
+  height: 35em;
   }
 }
 
