@@ -59,7 +59,7 @@ AOS.init({
 
 
 /*USER JOURNEY CHART: Area chart with negative values*/
-Highcharts.chart("myChart1", {
+Highcharts.chart("container5", {
   chart: {
     type: "areaspline"
   },
