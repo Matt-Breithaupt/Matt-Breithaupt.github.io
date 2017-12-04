@@ -635,6 +635,8 @@ body {
   vertical-align: top;
 }
 /*Important*/
+/**Desktop query**/
+@media (min-width: 45em) { 
 .image:before {
   content: attr(content-attribute_hover);
   width: 100%;
@@ -655,6 +657,7 @@ body {
   -webkit-transition: height, opacity, 0.5s;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
+  }
 }
 /**Desktop view: limit hover effect**/
 @media (min-width: 45em) {
