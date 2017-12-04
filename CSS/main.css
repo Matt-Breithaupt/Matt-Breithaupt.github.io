@@ -261,7 +261,7 @@ body {
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  z-index: 0;
+  z-index: 1;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
 }
@@ -513,7 +513,6 @@ body {
   top: -5%;
   height: 109%;
   width: 100%;
-  z-index: -1;
   background-image: url("https://raw.githubusercontent.com/Matt-Breithaupt/Matt-Breithaupt.github.io/master/Founding_background_pre-tile_v2.jpg");
 }
 /**Desktop view**/
