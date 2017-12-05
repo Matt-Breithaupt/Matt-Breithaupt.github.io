@@ -498,7 +498,6 @@ body {
 /**Mobile view: default**/
 .past-container {
   position: relative;
-  height: 47em;
 }
 /**Desktop view: past container**/
 @media (min-width: 45em) {
@@ -553,6 +552,7 @@ body {
 /**Mobile view: non-parallax: default**/
 .past-container .triangle-2 {
   position: relative;
+  height: 4em;
   width: 100%;
   z-index: 1;
   left: 0;
@@ -568,8 +568,8 @@ body {
 }
 /**Mobile view: default**/
 .past-container .triangle-3 {
-  position: absolute;
-  height: 25%;
+  position: relative;
+  height: 4em;
   width: 100%;
   z-index: 1;
   left: 0;
@@ -579,6 +579,7 @@ body {
 @media (min-width: 45em) {
 .past-container .triangle-3 {
   height: 25%;
+  position: absolute;
   }
 }
 /**Mobile view: default**/
@@ -644,7 +645,8 @@ body {
 /**Mobile ONLY**/
 @media (max-width: 45em) {
 #past-header {
-  top: 10vw;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
   }
 }
 
