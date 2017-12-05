@@ -760,8 +760,15 @@ input[type="radio"] {
   color: #fff;
   text-align: center;*/
 }
+/*Addressing slight clipping for this width*/
 /*Desktop query*/
-@media (min-width: 45em) {
+@media(min-width: 45em) {
+.page-slider {
+  height: 40em;
+  }
+}
+/*Another desktop query*/
+@media(min-width: 50em) {
 .page-slider {
   height: 35em;
   }
@@ -853,7 +860,7 @@ input[id^="bio"]:checked + label + .bio-container {
     order: 99;
     -webkit-box-ordinal-group: 100;
     -ms-flex-order: 99;
-    height: 21.5em;
+    /*height: 21.5em;*/
     /*display: none;*/
   }
 }
