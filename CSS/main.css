@@ -609,7 +609,7 @@ body {
   -webkit-transform: translateY(-0.5px);
 }
 /**Mobile view: text scaling: default**/ 
-#process-header {
+#process-header, #past-header {
   font-weight: bold;
   font-size: 200%;
   color: white;
@@ -621,10 +621,33 @@ body {
 }
 /**Desktop view: text scaling**/
 @media (min-width: 45em) {
-#process-header {
+#process-header, #past-header {
   font-size: 400%;
   }
 }
+/**Desktop query**/
+@media (min-width: 45em) {
+#past-header {
+  transform: translateZ(32.1px) translateY(-0.5px);
+  -webkit-transform: translateZ(32.1px) translateY(-0.5px);
+  }
+}
+/**Mobile default**/
+#past-header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: #f4e7c2;
+  z-index: 2;
+}
+/**Mobile ONLY**/
+@media (max-width: 45em) {
+#past-header {
+  top: 10vw;
+  }
+}
+
 
 
 .image {
