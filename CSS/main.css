@@ -817,8 +817,8 @@ input[type="radio"] {
 .slide {
   max-height: 0;
   overflow: hidden;
-  transition: max-height .5s;
-  -webkit-transition: max-height .5s;
+  transition: max-height .7s;
+  -webkit-transition: max-height .7s;
   }
 }
 /*Desktop query*/
@@ -831,7 +831,7 @@ input[type="radio"] {
 /*Mobile view ONLY*/
 @media (max-width: 45em) {
 [id^="bio"]:checked + .slide {
-  max-height: 40em;
+  max-height: 100%;
   }
 }
 /*Desktop query*/
