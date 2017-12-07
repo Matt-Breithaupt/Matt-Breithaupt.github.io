@@ -289,9 +289,9 @@ body {
   }
 }
 
-.inset::after {
+.inset::before {
   content: "";
-  right: -100%;
+  left: -100%;
 }
 .inset::after {
   content: "";
