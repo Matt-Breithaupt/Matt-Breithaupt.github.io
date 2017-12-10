@@ -176,6 +176,7 @@ ul {
   max-width: 2040px;
   max-height: 1486px;
   background-color: rgba(0, 0, 0, 0.05);
+  height: 100vh;
 }
 .image-wrapper .responsive-container {
   width: 100%;
