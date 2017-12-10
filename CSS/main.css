@@ -217,7 +217,7 @@ ul {
 }
 /*Mobile view: default*/
 .hero-text {
-  font-size: 20vw;
+  font-size: 20vmin;
   height: 100%;
   width: 100%;
   position: absolute;
