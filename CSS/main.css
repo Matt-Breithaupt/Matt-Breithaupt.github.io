@@ -607,11 +607,18 @@ body {
   width: 100%;
   position: relative;
 }
+/**Mobile view: default**/
 .triangle-1-container {
   position: absolute;
   bottom: 0px;
-  height: 65%;
+  height: 30%;
   width: 100%;
+}
+/**Desktop view**/
+@media (min-width: 45em) {
+.triangle-1-container {
+  height: 65%;
+  }
 }
 /**Mobile view: non-parallax: default**/
 .triangle-1 {
