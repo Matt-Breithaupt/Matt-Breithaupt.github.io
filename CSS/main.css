@@ -267,6 +267,7 @@ ul {
 #design {
   position: relative;
   z-index: 2;
+  width: 100%;
 }
 /*Desktop query*/
 @media(min-width: 45em) {
