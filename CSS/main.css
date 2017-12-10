@@ -213,6 +213,7 @@ ul {
 /*Mobile view: default*/
 .hero-image {
   object-fit: cover;
+  -o-object-fit: cover;
 }
 /*Mobile view: default*/
 .hero-text {
