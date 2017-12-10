@@ -221,6 +221,11 @@ ul {
   height: 100%;
   width: 100%;
   position: absolute;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: center;
 }
 /*Desktop query*/
 @media(min-width: 45em) {
@@ -231,10 +236,7 @@ ul {
   
 /*Mobile view: default*/
 #ux {
-  position: absolute;
-  /*top: 25vw;*/
-  top: 33vh;
-  left: 15vw;
+  position: relative;
   z-index: 2;
 }
 /*Desktop query*/
@@ -242,15 +244,11 @@ ul {
 #ux {
   transform: translateZ(32.1px);
   -webkit-transform: translateZ(32.1px);
-  left: 23vw;
   }
 }
 /*Mobile view: default*/
 #ui {
-  position: absolute;
-  /*top: 25vw;*/
-  top: 33vh;
-  left: 60vw;
+  position: relative;
   z-index: 2;
 }
 /*Desktop query*/
@@ -258,24 +256,18 @@ ul {
 #ui {
   transform: translateZ(32.1px);
   -webkit-transform: translateZ(32.1px);
-  left: 63vw;
   }
 }
 /*Mobile view: defailt*/
 #design {
-  position: absolute;
+  position: relative;
   z-index: 2;
-  /*top: 40vw;*/
-  top: 50vh;
-  left: 10vw;
 }
 /*Desktop query*/
 @media(min-width: 45em) {
 #design {
   transform: translateZ(32.1px);
   -webkit-transform: translateZ(32.1px);
-  top: 56vh;
-  left: 30vw;
   }
 }
 
