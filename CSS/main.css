@@ -1047,7 +1047,7 @@ input[id^="bio"]:checked + label + .bio-container {
 }
 /**Desktop view**/
 @media (min-width: 45em) {
-  .chunk2 {
+.chunk2 {
     width: 50%;
     display: inline-block;
     vertical-align: top;
@@ -1056,11 +1056,19 @@ input[id^="bio"]:checked + label + .bio-container {
 }
 @media(min-width: 45em) {
 #arrows-info-arch {
-  width: 30%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: space-evenly;
   }
+}
+@media(min-width: 45em) {
+#arrows-svg {
+  width: 30%;
+  }
+}
+.info-arch-label {
+  font-weight: bold;
+  color: #1078B1;
 }
 
 
