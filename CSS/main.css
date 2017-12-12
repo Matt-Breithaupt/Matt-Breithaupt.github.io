@@ -1064,6 +1064,8 @@ input[id^="bio"]:checked + label + .bio-container {
 @media(min-width: 45em) {
 #arrows-svg {
   width: 30%;
+  transform: translateX(-1.5em);
+  -webkit-transform: translateX(-1.5em);
   }
 }
 .info-arch-label {
