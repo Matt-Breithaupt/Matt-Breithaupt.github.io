@@ -1054,6 +1054,16 @@ input[id^="bio"]:checked + label + .bio-container {
     position: relative;
   }
 }
+@media(min-width: 45em) {
+#arrows-info-arch {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+}
+
+
 /*Mobile view: default*/
 .chunk {
   width: 100%;
