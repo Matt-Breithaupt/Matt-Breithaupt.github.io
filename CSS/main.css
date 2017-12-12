@@ -1041,19 +1041,21 @@ input[id^="bio"]:checked + label + .bio-container {
   width: 30%;
 }
 
+
 /*Mobile view: default*/
 .chunk2 {
   width: 100%;
 }
 /**Desktop view**/
 @media (min-width: 45em) {
-.chunk2 {
+  .chunk2 {
     width: 50%;
     display: inline-block;
     vertical-align: top;
     position: relative;
   }
 }
+/**Desktop view**/
 @media(min-width: 45em) {
 #arrows-info-arch {
   display: flex;
@@ -1061,16 +1063,43 @@ input[id^="bio"]:checked + label + .bio-container {
   justify-content: space-evenly;
   }
 }
-@media(min-width: 45em) {
-#arrows-svg {
-  width: 30%;
-  transform: translateX(-1.5em);
-  -webkit-transform: translateX(-1.5em);
-  }
-}
+/*Mobile view: default*/
 .info-arch-label {
   font-weight: bold;
   color: #1078B1;
+}
+/*Mobile view: default*/
+#arrows-svg {
+  display: none;
+}
+/**Desktop view**/
+@media(min-width: 45em) {
+#arrows-svg {
+  display: block;
+  width: 30%;
+  transform: translateX(-1.5em);
+  }
+}
+
+/*Mobile view: default*/
+#label-mobile-1 {
+  display: none;
+}
+/**Desktop view**/
+@media(min-width: 45em) {
+#label-mobile-1 {
+  display: block;
+  }
+}
+/*Mobile view: default*/
+#label-mobile-2 {
+  display: block;
+}
+/**Desktop view**/
+@media(min-width: 45em) {
+#label-mobile-2 {
+  display: none;
+  }
 }
 
 
