@@ -1067,6 +1067,7 @@ input[id^="bio"]:checked + label + .bio-container {
 .info-arch-label {
   font-weight: bold;
   color: #1078B1;
+  font-style: italic;
 }
 /*Mobile view: default*/
 #arrows-svg {
