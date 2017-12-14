@@ -1137,14 +1137,15 @@ input[id^="bio"]:checked + label + .bio-container {
 
 
 /*Mobile view: default*/
-.chunk {
+.text-profiles-and-user-journey {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  background-color: #D88826;
+  color: white;
+  border-radius: 10px;
 }
 /**Desktop view**/
 @media (min-width: 45em) {
-  .chunk {
+  .text-profiles-and-user-journey {
     width: 50%;
     display: inline-block;
     vertical-align: top;
