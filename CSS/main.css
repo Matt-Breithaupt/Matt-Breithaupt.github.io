@@ -64,9 +64,6 @@ ul {
 }
 
 
-
-
-
 /*Flex items*/
 
 @media(min-width: 45em) {
@@ -120,51 +117,6 @@ ul {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-.problems {
-  background-color: #d7786c;
-  color: white;
-  border-radius: 10px;
-  overflow: hidden;
-}
-/**Desktop view: New equal height**/
-@media (min-width: 45em) {
-.problems, .goals {
-  width: 100%;
-  height: 400px;
-  }
-}
-@media(min-width: 800px) {
-.problems, .goals {
-  height: 350px;
-  }
-}
-@media(min-width: 1024px) {
-.problems, .goals {
-  height: 260px;
-  }
-}
-@media(min-width: 1366px) {
-.problems, .goals {
-  height: 210px;
-  }
-}
-.goals {
-  background-color: #58c68a;
-  color: white;
-  border-radius: 10px;
-  overflow: hidden;
-}
 
 /** WIREFRAME/ASSETS/WATCH BOXES **/
 .equal-height-pt2 {
