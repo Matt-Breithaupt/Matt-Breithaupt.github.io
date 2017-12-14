@@ -154,9 +154,10 @@ ul {
   font-weight: bold;
 }
 .title {
+  padding: 20px;
+  margin: 0;
   text-decoration: underline;
   font-weight: bold;
-  padding-top: 10px;
 }
 /*Mobile view: default*/
 .description {
@@ -1071,12 +1072,15 @@ input[id^="bio"]:checked + label + .bio-container {
 
 
 /*Mobile view: default*/
-.chunk2 {
+.text-info-arch {
   width: 100%;
+  background-color: #3E9ACC;
+  color: white;
+  border-radius: 10px;
 }
 /**Desktop view**/
 @media (min-width: 45em) {
-  .chunk2 {
+  .text-info-arch {
     width: 50%;
     display: inline-block;
     vertical-align: top;
