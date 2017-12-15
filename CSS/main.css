@@ -122,7 +122,8 @@ ul {
   /* For mobile */
   margin-bottom: 0;
   padding-bottom: 0;
-  background-color: pink;
+  background-color: #aa89c1;
+  color: white;
 }
 @media only screen and (min-width: 783px) {
   /* For desktop: */
@@ -130,7 +131,6 @@ ul {
     margin-bottom: -9999rem;
     /* add back negative margin value via padding */
     padding-bottom: 9999rem;
-    background-color: pink;
   }
 }
 
