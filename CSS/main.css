@@ -831,6 +831,8 @@ body {
     content: attr(content-attribute_click);
     color: white;
     font-size: 3vw;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 }
 
