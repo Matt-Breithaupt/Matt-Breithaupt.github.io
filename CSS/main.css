@@ -1111,7 +1111,7 @@ input[id^="bio"]:checked + label + .bio-container {
 
 /*Mobile view: default*/
 .text-profiles-and-user-journey {
-  width: 100%;
+  width: 91%;
   background-color: #D88826;
   color: white;
   border-radius: 10px;
