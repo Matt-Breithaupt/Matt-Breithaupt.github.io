@@ -7,8 +7,7 @@ a.outbound {
     text-decoration: none;
 }
 a.outbound:focus, a.outbound:hover {
-    opacity: 0.7;
-    text-decoration: underline;
+  color: #18bc9c;
 }
 
 
