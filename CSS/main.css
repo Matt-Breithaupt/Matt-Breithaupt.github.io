@@ -771,6 +771,7 @@ body {
 .image img {
   width: 100%;
   vertical-align: top;
+  border-radius: 10px;
 }
 /*Important*/
 /**Desktop query**/
@@ -795,6 +796,8 @@ body {
   -webkit-transition: height, opacity, 0.5s;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   }
 }
 /**Desktop view: limit hover effect**/
