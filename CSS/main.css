@@ -1156,7 +1156,7 @@ input[id^="bio"]:checked + label + .bio-container {
   .new-label-class {
     width: 100%;
     height: 4em;
-    background: blue;
+    background: #D88826;
     display: flex;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1172,6 +1172,7 @@ input[id^="bio"]:checked + label + .bio-container {
 .profile-bar-text {
   color: white;
   margin: 0;
+  font-size: 1.2em;
 }
 /**Desktop view: disable bar text**/
 @media (min-width: 45em) {
