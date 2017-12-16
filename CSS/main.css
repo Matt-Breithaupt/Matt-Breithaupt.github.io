@@ -609,7 +609,6 @@ body {
 @media (min-width: 45em) {
 .past-container {
   position: relative;
-  height: 30em;
   }
 }
 /**Mobile view: default**/
