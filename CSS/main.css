@@ -676,7 +676,7 @@ body {
 .past-container .triangle-2 {
   transform: translateZ(32px) translateY(-0.5px);
   -webkit-transform: translateZ(32px) translateY(-0.5px);
-  height: 25%;
+  height: 7.4em;
   }
 }
 /**Mobile view: default**/
@@ -691,8 +691,7 @@ body {
 /**Desktop view: height**/
 @media (min-width: 45em) {
 .past-container .triangle-3 {
-  height: 25%;
-  position: absolute;
+  height: 7.4em;
   }
 }
 /**Mobile view: default**/
@@ -700,20 +699,9 @@ body {
   position: relative;
   text-align: left;
   max-width: 80%;
-  /*top: 20%;*/
 }
 
-/**Desktop view**/
-@media (min-width: 45em) {
-#past-text {
-  position: absolute;
-  text-align: left;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  }
-}
+
 
 
 .process {
