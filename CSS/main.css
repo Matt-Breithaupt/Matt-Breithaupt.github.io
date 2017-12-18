@@ -34,6 +34,7 @@ img {
 ul {
   list-style-type: none;
   -webkit-padding-start: 0;
+  -moz-padding-start: 0;
 }
 
 /*** EQUAL HEIGHT EFFECT FOR BOXES ***/
