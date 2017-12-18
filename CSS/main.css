@@ -47,8 +47,10 @@ ul {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-
 /** WIREFRAME/ASSETS/WATCH BOXES **/
 .equal-height-pt2 {
   /* For mobile */
@@ -57,14 +59,6 @@ ul {
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
-}
-@media only screen and (min-width: 783px) {
-  /* For desktop: */
-  .equal-height-pt2 {
-    margin-bottom: -9999rem;
-    /* add back negative margin value via padding */
-    padding-bottom: 9999rem;
-  }
 }
 
 .pad {
