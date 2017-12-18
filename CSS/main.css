@@ -39,19 +39,49 @@ ul {
 /** PROBLEMS/GOALS BOXES **/
 .equal-height-pt1 {
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-.equal-height-pt2-v2 {  
-  /* Mobile First By Default */
-  margin-bottom: 0;
-  padding-bottom: 0;
+
+/** WIREFRAME/ASSETS/WATCH BOXES **/
+.equal-height-pt2 {
+  /* For mobile */
+  background-color: #9f80b5;
+  color: white;
+  -ms-flex-item-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-self: stretch;
 }
 @media only screen and (min-width: 783px) {
-  /* Desktop Version Will Require Media Query */
-  .equal-height-pt2-v2 {
-  margin-top: -9999px;
-  margin-bottom: -9999px;
-  padding-top: 9999px;
-  padding-bottom: 9999px;
+  /* For desktop: */
+  .equal-height-pt2 {
+    margin-bottom: -9999rem;
+    /* add back negative margin value via padding */
+    padding-bottom: 9999rem;
+  }
+}
+
+.pad {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+@media(max-width: 45em) {
+.pad2 {
+  padding-top: 15px;
+  }
+}
+@media(max-width: 45em) {
+.solutions-end {
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 10px;
+  order: 2;
   }
 }
 .icon {
@@ -59,7 +89,7 @@ ul {
   background: white;
   border-left: 1vw solid white;
   border-right: 1vw solid white;
-  border-bottom: 1.5vw solid white;
+  border-bottom: 15px solid white;
 }
 
 
@@ -116,27 +146,6 @@ ul {
 }
 
 
-
-/** WIREFRAME/ASSETS/WATCH BOXES **/
-.equal-height-pt2 {
-  /* For mobile */
-  margin-bottom: 0;
-  padding-bottom: 0;
-  background-color: #9f80b5;
-  color: white;
-}
-@media only screen and (min-width: 783px) {
-  /* For desktop: */
-  .equal-height-pt2 {
-    margin-bottom: -9999rem;
-    /* add back negative margin value via padding */
-    padding-bottom: 9999rem;
-  }
-}
-
-.extended-content {
-  background-color: green;
-}
 .page-head {
   position: absolute;
   z-index: 7;
