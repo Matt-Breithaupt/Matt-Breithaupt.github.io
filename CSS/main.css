@@ -21,6 +21,7 @@ body {
   overflow-x: hidden;
   margin: auto;
   text-align: -webkit-center;
+  text-align: center;
 }
 div {
   display: block;
