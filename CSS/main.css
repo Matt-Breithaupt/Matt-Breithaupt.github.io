@@ -474,6 +474,7 @@ body {
 .inset .mobile-prototype {
   height: 100%;
   font-size: 16px;
+  background-color: #d8d8d8;
 }
 /**Desktop view**/
 @media (min-width: 45em) {
