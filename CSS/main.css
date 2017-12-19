@@ -205,11 +205,15 @@ ul {
   max-width: 40%;
 }
 
+.wrapper {
+  transform-style: preserve-3d;	
+}
 .image-wrapper {
   max-width: 2040px;
   max-height: 1486px;
   background-color: rgba(0, 0, 0, 0.05);
   height: 100vh;
+  transform-style: preserve-3d;
 }
 .image-wrapper .responsive-container {
   width: 100%;
@@ -270,6 +274,7 @@ ul {
 @media(min-width: 45em) {
 .hero-text {
   font-size: 10vw;
+  transform-style: preserve-3d;
   }
 }
   
