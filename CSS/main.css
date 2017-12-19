@@ -277,8 +277,8 @@ ul {
 @media(min-width: 45em) {
 .hero-text {
   font-size: 10vw;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
+  transform: translateZ(32.1px);
+  -webkit-transform: translateZ(32.1px);
   }
 }
   
@@ -287,24 +287,10 @@ ul {
   position: relative;
   z-index: 2;
 }
-/*Desktop query*/		
-@media(min-width: 45em) {
-#ux {
-  transform: translateZ(32.1px);
-  -webkit-transform: translateZ(32.1px);
-  }
-}
 /*Mobile view: default*/
 #ui {
   position: relative;
   z-index: 2;
-}
-/*Desktop query*/		
-@media(min-width: 45em) {
-#ui {
-  transform: translateZ(32.1px);
-  -webkit-transform: translateZ(32.1px);
-  }
 }
 /*Mobile view: defailt*/
 #design {
@@ -312,14 +298,6 @@ ul {
   z-index: 3;
   width: 100%;
 }
-/*Desktop query*/		
-@media(min-width: 45em) {
-#design {
-  transform: translateZ(32.1px);
-  -webkit-transform: translateZ(32.1px);
-  }
-}
-
 
 
 
