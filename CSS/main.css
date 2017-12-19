@@ -352,7 +352,7 @@ body {
 @media (min-width: 45em) {
 .box-container {
 /*backdrop color for left and right sides allusion*/	
-  /*background: #aaa;*/
+  background: #aaa;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   }
@@ -370,7 +370,7 @@ body {
 .box-container .box-backdrop {
   position: absolute;
   top: -1%;
-  background: #aaa;
+  /*background: #aaa;*/
   height: 102%;
   width: 100%;
   }
