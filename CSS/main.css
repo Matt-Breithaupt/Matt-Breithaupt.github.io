@@ -217,8 +217,8 @@ ul {
 }
 .image-wrapper .responsive-container {
   width: 100%;
-  /*padding-bottom: 72.84%;*/
   position: relative;
+  transform-style: preserve-3d;
 }
 .image-wrapper .responsive-container img {
   position: absolute;
@@ -348,6 +348,7 @@ body {
 .box-container {
 /*backdrop color for left and right sides allusion*/	
   background: #aaa;
+  transform-style: preserve-3d;
   }
 }
 
@@ -495,6 +496,7 @@ body {
 .inset .mobile-prototype {
   height: 100%;
   background-color: #ccc;
+  transform-style: preserve-3d;
   }
 }
 
@@ -503,6 +505,7 @@ body {
 
 #separate-test {
   position: relative;
+  transform-style: preserve-3d;
 }
 
 /**Mobile view: non-parallax: default**/
@@ -619,6 +622,7 @@ body {
 @media (min-width: 45em) {
 .past-container {
   position: relative;
+  transform-style: preserve-3d;
   }
 }
 /**Mobile view: default**/
@@ -654,6 +658,7 @@ body {
 @media (min-width: 45em) {
 .triangle-1-container {
   height: 65%;
+  transform-style: preserve-3d;
   }
 }
 /**Mobile view: non-parallax: default**/
