@@ -206,6 +206,7 @@ ul {
 }
 
 .wrapper {
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;	
 }
 .image-wrapper {
@@ -213,11 +214,13 @@ ul {
   max-height: 1486px;
   background-color: rgba(0, 0, 0, 0.05);
   height: 100vh;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 .image-wrapper .responsive-container {
   width: 100%;
   position: relative;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 .image-wrapper .responsive-container img {
@@ -274,6 +277,7 @@ ul {
 @media(min-width: 45em) {
 .hero-text {
   font-size: 10vw;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   }
 }
@@ -349,6 +353,7 @@ body {
 .box-container {
 /*backdrop color for left and right sides allusion*/	
   background: #aaa;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   }
 }
@@ -380,8 +385,8 @@ body {
   margin: 0 auto;
   padding: 0;
   z-index: 1;
-  transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 /**Desktop view**/
 @media (min-width: 45em) {
@@ -455,8 +460,8 @@ body {
   height: 32px;
   left: 0;
   background: #888;
-  transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
   }
 }
 
@@ -497,6 +502,7 @@ body {
 .inset .mobile-prototype {
   height: 100%;
   background-color: #ccc;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   }
 }
@@ -506,6 +512,7 @@ body {
 
 #separate-test {
   position: relative;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
@@ -623,6 +630,7 @@ body {
 @media (min-width: 45em) {
 .past-container {
   position: relative;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   }
 }
@@ -659,6 +667,7 @@ body {
 @media (min-width: 45em) {
 .triangle-1-container {
   height: 65%;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   }
 }
