@@ -19,14 +19,14 @@ section {
 html,
 body {
   overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   margin: auto;
   text-align: -webkit-center;
   text-align: -moz-center;
 }
 div {
   display: block;
-}
-body {
 }
 img {
   width: 100%;
