@@ -11,17 +11,17 @@ a.outbound:focus, a.outbound:hover {
 }
 
 
-html {}
 
 section {
   margin: auto;
 }
 
-html,
-body {
-  overflow-x: hidden;
+html {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+}
+html, body {
+  overflow-x: hidden;
   margin: auto;
   width: 100%;
   height: 100%;
