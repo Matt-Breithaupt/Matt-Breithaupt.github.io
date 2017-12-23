@@ -17,15 +17,14 @@ section {
 }
 
 html {
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
   height: 100%;
   overlow: hidden;
 }
 html, body {
   overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
   margin: auto;
-  width: 100%;
   text-align: -webkit-center;
   text-align: -moz-center;
 }
