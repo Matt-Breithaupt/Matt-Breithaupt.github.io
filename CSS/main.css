@@ -29,14 +29,18 @@ html, body {
   text-align: -webkit-center;
   text-align: -moz-center;
 }
+/*3D INSET*/
 body {
   margin: 0;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
   font-family: sans-serif;
   font-size: 16px;
-  /*PERSPECTIVE FOR 3D INSET*/
   perspective: 306px;
   -webkit-perspective: 306px;
 }
+
 
 div {
   display: block;
