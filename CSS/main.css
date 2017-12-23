@@ -23,7 +23,21 @@ html, body {
   text-align: -webkit-center;
   text-align: -moz-center;
 }
-
+/*3D INSET*/
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  font-size: 16px;
+  perspective: 306px;
+  -webkit-perspective: 306px;
+}
 
 
 div {
@@ -302,22 +316,6 @@ ul {
 
 
 
-
-/*3D INSET*/
-html {
-  height: 100%;
-  overflow: hidden;
-}
-body {
-  margin: 0;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  font-family: sans-serif;
-  font-size: 16px;
-  perspective: 306px;
-  -webkit-perspective: 306px;
-}
 
 
 /**Mobile view: default**/
