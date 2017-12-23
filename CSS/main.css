@@ -18,7 +18,7 @@ section {
 
 html {
   height: 100%;
-  overlow: hidden;
+  overflow: hidden;
 }
 html, body {
   overflow-x: hidden;
