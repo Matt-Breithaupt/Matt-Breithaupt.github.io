@@ -330,7 +330,7 @@ ul {
 
 /**Mobile view: default**/
 .box-container {
-  height: 53em;
+  /*height: 53em;*/
   position: relative;
 }
 /**Desktop view:**/
