@@ -440,6 +440,7 @@ ul {
   -webkit-transform-origin: 0% 0%;
   transform: rotateX(90deg);
   -webkit-transform: rotateX(90deg);
+  z-index: 1;
   }
 }
 
