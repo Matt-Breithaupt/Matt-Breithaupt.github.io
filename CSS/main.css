@@ -316,7 +316,7 @@ ul {
 /*Mobile view: default*/
 #ux {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   width: auto;
 }
 /*Desktop query*/
@@ -329,7 +329,7 @@ ul {
 /*Mobile view: default*/
 #ui {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   width: auto;
 }
 /*Desktop query*/
@@ -349,8 +349,9 @@ ul {
 /*Desktop query*/
 @media(min-width: 45em) {
 #design {
-  width: 10%;
+  width: 20%;
   order: 2;
+  margin: .3em;
   }
 }
 
