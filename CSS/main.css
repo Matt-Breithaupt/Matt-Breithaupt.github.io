@@ -177,6 +177,7 @@ ul {
   position: absolute;
   z-index: 7;
   width: 100%;
+  top: 0;
 }
 .page-foot {
   background-color: #2c3e50;
