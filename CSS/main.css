@@ -317,19 +317,42 @@ ul {
 #ux {
   position: relative;
   z-index: 2;
+  width: auto;
+}
+/*Desktop query*/
+@media(min-width: 45em) {
+#ux {
+  width: 20%;
+  order: 1;
+  }
 }
 /*Mobile view: default*/
 #ui {
   position: relative;
   z-index: 2;
+  width: auto;
+}
+/*Desktop query*/
+@media(min-width: 45em) {
+#ui {
+  width: 20%;
+  order: 3;
+  }
 }
 /*Mobile view: defailt*/
 #design {
   position: relative;
   z-index: 3;
-  width: 100%;
+  /*width: 100%;*/
+  width: auto;
 }
-
+/*Desktop query*/
+@media(min-width: 45em) {
+#design {
+  width: 10%;
+  order: 2;
+  }
+}
 
 
 
@@ -660,7 +683,7 @@ ul {
 /**Desktop view**/
 @media (min-width: 45em) {
 .triangle-1-container {
-  height: 65%;
+  /*height: 65%;*/
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   }
