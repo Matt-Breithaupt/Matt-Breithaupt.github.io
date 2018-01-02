@@ -572,9 +572,9 @@
         <div class="col-xs-8 col-sm-4 col-sm-pull-6">
 	<picture>
 	    <source
-		alt="responsive_site" class="img-responsive pad" 
+		alt="responsive_site" class="img-responsive pad lazy-load" 
 		sizes="(max-width: 1557px) 100vw, 1557px" 
-		srcset="
+		data-srcset="
 			https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.webp 500w,
 			https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.webp 875w,
 			https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.webp 1175w,
@@ -583,7 +583,7 @@
             <img 
 		src=“https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg” alt="responsive_site" class="img-responsive pad" 
 		sizes="(max-width: 1557px) 100vw, 1557px" 
-		srcset="
+		data-srcset="
 			https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.jpg 500w,
 			https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.jpg 875w,
 			https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.jpg 1175w,
@@ -666,12 +666,13 @@
   <!--External Scripts-->
   <script>
     /*AOS.init();*/
-    echo.init();
+    /*echo.init();*/
   </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="https://rawgithub.com/toddmotto/echo/master/dist/echo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/lazysizes.min.js" async=""></script>
+    <!--<script src="https://rawgithub.com/toddmotto/echo/master/dist/echo.js"></script>-->
     <!--<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>-->
     <script src="https://cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script>
     <script src="https://code.highcharts.com/highcharts.js"></script>
