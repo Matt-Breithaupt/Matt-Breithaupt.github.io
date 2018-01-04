@@ -638,13 +638,14 @@
 
 <div id="container5" style="width: 100%; height: 400px; margin: 0 auto"></div>	
 
-<script>
-  $(function() {
-    var myChart = Highcharts.chart('container5', {	
-	
-      chart: {
-        type: "areaspline"
-      },
+<script type="text/javascript">
+    var chart;
+    $(document).ready(function() {
+      chart = new Highcharts.Chart({
+        chart: {
+          renderTo: "container5",
+          defaultSeriesType: "areaspline"
+        },
       title: {
         text: "Rachel's User Journey: Sushi Fuze app",
         align: "center",
