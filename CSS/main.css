@@ -10,7 +10,7 @@
   width: 66.6666666667vh;
   max-width: 100%;
   margin: 0 auto;
-}*/
+}
 
 picture.reserved {
   background-color: #ddd;
@@ -23,7 +23,7 @@ img.visual {
   position: absolute;
   top: 0;
   left: 0;
-}
+}*/
 
 
 
@@ -39,7 +39,7 @@ img.visual {
   width: 66.6666666667vh;
   max-width: 100%;
   margin: 0 auto;
-}
+}*/
 
 figure {
   background-color: #ddd;
@@ -52,7 +52,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-}*/
+}
 
 
 
@@ -60,7 +60,7 @@ img {
 
 
 /*TEST v2*/
-#reserved {
+/*#reserved {
   background-color: #ddd;
   position: relative;
   padding-top: 55.79%;
@@ -71,7 +71,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-}
+}*/
 
 
 
