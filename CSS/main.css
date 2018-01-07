@@ -1,7 +1,34 @@
 /** MAIN CUSTOM STYLES **/
 
+/*TEST v2*/
+
+
+.reserved {
+  background-color: #ddd;
+  position: relative;
+  padding-top: 55.79%;
+}
+
+.ratio-container > * {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*TEST*/
-.ratio-container {
+/*.ratio-container {
     position: relative;
 }
 .ratio-container:after {
@@ -9,19 +36,19 @@
     display: block;
     height: 0;
     width: 100%;
-    /* 16:9 = 56.25% = calc(9 / 16 * 100%) */
-    /*padding-bottom: 42.86%;*/
-    padding-bottom: 55.79%;
+    /* 16:9 = 56.25% = calc(9 / 16 * 100%)
+    padding-bottom: 42.86%;*/
+    /*padding-bottom: 55.79%;
 }
-.ratio-container > * {
-    /*position: absolute;*/
-    top: 0;
-    /*left: 0*/
-    /*width: 100%;*/
+.ratio-container > * {*/
+    /*position: absolute;
+    left: 0
+    width: 100%;*/
+    /*top: 0;
     width: auto;
     height: 100%;
     display: block;
-}
+}*/
 
 
 
@@ -29,7 +56,8 @@
 
 
 
-.container {
+/*Example Test: WORKS, tags need to be changed though*/
+/*.container {
   margin: 0 auto;
   max-width: 600px;
 }
@@ -51,7 +79,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-}
+}*/
 
 
 
