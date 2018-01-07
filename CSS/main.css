@@ -8,7 +8,8 @@
     background-color: #ddd;
 }
 
-.responsive-container2 img {
+.responsive-container2 img,
+.responsive-container2 source {
   position: absolute;
   top: 0;
   left: 0;
