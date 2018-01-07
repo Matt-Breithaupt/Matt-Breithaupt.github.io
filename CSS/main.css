@@ -13,10 +13,10 @@
     /*padding-bottom: 42.86%;*/
     padding-bottom: 55.79%;
 }
-.ratio-container > * {
+.ratio-container /*    > *    */ {
     position: absolute;
     top: 0;
-    left: 0;
+    /*left: 0*/
     /*width: 100%;*/
     width: auto;
     height: 100%;
