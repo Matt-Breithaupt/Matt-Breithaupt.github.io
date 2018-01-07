@@ -1,8 +1,65 @@
 /** MAIN CUSTOM STYLES **/
 
+/*TEST v3*/
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.wrapper {
+  width: 66.6666666667vh;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+picture.reserved {
+  background-color: #ddd;
+  position: relative;
+  padding-top: 150%;
+}
+
+img.visual {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+/*Example Test: WORKS, tags need to be changed though*/
+/*.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.wrapper {
+  width: 66.6666666667vh;
+  max-width: 100%;
+  margin: 0 auto;
+}*/
+
+figure {
+  background-color: #ddd;
+  position: relative;
+  padding-top: 150%;
+}
+
+img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
 /*TEST v2*/
-
-
 #reserved {
   background-color: #ddd;
   position: relative;
@@ -49,39 +106,6 @@
     height: 100%;
     display: block;
 }*/
-
-
-
-
-
-
-
-/*Example Test: WORKS, tags need to be changed though*/
-/*.container {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-.wrapper {
-  width: 66.6666666667vh;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-figure {
-  background-color: #ddd;
-  position: relative;
-  padding-top: 150%;
-}
-
-img {
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}*/
-
-
 
 
 
