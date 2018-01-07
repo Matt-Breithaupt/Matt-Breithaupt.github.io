@@ -29,6 +29,36 @@
 
 
 
+.container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.wrapper {
+  width: 66.6666666667vh;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+figure {
+  background-color: #ddd;
+  position: relative;
+  padding-top: 150%;
+}
+
+img {
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
+
 
 
 
