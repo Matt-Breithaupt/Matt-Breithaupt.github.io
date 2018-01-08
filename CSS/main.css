@@ -1,13 +1,12 @@
 /** MAIN CUSTOM STYLES **/
 
-/*TEST t2 v1*/
+/*RESERVED SPACE BEFORE AN IMAGE LOADS*/
 .responsive-container2 {
     width: 100%;
-    padding-bottom: 56.25%; /* 9/16 = aspect ratio of image */
+    /*padding-bottom: 56.25%; (426/640)*100% = aspect ratio of image */
     position: relative;
     background-color: #ddd;
 }
-
 .responsive-container2 img,
 .responsive-container2 source {
   position: absolute;
@@ -23,128 +22,10 @@
 
 
 
-/*TEST v3*/
-/*.container {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-.wrapper {
-  width: 66.6666666667vh;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-picture.reserved {
-  background-color: #ddd;
-  position: relative;
-  padding-top: 150%;
-}
-
-img.visual {
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}*/
 
 
 
 
-
-/*Example Test: WORKS, tags need to be changed though*/
-/*.container {
-  margin: 0 auto;
-  max-width: 600px;
-}
-
-.wrapper {
-  width: 66.6666666667vh;
-  max-width: 100%;
-  margin: 0 auto;
-}*/
-
-/*figure {
-  background-color: #ddd;
-  position: relative;
-  padding-top: 150%;
-}
-
-img {
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}*/
-
-
-
-
-
-
-/*TEST v2*/
-/*#reserved {
-  background-color: #ddd;
-  position: relative;
-  padding-top: 55.79%;
-}
-
-.ratio-container > * {
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-/*TEST*/
-/*.ratio-container {
-    position: relative;
-}
-.ratio-container:after {
-    content: '';
-    display: block;
-    height: 0;
-    width: 100%;
-    /* 16:9 = 56.25% = calc(9 / 16 * 100%)
-    padding-bottom: 42.86%;*/
-    /*padding-bottom: 55.79%;
-}
-.ratio-container > * {*/
-    /*position: absolute;
-    left: 0
-    width: 100%;*/
-    /*top: 0;
-    width: auto;
-    height: 100%;
-    display: block;
-}*/
-
-
-
-
-
-
-
-
-/*PART OF INTRINSIC/ASPECT RATIO, CALC */
-/*.lazyload, .lazyloading {
-	position: absolute;
-	top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-}*/
 
 /*FOR MOBILE PROTOTYPE*/
 /*@media(max-width: 45em) {
