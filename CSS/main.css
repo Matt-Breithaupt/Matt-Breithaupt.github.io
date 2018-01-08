@@ -3,7 +3,7 @@
 /*RESERVED SPACE BEFORE AN IMAGE LOADS*/
 .responsive-container2 {
     width: 100%;
-    /*padding-bottom: 56.25%; (426/640)*100% = aspect ratio of image */
+    padding-bottom: 56.25%; /*(426/640)*100% = aspect ratio of image */
     position: relative;
     background-color: #ddd;
 }
