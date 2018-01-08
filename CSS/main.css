@@ -1137,32 +1137,6 @@ input[id^="bio"]:checked + label + .bio-container {
   font-style: italic;
 }
 
-
-/*Mobile view only*/
-@media(max-width: 45em) {
-#watch-info-arch-label {
-  order: 1;
-  }
-}
-/*Mobile view only*/
-@media(max-width: 45em) {
-#watch-info-arch-image {
-  order: 2;
-  }
-}
-/*Mobile view only*/
-@media(max-width: 45em) {
-#mobile-info-arch-label {
-  order: 3;
-  }
-}
-/*Mobile view only*/
-@media(max-width: 45em) {
-#mobile-info-arch-image {
-  order: 4;
-  }
-}
-
 	
 /*Mobile view: default*/
 #arrows-svg {
