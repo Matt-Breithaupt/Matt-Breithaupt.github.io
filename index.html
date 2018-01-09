@@ -157,6 +157,37 @@
 	   margin: .3em;
  	   }
 	}
+	  /**Mobile view: default**/
+	.triangle-1-container {
+	   position: absolute;
+	   bottom: 0px;
+	   height: 30%;
+	   width: 100%;
+	}
+	/**Desktop view**/
+	@media (min-width: 45em) {
+	.triangle-1-container {
+	   /*height: 65%;*/
+	   -webkit-transform-style: preserve-3d;
+	   transform-style: preserve-3d;
+	   /*margin-bottom: 20px;*/
+  	   }
+	}
+	/**Mobile view: non-parallax: default**/
+	.triangle-1 {
+	   position: absolute;
+	   width: 100%;
+	   z-index: 2;
+	   left: 0;
+	   bottom: 0;
+	}
+	/**Desktop view: parallax**/
+	@media (min-width: 45em) {
+	.triangle-1 {
+	   transform: translateZ(32px);
+	   -webkit-transform: translateZ(32px);
+ 	   }
+	}
   </style>
   <script>
   window.lazySizesConfig = window.lazySizesConfig || {};
