@@ -719,11 +719,11 @@ ul {
   /*height: 65%;*/
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   }
 }
 /**Desktop view**/
-@media (min-width: 45em) {
+/*@media (min-width: 45em) {
 .triangle-1-container::after {
   content: '';
   background: #D8D8D8;
@@ -735,7 +735,7 @@ ul {
   transform: translateZ(32px)translateY(-2px);
   -webkit-transform: translateZ(32px)translateY(-2px);
   }
-}
+}*/
 
 /**Mobile view: non-parallax: default**/
 .triangle-1 {
