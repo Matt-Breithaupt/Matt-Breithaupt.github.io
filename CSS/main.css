@@ -725,8 +725,11 @@ ul {
 /**Desktop view**/
 @media (min-width: 45em) {
 .triangle-1-container::after {
+  content: '';
   background: red;
   height: 20px;
+  width: 100%;
+  position: absolute;
   }
 }
 
