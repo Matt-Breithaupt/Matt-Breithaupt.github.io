@@ -726,12 +726,14 @@ ul {
 @media (min-width: 45em) {
 .triangle-1-container::after {
   content: '';
-  background: red;
-  height: 20px;
+  background: #D8D8D8;
+  height: 22px;
   width: 100%;
   position: absolute;
   left: 0;
   top: 100%;
+  transform: translateZ(32px)translateY(-2px);
+  -webkit-transform: translateZ(32px)translateY(-2px);
   }
 }
 
