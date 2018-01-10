@@ -35,7 +35,7 @@
 /*Mobile view only*/
 @media(max-width: 45em) {
 .codegena_iframe .thumb:hover {
-	transform: scale(0);
+	transform: scale(1);
 	transition: all 0s cubic-bezier(0, 0, 0, 0);
 	}
 }
