@@ -32,12 +32,16 @@
 
 
 
-/*Mobile view only*/
+/*Overrides default hover states in mobile */
 @media(max-width: 45em) {
 .codegena_iframe .thumb:hover {
 	transform: scale(1);
 	transition: all 0s cubic-bezier(0, 0, 0, 0);
 	}
+}
+/*Overrides default darkening overlay*/
+.codegena_iframe .thumb {
+	-webkit-filter: brightness(1);
 }
 
 
