@@ -30,6 +30,18 @@
 
 
 
+
+
+/*Mobile view only*/
+@media(max-width: 45em) (hover: none) {
+.codegena_iframe .thumb:hover {
+	transform: scale(1.3);transition: all 1s cubic-bezier(0.71, 0.15, 0.37, 0.82);
+	}
+}
+
+
+
+
 /*FOR MOBILE PROTOTYPE*/
 /*@media(max-width: 45em) {
 .responsive_iframe {
