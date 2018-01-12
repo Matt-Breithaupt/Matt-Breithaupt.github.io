@@ -583,7 +583,7 @@ ul {
 /**Desktop view**/
 @media (min-width: 45em) {
 .mobile-prototype iframe {
-  height: 85%;
+  height: 80%;
   }
 }
 
