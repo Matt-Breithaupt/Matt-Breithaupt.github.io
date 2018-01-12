@@ -25,7 +25,13 @@
 
 
 
-
+/*Test: Apple Watch prototype to render in mobile view*/
+@media(max-width: 45em) {
+iframe[src*="j2333b"] {
+	height: 467px;
+	width: 100vw;
+	}
+}
 
 /*Allows mobile prototype to render in mobile view*/
 @media(max-width: 45em) {
