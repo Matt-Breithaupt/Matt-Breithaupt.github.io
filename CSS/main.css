@@ -24,7 +24,11 @@
 }
 
 
-
+@media (max-width: 45em) {
+.watch_in_mobile2 {
+	height: 467px;
+	}
+}
 
 @media (max-width: 45em) {
 #watch_in_mobile {
