@@ -25,6 +25,16 @@
 
 
 
+
+
+
+/*(fixes parent height) Apply only to watch*/
+@media (max-width: 45em) {
+.watch_prototype {
+	height: 467px !important;
+	}
+}
+
 /*Test: Apple Watch prototype to render in mobile view*/
 @media(max-width: 45em) {
 iframe[src*="j2333b"] {
