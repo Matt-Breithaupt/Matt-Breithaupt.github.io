@@ -27,17 +27,12 @@
 
 
 
-
+/*Allows mobile prototype to render in mobile view*/
 @media(max-width: 45em) {
 .responsive_iframe {
     height: 705px;
     }
 }
-
-
-
-
-
 
 /*Overrides default hover states in mobile */
 /*@media(max-width: 45em) {
