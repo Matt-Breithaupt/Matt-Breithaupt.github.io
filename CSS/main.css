@@ -28,6 +28,13 @@
 
 
 
+@media(max-width: 45em) {
+.responsive_iframe {
+    height: 705px;
+    }
+}
+
+
 
 
 
