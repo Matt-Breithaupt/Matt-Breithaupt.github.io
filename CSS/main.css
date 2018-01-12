@@ -51,6 +51,7 @@ iframe[src*="j2333b"] {
     height: 100vh;*/
     width: 100vw;
     padding-top: 100vh;
+    padding-bottom: 0;
     }
 }
 
