@@ -28,7 +28,7 @@
 
 @media (max-width: 45em) {
 #watch_in_mobile {
-	height: 467px;
+	height: 467px !important;
 	}
 }
 /*(fixes parent height) Apply only to watch*/
