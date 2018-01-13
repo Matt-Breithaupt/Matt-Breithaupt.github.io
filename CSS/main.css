@@ -111,7 +111,8 @@ section {
 html, body {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  margin: auto;
+  /*margin: auto;*/
+  margin: 0;
   text-align: -webkit-center;
   text-align: -moz-center;
 }
