@@ -17,11 +17,11 @@ $(window).scroll(function(){
 
 
 /*Animate On Scroll (library)*/
-AOS.init({
+/*AOS.init({
   disable: "mobile",
   startEvent: "load",
   duration: 1200
-});
+});*/
 
 
 
