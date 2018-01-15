@@ -1097,6 +1097,7 @@ input[id^="bio"]:checked + label + .bio-container {
 @media (min-width: 45em) {
   .text-profiles-and-user-journey {
     width: 50%;
+    min-height: 21.3vw;
     display: inline-block;
     vertical-align: top;
     position: relative;
