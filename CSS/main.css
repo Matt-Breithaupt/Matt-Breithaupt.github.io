@@ -141,8 +141,6 @@ ul {
   list-style-type: none;
   -webkit-padding-start: 0;
   -moz-padding-start: 0;
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
 /*** EQUAL HEIGHT EFFECT FOR BOXES ***/
@@ -206,6 +204,8 @@ ul {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+   margin-left: 1em;
+   margin-right: 1em;
   }
 }
 .list-item {
