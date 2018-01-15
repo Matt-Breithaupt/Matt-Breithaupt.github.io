@@ -855,11 +855,11 @@ input[type="radio"] {
   }
 }
 /*Another desktop query*/
-@media(min-width: 50em) {
+/*@media(min-width: 50em) {
 .page-slider {
   height: 35em;
   }
-}
+}*/
 
 .slide {
   /*height: 100%;*/
@@ -947,7 +947,7 @@ input[id^="bio"]:checked + label + .bio-container {
     order: 99;
     -webkit-box-ordinal-group: 100;
     -ms-flex-order: 99;
-    /*height: 21.5em;*/
+    height: 21.5em;
     /*display: none;*/
   }
 }
