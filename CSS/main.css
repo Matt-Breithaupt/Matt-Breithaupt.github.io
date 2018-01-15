@@ -121,6 +121,14 @@ html {
   height: 100%;
   overflow: hidden;
 }
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    margin: 0;
+    perspective:  306px;
+    -webkit-perspective:  306px;
+}
 
 
 div {
