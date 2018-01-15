@@ -633,12 +633,7 @@ ul {
 }
 
 
-/* SHAPES */
-.responsive-container {
-  height: 100%;
-  width: 100%;
-  position: relative;
-}
+
 
 /**Desktop view**/
 /*@media (min-width: 45em) {
