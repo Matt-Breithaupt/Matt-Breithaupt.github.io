@@ -1,4 +1,4 @@
-/*Fade out on scroll*/
+/*Fade out on scroll. Update: caused issues during user scaling*/
 /*$(window).scroll(function(){
     $(".hero-text").css("opacity", 1 - $(window).scrollTop() / 250);
   });*/
