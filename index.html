@@ -122,7 +122,6 @@ body {
 	/*Desktop query*/
 	@media(min-width: 45em) {
 	.hero-text {
-  	/*font-size: 10vw;*/
   	   transform: translateZ(32.1px);
   	   -webkit-transform: translateZ(32.1px);
 	   top: 20vh;
@@ -170,14 +169,20 @@ body {
 	   margin: .3em;
  	   }
 	}
-	  /**Mobile view: default**/
+	/*Mobile view: default*/
 	.triangle-1-container {
 	   position: absolute;
 	   bottom: 0px;
-	   height: 30%;
+	   height: 20%;
 	   width: 100%;
 	}
-	/**Desktop view**/
+	/*Desktop query*/
+        @media(min-width: 45em) {
+        .triangle-1-container {
+	    height: 30%;
+	    }
+         }
+	/*Desktop view*/
 	@media (min-width: 45em) {
 	.triangle-1-container {
 	   /*height: 65%;*/
@@ -186,7 +191,7 @@ body {
 	   /*margin-bottom: 20px;*/
   	   }
 	}
-	/**Mobile view: non-parallax: default**/
+	/*Mobile view: non-parallax: default*/
 	.triangle-1 {
 	   position: absolute;
 	   width: 100%;
@@ -194,7 +199,7 @@ body {
 	   left: 0;
 	   bottom: 0;
 	}
-	/**Desktop view: parallax**/
+	/*Desktop view: parallax*/
 	@media (min-width: 45em) {
 	.triangle-1 {
 	   transform: translateZ(32px);
