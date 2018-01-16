@@ -1,7 +1,7 @@
 /*Fade out on scroll*/
-$(window).scroll(function(){
+/*$(window).scroll(function(){
     $(".hero-text").css("opacity", 1 - $(window).scrollTop() / 250);
-  });
+  });*/
 
 
 /*PROFILE: overlay show/hide on click: jQuery*/
