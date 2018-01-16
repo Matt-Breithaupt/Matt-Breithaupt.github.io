@@ -21,6 +21,11 @@
 #wireframe {
    padding-bottom: 100%;
    width: 50% !important;
+   margin: 1em;
+}
+.digital-assets {
+   margin-top: 1em;
+   margin-bottom: 1em;
 }
 
 
