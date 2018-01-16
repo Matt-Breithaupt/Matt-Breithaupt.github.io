@@ -8,28 +8,24 @@
   <meta name="description" content="UX and UI design portfolio">
   <title>Portfolio Home Page</title>
   <style>
-* {
-  box-sizing: border-box;
-}
-body {
-  overflow-y: scroll;
-  overflow-x: hidden;
-  height: 100%;
-  margin: 0;
-  perspective: 306px;
-  -webkit-perspective: 306px;
-}
-    .navbar-inverse {
-        background-color: #2c3e50 !important;
-        border: 0 !important;
-     }
-     .navbar-brand {
-	color: #fff !important; 
-     }
-     /*.navbar {
-        -webkit-transform: translateZ(.1px) !important;
-        transform: translateZ(.1px) !important;
-      }*/
+       * {
+          box-sizing: border-box;
+       }
+       body {
+          overflow-y: scroll;
+          overflow-x: hidden;
+          height: 100%;
+          margin: 0;
+          perspective: 306px;
+          -webkit-perspective: 306px;
+       }
+       .navbar-inverse {
+          background-color: #2c3e50 !important;
+          border: 0 !important;
+       }
+       .navbar-brand {
+	  color: #fff !important; 
+       }
        .navbar-brand {
 	  float: left;
 	  height: 50px;
@@ -108,16 +104,11 @@ body {
  	   padding: 10%;
   	   position: absolute;
 	   z-index: 7;
-	   /*display: -webkit-box;
-	   display: -ms-flexbox;
-	   display: flex;
-	   -webkit-box-pack: space-evenly;
-	      -ms-flex-pack: space-evenly;
-	          justify-content: space-evenly;
-	   -ms-flex-wrap: wrap;
-	      flex-wrap: wrap;
-	   -ms-flex-line-pack: center;
-	      align-content: center;*/
+           display: flex;     
+           justify-content: center;
+           -webkit-box-align: center;
+           -ms-flex-align: center;
+           align-items: center;
 	}
 	/*Desktop query*/
 	@media(min-width: 45em) {
@@ -127,68 +118,23 @@ body {
 	   top: 20vh;
   	   }
 	}
-  
-	/*Mobile view: default*/
-	#ux {
-	   position: relative;
-	   z-index: 3;
-	   width: auto;
-	}
-	/*Desktop query*/
-	@media(min-width: 45em) {
-	#ux {
-	   width: 20%;
-	   order: 1;
-   	   }
-	}
-	/*Mobile view: default*/
-	#ui {
-	   position: relative;
-	   z-index: 3;
-	   width: auto;
-	}
-	/*Desktop query*/
-	@media(min-width: 45em) {
-	#ui {
-	   width: 20%;
-	   order: 3;
-   	   }
-	}
-	/*Mobile view: defailt*/
-	#design {
-	   position: relative;
-	   z-index: 3;
-	   /*width: 100%;*/
-	   width: auto;
-	}
-	/*Desktop query*/
-	@media(min-width: 45em) {
-	#design {
-	   width: 20%;
-	   order: 2;
-	   margin: .3em;
- 	   }
+	/*default*/
+	.hero-text-pt2 {
+	   width: 100%;
 	}
 	/*Mobile view: default*/
 	.triangle-1-container {
 	   position: absolute;
 	   bottom: 0px;
-	   height: 20%;
+	   height: 10vh;
 	   width: 100%;
 	}
 	/*Desktop query*/
-        @media(min-width: 45em) {
-        .triangle-1-container {
-	    height: 30%;
-	    }
-         }
-	/*Desktop view*/
 	@media (min-width: 45em) {
 	.triangle-1-container {
-	   /*height: 65%;*/
+	   height: 30vh;
 	   -webkit-transform-style: preserve-3d;
-	   transform-style: preserve-3d;
-	   /*margin-bottom: 20px;*/
+	   transform-style: preserve-3d;	  
   	   }
 	}
 	/*Mobile view: non-parallax: default*/
@@ -221,7 +167,7 @@ body {
 	  
     <section class="image-wrapper">
       <div class="hero-text">
-	<picture>
+	<picture class="hero-text-pt2">
            <source srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1515975799/hero_text_white_mobile.svg" media="(max-width: 45em)">
            <source srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1515975075/hero_text_white_desktop.svg" media="(min-width: 45em)">
            <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1515975075/hero_text_white_desktop.svg" alt="hero-text">
