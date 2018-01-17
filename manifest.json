@@ -11,4 +11,5 @@
     "theme_color": "#33495d",
     "background_color": "#33495d",
     "display": "standalone"
+    "start_url": "/?utm_source=https://matt-breithaupt.github.io/"
 }
