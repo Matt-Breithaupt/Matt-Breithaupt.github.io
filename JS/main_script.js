@@ -8,7 +8,6 @@
 
 
 /*PAGE PRELOADING ICON (replacement for splash screen)*/
-<script>
 $(window).load(function(){
      $('.loader').fadeOut("slow", "swing");
 });
