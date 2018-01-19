@@ -9,7 +9,7 @@
 
 /*PAGE PRELOADING ICON (replacement for splash screen)*/
 $(window).on('load', function(){
-     $('.loader').fadeOut();
+     $('.loader').fadeOut("fast");
 });
 
 
