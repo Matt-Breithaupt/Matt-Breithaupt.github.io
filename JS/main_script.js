@@ -8,9 +8,9 @@
 
 
 /*PAGE LOADING ICON (replacement for splash screen)*/
-/*$(window).on('load', function(){
-     $('.loader').fadeOut("fast");
-});*/
+$(window).on('load', function(){
+     $('.loader').fadeOut("1ms");
+});
 
 
 
