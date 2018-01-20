@@ -16,13 +16,20 @@
     position: fixed;
     background: url('https://res.cloudinary.com/dgoasjucg/image/upload/v1516163816/portfolio/safari-pinned-tab-v2.svg') 50% 50% no-repeat rgb(249,249,249);
 }
-/*@-webkit-keyframes mymove {
+.loader2 {
+  animation: fade-out 2s 1;
+  animation-fill-mode: forwards;
+  animation-timing-function:ease-in;
+  z-index: 5;
+  height: 100vh;
+}
+@-webkit-keyframes mymove {
   0% {
     opacity: 1;
   }
   100% {
     opacity: 0;
-}*/
+}
 	  
 	  
 	  
@@ -201,16 +208,8 @@
 	
 
 <body>	
-<!--<div class="loader"></div>-->
-	
-	
-<script>
-window.onload = function(){
-  var el = document.getElementById('myDIV').style.animation = "mymove 2s 1";
-  var el = document.getElementById("myDIV").style.animationFillMode = "forwards";
-}
-</script>
-<div id="myDIV"></div>
+
+<img class="loader2" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1516163816/portfolio/safari-pinned-tab-v2.svg">
 	
 	
 	
