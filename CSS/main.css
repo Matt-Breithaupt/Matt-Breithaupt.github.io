@@ -285,12 +285,12 @@ ul {
 }
 @media(min-width: 45em) {
 .title2 { 
-   font-size: 30px;
+	
    }
 }
 .title2 {
   font-weight: bold;
-  font-size:1.7em;
+
 }
 .title {
   padding: 20px;
