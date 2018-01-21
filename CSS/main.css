@@ -277,11 +277,10 @@ ul {
 }
 @media(max-width: 45em) {
 .title2 { 
-   font-size: 1.7em;
+   font-size:1.7em;
    }
 }
 .title2 {
-  color: ;
   font-weight: bold;
 }
 .title {
