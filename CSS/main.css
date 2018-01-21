@@ -178,6 +178,10 @@ ul {
   margin-top: 0px;
   padding-top: 20px;
 }
+.mobile-prototype-container {
+  height: 705px;
+  margin-bottom: 20px;
+}
 .pad {
   padding-top: 15px;
   padding-bottom: 15px;
