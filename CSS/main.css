@@ -283,14 +283,8 @@ ul {
 .h2, h2 {
    font-size: 1.7em;
 }
-@media(min-width: 45em) {
-.title2 { 
-	
-   }
-}
 .title2 {
   font-weight: bold;
-
 }
 .title {
   padding: 20px;
