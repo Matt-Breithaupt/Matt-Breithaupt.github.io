@@ -275,6 +275,11 @@ ul {
   padding-top: 30px;
   padding-bottom: 50px;
 }
+@media(max-width: 45em) {
+.title2 { 
+   font-size: 1.7em;
+   }
+}
 .title2 {
   color: ;
   font-weight: bold;
@@ -284,6 +289,7 @@ ul {
   margin: 0;
   text-decoration: underline;
   font-weight: bold;
+  font-size: 1.2em;
 }
 /*Mobile view: default*/
 .description {
@@ -715,7 +721,7 @@ ul {
 /**Mobile view: text scaling: default**/ 
 #process-header, #past-header {
   font-weight: bold;
-  font-size: 200%;
+  font-size: 210%;
   color: white;
   margin: 0;
   line-height: 1;
