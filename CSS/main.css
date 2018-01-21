@@ -276,6 +276,14 @@ ul {
   padding-bottom: 50px;
 }
 @media(min-width: 45em) {
+.h2, h2 { 
+   font-size: 30px;
+   }
+}
+.h2, h2 {
+   font-size: 1.7em;
+}
+@media(min-width: 45em) {
 .title2 { 
    font-size: 30px;
    }
