@@ -304,6 +304,11 @@ ul {
    font-size: 1.7em;
    }
 }
+@media(max-width: 45em) {
+.title2 { 
+   font-size: 170%;
+   }
+} 
 .title {
   padding: 20px;
   margin: 0;
