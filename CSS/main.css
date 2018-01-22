@@ -284,7 +284,7 @@ ul {
 }
 .title2 {
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 1.9em;
 }
 
 .title {
@@ -726,7 +726,7 @@ ul {
 /**Mobile view: text scaling: default**/ 
 #process-header, #past-header {
   font-weight: bold;
-  font-size: 230%;
+  font-size: 240%;
   color: white;
   margin: 0;
   line-height: 1;
