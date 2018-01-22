@@ -282,16 +282,22 @@ ul {
   padding-top: 30px;
   padding-bottom: 50px;
 }
-@media(min-width: 45em) {
+/*@media(min-width: 45em) {
 .h2, h2 { 
    font-size: 30px;
    }
 }
 .h2, h2 {
    font-size: 1.7em;
+}*/
+@media(min-width: 45em) {
+.title2 { 
+   font-size: 30px;
+   }
 }
 .title2 {
   font-weight: bold;
+  font-size: 1.7em;
 }
 .title {
   padding: 20px;
@@ -732,7 +738,7 @@ ul {
 /**Mobile view: text scaling: default**/ 
 #process-header, #past-header {
   font-weight: bold;
-  font-size: 210%;
+  font-size: 220%;
   color: white;
   margin: 0;
   line-height: 1;
