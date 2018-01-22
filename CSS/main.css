@@ -390,13 +390,14 @@ ul {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-/**Desktop view**/
+/**Desktop query**/
 @media (min-width: 45em) {
 .inset {
   width: 90%;
   }
 }
-/**Mobile view: non-parallax: default**/
+/**Desktop query**/
+@media (min-width: 45em) {
 .inset::before,
 .inset::after {
   position: absolute;
@@ -404,6 +405,7 @@ ul {
   width: 100%;
   height: 100%;
   background: #fff;
+  }
 }
 /**Desktop view: parallax**/
 @media (min-width: 45em) {
