@@ -112,19 +112,26 @@ section {
   margin: auto;
 }
 
-
+@media(min-width: 45em) {
 html, body {
-  overflow-x: hidden;
+   overflow-x: hidden;
+  }
+}
+html, body {
   -webkit-overflow-scrolling: touch;
   /*margin: auto;*/
   margin: 0;
   text-align: -webkit-center;
   text-align: -moz-center;
 }
+@media(min-width: 45em) {
+html {
+   overflow: hidden;
+  }
+}
 /*3D INSET*/
 html {
   height: 100%;
-  overflow: hidden;
 }
 body {
     overflow-y: scroll;
