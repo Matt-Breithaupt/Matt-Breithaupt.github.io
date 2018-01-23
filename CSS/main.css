@@ -305,6 +305,7 @@ ul {
 @media(min-width: 45em) {
 .description {
   margin: 0 0 10px;
+  font-size: 1em;
   }
 }
 .paragraph1 {
