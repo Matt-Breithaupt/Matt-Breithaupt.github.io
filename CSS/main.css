@@ -204,8 +204,8 @@ ul {
   margin-right: 1em;*/
   border-radius: 10px;
   order: 2;
-  padding-right: 0!important; 
-  padding-left: 0!important;
+  padding-right: 0 !important; 
+  padding-left: 0 !important;
   }
 }
 .icon {
