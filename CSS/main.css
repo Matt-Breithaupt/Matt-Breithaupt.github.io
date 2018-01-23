@@ -292,13 +292,14 @@ ul {
   margin: 0;
   text-decoration: underline;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 /*Mobile view: default*/
 .description {
   padding: 0 1.5em;
   text-align: left;
   margin: 0 0 20px;
+  font-size: 1.3em;
 }
 /*Desktop query*/
 @media(min-width: 45em) {
