@@ -18,6 +18,11 @@
 
 
 
+.col-sm-6 {
+   padding-right: 0;
+   padding-left: 0;
+}
+
 #wireframe {
    padding-bottom: 100%;
    width: 50% !important;
