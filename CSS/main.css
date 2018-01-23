@@ -1117,9 +1117,11 @@ input[id^="bio"]:checked + label + .bio-container {
 /*Mobile view: default*/
 .text-profiles-and-user-journey {
   width: 91%;
+  height: auto;
   background-color: #D88826;
   color: white;
   border-radius: 10px;
+  margin-bottom: .5em;
 }
 /**Desktop view**/
 @media (min-width: 45em) {
