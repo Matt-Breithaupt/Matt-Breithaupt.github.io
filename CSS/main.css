@@ -200,10 +200,12 @@ ul {
 }
 @media(max-width: 45em) {
 .solutions-end {
-  margin-left: 1em;
-  margin-right: 1em;
+  /*margin-left: 1em;
+  margin-right: 1em;*/
   border-radius: 10px;
   order: 2;
+  padding-right: 0!important; 
+  padding-left: 0!important;
   }
 }
 .icon {
