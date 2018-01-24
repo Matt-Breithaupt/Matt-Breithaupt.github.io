@@ -305,13 +305,23 @@ ul {
   font-weight: bold;
   font-size: 1.9em;
 }
+@media(min-width: 45em) {
+.title2 {
+   font-size: 2.5em;
+   }
+}
 
 .title {
   padding: 20px;
   margin: 0;
   text-decoration: underline;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.6em;
+}
+@media(min-width: 45em) {
+.title {
+   font-size: 1.3em;
+   }
 }
 /*Mobile view: default*/
 .description {
