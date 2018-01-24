@@ -26,6 +26,11 @@
    text-align:left;
    font-size:1.3em;
 }
+@media(min-width: 45em) {
+.description2 {
+   font-size: 1em;
+   }
+}
 
 #wireframe {
    padding-bottom: 100%;
