@@ -16,9 +16,6 @@
   height: 100%;
 }
 
-
-
-
 .description2 {
    padding-left:15px;
    padding-right:15px;
@@ -42,13 +39,11 @@
    margin-bottom: 1em;
 }
 
-
 @media (max-width: 45em) {
 .watch_in_mobile2 {
 	height: 467px;
 	}
 }
-
 @media (max-width: 45em) {
 #watch_in_mobile {
 	height: 467px !important;
@@ -78,8 +73,6 @@ iframe[src*="j2333b"] {
     }
 }
 
-
-
 /*Overrides default hover states in mobile */
 @media(max-width: 45em) {
 .codegena_iframe .thumb:hover {
@@ -91,9 +84,6 @@ iframe[src*="j2333b"] {
 .codegena_iframe .thumb {
 	-webkit-filter: brightness(1);
 }
-
-
-
 
 /*FOR MOBILE PROTOTYPE*/
 /*@media(max-width: 45em) {
@@ -107,11 +97,6 @@ iframe[src*="j2333b"] {
 	width: 275px !important;
 }
 
-
-
-
-
-
 /** LINKS **/
 a.outbound {
     color: white;
@@ -121,11 +106,9 @@ a.outbound:focus, a.outbound:hover {
   color: #18bc9c;
 }
 
-
 section {
   margin: auto;
 }
-
 @media(min-width: 45em) {
 html, body {
    overflow-x: hidden;
@@ -155,7 +138,6 @@ body {
     perspective:  306px;
     -webkit-perspective:  306px;
 }
-
 
 div {
   display: block;
@@ -233,9 +215,7 @@ ul {
   border-bottom: 15px solid white;
 }
 
-
 /*Flex items*/
-
 @media(min-width: 45em) {
 .list {
   display: -webkit-box;
@@ -287,7 +267,6 @@ ul {
 .goals {
    background-color: #1EA65E;
 }
-
 
 .page-head {
   position: absolute;
@@ -372,10 +351,6 @@ ul {
   transform-style: preserve-3d;	
 }
 
-
-
-
-
 /**Mobile view: default**/
 .box-container {
   /*height: 53em;*/
@@ -409,8 +384,6 @@ ul {
   width: 100%;
   }
 }
-
-
 
 /**Mobile view: default**/
 .inset {
@@ -501,21 +474,15 @@ ul {
   transform-style: preserve-3d;
   }
 }
-
-
-
-
 .inset h1 {
   text-align: center;
 }
-
 .mobile-prototype {
   display: block;
   position: relative;
   height: 823px;
   max-width: 100%;
 }
-
 /**Mobile view: default**/
 .mobile-prototype iframe {
   /*position: inherit;*/
@@ -545,15 +512,11 @@ ul {
   }
 }
 
-
-
-
 #separate-test {
   position: relative;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
-
 /**Mobile view: non-parallax: default**/
 .proto-box-top-backdrop {
   width: 120%;
@@ -586,7 +549,6 @@ ul {
   position: absolute;
  }
 }
-
 /**Desktop view: parallax**/
 @media (min-width: 45em) {
 .proto-box-bottom-backdrop {
@@ -602,10 +564,6 @@ ul {
   position: absolute;
   }
 }
-
-
-
-
 
 /**Mobile view: non-parallax: default**/
 #separate-1 {
@@ -650,7 +608,6 @@ ul {
   -webkit-transform: translateZ(32px);
  }
 }
-
 /* hide pseudo elements in IE9 and IE10 (no 3D transforms) */
 @media screen and (min-width: 0\0) {
   p::before,
@@ -658,7 +615,6 @@ ul {
     display: none;
   }
 }
-
 
 /**Mobile view: default**/
 .past-container {
@@ -687,9 +643,6 @@ ul {
   }
 }
 
-
-
-
 /**Desktop view**/
 /*@media (min-width: 45em) {
 .triangle-1-container::after {
@@ -704,7 +657,6 @@ ul {
   -webkit-transform: translateZ(32px)translateY(-2px);
   }
 }*/
-
 
 /**Mobile view: non-parallax: default**/
 .past-container .triangle-2 {
@@ -744,9 +696,6 @@ ul {
   text-align: left;
   max-width: 80%;
 }
-
-
-
 
 .process {
   position: relative;
@@ -795,8 +744,6 @@ ul {
   }
 }
 
-
-
 .image {
   position: relative;
 }
@@ -842,8 +789,6 @@ ul {
   }
 }
 
-
-
 /*Profile image click: jQuery*/
 .divs div {
   display: none;
@@ -868,9 +813,6 @@ ul {
   }
 }
 
-
-
-
 .profile-parent {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -890,12 +832,7 @@ input[type="radio"] {
 }
 /*Important*/
 
-
-
-
-
 /*FINAL SLIDER*/
-
 .page-slider {
   width: 100%;
   position: relative;
@@ -963,12 +900,7 @@ input[type="radio"] {
   }
 }
 
-
-
-
-
 /**NEW BIO SETUP**/
-
 /*Mobile view: default*/
 .bio-container {
   background-color: #eee;
@@ -1075,7 +1007,6 @@ input[id^="bio"]:checked + label + .bio-container {
   width: 30%;
 }
 
-
 /*Mobile view: default*/
 .text-info-arch {
   width: 100%;
@@ -1106,7 +1037,6 @@ input[id^="bio"]:checked + label + .bio-container {
   color: #1078B1;
   font-style: italic;
 }
-
 	
 /*Mobile view: default*/
 #arrows-svg {
@@ -1141,7 +1071,6 @@ input[id^="bio"]:checked + label + .bio-container {
   display: none;
   }
 }
-
 
 /*Mobile view: default*/
 .text-profiles-and-user-journey {
@@ -1219,15 +1148,6 @@ input[id^="bio"]:checked + label + .bio-container {
   }
 }
 
-
-
-
-
-
-
-
-
-
 /** USER JOURNEY CHART **/
 .highcharts-tooltip > span {
   background-color: white;
@@ -1247,7 +1167,6 @@ input[id^="bio"]:checked + label + .bio-container {
   font-style: italic;
   fill: #7cb5ec;
 }
-
 
 /*THE HOVER PROPERTY CAUSES SCREEN TO JUMP ON PHONES. DISABLE FOR MOBILE*/
 /*Used MODERNIZR javascript library via cdn, then added the .no-touch class*/
@@ -1273,7 +1192,6 @@ input[id^="bio"]:checked + label + .bio-container {
 }
 /* end AOS */
 
-
 /** NAVBAR **/
 .navbar-custom {
   background: #2c3e50;
@@ -1283,7 +1201,6 @@ input[id^="bio"]:checked + label + .bio-container {
   border: none;
   margin-bottom: 0;
 }
-
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-brand.active,
 .navbar-custom .navbar-brand:active,
@@ -1291,24 +1208,19 @@ input[id^="bio"]:checked + label + .bio-container {
 .navbar-custom .navbar-brand:hover {
   color: #fff;
 }
-
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
-
 .navbar-custom .navbar-nav li a {
   color: #fff;
 }
-
 .navbar-custom .navbar-nav li a:hover {
   color: #18bc9c;
 }
-
 .navbar-custom .navbar-nav li a:active,
 .navbar-custom .navbar-nav li a:focus {
   color: #fff;
 }
-
 .navbar-custom .navbar-nav li.active a,
 .navbar-custom .navbar-nav li.active a:active,
 .navbar-custom .navbar-nav li.active a:focus,
@@ -1316,21 +1228,18 @@ input[id^="bio"]:checked + label + .bio-container {
   color: #fff;
   background: #18bc9c;
 }
-
 .navbar-custom .navbar-toggle {
   color: #fff;
   text-transform: uppercase;
   font-size: 10px;
   border-color: #fff;
 }
-
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:hover {
   background-color: #18bc9c;
   color: #fff;
   border-color: #18bc9c;
 }
-
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 0;
@@ -1338,18 +1247,15 @@ input[id^="bio"]:checked + label + .bio-container {
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
-
   .navbar-custom .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
-
   .navbar-custom.affix {
     padding: 10px 0;
   }
-
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
