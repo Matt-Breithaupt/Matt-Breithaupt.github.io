@@ -13,12 +13,6 @@
 });*/
 
 
-/*Safari Reader*/
-safari.application.addEventListener("activate", activeHandler, true);
-tab.addEventListener("available", availHandler, true);
-tab.addEventListener("deactivate", deactivateHandler, false);
-
-
 /*PROFILE: overlay show/hide on click: jQuery*/
  $(document).ready(function() {
    var $divs = $('.divs > div');
