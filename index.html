@@ -194,14 +194,7 @@ $(window).on('load', function(){
 });
 </script>-->
 
-<script>
-    document.body.setAttribute("class", "noscroll");
-    document.getElementById("loader2").style.display = "block";
-    window.onload = function() {
-      document.getElementById("loader2").style.display = "none";    
-      document.body.className = document.body.className.replace(/\bnoscroll\b/,'');
-    }
-</script>	
+	
 	
 	<!--FAVICONS, HOME SCREEN ICONS-->
 <link rel="icon" type="image/x-icon" sizes="48x48" href="https://res.cloudinary.com/dgoasjucg/image/upload/v1516203127/portfolio/favicon.ico">
@@ -213,6 +206,14 @@ $(window).on('load', function(){
 <meta name="theme-color" content="#33495d">
 </head>
 <body>		
+	<script>
+    document.body.setAttribute("class", "noscroll");
+    document.getElementById("loader2").style.display = "block";
+    window.onload = function() {
+      document.getElementById("loader2").style.display = "none";    
+      document.body.className = document.body.className.replace(/\bnoscroll\b/,'');
+    }
+</script>
 	
 	<img class="loader2" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1516163816/portfolio/safari-pinned-tab-v2.svg">
 	
