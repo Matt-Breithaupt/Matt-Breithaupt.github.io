@@ -70,7 +70,7 @@ AOS.init({
 
 
 /*USER JOURNEY CHART V2: render to*/
-  var chart;
+  /*var chart;
     $(document).ready(function() {
       chart = new Highcharts.Chart({
         chart: {
@@ -236,12 +236,12 @@ AOS.init({
       }]	
 		
     });
-});
+});*/
 
 
 
 /*USER JOURNEY CHART: Area chart with negative values*/
-Highcharts.chart("container5", {
+/*Highcharts.chart("container5", {
   chart: {
     type: "areaspline"
   },
@@ -426,5 +426,5 @@ Highcharts.chart("container5", {
       ]
     }
   ]
-});
+});*/
 
