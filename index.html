@@ -10,6 +10,25 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>Matt Breithaupt UX/UI Design</title>
   <style>
+	  .loader2 {
+  animation: fade_name 2s 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+  z-index: 5;
+  position: absolute
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+}
+@keyframes fade_name {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} 
        * {
           box-sizing: border-box;
        }
@@ -172,6 +191,10 @@
 <meta name="theme-color" content="#33495d">
 </head>
 <body>	
+	
+	
+<img class="loader2" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1516163816/portfolio/safari-pinned-tab-v2.svg">
+	
 
    <header class="page-head">
     <!-- NAVBAR . Removed navbar-fixed-top -->
