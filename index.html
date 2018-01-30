@@ -183,11 +183,20 @@
   </script>
 	
 /*PAGE LOADING ICON (replacement for splash screen)*/
-<script>
+<!--<script>
 $(window).on('load', function(){
      $('.loader2').fadeOut("fast");
 });
-</script>
+</script>-->
+
+<script>
+    document.body.setAttribute("loader2");
+    document.getElementById("loader2").style.display = "block";
+
+    window.onload = function() {
+      document.getElementById("loader2").style.display = "none";
+    }
+</script>	
 	
 	<!--FAVICONS, HOME SCREEN ICONS-->
 <link rel="icon" type="image/x-icon" sizes="48x48" href="https://res.cloudinary.com/dgoasjucg/image/upload/v1516203127/portfolio/favicon.ico">
