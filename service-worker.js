@@ -2,7 +2,8 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   'https://matt-breithaupt.github.io/index.html',
   'https://matt-breithaupt.github.io/CSS/main.css',
-  'https://matt-breithaupt.github.io/JS/main_script.js'
+  'https://matt-breithaupt.github.io/JS/main_script.js',
+  'https://res.cloudinary.com/dgoasjucg/image/upload/v1516203127/portfolio/favicon.ico'
 ];
 
 self.addEventListener('install', function(event) {
