@@ -70,6 +70,7 @@ AOS.init({
 
 
 /*USER JOURNEY CHART V2: render to*/
+var chart;
 window.addEventListener('DOMContentLoaded', function() {
   (function($) {
     $(document).ready(function() {
