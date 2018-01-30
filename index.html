@@ -10,7 +10,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>Matt Breithaupt UX/UI Design</title>
   <style>
-	  .loader2 {
+	  /*.loader2 {
   animation: fade_name 2s 1;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in;
@@ -29,7 +29,7 @@
   100% {
     opacity: 0;
   }
-} 
+}*/ 
        * {
           box-sizing: border-box;
        }
@@ -181,6 +181,13 @@
 	lazySizesConfig.expand = 900;
 	/*lazySizesConfig.preloadAfterLoad = true;*/
   </script>
+	
+/*PAGE LOADING ICON (replacement for splash screen)*/
+<script>
+$(window).on('load', function(){
+     $('.loader2').fadeOut("fast");
+});
+</script>
 	
 	<!--FAVICONS, HOME SCREEN ICONS-->
 <link rel="icon" type="image/x-icon" sizes="48x48" href="https://res.cloudinary.com/dgoasjucg/image/upload/v1516203127/portfolio/favicon.ico">
