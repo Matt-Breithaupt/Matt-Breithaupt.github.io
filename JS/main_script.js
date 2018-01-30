@@ -70,6 +70,7 @@ AOS.init({
 
 
 /*USER JOURNEY CHART V2: render to*/
+  $(function () {
     var chart = new Highcharts.Chart({
         chart: {
           renderTo: "container6",
@@ -234,7 +235,7 @@ AOS.init({
       }]	
 		
     });
-
+});
 
 
 
