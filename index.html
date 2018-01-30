@@ -10,6 +10,11 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>Matt Breithaupt UX/UI Design</title>
   <style>
+    .noscroll {
+        position: fixed;
+        overflow: hidden;
+    }	  
+	  
 	  .loader2 {
   /*animation: fade_name 2s 1;
   animation-fill-mode: forwards;
@@ -190,11 +195,15 @@ $(window).on('load', function(){
 </script>-->
 
 <script>
+    document.body.setAttribute("class", "noscroll");
+	
     document.body.setAttribute("loader2");
     document.getElementById("loader2").style.display = "block";
 
     window.onload = function() {
       document.getElementById("loader2").style.display = "none";
+	    
+      document.body.className = document.body.className.replace(/\bnoscroll\b/,'');
     }
 </script>	
 	
