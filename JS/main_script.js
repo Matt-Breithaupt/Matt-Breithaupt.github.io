@@ -70,7 +70,9 @@ AOS.init({
 
 
 /*USER JOURNEY CHART V2: render to*/
-    var chart = new Highcharts.Chart({
+  var chart;
+    $(document).ready(function() {
+      chart = new Highcharts.Chart({
         chart: {
           renderTo: "container6",
           defaultSeriesType: "areaspline"
