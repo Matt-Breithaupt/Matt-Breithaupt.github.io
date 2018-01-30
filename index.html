@@ -196,13 +196,9 @@ $(window).on('load', function(){
 
 <script>
     document.body.setAttribute("class", "noscroll");
-	
-    document.body.setAttribute("loader2");
     document.getElementById("loader2").style.display = "block";
-
     window.onload = function() {
-      document.getElementById("loader2").style.display = "none";
-	    
+      document.getElementById("loader2").style.display = "none";    
       document.body.className = document.body.className.replace(/\bnoscroll\b/,'');
     }
 </script>	
