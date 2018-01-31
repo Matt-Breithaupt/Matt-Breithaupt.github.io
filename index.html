@@ -9,12 +9,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>Matt Breithaupt UX/UI Design</title>
-  <style>
-    .noscroll {
-        position: fixed;
-        overflow: hidden;
-    }	  
-	  
+  <style>  
 	  .loader2 {
   /*animation: fade_name 2s 1;
   animation-fill-mode: forwards;
@@ -187,12 +182,7 @@
 	/*lazySizesConfig.preloadAfterLoad = true;*/
   </script>
 	
-/*PAGE LOADING ICON (replacement for splash screen)*/
-<!--<script>
-$(window).on('load', function(){
-     $('.loader2').fadeOut("fast");
-});
-</script>-->
+
 
 	
 	
@@ -206,14 +196,6 @@ $(window).on('load', function(){
 <meta name="theme-color" content="#33495d">
 </head>
 <body>		
-	<script>
-    document.body.setAttribute("class", "noscroll");
-
-    window.onload = function() {
-      document.getElementById("loader2").style.display = "none";    
-      document.body.className = document.body.className.replace(/\bnoscroll\b/,'');
-    }
-</script>
 	
 	<img class="loader2" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1516163816/portfolio/safari-pinned-tab-v2.svg">
 	
@@ -558,7 +540,7 @@ $(window).on('load', function(){
 </section> 
 	 
 
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
 <div id="container5" style="width: 100%; height: 400px; margin: 0 auto"></div>	
 
 <script type="text/javascript">
@@ -872,6 +854,13 @@ if ('serviceWorker' in navigator) {
     <script defer="defer" src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.1/lazysizes.min.js" async=""></script>
     <script defer="defer" src="https://cdn.rawgit.com/icons8/bower-webicon/v0.10.7/jquery-webicon.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>-->
+
+/*PAGE LOADING ICON (replacement for splash screen)*/
+<script>
+$(window).on('load', function(){
+     $('.loader2').fadeOut("fast");
+});
+</script>
     
     <script src="https://matt-breithaupt.github.io/compressed.js"></script>
 	
