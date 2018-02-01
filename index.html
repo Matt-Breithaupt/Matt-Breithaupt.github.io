@@ -10,8 +10,29 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>Matt Breithaupt UX/UI Design</title>
   <style>
+/*Pace.js loader styling*/	  
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.pace-inactive {
+  display: none;
+}
+.pace .pace-progress {
+  background-color: rgba(0, 0, 0, 0.19999999999999996);
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  width: 100%;
+}	  
+	  
 /*Loading-bar.min.js styling*/
-.ldBar{
+/*.ldBar{
     position:relative;
 }
 .ldBar.label-center > .ldBar-label{
@@ -28,7 +49,7 @@
 }
 .ldBar.no-percent .ldBar-label:after{
     content:""
-}
+}*/
 	  
 	  
 .loader2-parent {
@@ -233,14 +254,14 @@ $(window).on('load', function(){
      $('.loader2-parent, .loader2').fadeOut("fast");
 });
 </script>-->
-<script type="text/javascript" src="https://matt-breithaupt.github.io/loading-bar.min.js"></script>
+<script type="text/javascript" src="https://matt-breithaupt.github.io/pace.min.js"></script>
 <!--<div data-value="50" class="ldBar auto label-center" data-type="fill" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1517420845/portfolio/loading_icon_v2.svg" data-fill-dir="ltr"></div>-->
 		
 <!--<div class="loader2-parent">
 	<div style="width: 50%; height: 100vh;" data-img-size="100,100" data-value="50" class="ldBar auto" data-type="fill" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1517420845/portfolio/loading_icon_v2.svg" data-fill-dir="ltr"></div>
 </div>-->
 	
-<div data-value="50" data-type="fill" data-fill-dir="ltr" data-img-size="300,60" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1517420845/portfolio/loading_icon_v2.svg" style="width: 100%; margin-top: 0px; height: 100vh; z-index: 9; position: absolute;" class="ldBar auto"></div>
+<!--<div data-value="50" data-type="fill" data-fill-dir="ltr" data-img-size="300,60" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1517420845/portfolio/loading_icon_v2.svg" style="width: 100%; margin-top: 0px; height: 100vh; z-index: 9; position: absolute;" class="ldBar auto"></div>-->
 	
 	
 		
