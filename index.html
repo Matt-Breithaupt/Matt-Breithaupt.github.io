@@ -11,7 +11,24 @@
   <title>Matt Breithaupt UX/UI Design</title>
   <style>
 /*Loading-bar.min.js styling*/
-.ldBar{position:relative;}.ldBar.label-center > .ldBar-label{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);text-shadow:0 0 3px #fff}.ldBar-label:after{content:"%";display:inline}.ldBar.no-percent .ldBar-label:after{content:""}
+.ldBar{
+    position:relative;
+}
+.ldBar.label-center > .ldBar-label{
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+    text-shadow:0 0 3px #fff
+}
+.ldBar-label:after{
+    content:"%";
+    display:inline
+}
+.ldBar.no-percent .ldBar-label:after{
+    content:""
+}
 	  
 	  
 .loader2-parent {
@@ -210,8 +227,15 @@
      </div>-->
 	
 	
-	<script type="text/javascript" src="https://matt-breithaupt.github.io/loading-bar.min.js"></script>
-	<div data-type="fill" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1517420845/portfolio/loading_icon_v2.svg" data-fill-dir="ltr"></div>
+<!--PAGE LOADING ICON (replacement for splash screen)-->
+<!--<script>
+$(window).on('load', function(){
+     $('.loader2-parent, .loader2').fadeOut("fast");
+});
+</script>-->
+<script type="text/javascript" src="https://matt-breithaupt.github.io/loading-bar.min.js"></script>
+<div data-value="50" class="ldBar auto label-center" data-type="fill" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1517420845/portfolio/loading_icon_v2.svg" data-fill-dir="ltr"></div>
+	
 	
 		
    <header class="page-head">
