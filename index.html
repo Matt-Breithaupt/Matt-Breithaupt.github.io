@@ -9,7 +9,11 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <title>Matt Breithaupt UX/UI Design</title>
-  <style>  
+  <style>
+/*Loading-bar.min.js styling*/
+.ldBar{position:relative;}.ldBar.label-center > .ldBar-label{position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);text-shadow:0 0 3px #fff}.ldBar-label:after{content:"%";display:inline}.ldBar.no-percent .ldBar-label:after{content:""}
+	  
+	  
 .loader2-parent {
   background: #33495d;
   z-index: 8;
@@ -547,7 +551,10 @@
 	 
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
-/*PAGE LOADING ICON (replacement for splash screen)*/
+	
+	<script type="text/javascript" src="https://matt-breithaupt.github.io/loading-bar.min.js"></script>
+	
+<!--PAGE LOADING ICON (replacement for splash screen)-->
 <script>
 $(window).on('load', function(){
      $('.loader2-parent, .loader2').fadeOut("fast");
