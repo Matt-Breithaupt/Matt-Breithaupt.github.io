@@ -13,6 +13,10 @@
 });*/
 
 
+new Vivus('svg', {type: 'delayed', duration: 100});
+
+
+
 /*PROFILE: overlay show/hide on click: jQuery*/
  $(document).ready(function() {
    var $divs = $('.divs > div');
