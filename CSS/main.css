@@ -1,7 +1,7 @@
 /** MAIN CUSTOM STYLES **/
 
 .overflow-wrapper {
-   overflow-x: hidden;
+   overflow: hidden;
   }
 
 /*RESERVED SPACE BEFORE AN IMAGE LOADS*/
