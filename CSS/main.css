@@ -1,4 +1,9 @@
 /** MAIN CUSTOM STYLES **/
+
+.overflow-wrapper {
+   overflow-x: hidden;
+  }
+
 /*RESERVED SPACE BEFORE AN IMAGE LOADS*/
 .responsive-container2 {
     width: 100%;
