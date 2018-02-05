@@ -13,7 +13,7 @@
 });*/
 
 
-new Vivus('svg', {type: 'delayed', duration: 100});
+var monitor = new Vivus('svg', {type: 'delayed', duration: 100, start: 'inViewport'});
 
 
 
