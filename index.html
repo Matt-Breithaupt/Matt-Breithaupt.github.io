@@ -848,9 +848,12 @@ type="image/webp"/>
   </div>
 	
 <script src="https://cdn.jsdelivr.net/vivus/0.1.2/vivus.min.js"></script>
-<script>
-  new Vivus('svg', {type: 'delayed', duration: 100});
+<script type="text/javascript" charset="utf-8">
+  var monitor = new Vivus('svg', {type: 'delayed', duration: 100, start: 'inViewport'});
 </script>
+<!--<script>
+  new Vivus('svg', {type: 'delayed', duration: 100});
+</script>-->
 
   <!--Custom CSS (Host my CSS file on GitHub, link to 'production URL' via RawGit.com)-->
     <!--Production URL (DOES NOT REFRESH)(update and use only for final)-->
