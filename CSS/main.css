@@ -586,8 +586,8 @@ ul {
 /**Desktop view: parallax**/
 @media (min-width: 45em) {
 #separate-2 {
-  transform: translateZ(32px);
-  -webkit-transform: translateZ(32px);
+  /*transform: translateZ(32px);
+  -webkit-transform: translateZ(32px);*/
  }
 }
 /* hide pseudo elements in IE9 and IE10 (no 3D transforms) */
@@ -649,8 +649,8 @@ ul {
 /**Desktop view: parallax and height**/
 @media (min-width: 45em) {
 .past-container .triangle-2 {
-  transform: translateZ(32px) translateY(-0.5px);
-  -webkit-transform: translateZ(32px) translateY(-0.5px);
+  /*transform: translateZ(32px) translateY(-0.5px);
+  -webkit-transform: translateZ(32px) translateY(-0.5px);*/
   height: 7.4em;
   }
 }
@@ -701,8 +701,8 @@ ul {
 /**Desktop query**/
 @media (min-width: 45em) {
 #past-header {
-  transform: translateZ(32.1px) translateY(-0.5px);
-  -webkit-transform: translateZ(32.1px) translateY(-0.5px);
+  /*transform: translateZ(32.1px) translateY(-0.5px);
+  -webkit-transform: translateZ(32.1px) translateY(-0.5px);*/
   }
 }
 /**Mobile default**/
