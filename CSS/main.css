@@ -109,7 +109,7 @@ section {
 }
 @media(min-width: 45em) {
 html, body {
-   overflow-x: hidden;
+   /*overflow-x: hidden;*/
   }
 }
 html, body {
@@ -121,7 +121,7 @@ html, body {
 }
 @media(min-width: 45em) {
 html {
-   overflow: hidden;
+   /*overflow: hidden;*/
   }
 }
 /*3D INSET*/
