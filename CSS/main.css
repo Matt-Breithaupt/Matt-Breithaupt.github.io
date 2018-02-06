@@ -2,6 +2,7 @@
 
 .overflow-wrapper {
    overflow: hidden;
+   -webkit-perspective: 306px;
   }
 
 /*RESERVED SPACE BEFORE AN IMAGE LOADS*/
@@ -132,8 +133,8 @@ body {
     overflow-x: hidden;
     height: 100%;
     margin: 0;
-    perspective:  306px;
-    -webkit-perspective:  306px;
+    /*perspective:  306px;
+    -webkit-perspective:  306px;*/
 }
 div {
   display: block;
