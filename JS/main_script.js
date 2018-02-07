@@ -13,10 +13,6 @@
 });*/
 
 
-var monitor = new Vivus('svg', {type: 'delayed', duration: 100, start: 'inViewport'});
-
-
-
 /*PROFILE: overlay show/hide on click: jQuery*/
  $(document).ready(function() {
    var $divs = $('.divs > div');
