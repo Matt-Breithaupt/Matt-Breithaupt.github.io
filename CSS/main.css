@@ -209,6 +209,8 @@ ul {
   border-right: 1vw solid white;
   border-bottom: 15px solid white;
   pointer-events: none;
+  position: absolute;
+  left: 0;
 }
 /*Flex items*/
 @media(min-width: 45em) {
