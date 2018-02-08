@@ -1,6 +1,6 @@
 /** MAIN CUSTOM STYLES **/
 
-.filling2 path {
+.filling2 g {
   stroke-width: 0px !important;
   fill: rgba(215, 121, 108) !important;
 }
