@@ -1,13 +1,18 @@
 /** MAIN CUSTOM STYLES **/
 
-.filling * {
+.filling2 path {
+  stroke-width: 0px !important;
+  fill: rgba(215, 121, 108) !important;
+}
+
+/*.filling * {
   fill-opacity: 0;
   fill: rgb(215, 121, 108);
   transition: fill-opacity 0.3s;
 }
 .filling .finished * {
   fill-opacity: 1;
-}
+}*/
 
 .overflow-wrapper {
    overflow: hidden;
