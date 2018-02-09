@@ -1,9 +1,8 @@
 /** MAIN CUSTOM STYLES **/
 
 .filled-transit {
-  -webkit-transition: fill 0.3s, stroke-width 0.3s;
-  -moz-transition: fill 0.3s, stroke-width 0.3s;
-  transition: fill 0.3s, stroke-width 0.3s;
+  -webkit-transition: fill 1s, stroke-width 1s;
+  transition: fill 1s, stroke-width 1s;
 }
 
 .filling2 g path {
