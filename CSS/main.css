@@ -1,10 +1,11 @@
 /** MAIN CUSTOM STYLES **/
 
-@keyframes filling2 g path {from {stroke: #D7796C; fill: none;} to {stroke: none !important; fill: #D7796C !important;}}
+@keyframes filling2-key g path {from {stroke: #D7796C; fill: none;} to {stroke: none !important; fill: #D7796C !important;}}
 
 .filling2 g path {
-  opacity: 0; 
-  animation: fadeIn ease-in 1; 
+  stroke: #D7796C;
+  fill: none;
+  animation: filling2-key ease-in 1; 
   animation-fill-mode: forwards;
   animation-duration: 2s;
 }
