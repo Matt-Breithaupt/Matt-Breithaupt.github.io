@@ -1,6 +1,8 @@
 /** MAIN CUSTOM STYLES **/
 
 .filled-transit {
+  fill: none;
+  stroke: #D7796C; 
   -webkit-transition: fill 1s, stroke 1s;
   transition: fill 1s, stroke 1s;
 }
