@@ -12,7 +12,7 @@
 
 
 
-/*@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}} 
+@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}} 
 .fade-in {
   opacity: 0; 
   animation: fadeIn ease-in 1; 
@@ -22,7 +22,7 @@
 
 
 
-.filled-transit path {
+/*.filled-transit path {
   stroke: #D7796C; 
   fill: none;
   -webkit-transition: fill 1s, stroke 1s;
