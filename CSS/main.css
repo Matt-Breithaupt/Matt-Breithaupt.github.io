@@ -1,5 +1,16 @@
 /** MAIN CUSTOM STYLES **/
 
+@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}} 
+
+.fade-in {
+  opacity: 0; 
+  animation: fadeIn ease-in 1; 
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+
+
 .filled-transit path {
   stroke: #D7796C; 
   fill: none;
