@@ -1,12 +1,12 @@
 /** MAIN CUSTOM STYLES **/
 
 .filled-transit {
-  -webkit-transition: fill 1s, stroke-width 1s;
-  transition: fill 1s, stroke-width 1s;
+  -webkit-transition: fill 1s, stroke 1s;
+  transition: fill 1s, stroke 1s;
 }
 
 .filling2 g path {
-  stroke-width: 0px !important;
+  stroke: none !important;
   fill: rgb(215, 121, 108) !important;
 }
 
