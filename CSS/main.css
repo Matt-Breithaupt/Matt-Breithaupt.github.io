@@ -1,6 +1,6 @@
 /** MAIN CUSTOM STYLES **/
 
-.filled-transit g path {
+.filled-transit path {
   fill: none;
   stroke: #D7796C; 
   -webkit-transition: fill 1s, stroke 1s;
