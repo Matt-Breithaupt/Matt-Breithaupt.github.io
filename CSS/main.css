@@ -1,7 +1,17 @@
 /** MAIN CUSTOM STYLES **/
 
-@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}} 
+@keyframes filling2 g path {from {stroke: #D7796C; fill: none;} to {stroke: none !important; fill: #D7796C !important;}}
 
+.filling2 g path {
+  opacity: 0; 
+  animation: fadeIn ease-in 1; 
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
+
+
+
+/*@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}} 
 .fade-in {
   opacity: 0; 
   animation: fadeIn ease-in 1; 
@@ -20,16 +30,9 @@
 .filling2 g path {
   stroke: none !important;
   fill: #D7796C !important;
-}
-
-/*.filling * {
-  fill-opacity: 0;
-  fill: rgb(215, 121, 108);
-  transition: fill-opacity 0.3s;
-}
-.filling .finished * {
-  fill-opacity: 1;
 }*/
+
+
 
 .overflow-wrapper {
    overflow: hidden;
