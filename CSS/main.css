@@ -21,15 +21,6 @@
   animation-duration: 2s;
 }*/
 
-@keyframes fadeIn g path {from {stroke: #D7796C; fill: none;} to {stroke: none !important; fill: #D7796C !important;}}
-.filling2 g path {
-  stroke: #D7796C;
-  fill: none;
-  animation: fadeIn ease-in 1; 
-  animation-fill-mode: forwards;
-  animation-duration: 2s;
-}
-
 /*@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}} 
 .fade-in {
   opacity: 0; 
@@ -38,17 +29,26 @@
   animation-duration: 2s;
 }*/
 
-
-/*@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
+/*@keyframes fadeIn g path {from {stroke: #D7796C; fill: none;} to {stroke: none !important; fill: #D7796C !important;}}
 .filling2 g path {
-  stroke: none !important;
-  fill: #D7796C !important;
+  stroke: #D7796C;
+  fill: none;
   animation: fadeIn ease-in 1; 
   animation-fill-mode: forwards;
   animation-duration: 2s;
 }*/
 
 
+
+
+@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
+.filling2 g path {
+  stroke: none !important;
+  fill: #D7796C !important;
+  animation: fadeIn ease-in 1; 
+  animation-fill-mode: forwards;
+  animation-duration: 2s;
+}
 .filled-transit path {
   stroke: #D7796C; 
   fill: none;
