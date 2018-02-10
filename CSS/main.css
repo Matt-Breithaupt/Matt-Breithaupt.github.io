@@ -47,7 +47,7 @@
 .filling2 g path {
   animation: fadeIn ease-in 1; 
   animation-fill-mode: forwards;
-  animation-duration: 2s;
+  animation-duration: 1s;
 }
 
 /*@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
