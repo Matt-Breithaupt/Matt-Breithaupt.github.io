@@ -43,7 +43,7 @@
 
 
 
-@keyframes fadeIn {from {stroke-width: 2; fill: none;} to {stroke-width: 0; fill: #D7796C;}}
+@keyframes fadeIn {from {stroke-width: 2; fill: #ffffff;} to {stroke-width: 0; fill: #D7796C;}}
 .filling2 g path {
   animation: fadeIn ease-in 1; 
   animation-fill-mode: forwards;
