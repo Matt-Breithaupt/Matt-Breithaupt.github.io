@@ -1143,7 +1143,7 @@ input[id^="bio"]:checked + label + .bio-container {
 .profile-bar-text {
   color: white;
   margin: 0;
-  font-size: 1.2em;
+  font-size: 1.4em;
 }
 /**Desktop view: disable bar text**/
 @media (min-width: 45em) {
