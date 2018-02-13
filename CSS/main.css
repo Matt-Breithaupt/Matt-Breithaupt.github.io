@@ -733,6 +733,12 @@ ul {
   transform: translateY(-1px);
   -webkit-transform: translateY(-1px);
 }
+#process-header {
+  position: relative;
+  background: #33495d;
+  transform: translateY(-1px);
+  -webkit-transform: translateY(-1px);
+}
 /**Mobile view: text scaling: default**/ 
 #process-header, #past-header {
   font-weight: bold;
