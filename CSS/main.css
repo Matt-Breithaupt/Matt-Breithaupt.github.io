@@ -1171,6 +1171,11 @@ input[id^="bio"]:checked + label + .bio-container {
   font-style: italic;
   fill: #7cb5ec;
 }
+@media(max-width: 45em) {
+.highcharts-subtitle {
+   left: 2em !important; 
+   }
+}
 /*THE HOVER PROPERTY CAUSES SCREEN TO JUMP ON PHONES. DISABLE FOR MOBILE*/
 /*Used MODERNIZR javascript library via cdn, then added the .no-touch class*/
 .no-touch .card:hover {
