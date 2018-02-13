@@ -158,7 +158,7 @@ html, body {
 html, body {
   -webkit-overflow-scrolling: touch;
   /*margin: auto;*/
-  margin: 0; 
+  margin: 0;
   text-align: -webkit-center;
   text-align: -moz-center;
 }
