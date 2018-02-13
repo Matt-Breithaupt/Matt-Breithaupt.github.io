@@ -727,11 +727,11 @@ ul {
   font-size: 1em;
   }
 }
-.process {
+#process {
   position: relative;
   background: #33495d;
-  /*transform: translateY(-1px);
-  -webkit-transform: translateY(-1px);*/
+  transform: translateY(-1px);
+  -webkit-transform: translateY(-1px);
 }
 /**Mobile view: text scaling: default**/ 
 #process-header, #past-header {
