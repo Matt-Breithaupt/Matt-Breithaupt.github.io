@@ -613,7 +613,298 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section> 
 	 
 
-<script defer="defer" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>-->	
+<!--PAGE LOADING ICON (replacement for splash screen)-->
+<!--<script>
+$(window).on('load', function(){
+     $('.loader2-parent, .loader2').fadeOut("fast");
+     $("body").removeClass("no-scroll");
+});
+</script>-->
+<div id="container5" style="width: 100%; height: 400px; margin: 0 auto"></div>	
+
+<!--<script type="text/javascript">
+    var chart;
+    $(document).ready(function() {
+      chart = new Highcharts.Chart({
+        chart: {
+          renderTo: "container5",
+          defaultSeriesType: "areaspline"
+        },
+      title: {
+        text: "Rachel's User Journey: Sushi Fuze app",
+        align: "center",
+      },
+      subtitle: {
+        text: '<b>Goal:</b> Order dinner online and have it delivered to her apartment. <br/><b>Scenario:</b> Busy finishing up work she brought home from the office. <br/><b>Constraint:</b> With her working memory preoccupied, Rachel wants to use as little mental energy as possible.',
+        align: "left",
+        useHTML: true,
+        align: "center",
+      },	    
+
+         xAxis: {
+        title: {
+          text: ""
+        },
+        tickInterval: 6,
+        categories: [
+          "Order Phase",
+          "l",
+          "l",
+          "l",
+          "l",
+          "l",
+          "Checkout Phase",
+          "l",
+          "l",
+          "l",
+          "l",
+          "l",
+          "Recieve Phase"
+        ],
+        gridLineWidth: 0
+      }, 
+	    
+      yAxis: {
+        title: {
+          text: ""
+        },
+        endOnTick: false,
+        labels: {
+          formatter: function() {
+            // custom formatter
+            if (this.value == 0) {
+              return "Mood";
+            }
+            if (this.value == 2) {
+              return '<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899110/portfolio/Mood-positive.svg" alt="mood positive" style="vertical-align: middle; width: 32px; height: 32px"/>';
+            }
+            if (this.value == -2) {
+              return '<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899099/portfolio/Mood-negative.svg" alt="mood negative" style="vertical-align: middle; width: 32px; height: 32px"/>';
+            } else {
+              return "";
+            }
+          },
+          useHTML: true,
+        },
+      },  
+	    
+      tooltip: {
+        backgroundColor: null,
+        borderWidth: 0,
+        shadow: false,
+        crosshairs: true,
+        useHTML: true,
+        formatter: function() {
+          return (
+            "<b>Thought: </b>" +
+            this.point.myData +
+            "<br/><b>User Action: </b>" +
+            this.point.myData2 +
+            " "
+          );
+        },
+      },	    
+	    
+      credits: {
+        enabled: false
+      },
+	    
+      plotOptions: {
+        series: {
+          events: {
+            legendItemClick: function() {
+              return false;
+            }
+          }
+        }
+      },	    
+	    
+      series: [{
+        name: "Rachel",
+        data: [{
+          y: 0,
+          myData: "<i>I'll order out, since I need something quick and easy for dinner.</i>",
+          myData2: "Open Sushi Fuze website"
+        }, {
+          y: -1,
+          myData: "<i>Yet I seem to be blanking on what my login credentials were.</i>",
+          myData2: "Exit Sushi Fuze website"
+        }, {
+          y: 2,
+          myData: "<i>Oh yeah, I'm still logged into the Sushi Fuze app on my phone, I’ll just order from there.</i>",
+          myData2: "Open Sushi Fuze app"
+        }, {
+	    
+	  y: 2.5,
+          myData: "<i>My mind's already set on salmon, let me just find it.</i>",
+          myData2: "Search entree menu"
+        }, {
+          y: 3.5,
+          myData: "<i>What was that side dish I liked to get with the salmon?</i>",
+          myData2: "Head to profile, click ‘favorite dishes', select dish"
+        }, {
+          y: -2,
+          myData: "<i>I want the salmon dish prepared without any spices, but the <br/>app does not provide a comment option for placing special orders.</i>",
+          myData2: "Unable to request alternative meal preparations"
+        }, {    
+	    
+	  y: 1,
+          myData: "<i>I believe that's everything, let me double-check.</i>",
+          myData2: "Head to cart"
+        }, {
+          y: 2,
+          myData: "<i>Yep, that's everything.</i>",
+          myData2: "Head to checkout"
+        }, {
+          y: 3,
+          myData: "<i>Thankfully, the address and credit card fields autofill with <br/>info pulled from my profile, saving me a few steps during checkout.</i>",
+          myData2: "Approve order"
+        }, {    
+	 
+          y: 3.9,
+          myData: "<i>Ok, I have confirmation my order went through and should arrive in about 40 minutes, <br/>that gives me enough time to complete an important business call.</i>",
+          myData2: "Arrive at confirmation screen, click link to tracking screen, <br/>return and exit from confirmation screen"
+        }, {
+          y: 3.5,
+          myData: "<i>I finished my call. The delivery person seems to be taking longer than normal. Was there a delay?</i>",
+          myData2: "Open Sushi Fuze app"
+        }, {
+          y: 1,
+          myData: "<i>Wait, I can't seem to find the tracking tool again. Shouldn't <br/>this feature still be accessible after exiting the confirmation screen?</i>",
+          myData2: "Search for tracking feature"
+        }, {	
+		
+          y: 2,
+          myData: "<i>Oh, it's also located in the widget screen. The delivery should arrive in 5 minutes or so.</i>",
+          myData2: "Find tracking feature in widget"
+        }, {
+          y: 3.5,
+          myData: "<i>I received a notification that my food has arrived, along with info <br/>on the delivery person’s name and picture, helpful for when I buzz them in.</i>",
+          myData2: "Recieve digital notification that order has arrived"
+        }, {
+          y: 3.9,
+          myData: "<i>Get in my belly!</i>",
+          myData2: "Buzz in delivery person, receive food, provide tip"
+        }]
+      }]	
+		
+    });
+  });
+</script>-->		
+
+
+    <section class="pad2">
+      <div class="equal-height-pt1">
+        <div class="col-sm-6 col-sm-push-6 equal-height-pt2 solutions-end">
+          <h3 class="title">Wireframe and Responsive Design</h3>
+          <p class="description2">Adhering to the mobile first approach, I wireframed the entire website and then adjusted dimensions to cover the various device screen sizes.</p>
+        </div>
+
+        <div class="col-xs-4 col-sm-2 col-sm-pull-6">
+	  <div class="responsive-container2" id="wireframe">
+            <picture>
+              <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.webp" alt="wireframe" class="lazyload" type="image/webp">
+              <!-- Fallback -->
+              <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.jpg" alt="wireframe" class="lazyload">
+            </picture>
+	  </div>
+        </div>
+
+        <div class="col-xs-8 col-sm-4 col-sm-pull-6">
+<div class="responsive-container2" style="padding-bottom: 41.8%;">
+  <picture>
+    <source alt="responsive sizes" 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.webp" 
+	data-srcset=" 
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.webp 500w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.webp 875w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.webp 1175w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.webp 1557w" class="lazyload" 
+	type="image/webp" />
+     <img alt="responsive sizes" 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg" 
+	data-srcset="
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.jpg 500w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.jpg 875w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.jpg 1175w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg 1557w" class="lazyload"  />
+  </picture>
+</div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="pad2">
+      <div class="equal-height-pt1">
+        <div class="col-sm-6 col-md-6 col-lg-6 equal-height-pt2 solutions-end">
+          <h3 class="title">Digital Assets</h3>
+          <p class="description2">With a UX structure in place, I designed UI elements that adhered to the brand identity. After importing these deliverables into a copy of the wireframe, they overlay the structure and receive additional size adjustments.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<div class="responsive-container2 digital-assets" style="padding-bottom: 41.7%;">
+  <picture>
+    <source alt="digital assets" 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.webp" 
+	data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.webp 851w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.webp 1182w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.webp 1482w," class="lazyload" 
+type="image/webp"/>
+  <img alt="digital assets" 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg" 
+	data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.jpg 851w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.jpg 1182w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg 1482w," class="lazyload" />
+  </picture>
+</div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="pad2">
+      <div class="equal-height-pt1">
+        <div class="col-sm-6 col-sm-push-6 equal-height-pt2 solutions-end">
+          <h3 class="title">Interactive Prototype</h3>
+          <p class="description2">Finally, I exported the UI assets from the Sketch program into Marvel-App to create an interactive prototype. This mockup can then receive user testing for further input.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-sm-pull-6" style="height: 467px;">
+          <div class="codegena_iframe watch_prototype" data-src="https://marvelapp.com/j2333b?emb=1" style="height:467px;width:275px;" data-responsive="true" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1518548931/portfolio/apple_watch_v2.svg" data-css="border:0px;" data-alt="watch prototype preload placeholder" role="presentation"></div><script src="https://rawgit.com/shaneapen/Codegena/master/async-iframe.js"></script>
+        </div>
+      </div>
+    </section>
+    </section>
+
+
+    <!--**FOOTER**-->
+    <footer class="page-foot">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <a href="http://mattbreithaupt.virb.com" class="outbound" aria-label="outbound Virb additional content">
+		<webicon icon="metrize:social-virb"style="width: 4em; height: 4em" alt="outbound Virb additional content"></webicon>
+	    </a>
+          </div>
+          <div class="col-xs-6">
+            <a href="https://www.linkedin.com/in/mattbreithaupt" class="outbound" aria-label="outbound LinkedIn profile">  
+		<webicon icon="metrize:social-linkedin" style="width: 4em; height: 4em" alt="outbound LinkedIn profile"></webicon>
+	    </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+	
+	
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
 <!--PAGE LOADING ICON (replacement for splash screen)-->
 <script>
 $(window).on('load', function(){
@@ -621,8 +912,8 @@ $(window).on('load', function(){
      $("body").removeClass("no-scroll");
 });
 </script>
-<div id="container5" style="width: 100%; height: 400px; margin: 0 auto"></div>	
 
+	
 <script type="text/javascript">
     var chart;
     $(document).ready(function() {
@@ -791,117 +1082,8 @@ $(window).on('load', function(){
 		
     });
   });
-</script>		
+</script>
 
-
-    <section class="pad2">
-      <div class="equal-height-pt1">
-        <div class="col-sm-6 col-sm-push-6 equal-height-pt2 solutions-end">
-          <h3 class="title">Wireframe and Responsive Design</h3>
-          <p class="description2">Adhering to the mobile first approach, I wireframed the entire website and then adjusted dimensions to cover the various device screen sizes.</p>
-        </div>
-
-        <div class="col-xs-4 col-sm-2 col-sm-pull-6">
-	  <div class="responsive-container2" id="wireframe">
-            <picture>
-              <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.webp" alt="wireframe" class="lazyload" type="image/webp">
-              <!-- Fallback -->
-              <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.jpg" alt="wireframe" class="lazyload">
-            </picture>
-	  </div>
-        </div>
-
-        <div class="col-xs-8 col-sm-4 col-sm-pull-6">
-<div class="responsive-container2" style="padding-bottom: 41.8%;">
-  <picture>
-    <source alt="responsive sizes" 
-	data-sizes="auto" 
-	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.webp" 
-	data-srcset=" 
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.webp 500w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.webp 875w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.webp 1175w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.webp 1557w" class="lazyload" 
-	type="image/webp" />
-     <img alt="responsive sizes" 
-	data-sizes="auto" 
-	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg" 
-	data-srcset="
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.jpg 500w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.jpg 875w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.jpg 1175w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg 1557w" class="lazyload"  />
-  </picture>
-</div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="pad2">
-      <div class="equal-height-pt1">
-        <div class="col-sm-6 col-md-6 col-lg-6 equal-height-pt2 solutions-end">
-          <h3 class="title">Digital Assets</h3>
-          <p class="description2">With a UX structure in place, I designed UI elements that adhered to the brand identity. After importing these deliverables into a copy of the wireframe, they overlay the structure and receive additional size adjustments.</p>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-<div class="responsive-container2 digital-assets" style="padding-bottom: 41.7%;">
-  <picture>
-    <source alt="digital assets" 
-	data-sizes="auto" 
-	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.webp" 
-	data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.webp 851w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.webp 1182w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.webp 1482w," class="lazyload" 
-type="image/webp"/>
-  <img alt="digital assets" 
-	data-sizes="auto" 
-	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg" 
-	data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.jpg 851w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.jpg 1182w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg 1482w," class="lazyload" />
-  </picture>
-</div>
-        </div>
-      </div>
-    </section>
-
-
-    <section class="pad2">
-      <div class="equal-height-pt1">
-        <div class="col-sm-6 col-sm-push-6 equal-height-pt2 solutions-end">
-          <h3 class="title">Interactive Prototype</h3>
-          <p class="description2">Finally, I exported the UI assets from the Sketch program into Marvel-App to create an interactive prototype. This mockup can then receive user testing for further input.</p>
-        </div>
-
-        <div class="col-xs-12 col-sm-6 col-sm-pull-6" style="height: 467px;">
-          <div class="codegena_iframe watch_prototype" data-src="https://marvelapp.com/j2333b?emb=1" style="height:467px;width:275px;" data-responsive="true" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1518548931/portfolio/apple_watch_v2.svg" data-css="border:0px;" data-alt="watch prototype preload placeholder" role="presentation"></div><script src="https://rawgit.com/shaneapen/Codegena/master/async-iframe.js"></script>
-        </div>
-      </div>
-    </section>
-    </section>
-
-
-    <!--**FOOTER**-->
-    <footer class="page-foot">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6">
-            <a href="http://mattbreithaupt.virb.com" class="outbound" aria-label="outbound Virb additional content">
-		<webicon icon="metrize:social-virb"style="width: 4em; height: 4em" alt="outbound Virb additional content"></webicon>
-	    </a>
-          </div>
-          <div class="col-xs-6">
-            <a href="https://www.linkedin.com/in/mattbreithaupt" class="outbound" aria-label="outbound LinkedIn profile">  
-		<webicon icon="metrize:social-linkedin" style="width: 4em; height: 4em" alt="outbound LinkedIn profile"></webicon>
-	    </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-  </div>
 
   <!--Custom CSS (Host my CSS file on GitHub, link to 'production URL' via RawGit.com)-->
     <!--Production URL (DOES NOT REFRESH)(update and use only for final)-->
