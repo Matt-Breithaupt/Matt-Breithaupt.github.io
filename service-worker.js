@@ -3,7 +3,10 @@ var urlsToCache = [
   'https://matt-breithaupt.github.io/index.html',
   'https://matt-breithaupt.github.io/CSS/main.css',
   'https://matt-breithaupt.github.io/JS/main_script.js',
-  'https://res.cloudinary.com/dgoasjucg/image/upload/v1516203127/portfolio/favicon.ico'
+  'https://matt-breithaupt.github.io/compressed.js',
+  'https://res.cloudinary.com/dgoasjucg/image/upload/v1516203127/portfolio/favicon.ico',
+  'https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js',
+  'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
 ];
 
 self.addEventListener('install', function(event) {
