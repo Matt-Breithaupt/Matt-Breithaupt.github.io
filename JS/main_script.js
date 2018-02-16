@@ -12,6 +12,32 @@
      $('.loader').fadeOut("fast");
 });*/
 
+/*Vivus*/
+  var obt1 = new Vivus('obturateur1', {type: 'delayed', duration: 150},
+function(){
+  document.getElementById("container-icon1").className = "filling2";
+}),
+  obt2 = new Vivus('obturateur2', {type: 'delayed', duration: 150},
+function(){
+  document.getElementById("container-icon2").className = "filling2";
+}),
+  obt3 = new Vivus('obturateur3', {type: 'delayed', duration: 150},
+function(){
+  document.getElementById("container-icon3").className = "filling2";
+}),
+  obt4 = new Vivus('obturateur4', {type: 'delayed', duration: 150},
+function(){
+  document.getElementById("container-icon4").className = "filling3";
+}),
+  obt5 = new Vivus('obturateur5', {type: 'delayed', duration: 150},
+function(){
+  document.getElementById("container-icon5").className = "filling3";
+}),
+  obt6 = new Vivus('obturateur6', {type: 'delayed', duration: 150},
+function(){
+  document.getElementById("container-icon6").className = "filling3";
+});
+
 
 /*PROFILE: overlay show/hide on click: jQuery*/
  $(document).ready(function() {
