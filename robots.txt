@@ -2,6 +2,6 @@ User-Agent: *
 Disallow: /
 
 User-Agent: Googlebot
-Allow: //matt-breithaupt.github.io/
+Allow: /
 
 Sitemap: https://raw.githubusercontent.com/Matt-Breithaupt/Matt-Breithaupt.github.io/master/sitemap.xml
