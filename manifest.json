@@ -16,7 +16,7 @@
     "theme_color": "#33495d",
     "background_color": "#33495d",
     "display": "standalone",
-    "start_url": "https://matt-breithaupt.github.io/?launcher=true",
+    "start_url": "https://mattbreithaupt.github.io/?launcher=true",
     "orientation": "any",
     "lang": "en"
 }
