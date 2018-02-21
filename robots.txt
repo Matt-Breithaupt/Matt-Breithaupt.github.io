@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /
+
+Sitemap: https://raw.githubusercontent.com/Matt-Breithaupt/Matt-Breithaupt.github.io/master/sitemap.xml
