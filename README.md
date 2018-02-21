@@ -1,2 +1,2 @@
-# Matt-Breithaupt.github.io
+# MattBreithaupt.github.io
 Portfolio
