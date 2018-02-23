@@ -3,7 +3,7 @@ var urlsToCache = [
   'https://mattbreithaupt.github.io/index.html',
   'https://mattbreithaupt.github.io/CSS/main.css',
   'https://mattbreithaupt.github.io/JS/main_script.js',
-  'https://mattbreithaupt.github.io/compressed.js',
+  'https://mattbreithaupt.github.io/dependencies.js',
   'https://res.cloudinary.com/dgoasjucg/image/upload/v1516203127/portfolio/favicon.ico',
   'https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js',
   'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
