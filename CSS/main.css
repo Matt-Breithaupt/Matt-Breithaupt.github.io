@@ -27,7 +27,6 @@
 }
 
 
-
 /*@keyframes fadeIn {from {opacity: 0;} to {opacity: 1;}}
 .filling2 g path {
   stroke: none !important;
@@ -42,7 +41,21 @@
 }*/
 
 
-
+.watch-info-arch-container {
+  flex-wrap: wrap;
+}
+#container5 {
+  width: 100%; 
+  height: 400px; 
+  margin: 0 auto;
+}
+.watch-prototype-container {
+  height: 467px;
+}
+.webicon {
+  width: 4em; 
+  height: 4em;
+}
 .overflow-wrapper {
    overflow: hidden;
    -webkit-perspective: 306px;
