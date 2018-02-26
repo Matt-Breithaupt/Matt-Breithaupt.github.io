@@ -1,5 +1,5 @@
 /*! Fade out on scroll. Update issue: would fade out during user scaling on mobile*/
-/*$(window).scroll(function(){
+/*! $(window).scroll(function(){
     $(".hero-text").css("opacity", 1 - $(window).scrollTop() / 250);
   }); */
 
