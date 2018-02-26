@@ -1,18 +1,18 @@
-/*Fade out on scroll. Update issue: would fade out during user scaling on mobile*/
+/*! Fade out on scroll. Update issue: would fade out during user scaling on mobile*/
 /*$(window).scroll(function(){
     $(".hero-text").css("opacity", 1 - $(window).scrollTop() / 250);
-  });*/
+  }); */
 
-/*Script allows all internal links (everything under the same domain) open within the web app. External links will still open in Mobile Safari.*/
-/*<script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>*/
+/*! Script allows all internal links (everything under the same domain) open within the web app. External links will still open in Mobile Safari. */
+/*! <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script> */
 
 
-/*PAGE LOADING ICON (replacement for splash screen)*/
-/*$(window).on('load', function(){
+/*! PAGE LOADING ICON (replacement for splash screen) */
+/*! $(window).on('load', function(){
      $('.loader').fadeOut("fast");
-});*/
+}); */
 
-/*Vivus*/
+/*! Vivus */
   var obt1 = new Vivus('obturateur1', {type: 'delayed', duration: 150},
 function(){
   document.getElementById("container-icon1").className = "filling2";
@@ -39,7 +39,7 @@ function(){
 });
 
 
-/*PROFILE: overlay show/hide on click: jQuery*/
+/*! PROFILE: overlay show/hide on click: jQuery */
  $(document).ready(function() {
    var $divs = $('.divs > div');
    $divs.first().show();
@@ -58,7 +58,7 @@ function(){
 });*/
 
 
-/*NAVBAR*/
+/*! NAVBAR */
 !(function(o) {
   "use strict";
   o(".page-scroll a").bind("click", function(t) {
