@@ -1,5 +1,10 @@
 /** MAIN CUSTOM STYLES **/
 
+.list2 {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 45em) {
 .list-item2 {
   width: 40%;
