@@ -230,7 +230,7 @@ ul {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-@media(min-width: 45em)
+@media(min-width: 45em) {
 .process-prototype-header {
   font-size: 3.5em;
   }
