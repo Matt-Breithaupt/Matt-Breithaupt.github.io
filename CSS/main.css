@@ -259,6 +259,7 @@ ul {
   margin-top: 0px;
   padding-top:20px;
   font-size: 2.1em;
+  color: #33495d;
 }
 @media(min-width: 45em) {
 .process-prototype-header {
@@ -368,6 +369,7 @@ ul {
 .title2 {
   font-weight: bold;
   font-size: 1.9em;
+  color: #33495d;
 }
 @media(min-width: 45em) {
 .title2 {
