@@ -620,7 +620,7 @@ ul {
   height: 32px;
   background: #aaa;
   bottom: 0;
-  position: absolute;
+  /*position: absolute;*/
  }
 }
 /**Desktop view: parallax**/
