@@ -2,7 +2,8 @@
 
 @media (min-width: 45em) {
 .list-item2 {
-  width: 50%;
+  width: 40%;
+  display: inline-block;
   }
 }
 
