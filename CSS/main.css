@@ -1,8 +1,10 @@
 /** MAIN CUSTOM STYLES **/
 
+@media (min-width: 45em) {
 .list2 {
   display: flex;
   justify-content: center;
+  }
 }
 
 @media (min-width: 45em) {
