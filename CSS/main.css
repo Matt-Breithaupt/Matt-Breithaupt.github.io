@@ -618,7 +618,8 @@ ul {
   -webkit-transform: rotateX(-89deg) translateX(-10%);
   width: 120%;
   /*width: 90%;*/
-  height: 32px;
+  /*height: 32px;*/
+  height: 4vh;
   background: #aaa;
   bottom: 0;
   /*position: absolute;*/
