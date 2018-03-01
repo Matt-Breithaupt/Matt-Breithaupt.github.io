@@ -708,11 +708,11 @@ ul {
   background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1517007646/portfolio/Founding_background_pre-tile_v2.png");
 }
 /**Desktop view**/
-@media (min-width: 45em) {
+/*@media (min-width: 45em) {
 .past-container .past-backdrop {
   top: -8%;
   }
-}
+}*/
 /**Desktop view**/
 /*@media (min-width: 45em) {
 .triangle-1-container::after {
