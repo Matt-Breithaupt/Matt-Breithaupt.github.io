@@ -1,12 +1,22 @@
 /** MAIN CUSTOM STYLES **/
 
 @media (min-width: 45em) {
+.list3 {
+  display: flex;
+  justify-content: center;
+  }
+}
+@media (min-width: 45em) {
+.list-item3 {
+  width: 33%;
+  }
+}
+@media (min-width: 45em) {
 .list2 {
   display: flex;
   justify-content: center;
   }
 }
-
 @media (min-width: 45em) {
 .list-item2 {
   /*width: 40%;*/
