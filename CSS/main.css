@@ -1,5 +1,15 @@
 /** MAIN CUSTOM STYLES **/
 
+#past-container2 {
+  width: 100%;
+  background: yellow;
+}
+#floated {
+  float: left;
+  width: 33%;
+  padding: 1em;
+}
+
 @media (min-width: 45em) {
 .list3 {
   display: flex;
