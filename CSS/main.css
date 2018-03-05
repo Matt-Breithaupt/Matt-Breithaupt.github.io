@@ -11,6 +11,9 @@
   width: 66%;
   }
 }
+#floated {
+  padding-bottom: 97%;
+  }
 @media (min-width: 45em) {
 #floated {
   float: left;
