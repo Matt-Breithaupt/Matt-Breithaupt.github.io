@@ -13,8 +13,8 @@
 @media (min-width: 45em) {
 #floated {
   float: left;
-  width: 33%;
-  padding: 1em;
+  width: 50%;
+  padding-bottom: 45%;
   }
 }
 
