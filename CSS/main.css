@@ -1,17 +1,17 @@
 /** MAIN CUSTOM STYLES **/
 
-@media (min-width: 45em) {
-#past-container2 {
-  font-size: 1em;
-  width: 66%;
-  }
-}
 #past-container2 {
   position: relative;
   text-align: left;
   padding: 0 1.5em;
   font-size: 1.3em;
   }
+@media (min-width: 45em) {
+#past-container2 {
+  font-size: 1em;
+  width: 66%;
+  }
+}
 #floated {
   padding-bottom: 97%;
   margin-bottom: 1em;
