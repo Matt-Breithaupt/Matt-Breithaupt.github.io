@@ -13,6 +13,7 @@
 }
 #past-container2 {
   position: relative;
+  padding: 0 1.5em;
   }
 @media (min-width: 45em) {
 #past-container2 {
