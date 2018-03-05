@@ -1,6 +1,10 @@
 /** MAIN CUSTOM STYLES **/
 
-@media (max-width: 45em) {
+.past-text {
+  padding: 0 1em;
+  text-align: left;
+  }
+@media (min-width: 45em) {
 .past-text {
   padding: 0 1em;
   text-align: left;
