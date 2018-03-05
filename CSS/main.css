@@ -769,6 +769,7 @@ ul {
   z-index: 1;
   left: 0;
   top: 0;
+  transform: translateY(-.1px);
 }
 /**Desktop view: parallax and height**/
 @media (min-width: 45em) {
