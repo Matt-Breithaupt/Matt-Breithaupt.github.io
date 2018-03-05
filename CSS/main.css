@@ -1,11 +1,13 @@
 /** MAIN CUSTOM STYLES **/
 
+#past-container2 {
+  position: relative;
+  text-align;
+  padding: 0 1.5em;
+  }
 @media (min-width: 45em) {
 #past-container2 {
-  width: 100%;
-  position: relative;
-  z-index: 9;
-  text-align: left;
+  font-size: 1em;
   }
 }
 @media (min-width: 45em) {
