@@ -427,16 +427,16 @@ ul {
   font-size: 1em;
   }
 }
-@media(min-width: 45em) {
-.paragraph1 {
-  font-size: 1em;
-  }
-}
 .paragraph1 {
   text-align: left;
   max-width: 80%;
   padding-bottom: 10px;
   font-size: 1.3em;
+}
+@media(min-width: 45em) {
+.paragraph1 {
+  font-size: 1em;
+  }
 }
 .temp1 {
   margin-bottom: 20px;
