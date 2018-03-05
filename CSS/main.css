@@ -4,7 +4,7 @@
   padding: 0 1em;
   text-align: left;
   }
-@media (min-width: 45em) {
+@media (max-width: 45em) {
 .past-text {
   padding: 0 1em;
   text-align: left;
@@ -13,7 +13,6 @@
 }
 #past-container2 {
   position: relative;
-  padding: 0 1.5em;
   }
 @media (min-width: 45em) {
 #past-container2 {
