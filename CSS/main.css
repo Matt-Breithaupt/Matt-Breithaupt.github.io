@@ -1,12 +1,19 @@
 /** MAIN CUSTOM STYLES **/
 
+@media (min-width: 45em) {
 #past-container2 {
   width: 100%;
+  position: relative;
+  z-index: 9;
+  text
+  }
 }
+@media (min-width: 45em) {
 #floated {
   float: left;
   width: 33%;
   padding: 1em;
+  }
 }
 
 @media (min-width: 45em) {
