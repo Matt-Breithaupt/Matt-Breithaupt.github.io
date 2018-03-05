@@ -2,7 +2,7 @@
 
 #past-container2 {
   position: relative;
-  text-align;
+  text-align: left;
   padding: 0 1.5em;
   }
 @media (min-width: 45em) {
