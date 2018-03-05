@@ -1,16 +1,17 @@
 /** MAIN CUSTOM STYLES **/
 
-#past-container2 {
-  position: relative;
-  text-align: left;
-  padding: 0 1.5em;
-  }
 @media (min-width: 45em) {
 #past-container2 {
   font-size: 1em;
   width: 66%;
   }
 }
+#past-container2 {
+  position: relative;
+  text-align: left;
+  padding: 0 1.5em;
+  font-size: 1.3em;
+  }
 #floated {
   padding-bottom: 97%;
   }
@@ -425,10 +426,16 @@ ul {
   font-size: 1em;
   }
 }
+@media(min-width: 45em) {
+.paragraph1 {
+  font-size: 1em;
+  }
+}
 .paragraph1 {
   text-align: left;
   max-width: 80%;
   padding-bottom: 10px;
+  font-size: 1.3em;
 }
 .temp1 {
   margin-bottom: 20px;
