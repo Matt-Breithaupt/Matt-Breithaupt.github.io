@@ -1,5 +1,14 @@
 /** MAIN CUSTOM STYLES **/
 
+@media(min-width: 45em {
+.inset-side {
+  width: 120%;
+  transform: translateX(-8%);
+  }
+}
+.inset-side {
+  line-height: 0;
+}
 .highcharts-tooltip span i {
   white-space: normal;
 }
