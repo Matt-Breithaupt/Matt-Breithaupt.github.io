@@ -1,8 +1,5 @@
 /** MAIN CUSTOM STYLES **/
 
-.highcharts-subtitle {
-  font-size: 1em;
-}
 .past-text {
   text-align: left;
   }
@@ -1274,6 +1271,7 @@ input[id^="bio"]:checked + label + .bio-container {
   font-family: "Courier New", monospace;
   font-style: italic;
   fill: #7cb5ec;
+  font-size: 1em;
 }
 @media(max-width: 45em) {
 .highcharts-subtitle {
