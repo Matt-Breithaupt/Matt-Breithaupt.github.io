@@ -1,5 +1,8 @@
 /** MAIN CUSTOM STYLES **/
 
+.highcharts-tooltip span i {
+  white-space: normal;
+}
 .past-text {
   text-align: left;
   }
