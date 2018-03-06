@@ -1,5 +1,8 @@
 /** MAIN CUSTOM STYLES **/
 
+.highcharts-subtitle {
+  font-size: 1em;
+}
 .past-text {
   text-align: left;
   }
