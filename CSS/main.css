@@ -1,5 +1,8 @@
 /** MAIN CUSTOM STYLES **/
 
+.inset-side {
+  display: none;
+}
 @media(min-width: 45em) {
 .inset-side {
   width: 120%;
@@ -7,9 +10,6 @@
   line-height: 0;
   display: block;
   }
-}
-.inset-side {
-  display: none;
 }
 
 .highcharts-tooltip span i {
