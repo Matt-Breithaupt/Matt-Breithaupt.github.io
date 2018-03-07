@@ -764,26 +764,6 @@ ul {
   width: 100%;
   background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1517007646/portfolio/Founding_background_pre-tile_v2.png");
 }
-/**Desktop view**/
-/*@media (min-width: 45em) {
-.past-container .past-backdrop {
-  top: -8%;
-  }
-}*/
-/**Desktop view**/
-/*@media (min-width: 45em) {
-.triangle-1-container::after {
-  content: '';
-  background: #D8D8D8;
-  height: 22px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 100%;
-  transform: translateZ(32px)translateY(-2px);
-  -webkit-transform: translateZ(32px)translateY(-2px);
-  }
-}*/
 /**Mobile view: non-parallax: default**/
 .past-container .triangle-2 {
   position: relative;
@@ -972,9 +952,6 @@ input[type="radio"] {
   width: 100%;
   position: relative;
   overflow: hidden;
-  /*background: #120103;
-  color: #fff;
-  text-align: center;*/
 }
 /*Addressing slight clipping for this width*/
 /*Desktop query*/
@@ -983,19 +960,10 @@ input[type="radio"] {
   height: 40em;
   }
 }
-/*Another desktop query*/
-/*@media(min-width: 50em) {
-.page-slider {
-  height: 35em;
-  }
-}*/
 .slide {
-  /*height: 100%;*/
   width: 100%;
-  /*top: 0;*/
   left: 100%;
   z-index: 10;
-  /*padding: 8em 1em 0;*/
   background-color: #120103;
   background-position: 50% 50%;
   background-size: cover;
