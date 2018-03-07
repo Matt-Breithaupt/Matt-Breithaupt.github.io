@@ -4,10 +4,12 @@
 .inset-side {
   width: 120%;
   transform: translateX(-8%);
+  line-height: 0;
+  display: block;
   }
 }
 .inset-side {
-  line-height: 0;
+  display: none;
 }
 
 .highcharts-tooltip span i {
