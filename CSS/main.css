@@ -515,9 +515,9 @@ ul {
 @media (min-width: 45em) {
 .box-container .box-backdrop {
   position: absolute;
-  top: -1%;
-  /*background: #aaa;*/
-  height: 102%;
+  top: -3%;
+  background: #aaa;
+  height: 103%;
   width: 100%;
   }
 }
