@@ -1,6 +1,6 @@
 /** MAIN CUSTOM STYLES **/
 
-@media(min-width: 45em {
+@media(min-width: 45em) {
 .inset-side {
   width: 120%;
   transform: translateX(-8%);
