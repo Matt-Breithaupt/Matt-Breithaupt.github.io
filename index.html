@@ -32,36 +32,19 @@ body{overflow-y:scroll;overflow-x:hidden;height:100%;margin:0;perspective:306px;
 .navbar-brand{float:left;height:50px;padding:15px 15px;font-size:18px;line-height:20px}
 .navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:8px;margin-right:15px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent;border-radius:4px}
 .collapse{display:none}
-/*Mobile view:default*/
 .hero-image{size:100vw;object-fit:cover;-o-object-fit:cover;-webkit-filter:brightness(85%);filter:brightness(85%)}
 .responsive-container{height:100%;width:100%;position:relative}
 .image-wrapper{max-width:2040px;max-height:1486px;background-color:rgba(0,0,0,0.05);height:100vh;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
 .image-wrapper .responsive-container{width:100%;position:relative;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
 .image-wrapper .responsive-container img{position:absolute;top:0;left:0;width:100%;height:100%}
 .image-wrapper .responsive-container #triangle-hero{content:"";position:absolute;bottom:0;left:0;width:0;height:0;border-bottom:1200px solid green;border-left:600px solid transparent;border-right:600px solid transparent;transform:translatex(-50%);z-index:1}
-/*Mobile view:default*/
- .hero-text{/*font-size:20vmin;*/
-     font-family:"Lucida Console",Monaco,monospace;height:100%;width:100%;padding:10%;position:absolute;z-index:7;display:flex;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:0}
-/*Desktop query*/
- /*@media(min-width:45em){.hero-text{transform:translateZ(32.1px);-webkit-transform:translateZ(32.1px)}}*/
-/*default*/
+ .hero-text{font-family:"Lucida Console",Monaco,monospace;height:100%;width:100%;padding:10%;position:absolute;z-index:7;display:flex;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:0}
  .hero-text-pt2{width:100%}
-/*Mobile view:default*/
  .triangle-1-container{position:absolute;bottom:0;height:10vh;width:100%}
-/*Desktop query*/
  @media (min-width:45em){.triangle-1-container{height:30vh;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;width:120%;transform:translateX(-8%)}}
-/*@media(min-width: 45em {
-.triangle-1-container {
-  width: 120%;
-  transform: translateX(-8%);
-  }
-}*/
-/*Mobile view:non-parallax:default*/
  .triangle-1{position:absolute;width:100%;z-index:2;left:0;bottom:0}
-/*Desktop view:parallax*/
- /*@media (min-width:45em){.triangle-1{transform:translateZ(32px)translateY(4em);-webkit-transform:translateZ(32px)translateY(4em)}}*/
-.hidden-heading-level{display:none}
-.tag-manager{display:none;visibility:hidden}  
+ .hidden-heading-level{display:none}
+ .tag-manager{display:none;visibility:hidden}  
   </style>
   <script>
   window.lazySizesConfig = window.lazySizesConfig || {};
@@ -93,7 +76,7 @@ height="0" width="0" class="tag-manager"></iframe></noscript>
 </div>
 	
    <header class="page-head" role="banner">
-    <!-- NAVBAR . Removed navbar-fixed-top -->
+    <!-- NAVBAR -->
     <div class="navbar navbar-inverse" role="navigation">
       <div class="container">
     	<div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a title="UX/UI Design Page" class="navbar-brand"
@@ -154,17 +137,7 @@ height="0" width="0" class="tag-manager"></iframe></noscript>
 
 	  <!-- BELOW THE FOLD -->
 
-    <!--<div id="separate-test">
-      <div id="front" class="transformed"></div>
-      <div id="back" class="transformed"></div>
-      <div class="proto-box-top-backdrop-2-wide"></div>
-      <div class="proto-box-top-overlap-narrow"></div>
-    </div>-->
-
   <div class="inset-side">
-    <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 36">
-      <polygon fill="#929292" fill-rule="evenodd" points="0 0 1440 0 1346.724 36 93.276 36"/>
-    </svg>-->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 36">
       <polygon fill="#929292" fill-rule="evenodd" points="0 0 1440 0 1250.197 36 176.803 36"/>
     </svg>
@@ -217,17 +190,14 @@ type="image/webp"/>
   for years, but had reached a plateau. They have since passed the mantle down to their three sons, who carry on this family-run business for a new generation. Their tenure had reinvigorated business at the original restaurant, to the point where expansion
   into new markets became a viable option.<br/><br/>Eventually, they were left with one last issue to be addressed, their weak digital footprint. Any chain worth their salt requires a strong digital presence to back it up, and the first method to tackle
   that was with a new website. This meant designing a digital user experience that was in-sync with their new brand identity, target market and business strategy.</p>
-</div>   
-	    
+</div>   	    
       <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1509374198/portfolio/triangle3.svg" class="img-responsive triangle-3" alt="triangle 3">
-    </section>
-		
+    </section>	
 </div>
 
     <section id="process2">
       <h2 id="process-header">PROJECT PROCESS</h2>
     </section>
-
 
     <h2 class="title2">1. PROBLEMS</h2>
     <ul class="list">
@@ -587,7 +557,6 @@ type="image/webp"/>
     </div>
 	
 
-
     <!--**FOOTER**-->
     <footer class="page-foot" role="contentinfo">
       <div class="container">
@@ -605,45 +574,16 @@ type="image/webp"/>
         </div>
       </div>
     </footer>
-
   </main>
+		
 	
-	
-	
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<!--PAGE LOADING ICON (replacement for splash screen)-->
-<script>
-$(window).on('load', function(){
-     $('.loader2-parent, .loader2').fadeOut("fast");
-     $("body").removeClass("no-scroll");
-});
-</script>
-	
-<script>var chart;$(document).ready(function(){chart=new Highcharts.Chart({chart:{renderTo:"container5",defaultSeriesType:"areaspline"},title:{text:"Rachel's User Journey: Sushi Fuze app",align:"center"},subtitle:{text:"<b>Goal:</b> Order dinner online and have it delivered to her apartment. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Scenario:</b> Busy finishing up work she brought home from the office. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Constraint:</b> With her working memory preoccupied, Rachel wants to use as little mental energy possible.",align:"left",useHTML:!0,align:"center"},xAxis:{title:{text:""},tickInterval:6,categories:["Order Phase","l","l","l","l","l","Checkout Phase","l","l","l","l","l","Recieve Phase"],gridLineWidth:0},yAxis:{title:{text:""},endOnTick:!1,labels:{formatter:function(){return 0==this.value?'<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899110/portfolio/Mood-positive.svg" alt="mood positive" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(-3em); position: absolute"/>' + '<p style="position: absolute; line-height: 2.5">Mood</p>' + '<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899099/portfolio/Mood-negative.svg" alt="mood negative" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(3em); position: relative"/>':""},useHTML:!0}},tooltip:{backgroundColor:null,borderWidth:0,shadow:!1,crosshairs:!0,useHTML:!0,formatter:function(){return"<b>Thought: </b>"+this.point.myData+"<br/><b>User Action: </b>"+this.point.myData2+" "}},credits:{enabled:!1},plotOptions:{series:{events:{legendItemClick:function(){return!1}}}},series:[{name:"Rachel",data:[{y:0,myData:"<i>I'll order out, since I need something quick and easy for dinner.</i>",myData2:"Open Sushi Fuze website"},{y:-1,myData:"<i>Yet I seem to be blanking on what my login credentials were.</i>",myData2:"Exit Sushi Fuze website"},{y:2,myData:"<i>Oh yeah, I'm still logged into the Sushi Fuze app on my phone, I’ll just order from there.</i>",myData2:"Open Sushi Fuze app"},{y:2.5,myData:"<i>My mind's already set on salmon, let me just find it.</i>",myData2:"Search entree menu"},{y:3.5,myData:"<i>What was that side dish I liked to get with the salmon?</i>",myData2:"Head to profile, click ‘favorite dishes', select dish"},{y:-2,myData:"<i>I want the salmon dish prepared without any spices, but the app does not provide a comment option for placing special orders.</i>",myData2:"Unable to request alternative meal preparations"},{y:1,myData:"<i>I believe that's everything, let me double-check.</i>",myData2:"Head to cart"},{y:2,myData:"<i>Yep, that's everything.</i>",myData2:"Head to checkout"},{y:3,myData:"<i>Thankfully, the address and credit card fields autofill with info pulled from my profile, saving me a few steps during checkout.</i>",myData2:"Approve order"},{y:3.9,myData:"<i>Ok, I have confirmation my order went through and should arrive in about 40 minutes, that gives me enough time to complete an important business call.</i>",myData2:"Arrive at confirmation screen,<br/> click link to tracking screen,<br/> return and exit from confirmation screen"},{y:3.5,myData:"<i>I finished my call. The delivery person seems to be taking longer than normal. Was there a delay?</i>",myData2:"Open Sushi Fuze app"},{y:1,myData:"<i>Wait, I can't seem to find the tracking tool again. Shouldn't this feature still be accessible after exiting the confirmation screen?</i>",myData2:"Search for tracking feature"},{y:2,myData:"<i>Oh, it's also located in the widget screen. The delivery should arrive in 5 minutes or so.</i>",myData2:"Find tracking feature in widget"},{y:3.5,myData:"<i>I received a notification that my food has arrived, along with info on the delivery person’s name and picture, helpful for when I buzz them in.</i>",myData2:"Recieve digital notification that order has arrived"},{y:3.9,myData:"<i>Get in my belly!</i>",myData2:"Buzz in delivery person, receive food, provide tip"}]}]})});</script>
-	
-  <!--Custom CSS (Host my CSS file on GitHub, link to 'production URL' via RawGit.com)-->
-    <!--Production URL (DOES NOT REFRESH)(update and use only for final)-->
-        <!--<link href="https://cdn.rawgit.com/Matt-Breithaupt/Matt-Breithaupt.github.io/0525ab0c/CSS/main.css" rel="stylesheet" />-->
-    <!--Development URL (DOES REFRESH, takes a few minutes)(use during frequent changes, not for public)-->
-	<link href="https://mattbreithaupt.github.io/CSS/main.css" rel="stylesheet" />
-  <!--External CSS-->	
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" /> 
-    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css" rel="stylesheet" />-->
-  <!--External Scripts-->
-  <script>
-    /*AOS.init();*/
-  </script>
-	
-<!-- Service Worker --><script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("https://mattbreithaupt.github.io/service-worker.js").then(function(a){console.log("ServiceWorker registration successful with scope: ",a.scope)},function(a){console.log("ServiceWorker registration failed: ",a)})})};</script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>--> 
-<script defer="defer" src="https://mattbreithaupt.github.io/dependencies.js"></script>
-	
-  <!--Custom JS (Host my JS file on GitHub, link to 'production URL' via RawGit.com)-->
-     <!--Production URL (DOES NOT REFRESH)(update and use only for final)-->
-        <!--<script src="https://cdn.rawgit.com/Matt-Breithaupt/Matt-Breithaupt.github.io/master/JS/main_script.js"></script>-->
-     <!--Development URL (DOES REFRESH, takes a few minutes)(use during frequent changes, not for public)-->
-	<script defer="defer" src="https://mattbreithaupt.github.io/JS/main_script.js"></script>
-	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
+<!--PAGE LOADING ICON (replacement for splash screen)--><script>$(window).on("load",function(){$(".loader2-parent, .loader2").fadeOut("fast"),$("body").removeClass("no-scroll")});</script>
+<!--CUSTOM HIGHCHART--><script>var chart;$(document).ready(function(){chart=new Highcharts.Chart({chart:{renderTo:"container5",defaultSeriesType:"areaspline"},title:{text:"Rachel's User Journey: Sushi Fuze app",align:"center"},subtitle:{text:"<b>Goal:</b> Order dinner online and have it delivered to her apartment. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Scenario:</b> Busy finishing up work she brought home from the office. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Constraint:</b> With her working memory preoccupied, Rachel wants to use as little mental energy possible.",align:"left",useHTML:!0,align:"center"},xAxis:{title:{text:""},tickInterval:6,categories:["Order Phase","l","l","l","l","l","Checkout Phase","l","l","l","l","l","Recieve Phase"],gridLineWidth:0},yAxis:{title:{text:""},endOnTick:!1,labels:{formatter:function(){return 0==this.value?'<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899110/portfolio/Mood-positive.svg" alt="mood positive" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(-3em); position: absolute"/>' + '<p style="position: absolute; line-height: 2.5">Mood</p>' + '<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899099/portfolio/Mood-negative.svg" alt="mood negative" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(3em); position: relative"/>':""},useHTML:!0}},tooltip:{backgroundColor:null,borderWidth:0,shadow:!1,crosshairs:!0,useHTML:!0,formatter:function(){return"<b>Thought: </b>"+this.point.myData+"<br/><b>User Action: </b>"+this.point.myData2+" "}},credits:{enabled:!1},plotOptions:{series:{events:{legendItemClick:function(){return!1}}}},series:[{name:"Rachel",data:[{y:0,myData:"<i>I'll order out, since I need something quick and easy for dinner.</i>",myData2:"Open Sushi Fuze website"},{y:-1,myData:"<i>Yet I seem to be blanking on what my login credentials were.</i>",myData2:"Exit Sushi Fuze website"},{y:2,myData:"<i>Oh yeah, I'm still logged into the Sushi Fuze app on my phone, I’ll just order from there.</i>",myData2:"Open Sushi Fuze app"},{y:2.5,myData:"<i>My mind's already set on salmon, let me just find it.</i>",myData2:"Search entree menu"},{y:3.5,myData:"<i>What was that side dish I liked to get with the salmon?</i>",myData2:"Head to profile, click ‘favorite dishes', select dish"},{y:-2,myData:"<i>I want the salmon dish prepared without any spices, but the app does not provide a comment option for placing special orders.</i>",myData2:"Unable to request alternative meal preparations"},{y:1,myData:"<i>I believe that's everything, let me double-check.</i>",myData2:"Head to cart"},{y:2,myData:"<i>Yep, that's everything.</i>",myData2:"Head to checkout"},{y:3,myData:"<i>Thankfully, the address and credit card fields autofill with info pulled from my profile, saving me a few steps during checkout.</i>",myData2:"Approve order"},{y:3.9,myData:"<i>Ok, I have confirmation my order went through and should arrive in about 40 minutes, that gives me enough time to complete an important business call.</i>",myData2:"Arrive at confirmation screen,<br/> click link to tracking screen,<br/> return and exit from confirmation screen"},{y:3.5,myData:"<i>I finished my call. The delivery person seems to be taking longer than normal. Was there a delay?</i>",myData2:"Open Sushi Fuze app"},{y:1,myData:"<i>Wait, I can't seem to find the tracking tool again. Shouldn't this feature still be accessible after exiting the confirmation screen?</i>",myData2:"Search for tracking feature"},{y:2,myData:"<i>Oh, it's also located in the widget screen. The delivery should arrive in 5 minutes or so.</i>",myData2:"Find tracking feature in widget"},{y:3.5,myData:"<i>I received a notification that my food has arrived, along with info on the delivery person’s name and picture, helpful for when I buzz them in.</i>",myData2:"Recieve digital notification that order has arrived"},{y:3.9,myData:"<i>Get in my belly!</i>",myData2:"Buzz in delivery person, receive food, provide tip"}]}]})});</script>	
+<link href="https://mattbreithaupt.github.io/CSS/main.css" rel="stylesheet" />
+<!--EXTERNAL CSS--><link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" /> 	
+<!-- SERVICE WORKER --><script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("https://mattbreithaupt.github.io/service-worker.js").then(function(a){console.log("ServiceWorker registration successful with scope: ",a.scope)},function(a){console.log("ServiceWorker registration failed: ",a)})})};</script>
+<script defer="defer" src="https://mattbreithaupt.github.io/dependencies.js"></script>	
+<script defer="defer" src="https://mattbreithaupt.github.io/JS/main_script.js"></script>	
 </body>
-
 </html>
