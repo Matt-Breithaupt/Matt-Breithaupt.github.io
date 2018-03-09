@@ -250,8 +250,6 @@
   -webkit-filter: brightness(1);
 }
 
-/*FOR WATCH PROTOTYPE*/
-
 #codegena_iframe_watch {
   width: 275px !important;
 }
@@ -270,27 +268,14 @@ section {
   margin: auto;
 }
 
-@media (min-width: 45em) {
-  html, body {
-    /*overflow-x: hidden;*/
-  }
-}
 
 html, body {
   -webkit-overflow-scrolling: touch;
-  /*margin: auto;*/
   margin: 0;
   text-align: -webkit-center;
   text-align: -moz-center;
 }
 
-@media (min-width: 45em) {
-  html {
-    /*overflow: hidden;*/
-  }
-}
-
-/*3D INSET*/
 
 html {
   height: 100%;
@@ -301,8 +286,6 @@ body {
   overflow-x: hidden;
   height: 100%;
   margin: 0;
-  /*perspective:  306px;
-  -webkit-perspective:  306px;*/
 }
 
 div {
@@ -381,8 +364,6 @@ ul {
 
 @media (max-width: 45em) {
   .solutions-end {
-    /*margin-left: 1em;
-    margin-right: 1em;*/
     border-radius: 10px;
     order: 2;
     padding-right: 0 !important;
@@ -398,7 +379,6 @@ ul {
   border-right: 1vw solid white;
   border-bottom: 15px solid white;
   pointer-events: none;
-  /*position: absolute;*/
   position: relative;
   left: 0;
 }
@@ -442,7 +422,6 @@ ul {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  /*width: 100%;*/
   height: 100%;
   color: white;
   border-radius: 10px;
@@ -570,7 +549,6 @@ ul {
 /**Mobile view: default**/
 
 .box-container {
-  /*height: 53em;*/
   position: relative;
 }
 
@@ -588,7 +566,6 @@ ul {
 /**Mobile view: default**/
 
 .box-backdrop {
-  /*background-color: #D8D8D8;*/
   height: 100%;
   width: 100%;
   position: absolute;
@@ -658,7 +635,7 @@ ul {
   }
 }
 
-/**Desktop view: parallax**/
+/**Desktop view**/
 @media (min-width: 45em) {
   .inset {
     &::before, &::after {
@@ -668,9 +645,7 @@ ul {
   }
 }
 
-/**Mobile view: non-parallax: default**/
-
-/**Desktop view: parallax**/
+/**Desktop view**/
 @media (min-width: 45em) {
   .inset .mobile-prototype::after {
     transform-origin: 100% 100%;
@@ -680,9 +655,7 @@ ul {
   }
 }
 
-/**Mobile view: non-parallax: default**/
-
-/**Desktop view: parallax**/
+/**Desktop view**/
 @media (min-width: 45em) {
   .inset .mobile-prototype::before {
     transform-origin: 0% 0%;
@@ -701,7 +674,6 @@ ul {
       width: 100%;
       height: 32px;
       left: 0;
-      /*background: #888;*/
       -webkit-transform-style: preserve-3d;
       transform-style: preserve-3d;
     }
@@ -714,13 +686,9 @@ ul {
   height: 823px;
   max-width: 100%;
   iframe {
-    /*position: inherit;*/
     width: 100%;
-    /*height: 80%;*/
   }
 }
-
-/**Mobile view: default**/
 
 /**Desktop view**/
 @media (min-width: 45em) {
@@ -730,7 +698,6 @@ ul {
 }
 
 /**Mobile view: default**/
-
 .inset .mobile-prototype {
   height: 100%;
   font-size: 16px;
@@ -753,8 +720,7 @@ ul {
   transform-style: preserve-3d;
 }
 
-/**Mobile view: non-parallax: default**/
-
+/**Mobile view: default**/
 .proto-box-top-backdrop {
   width: 120%;
   height: 32px;
@@ -763,7 +729,7 @@ ul {
   position: absolute;
 }
 
-/**Desktop view: parallax**/
+/**Desktop view**/
 @media (min-width: 45em) {
   .proto-box-top-backdrop {
     transform-origin: 100% 100%;
@@ -773,7 +739,7 @@ ul {
   }
 }
 
-/**Desktop view: parallax**/
+/**Desktop view**/
 @media (min-width: 45em) {
   .proto-box-top-backdrop-2-wide {
     transform-origin: 100% 100%;
@@ -781,16 +747,13 @@ ul {
     transform: rotateX(-89deg) translateX(-10%);
     -webkit-transform: rotateX(-89deg) translateX(-10%);
     width: 120%;
-    /*width: 90%;*/
-    /*height: 32px;*/
     height: 4vh;
     background: #aaa;
     bottom: 0;
-    /*position: absolute;*/
   }
 }
 
-/**Desktop view: parallax**/
+/**Desktop view**/
 @media (min-width: 45em) {
   .proto-box-bottom-backdrop {
     transform-origin: 100% 100%;
@@ -799,14 +762,12 @@ ul {
     -webkit-transform: rotateX(-90deg) translateX(-10%);
     width: 120%;
     height: 32px;
-    /*background: #aaa;*/
-    /*z-index: -1;*/
     bottom: 0;
     position: absolute;
   }
 }
 
-/**Mobile view: non-parallax: default**/
+/**Mobile view: default**/
 
 #separate-1 {
   position: relative;
@@ -817,7 +778,7 @@ ul {
   z-index: 1;
 }
 
-/**Desktop view: parallax**/
+/**Desktop view**/
 @media (min-width: 45em) {
   #separate-1 {
     transform: translateZ(32px);
@@ -836,7 +797,7 @@ ul {
   z-index: 33;
 }
 
-/**Mobile view: non-parallax: default**/
+/**Mobile view: default**/
 
 #separate-2 {
   position: relative;
@@ -845,14 +806,6 @@ ul {
   height: 40px;
   background: #33495d;
   z-index: 1;
-}
-
-/**Desktop view: parallax**/
-@media (min-width: 45em) {
-  #separate-2 {
-    /*transform: translateZ(32px);
-    -webkit-transform: translateZ(32px);*/
-  }
 }
 
 /* hide pseudo elements in IE9 and IE10 (no 3D transforms) */
@@ -903,11 +856,9 @@ ul {
   }
 }
 
-/**Desktop view: parallax and height**/
+/**Desktop view: height**/
 @media (min-width: 45em) {
   .past-container .triangle-2 {
-    /*transform: translateZ(32px) translateY(-0.5px);
-    -webkit-transform: translateZ(32px) translateY(-0.5px);*/
     height: 7.4em;
   }
 }
@@ -951,7 +902,6 @@ ul {
   color: white;
   margin: 0;
   line-height: 1;
-  /*white-space: nowrap;*/
   transform: translateY(16%);
   -webkit-transform: translateY(16%);
 }
@@ -964,7 +914,6 @@ ul {
   color: white;
   margin: 0;
   line-height: 1;
-  /*white-space: nowrap;*/
   transform: translateY(16%);
   -webkit-transform: translateY(16%);
   position: absolute;
@@ -981,14 +930,6 @@ ul {
 @media (min-width: 45em) {
   #process-header, #past-header {
     font-size: 400%;
-  }
-}
-
-/**Desktop query**/
-@media (min-width: 45em) {
-  #past-header {
-    /*transform: translateZ(32.1px) translateY(-0.5px);
-    -webkit-transform: translateZ(32.1px) translateY(-0.5px);*/
   }
 }
 
@@ -1197,7 +1138,6 @@ input[id^="bio"]:checked + label + .bio-container {
     -webkit-box-ordinal-group: 100;
     -ms-flex-order: 99;
     height: 21.5em;
-    /*display: none;*/
   }
 }
 
