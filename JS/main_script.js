@@ -9,8 +9,74 @@
      $('.loader').fadeOut("fast");
 }); */
 /*! Vivus */
-var obt1=new Vivus("obturateur1",{type:"delayed",duration:150},function(){document.getElementById("container-icon1").className="filling2"}),obt2=new Vivus("obturateur2",{type:"delayed",duration:150},function(){document.getElementById("container-icon2").className="filling2"}),obt3=new Vivus("obturateur3",{type:"delayed",duration:150},function(){document.getElementById("container-icon3").className="filling2"}),obt4=new Vivus("obturateur4",{type:"delayed",duration:150},function(){document.getElementById("container-icon4").className="filling3"}),obt5=new Vivus("obturateur5",{type:"delayed",duration:150},function(){document.getElementById("container-icon5").className="filling3"}),obt6=new Vivus("obturateur6",{type:"delayed",duration:150},function(){document.getElementById("container-icon6").className="filling3"});
+var obt1 = new Vivus("obturateur1", {
+        type: "delayed",
+        duration: 150
+    }, function() {
+        document.getElementById("container-icon1").className = "filling2"
+    }),
+    obt2 = new Vivus("obturateur2", {
+        type: "delayed",
+        duration: 150
+    }, function() {
+        document.getElementById("container-icon2").className = "filling2"
+    }),
+    obt3 = new Vivus("obturateur3", {
+        type: "delayed",
+        duration: 150
+    }, function() {
+        document.getElementById("container-icon3").className = "filling2"
+    }),
+    obt4 = new Vivus("obturateur4", {
+        type: "delayed",
+        duration: 150
+    }, function() {
+        document.getElementById("container-icon4").className = "filling3"
+    }),
+    obt5 = new Vivus("obturateur5", {
+        type: "delayed",
+        duration: 150
+    }, function() {
+        document.getElementById("container-icon5").className = "filling3"
+    }),
+    obt6 = new Vivus("obturateur6", {
+        type: "delayed",
+        duration: 150
+    }, function() {
+        document.getElementById("container-icon6").className = "filling3"
+    });
 /*! PROFILE: overlay show/hide on click: jQuery */
-$(document).ready(function(){var a=$(".divs > div");a.first().show();$("input[type=radio]").on("change",function(){a.hide();a.eq($("input[type=radio]").index(this)).show()})});
+$(document).ready(function() {
+    var a = $(".divs > div");
+    a.first().show();
+    $("input[type=radio]").on("change", function() {
+        a.hide();
+        a.eq($("input[type=radio]").index(this)).show()
+    })
+});
 /*! NAVBAR */
-!(function(a){a(".page-scroll a").bind("click",function(c){var b=a(this);a("html, body").stop().animate({scrollTop:a(b.attr("href")).offset().top-50},1250,"easeInOutExpo"),c.preventDefault()}),a("body").scrollspy({target:".navbar-fixed-top",offset:51}),a(".navbar-collapse ul li a").click(function(){a(".navbar-toggle:visible").click()}),a("#mainNav").affix({offset:{top:100}}),a(function(){a("body").on("input propertychange",".floating-label-form-group",function(b){a(this).toggleClass("floating-label-form-group-with-value",!!a(b.target).val())}).on("focus",".floating-label-form-group",function(){a(this).addClass("floating-label-form-group-with-focus")}).on("blur",".floating-label-form-group",function(){a(this).removeClass("floating-label-form-group-with-focus")})})})(jQuery);
+!(function(a) {
+    a(".page-scroll a").bind("click", function(c) {
+        var b = a(this);
+        a("html, body").stop().animate({
+            scrollTop: a(b.attr("href")).offset().top - 50
+        }, 1250, "easeInOutExpo"), c.preventDefault()
+    }), a("body").scrollspy({
+        target: ".navbar-fixed-top",
+        offset: 51
+    }), a(".navbar-collapse ul li a").click(function() {
+        a(".navbar-toggle:visible").click()
+    }), a("#mainNav").affix({
+        offset: {
+            top: 100
+        }
+    }), a(function() {
+        a("body").on("input propertychange", ".floating-label-form-group", function(b) {
+            a(this).toggleClass("floating-label-form-group-with-value", !!a(b.target).val())
+        }).on("focus", ".floating-label-form-group", function() {
+            a(this).addClass("floating-label-form-group-with-focus")
+        }).on("blur", ".floating-label-form-group", function() {
+            a(this).removeClass("floating-label-form-group-with-focus")
+        })
+    })
+})(jQuery);
