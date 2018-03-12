@@ -2,11 +2,9 @@ var CACHE_NAME = 'my-site-cache-v1';
 var urlsToCache = [
   'https://mattbreithaupt.github.io/index.html',
   'https://mattbreithaupt.github.io/CSS/main-dist.min.css',
-  //'https://mattbreithaupt.github.io/CSS/main.css',
   'https://mattbreithaupt.github.io/CSS/dep/dependencies-dist.min.css',
   'https://mattbreithaupt.github.io/JS/concat_directions-dist.min.js',
   'https://res.cloudinary.com/dgoasjucg/image/upload/v1516203127/portfolio/favicon.ico'
-  //'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'
 ];
 
 self.addEventListener('install', function(event) {
