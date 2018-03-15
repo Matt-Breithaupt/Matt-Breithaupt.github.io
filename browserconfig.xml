@@ -4,7 +4,7 @@
         <tile>
             <square150x150logo src="https://res.cloudinary.com/dgoasjucg/image/upload/v1516210060/portfolio/mstile-150x150.png"/>
             <square310x310logo src="https://res.cloudinary.com/dgoasjucg/image/upload/v1516210474/portfolio/mstile-310x310.png"/>           
-            <tileColor>#33495d</tileColor>
+            <TileColor>#33495d</TileColor>
         </tile>
     </msapplication>
 </browserconfig>
