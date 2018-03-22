@@ -4,8 +4,7 @@ var urlsToCache = [
   'https://mattbreithaupt.com/CSS/main-dist.min.css',
   'https://mattbreithaupt.com/CSS/dep/dependencies-dist.min.css',
   'https://mattbreithaupt.com/JS/concat_directions-dist.min.js',
-  'https://mattbreithaupt.com/favicon.ico,'
-  'https://mattbreithaupt.com/manifest.json'
+  'https://mattbreithaupt.com/favicon.ico'
 ];
 
 self.addEventListener('install', function(event) {
