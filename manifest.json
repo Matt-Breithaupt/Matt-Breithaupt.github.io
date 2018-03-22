@@ -16,7 +16,7 @@
     "theme_color": "#33495d",
     "background_color": "#33495d",
     "display": "standalone",
-    "start_url": "https://mattbreithaupt.com/?launcher=true",
+    "start_url": "/",
     "orientation": "any",
     "lang": "en-US"
 }
