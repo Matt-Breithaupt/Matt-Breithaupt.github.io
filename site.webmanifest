@@ -3,7 +3,7 @@
   "lang": "en",
   "name": "Matt Breithaupt - UX/UI Design Portfolio",
   "scope": "/",
-  "display": true,
+  "display": "standalone",
   "start_url": "/",
   "short_name": "Matt Breithaupt",
   "theme_color": "#33495d",
