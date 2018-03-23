@@ -19,7 +19,7 @@ self.addEventListener('install', function(event) {
 });
 
  
-
+ 
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request)
@@ -42,7 +42,7 @@ self.addEventListener('fetch', function(event) {
 
             caches.open(CACHE_NAME)
               .then(function(cache) {
-                cache.put(event.request);
+                cache.put(event.request, responseToCache);
               });
 
             return response;
