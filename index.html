@@ -1,1680 +1,570 @@
 <!DOCTYPE html>
 <html lang="en" prefix="og: http://ogp.me/ns#">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- Google Tag Manager -->
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NQPLXZ6"></script>
-    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
-    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NQPLXZ6"></script>
-    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-NQPLXZ6"></script>
-    <script>
-        (function(b, m, h, a, g) {
-            b[a] = b[a] || [];
-            b[a].push({
-                "gtm.start": new Date().getTime(),
-                event: "gtm.js"
-            });
-            var k = m.getElementsByTagName(h)[0],
-                e = m.createElement(h),
-                c = a != "dataLayer" ? "&l=" + a : "";
-            e.async = true;
-            e.src = "https://www.googletagmanager.com/gtm.js?id=" + g + c;
-            k.parentNode.insertBefore(e, k)
-        })(window, document, "script", "dataLayer", "GTM-NQPLXZ6");
-
-    </script>
-    <!-- End Google Tag Manager -->
-    <!-- JSON-LD -->
-    <script type="application/ld+json">
-        {
-            "@context": "http://schema.org/",
-            "@type": "Person",
-            "name": "Matt Breithaupt",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Naperville / Chicago",
-                "addressRegion": "Illinois"
-            }
-        }
-
-    </script>
-
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="The portfolio of Matt Breithaupt, a User Experience/User Interface/Web/Digital Designer based in the Chicago Metro Area.">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta http-equiv="refresh"  content="0; url=https://mattbreithaupt.com">
-    <link rel="canonical" href="https://mattbreithaupt.com/">
-    <title>Matt Breithaupt - UX/UI Design Portfolio</title>
-
-    <meta property="og:type" content="profile">
-    <meta property="og:title" content="Matt Breithaupt - UX/UI Design Portfolio">
-    <meta property="og:image" content="https://res.cloudinary.com/dgoasjucg/image/upload/v1516237449/portfolio/splash screens/Default-Landscape_2x_ipad.png">
-    <meta property="og:description" content="The portfolio of Matt Breithaupt, a User Experience/User Interface/Web/Digital Designer based in the Chicago Metro Area.">
-    <meta property="og:url" content="https://mattbreithaupt.com">
-    <style>
-        .no-scroll {
-            overflow: hidden
-        }
-
-        svg:root {
-            overflow: visible !important
-        }
-
-        svg:not(:root) {
-            overflow: visible !important
-        }
-
-        .loader2-parent {
-            background: #33495d;
-            z-index: 8;
-            position: absolute;
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            top: 0
-        }
-
-        .loader2 {
-            z-index: 9;
-            left: 0;
-            top: 0;
-            width: 50% !important;
-            height: 100vh !important
-        }
-
-        * {
-            box-sizing: border-box
-        }
-
-        body {
-            overflow-y: scroll;
-            overflow-x: hidden;
-            height: 100%;
-            margin: 0;
-            perspective: 306px;
-            -webkit-perspective: 306px
-        }
-
-        .navbar-inverse {
-            background-color: #2c3e50 !important;
-            border: 0 !important;
-            border-top-left-radius: 0 !important;
-            border-top-right-radius: 0 !important
-        }
-
-        .navbar-brand {
-            color: #fff !important
-        }
-
-        .navbar-brand {
-            float: left;
-            height: 50px;
-            padding: 15px 15px;
-            font-size: 18px;
-            line-height: 20px
-        }
-
-        .navbar-toggle {
-            position: relative;
-            float: right;
-            padding: 9px 10px;
-            margin-top: 8px;
-            margin-right: 15px;
-            margin-bottom: 8px;
-            background-color: transparent;
-            background-image: none;
-            border: 1px solid transparent;
-            border-radius: 4px
-        }
-
-        .collapse {
-            display: none
-        }
-
-        .hero-image {
-            size: 100vw;
-            object-fit: cover;
-            -o-object-fit: cover;
-            -webkit-filter: brightness(85%);
-            filter: brightness(85%)
-        }
-
-        .responsive-container {
-            height: 100%;
-            width: 100%;
-            position: relative
-        }
-
-        .image-wrapper {
-            max-width: 2040px;
-            max-height: 1486px;
-            background-color: rgba(0, 0, 0, 0.05);
-            height: 100vh;
-            -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d
-        }
-
-        .image-wrapper .responsive-container {
-            width: 100%;
-            position: relative;
-            -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d
-        }
-
-        .image-wrapper .responsive-container img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%
-        }
-
-        .image-wrapper .responsive-container #triangle-hero {
-            content: "";
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 0;
-            border-bottom: 1200px solid green;
-            border-left: 600px solid transparent;
-            border-right: 600px solid transparent;
-            transform: translatex(-50%);
-            z-index: 1
-        }
-
-        .hero-text {
-            font-family: "Lucida Console", Monaco, monospace;
-            height: 100%;
-            width: 100%;
-            padding: 10%;
-            position: absolute;
-            z-index: 7;
-            display: flex;
-            justify-content: center;
-            -webkit-box-align: center;
-            -ms-flex-align: center;
-            align-items: center;
-            margin-top: 0
-        }
-
-        .hero-text-pt2 {
-            width: 100%;
-            line-height: 0
-        }
-
-        .triangle-1-container {
-            position: absolute;
-            bottom: 0;
-            height: 10vh;
-            width: 100%
-        }
-
-        @media (min-width: 45em) {
-            .triangle-1-container {
-                height: 30vh;
-                -webkit-transform-style: preserve-3d;
-                transform-style: preserve-3d;
-                width: 120%;
-                transform: translateX(-8%)
-            }
-        }
-
-        .triangle-1 {
-            position: absolute;
-            width: 100%;
-            z-index: 2;
-            left: 0;
-            bottom: 0
-        }
-
-        .hidden-heading-level {
-            display: none
-        }
-
-        .tag-manager {
-            display: none;
-            visibility: hidden
-        }
-
-    </style>
-    <script>
-        window.lazySizesConfig = window.lazySizesConfig || {}, lazySizesConfig.loadMode = 3, lazySizesConfig.expand = 900; /*lazySizesConfig.preloadAfterLoad = true;*/
-
-    </script>
-
-    <!--HOME SCREEN ICONS-->
-    <link rel="apple-touch-icon" sizes="180x180" href="https://mattbreithaupt.com/apple-touch-icon.png">
-    <link rel="mask-icon" href="https://res.cloudinary.com/dgoasjucg/image/upload/v1516163816/portfolio/safari-pinned-tab-v2.svg" color="#33495D">
-    <link rel="icon" type="image/png" sizes="192x192" href="https://res.cloudinary.com/dgoasjucg/image/upload/v1516203873/portfolio/android-chrome-192x192.png">
-    <!--home screen icon for Android Chrome (pt1)-->
-    <link rel="manifest" href="https://mattbreithaupt.com/manifest.json">
-    <!--home screen icon for Android Chrome (pt2)-->
-    <meta name="msapplication-TileColor" content="#33495d">
-    <!--For Edge-->
-    <meta name="msapplication-TileImage" content="https://res.cloudinary.com/dgoasjucg/image/upload/v1516210060/portfolio/mstile-150x150.png">
-    <!--For Edge-->
-    <meta name="msapplication-config" content="https://mattbreithaupt.com/browserconfig.xml">
-    <!--home screen icon/tile for Windows 8 and 10-->
-    <meta name="theme-color" content="#33495d">
-    <link href="/Users/mattbreithaupt/Desktop/Sushi site/GitHub/main scss sourcemap/main.scss" rel="stylesheet">
+<head>	
+<!-- Google Tag Manager --><script>(function(b,m,h,a,g){b[a]=b[a]||[];b[a].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var k=m.getElementsByTagName(h)[0],e=m.createElement(h),c=a!="dataLayer"?"&l="+a:"";e.async=true;e.src="https://www.googletagmanager.com/gtm.js?id="+g+c;k.parentNode.insertBefore(e,k)})(window,document,"script","dataLayer","GTM-NQPLXZ6");</script><!-- End Google Tag Manager -->
+<!-- JSON-LD --><script type="application/ld+json">{"@context":"http://schema.org/","@type":"Person","name":"Matt Breithaupt","address":{"@type":"PostalAddress","addressLocality":"Naperville / Chicago","addressRegion":"Illinois"}}</script>	
+	
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The portfolio of Matt Breithaupt, a User Experience/User Interface/Web/Digital Designer based in the Chicago Metro Area.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta http-equiv="refresh" content="0; url=https://mattbreithaupt.com">
+  <link rel="canonical" href="https://mattbreithaupt.com">
+  <title>Matt Breithaupt - UX/UI Design Portfolio</title>
+	
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Matt Breithaupt - UX/UI Design Portfolio"/>
+  <meta property="og:image" content="https://res.cloudinary.com/dgoasjucg/image/upload/v1516237449/portfolio/splash screens/Default-Landscape_2x_ipad.png"/>
+  <meta property="og:description" content="The portfolio of Matt Breithaupt, a User Experience/User Interface/Web/Digital Designer based in the Chicago Metro Area."/>
+  <meta property="og:url" content="https://mattbreithaupt.com"/>				
+<style>
+.no-scroll{overflow:hidden}
+svg:root{overflow:visible!important}
+svg:not(:root){overflow:visible!important}
+.loader2-parent{background:#33495d;z-index:8;position:absolute;width:100%;height:100vh;display:flex;justify-content:center;top:0}
+.loader2{z-index:9;left:0;top:0;width:50%!important;height:100vh!important}
+*{box-sizing:border-box}
+body{overflow-y:scroll;overflow-x:hidden;height:100%;margin:0;perspective:306px;-webkit-perspective:306px}
+.navbar-inverse{background-color:#2c3e50!important;border:0!important;border-top-left-radius:0!important;border-top-right-radius:0!important}
+.navbar-brand{color:#fff!important}
+.navbar-brand{float:left;height:50px;padding:15px 15px;font-size:18px;line-height:20px}
+.navbar-toggle{position:relative;float:right;padding:9px 10px;margin-top:8px;margin-right:15px;margin-bottom:8px;background-color:transparent;background-image:none;border:1px solid transparent;border-radius:4px}
+.collapse{display:none}
+.hero-image{size:100vw;object-fit:cover;-o-object-fit:cover;-webkit-filter:brightness(85%);filter:brightness(85%)}
+.responsive-container{height:100%;width:100%;position:relative}
+.image-wrapper{max-width:2040px;max-height:1486px;background-color:rgba(0,0,0,0.05);height:100vh;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
+.image-wrapper .responsive-container{width:100%;position:relative;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}
+.image-wrapper .responsive-container img{position:absolute;top:0;left:0;width:100%;height:100%}
+.image-wrapper .responsive-container #triangle-hero{content:"";position:absolute;bottom:0;left:0;width:0;height:0;border-bottom:1200px solid green;border-left:600px solid transparent;border-right:600px solid transparent;transform:translatex(-50%);z-index:1}
+ .hero-text{font-family:"Lucida Console",Monaco,monospace;height:100%;width:100%;padding:10%;position:absolute;z-index:7;display:flex;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:0}
+ .hero-text-pt2{width:100%;line-height:0}
+ .triangle-1-container{position:absolute;bottom:0;height:10vh;width:100%}
+ @media (min-width:45em){.triangle-1-container{height:30vh;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;width:120%;transform:translateX(-8%)}}
+ .triangle-1{position:absolute;width:100%;z-index:2;left:0;bottom:0}
+ .hidden-heading-level{display:none}
+ .tag-manager{display:none;visibility:hidden}  
+</style>
+<script>window.lazySizesConfig=window.lazySizesConfig||{},lazySizesConfig.loadMode=3,lazySizesConfig.expand=900;/*lazySizesConfig.preloadAfterLoad = true;*/</script>
+	
+<!--HOME SCREEN ICONS-->
+<link rel="apple-touch-icon" sizes="180x180" href="https://mattbreithaupt.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://res.cloudinary.com/dgoasjucg/image/upload/v1516163816/portfolio/safari-pinned-tab-v2.svg" color="#33495D">
+<link rel="icon" type="image/png" sizes="192x192" href="https://res.cloudinary.com/dgoasjucg/image/upload/v1516203873/portfolio/android-chrome-192x192.png"><!--home screen icon for Android Chrome (pt1)-->
+<link rel="manifest" href="https://mattbreithaupt.com/manifest.json"> <!--home screen icon for Android Chrome (pt2)-->
+<meta name="msapplication-TileColor" content="#33495d"><!--For Edge-->
+<meta name="msapplication-TileImage" content="https://res.cloudinary.com/dgoasjucg/image/upload/v1516210060/portfolio/mstile-150x150.png"><!--For Edge-->
+<meta name="msapplication-config" content="https://mattbreithaupt.com/browserconfig.xml"> <!--home screen icon/tile for Windows 8 and 10-->
+<meta name="theme-color" content="#33495d">
 </head>
-
-<body class="">
-    <h1 class="hidden-heading-level">Matt Breithaupt UX/UI Design Portfolio</h1>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>&amp;lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQPLXZ6" height="0" width="0" class="tag-manager"&amp;gt;&amp;lt;/iframe&amp;gt;</noscript>
-    <div class="loader2-parent" style="display: none;">
-        <img class="loader2" src="./Matt Breithaupt - UX_UI Design Portfolio_files/blob.svg" alt="loader icon" style="display: none;">
-    </div>
-
-    <header class="page-head" role="banner">
-        <div class="navbar navbar-inverse" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                    </button><a title="UX/UI Design Page" class="navbar-brand" href="https://mattbreithaupt.com/">MATT BREITHAUPT</a>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a title="Virb" href="http://mattbreithaupt.virb.com/">Additional Content</a> </li>
-                        <li><a title="LinkedIn" href="https://www.linkedin.com/in/mattbreithaupt">Learn More Or Get In Touch</a> </li>
-                    </ul>
-                </div>
-            </div>
+	
+<body class="no-scroll">	
+<h1 class="hidden-heading-level">Matt Breithaupt UX/UI Design Portfolio</h1>	
+<!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NQPLXZ6" height="0" width="0" class="tag-manager"></iframe></noscript>
+<div class="loader2-parent">
+   <img class="loader2" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1517420845/portfolio/loading_icon_v2.svg" alt="loader icon">
+</div>
+	
+   <header class="page-head" role="banner">
+    <div class="navbar navbar-inverse" role="navigation">
+      <div class="container">
+    	<div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a title="UX/UI Design Page" class="navbar-brand"
+        href="https://mattbreithaupt.com/">MATT BREITHAUPT</a></div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a title="Virb" href="http://mattbreithaupt.virb.com">Additional Content</a> </li>
+              <li><a title="LinkedIn" href="https://www.linkedin.com/in/mattbreithaupt">Learn More Or Get In Touch</a> </li>
+            </ul>
+          </div>
         </div>
-    </header>
-
-    <main class="wrapper">
-        <div class="overflow-wrapper">
-            <section class="image-wrapper">
-                <h2 class="hero-text">
-                    <span class="hidden-heading-level">Hero Text</span>
-                    <picture class="hero-text-pt2">
-                        &nbsp;
-                        <source srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1515975799/hero_text_white_mobile.svg" media="(max-width: 45em)"> &nbsp;
-                        <source srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1515975075/hero_text_white_desktop.svg" media="(min-width: 45em)"> &nbsp; <img src="./Matt Breithaupt - UX_UI Design Portfolio_files/lp9pwa2iwak9pn25xci1.svg" alt="UX/UI Design">
-                    </picture>
-                </h2>
-                <div class="responsive-container">
-                    <picture>
-                        <source class="hero-image" sizes="(max-width: 1995px) 100vw, 1995px" srcset="
+      </div>
+    </header>	
+	
+<main class="wrapper">		
+<div class="overflow-wrapper">
+    <section class="image-wrapper">
+      <h2 class="hero-text">
+	<span class="hidden-heading-level">Hero Text</span>
+	<picture class="hero-text-pt2">
+           <source srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1515975799/hero_text_white_mobile.svg" media="(max-width: 45em)">
+           <source srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1515975075/hero_text_white_desktop.svg" media="(min-width: 45em)">
+           <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1515975075/hero_text_white_desktop.svg" alt="UX/UI Design">
+        </picture>
+      </h2>
+      <div class="responsive-container">
+	<picture>
+    	   <source
+	        class="hero-image" 
+		sizes="(max-width: 1995px) 100vw, 1995px" 
+		srcset="
   			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129780/portfolio/hero-image_j4bgrz_c_scale_w_400.webp 400w,	
   			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129784/portfolio/hero-image_j4bgrz_c_scale_w_993.webp 993w,	
   			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129796/portfolio/hero-image_j4bgrz_c_scale_w_1378.webp 1378w,
   			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129800/portfolio/hero-image_j4bgrz_c_scale_w_1765.webp 1765w,
-  			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129804/portfolio/hero-image_j4bgrz_c_scale_w_1995.webp 1995w" type="image/webp">
-                        <img src="./Matt Breithaupt - UX_UI Design Portfolio_files/hero-image_j4bgrz_c_scale_w_1995.jpg”" alt="Main above fold image" class="hero-image" sizes="(max-width: 1995px) 100vw, 1995px" srcset="
+  			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129804/portfolio/hero-image_j4bgrz_c_scale_w_1995.webp 1995w" 
+         	type="image/webp">
+  	    <img 
+		src=“https://res.cloudinary.com/dgoasjucg/image/upload/v1516129804/portfolio/hero-image_j4bgrz_c_scale_w_1995.jpg” alt="Main above fold image" class="hero-image" 
+		sizes="(max-width: 1995px) 100vw, 1995px" 
+		srcset="
   			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129780/portfolio/hero-image_j4bgrz_c_scale_w_400.jpg 400w,	
   			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129784/portfolio/hero-image_j4bgrz_c_scale_w_993.jpg 993w,	
   			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129796/portfolio/hero-image_j4bgrz_c_scale_w_1378.jpg 1378w,
   			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129800/portfolio/hero-image_j4bgrz_c_scale_w_1765.jpg 1765w,
   			https://res.cloudinary.com/dgoasjucg/image/upload/v1516129804/portfolio/hero-image_j4bgrz_c_scale_w_1995.jpg 1995w">
-                    </picture>
+	</picture>
 
-                    <div class="triangle-1-container">
-                        <img src="./Matt Breithaupt - UX_UI Design Portfolio_files/triangle1.svg" class="img-responsive triangle-1" alt="triangle 1">
-                    </div>
-                </div>
-            </section>
-
-            <!-- BELOW THE FOLD -->
-
-            <div class="inset-side">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 36">
-                    <polygon fill="#929292" fill-rule="evenodd" points="0 0 1440 0 1250.197 36 176.803 36"></polygon>
-                </svg>
-            </div>
-
-            <section class="box-container">
-                <div class="box-backdrop"></div>
-                <div class="inset">
-                    <div class="mobile-prototype">
-                        <h2 class="process-prototype-header">Sushi Fuze: Concept Project</h2>
-                        <ul class="list2">
-                            <li class="list-item2">
-                                <p class="paragraph1">Sushi Fuze is a hypothetical family-run restaurant that’s undertaking an expansion to a chain of additional locations in the surrounding region. The following interactive prototype is the UX/UI design concept meant to serve as the restaurant chain’s new website.</p>
-                            </li>
-                            <li class="list-item2">
-                                <!--Marval App embeds. Iframes.-->
-                                <div class="mobile-prototype-container">
-                                    <div class="codegena_iframe" data-src="https://marvelapp.com/h242jh?emb=1" style="height:705px;width:100%;max-width:100%;" data-responsive="true" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1520970340/portfolio/mobile-prototype-v6-compressor.svg" data-css="border:0px;" data-alt="mobile prototype preload placeholder" role="presentation"><img src="./Matt Breithaupt - UX_UI Design Portfolio_files/mobile-prototype-v6-compressor.svg" class="thumb"><img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1520970340/portfolio/mobile-prototype-v6-compressor.svg" class="thumb">
-                                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1520970340/portfolio/mobile-prototype-v6-compressor.svg" class="thumb">
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                        <div class="proto-box-bottom-backdrop"></div>
-                    </div>
-                </div>
-            </section>
-
-            <hr id="separate-2">
-
-            <section class="past-container">
-                <div class="past-backdrop"></div>
-                <h2 id="past-header">PAST</h2>
-                <img src="./Matt Breithaupt - UX_UI Design Portfolio_files/triangle2.svg" class="img-responsive triangle-2" alt="triangle 2">
-
-                <div id="past-container2">
-                    <div id="floated" class="responsive-container2">
-                        <picture>
-                            <source data-sizes="auto" data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.webp" data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1519922477/portfolio/past_restaurant_edit_c_scale_w_844.webp 844w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.webp 1244w," class=" lazyloading" type="image/webp" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1519922477/portfolio/past_restaurant_edit_c_scale_w_844.webp 844w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.webp 1244w," sizes="538px">
-                            <img alt="past restaurant" data-sizes="auto" data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.jpg" data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1519922477/portfolio/past_restaurant_edit_c_scale_w_844.jpg 844w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.jpg 1244w," class="lazyautosizes lazyloaded" sizes="538px" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1519922477/portfolio/past_restaurant_edit_c_scale_w_844.jpg 844w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.jpg 1244w," src="./Matt Breithaupt - UX_UI Design Portfolio_files/past_restaurant_edit_c_scale_w_1244.jpg">
-                        </picture>
-                    </div>
-                    <p class="past-text">Founded in 1967 as ‘Sushi’ by an entrepreneurial couple, this Mom and Pop business flourished as a local staple for years, but had reached a plateau. They have since passed the mantle down to their three sons, who carry on this family-run business for a new generation. Their tenure had reinvigorated business at the original restaurant, to the point where expansion into new markets became a viable option.
-                        <br>
-                        <br>Eventually, they were left with one last issue to be addressed, their weak digital footprint. Any chain worth their salt requires a strong online presence to back it up, and the best method to tackle that was with a new website. This meant designing an online user experience centered on intuitive navigation, up-to-date web standards and best practices, user interface visual hierarchy &amp; grouping, minimizing the burden of working memory (saved user info/favorite dishes), managing and directing user attention, outlining and prototyping targeted user flows based on the needs of varied personas and scenarios, and more. This would also be in sync with their new brand identity, target market and business strategy.</p>
-                </div>
-                <img src="./Matt Breithaupt - UX_UI Design Portfolio_files/triangle3.svg" class="img-responsive triangle-3" alt="triangle 3">
-            </section>
+	<div class="triangle-1-container">
+          <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1508539969/portfolio/triangle1.svg" class="img-responsive triangle-1" alt="triangle 1">
         </div>
-
-        <section id="process2">
-            <h2 id="process-header">PROJECT PROCESS</h2>
-        </section>
-
-        <h2 class="title2">1. PROBLEMS</h2>
-        <ul class="list">
-            <li class="list-item">
-
-                <div id="container-icon1" class="filling2">
-                    <svg id="obturateur1" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 252 107">
-                        <g class="filled-transit fade-in">
-                            <g stroke-width="2">
-                                <path d="M0 56.971h3.06v2.125h40.392v39.535H37.74v6.376h26.52v-6.376h-5.712V59.096H98.94v-2.125H102V.007H0v56.964zm88.536-6.938v-1.487a4.368 4.368 0 0 0 2.72-4.049c0-2.416-1.948-4.374-4.352-4.374-2.403 0-4.352 1.958-4.352 4.374 0 1.836 1.127 3.4 2.72 4.05v1.486h-32.64v-1.487a4.368 4.368 0 0 0 2.72-4.049c0-.023-.006-.044-.006-.069-.036-2.383-1.966-4.305-4.346-4.305s-4.308 1.922-4.344 4.305c0 .024-.007.044-.007.07 0 1.835 1.126 3.4 2.72 4.048v1.487H15.505v-1.555a4.367 4.367 0 0 0 2.72-4.05c0-2.416-1.948-4.374-4.352-4.374-2.404 0-4.353 1.958-4.353 4.374 0 1.836 1.126 3.401 2.721 4.05v1.555H3.264V3.288h95.472v46.745h-10.2z" transform="translate(149.321 1)" style="stroke-dasharray: 793, 795; stroke-dashoffset: 0;"></path>
-                                <path d="M36.67 7.656l-2.246 22.701h-4.148l-1.95-22.7h8.345zm-.987 26.258v7.46h-6.642v-7.46h6.642zM74.936 7.656L72.69 30.357h-4.148l-1.95-22.7h8.345zm-.987 26.258v7.46h-6.642v-7.46h6.642z" transform="translate(149.321 1)" style="stroke-dasharray: 173, 175; stroke-dashoffset: 0;"></path>
-                            </g>
-                            <path class="zhtnUQBl_2" d="M10.096 19.3a3.911 3.901 0 1 1 7.822 0 3.911 3.901 0 1 1-7.822 0" stroke-dasharray="25px,27px" transform="translate(113 53)" style="stroke-dasharray: 25, 27; stroke-dashoffset: 0;"></path>
-                            <path stroke-width="2" d="M27.042 0H.733a.615.615 0 0 0-.616.615v13.733c0 .34.276.615.616.615h2.37a1.512 1.512 0 0 0-.004 1.658l6.6 10.1c.086.131.19.242.305.337v8.369c0 .407.08.787.218 1.137-.01.08-.018.16-.018.242l.015 14.077c0 .988.804 1.788 1.795 1.788h.002a1.792 1.792 0 0 0 1.792-1.791l-.011-12.02c.07.003.14.008.211.008h.042v11.939c0 .988.804 1.79 1.795 1.79.991 0 1.794-.802 1.794-1.79V36.893c.236-.435.372-.926.372-1.465v-8.61-.01c.022-.029.044-.056.064-.087l6.6-10.099a1.51 1.51 0 0 0-.004-1.658h2.37c.34 0 .617-.275.617-.615V.615A.615.615 0 0 0 27.042 0zM14.016 31.222H14l-.797-1.087.617-4.117c.062-.165.088-.34.078-.518l.102-.68h.016l.796 5.315-.796 1.087zm8.115-16.255l-5.875 8.99a4.573 4.573 0 0 0-1.274-.531l-.974.979-.944-.99-.01.002a4.507 4.507 0 0 0-1.466.646l-5.944-9.096-.003-.004h16.493l-.003.004zm4.294-1.234H1.35V1.23h25.075v12.503z" transform="translate(113 53)" style="stroke-dasharray: 307, 309; stroke-dashoffset: 0;"></path>
-                            <path stroke-width="2" d="M15.345 3l-.631 6.38h-1.166L13 3h2.345zm-.277 7.38v2.096H13.2V10.38h1.867z" transform="translate(113 53)" style="stroke-dasharray: 25, 27; stroke-dashoffset: 0;"></path>
-                            <path stroke-width="2" d="M0 56.971h3.076v2.125h40.6v39.535h-5.741v6.376h26.657v-6.376H58.85V59.096h40.6v-2.125h3.076V.007H0v56.964zm88.993-6.938v-1.487a4.368 4.368 0 0 0 2.735-4.049 4.375 4.375 0 0 0-8.75 0c0 1.836 1.133 3.4 2.735 4.05v1.486H52.904v-1.487a4.368 4.368 0 0 0 2.734-4.049c0-.023-.006-.044-.006-.069a4.37 4.37 0 0 0-8.736 0c0 .024-.006.044-.006.07 0 1.835 1.132 3.4 2.734 4.048v1.487h-34.04v-1.555a4.367 4.367 0 0 0 2.735-4.05 4.374 4.374 0 1 0-8.75 0c0 1.836 1.131 3.401 2.734 4.05v1.555H3.281V3.288h95.965v46.745H88.993z" transform="translate(1 1)" style="stroke-dasharray: 795, 797; stroke-dashoffset: 0;"></path>
-                            <path stroke-width="2" d="M36.407 7.656L34.16 30.357h-4.148l-1.95-22.7h8.345zm-.988 26.258v7.46h-6.642v-7.46h6.642zM74.672 7.656l-2.247 22.701h-4.148l-1.95-22.7h8.345zm-.988 26.258v7.46h-6.641v-7.46h6.641z" transform="translate(1 1)" style="stroke-dasharray: 173, 175; stroke-dashoffset: 0;"></path>
-                        </g>
-                    </svg>
-                </div>
-                <div class="list-content problems">
-                    <h3 class="title">Small Brand Reach</h3>
-                    <p class="description">Recognition for the restaurant ‘Sushi’ was limited to a base of locally driven traffic, built up over the years through community word-of-mouth. This support was not a guarantee following the expansion to a multi-location chain, so a broader appeal became necessary for those unfamiliar with them.</p>
-                </div>
-            </li>
-
-            <li class="list-item">
-                <div id="container-icon2" class="filling2">
-                    <svg id="obturateur2" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 105 105">
-                        <g fill="none" fill-rule="evenodd" stroke="#D7796C" stroke-width="2">
-                            <path d="M61.844 82.531H43.156v9.344a7.065 7.065 0 0 1-7.062 7.063H29.53a2.78 2.78 0 0 0-2.781 2.78 2.778 2.778 0 0 0 2.781 2.782H75.47a2.778 2.778 0 0 0 2.781-2.781 2.78 2.78 0 0 0-2.781-2.781h-6.563a7.065 7.065 0 0 1-7.062-7.063v-9.344zM99.258.5H5.742C2.857.5.5 3.025.5 6.152v63.164c0 3.128 2.357 5.653 5.242 5.653h93.516c2.885 0 5.242-2.525 5.242-5.653V6.152C104.5 3.025 102.143.5 99.258.5zm-.32 68.906H6.061V6.062h92.876v63.344z" style="stroke-dasharray: 797, 799; stroke-dashoffset: 0;"></path>
-                            <path d="M50.186 48.9a1.524 1.524 0 0 0 1.55-.407l5.27-5.557a1.498 1.498 0 0 0-.064-2.128 1.52 1.52 0 0 0-2.142.064l-4.626 4.875-1.517-.462c-.003-.94-.142-1.833-.337-2.696h1.436c.422 0 .825-.175 1.113-.484l6.148-6.612a1.5 1.5 0 0 0-.085-2.128 1.529 1.529 0 0 0-2.145.085l-5.697 6.128h-1.878c-1.234-2.218-3.17-3.795-5.415-4.298V6.8c.889-.213 1.562-.97 1.562-1.916a2.016 2.016 0 0 0-2.022-2.007H4.204a2.032 2.032 0 0 0-1.866 1.24 1.984 1.984 0 0 0-.156.767v36.86c0 1.109.905 2.007 2.022 2.007a2.014 2.014 0 0 0 2.023-2.007v-5.919c6.141-4.245 10.918-7.435 16.813-9.401l.27.27c.395.391.913.588 1.43.588.518 0 1.035-.196 1.43-.588.79-.784.79-2.055 0-2.84l-.128-.126c1.868-5.905 4.944-10.691 9.072-16.836h3.65V35.28c-2.283.51-4.242 2.138-5.474 4.415h-1.82l-5.696-6.129a1.529 1.529 0 0 0-2.146-.085 1.5 1.5 0 0 0-.084 2.128l6.148 6.614c.288.308.69.484 1.113.484h1.406c-.182.838-.31 1.701-.31 2.609 0 .03.006.056.006.084l-1.52.465-4.626-4.875a1.521 1.521 0 0 0-2.142-.063 1.498 1.498 0 0 0-.066 2.128l5.271 5.556a1.521 1.521 0 0 0 1.55.407l1.964-.599c.11.425.23.843.385 1.242l-1.385-.399a1.518 1.518 0 0 0-1.509.396l-5.09 5.19a1.499 1.499 0 0 0 .031 2.129c.292.284.676.426 1.057.426.394 0 .79-.151 1.088-.455l4.453-4.542 2.929.843-1.655.735c-.26.114-.48.298-.64.53l-2.745 4.028a1.499 1.499 0 0 0 .404 2.091 1.521 1.521 0 0 0 2.107-.403l2.505-3.671 1.631-.724a2.997 2.997 0 0 0-.166.927c0 .806.332 1.545.876 2.15l-.185.223a1.157 1.157 0 0 0 .158 1.637c.218.18.482.267.745.267.337 0 .673-.145.902-.422l.375-.45a5.47 5.47 0 0 0 1.67.264c.594 0 1.154-.098 1.671-.264l.376.45c.229.277.564.422.902.422.263 0 .528-.087.745-.267.5-.408.569-1.142.158-1.637l-.186-.223c.545-.605.877-1.344.877-2.15 0-.374-.09-.73-.22-1.07l1.685.748 2.504 3.673a1.522 1.522 0 0 0 2.108.402 1.499 1.499 0 0 0 .404-2.09l-2.744-4.029a1.52 1.52 0 0 0-.64-.531l-1.654-.733 2.928-.844 4.452 4.543a1.52 1.52 0 0 0 1.088.456c.381 0 .765-.142 1.057-.427a1.5 1.5 0 0 0 .032-2.129l-5.092-5.19a1.518 1.518 0 0 0-1.51-.397l-1.322.382c.145-.39.25-.802.352-1.216l1.936.59zM9.086 6.893h10.585c-1.51 2.306-2.765 4.476-3.706 6.83l-6.879-6.83zm3.96 9.61c-2.352.98-4.518 2.28-6.82 3.835V9.731l6.82 6.77zm-6.82 6.272c2.998-2.063 5.525-3.653 8.386-4.717l2.918 2.898c-3.94 1.494-7.308 3.635-11.303 6.374v-4.555zm11.317-7.487c1.012-2.867 2.547-5.396 4.552-8.395h4.555c-2.587 3.893-4.72 7.351-6.165 11.317l-2.942-2.922zM6.227 33.38v-3.607c4.685-3.236 8.399-5.698 12.883-7.25l2.33 2.315c-5.335 1.926-9.79 4.81-15.213 8.542zm18.21-11.247l-2.355-2.336c1.48-4.495 3.85-8.216 6.994-12.905h3.61c-3.524 5.275-6.387 9.872-8.25 15.241z" style="stroke-dasharray: 628, 630; stroke-dashoffset: 0;"></path>
-                        </g>
-                    </svg>
-                </div>
-                <div class="list-content problems">
-                    <h3 class="title">Outdated Website/Poor UX</h3>
-                    <p class="description">The old website was a relic, last updated in 1998, and did not meet modern web standards. Lacking responsive design, riddled with broken links, dated UI, and usability issues abound, this website needed to be redesigned from the ground up.</p>
-                </div>
-            </li>
-
-            <li class="list-item">
-                <div id="container-icon3" class="filling2">
-                    <svg id="obturateur3" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 110 105">
-                        <g fill="none" fill-rule="evenodd" stroke="#D7796C" stroke-width="2">
-                            <path d="M60.29 60.545c-.325.42-.76.821-1.173 1.156-.542.44-1.04.783-1.559 1.255-.024.02-.017.767-.052.983-.015.093-.13.454-.133.469-.011.005-1.427-.27-1.958-.573-2.154-1.227-4.115-3.7-3.972-6.246.138-2.44 3.06-3.945 4.844-2.491 2.918 2.38-.571 3.764-3.082 5.502.22.883 2.612 2.712 2.612 2.712.603-.264.773-.383 1.328-.73.016-.022 2.066-1.483 2.6-2.456.263-.477.42-.696.577-1.087.806-2.019.214-4.082-1.085-5.726-3.02-3.824-8.755-2.16-10.559 1.912-1.842 4.158.885 8.425 4.151 10.915 1.273.97 3.068 1.844 4.715 1.632 2.08-.268 3.09-1.8 3.31-3.779.104-.917-.085-1.888-.266-2.782a1.588 1.588 0 0 0-.297-.666zm-4.626-10.74V38.96h-2.358v10.994c.747-.133 1.467-.18 2.282-.153l.076.003zm-2.358 34.297h2.357V68.755a9.248 9.248 0 0 1-.657-.264 14.868 14.868 0 0 1-.892-.435 20.895 20.895 0 0 1-.808-.45v16.496z" style="stroke-dasharray: 149, 151; stroke-dashoffset: 0;"></path>
-                            <path d="M69.708 21.234c-4.244-4.123-10.08-6.521-16.153-6.521-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861V17.69l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.006 2.006 0 0 0-.003-.003l.006.006-.003-.003zM65.814 6.116l-1.256-1.263-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zM54.466.532h-1.822v6.09h1.822V.532zM45.66 10.38l1.27-1.277-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zM33.08 56.03c-4.244-4.122-10.08-6.52-16.153-6.52-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861v-4.748l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.006 2.006 0 0 0-.003-.002l.006.006-.003-.003zm-3.894-15.117L27.93 39.65l-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zM17.838 35.33h-1.822v6.09h1.822v-6.09zm-8.806 9.848l1.27-1.277-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zm-5.264-3.784a.778.778 0 0 0 .006.004zm105.01 14.638c-4.244-4.123-10.08-6.521-16.153-6.521-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861v-4.748l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.115 2.115 0 0 0-.003-.003l.006.006-.003-.003zm-3.894-15.118l-1.256-1.263-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zM93.536 35.33h-1.822v6.09h1.822v-6.09zm-8.806 9.848L86 43.9l-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zm14.89 54.197c-4.244-4.123-10.08-6.521-16.153-6.521-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861V95.83l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.006 2.006 0 0 0-.003-.003l.006.006-.003-.003zm-3.894-15.118l-1.256-1.263-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zm-11.348-5.584h-1.822v6.09h1.822v-6.09zm-8.806 9.848l1.27-1.277-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zm-5.264-3.784a.778.778 0 0 0 .006.004zM42.237 99.374c-4.244-4.123-10.08-6.521-16.153-6.521-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861V95.83l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.006 2.006 0 0 0-.003-.003l.006.006-.003-.003zm-3.894-15.118l-1.256-1.263-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zm-11.348-5.584h-1.822v6.09h1.822v-6.09zm-8.806 9.848l1.27-1.277-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zm-5.264-3.784a.778.778 0 0 0 .006.004z" style="stroke-dasharray: 675, 677; stroke-dashoffset: 0;"></path>
-                        </g>
-                    </svg>
-                </div>
-                <div class="list-content problems">
-                    <h3 class="title">Encumbured Ordering System</h3>
-                    <p class="description">A backed up phone line during peak business hours was a frequent issue. This deterred possible customers attempting order placement and increased the potential of human error for swamped employees. An additional method of placing orders, with POS (Point of Sale) software integration, needed to be provided.</p>
-                </div>
-            </li>
-        </ul>
-
-        <h2 class="title2">2. GOALS</h2>
-        <ul class="list">
-            <li class="list-item">
-                <div id="container-icon4" class="filling3">
-                    <svg id="obturateur4" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 113 105">
-                        <g fill="none" fill-rule="evenodd" stroke="#1EA65E" stroke-width="2">
-                            <path d="M89.775 42.313c5.221 3.198 8.126 6.933 8.126 10.634 0 4.655-4.59 9.345-12.52 12.946-2.544 1.156-5.369 2.17-8.43 3.033l-.745.21.114-.766a98.96 98.96 0 0 0 .553-4.384 7.006 7.006 0 0 1-.742.005l-5.24-.225a90.191 90.191 0 0 1-.923 6.443l-.062.341-.342.061c-5.491.985-11.364 1.492-17.374 1.492-6.01 0-11.882-.507-17.375-1.492l-.341-.06-.062-.342c-.992-5.457-1.502-11.292-1.502-17.263 0-5.969.51-11.804 1.502-17.262l.062-.342.341-.061a95.67 95.67 0 0 1 11.567-1.327 8.165 8.165 0 0 1 .147-3.364 8.214 8.214 0 0 1 1.196-2.637 104.85 104.85 0 0 0-11.062 1.024l-.767.113.213-.745c.869-3.043 1.89-5.85 3.053-8.378C42.788 12.089 47.508 7.53 52.19 7.53c3.836 0 7.713 3.064 10.995 8.557 2.841-2.768 6.532-7.262 8.918-10.52A51.682 51.682 0 0 0 52.19 1.598C23.688 1.6.5 24.635.5 52.947c0 28.312 23.188 51.348 51.69 51.348 28.5 0 51.687-23.036 51.687-51.348 0-4.042-.475-8.03-1.406-11.908a8.13 8.13 0 0 1-1.563.116H100.76c-.956 0-2.3.057-3.993.208-2.127.19-4.465.5-6.992.95zM37.438 10.916c-1.343 1.936-2.586 4.138-3.712 6.588-1.708 3.709-3.128 7.93-4.226 12.534l-.072.3-.3.07c-4.636 1.093-8.885 2.504-12.62 4.2-2.468 1.121-4.684 2.355-6.63 3.689L8.6 39.17l.523-1.456c4.604-12.81 14.842-22.982 27.736-27.555l1.463-.519-.885 1.275zM18.996 40.001c2.544-1.156 5.37-2.17 8.433-3.033l.744-.21-.114.765a104.636 104.636 0 0 0-1.125 15.424c0 5.26.38 10.449 1.125 15.424l.114.765-.744-.21c-3.06-.862-5.887-1.876-8.433-3.032-7.93-3.602-12.52-8.292-12.52-12.947 0-4.655 4.59-9.345 12.52-12.946zM9.877 67.597c1.947 1.334 4.164 2.568 6.632 3.69 3.735 1.696 7.983 3.107 12.619 4.198l.3.07.072.3c1.097 4.604 2.518 8.825 4.225 12.536 1.128 2.45 2.37 4.652 3.713 6.587l.884 1.275-1.462-.519C23.966 91.161 13.728 80.99 9.124 68.18L8.6 66.723l1.276.874zM52.19 98.365c-4.683 0-9.402-4.56-13.028-12.438-1.163-2.526-2.184-5.333-3.054-8.378l-.213-.745.767.113c5.01.74 10.233 1.118 15.528 1.118 5.294 0 10.518-.379 15.526-1.118l.767-.113-.213.745c-.868 3.043-1.889 5.85-3.053 8.378-3.626 7.878-8.346 12.438-13.027 12.438zm14.75-3.387c1.343-1.934 2.585-4.136 3.713-6.587 1.708-3.71 3.128-7.93 4.226-12.535l.072-.3.3-.07c4.636-1.092 8.884-2.503 12.618-4.2 2.469-1.121 4.685-2.355 6.632-3.689l1.276-.874-.523 1.456C90.65 80.99 80.413 91.16 67.518 95.735l-1.463.519.885-1.276z" style="stroke-dasharray: 954, 956; stroke-dashoffset: 0;"></path>
-                            <path d="M102.347 32.472L84.624 2.912a1.241 1.241 0 0 0-1.111-.602 1.245 1.245 0 0 0-1.068.675c-.171.334-.593 1.08-1.189 2.047a76.174 76.174 0 0 1-3.615 5.305c-4.084 5.516-9.238 11.217-15.546 16.806l-.109.096-.143.023c-.16.026-.308.078-.44.156L54.1 31.74a1.227 1.227 0 0 0-.432 1.687l6.919 11.54a1.246 1.246 0 0 0 1.708.43l2.857-1.69.18.617c1.307 4.473 2.043 7.898 2.308 11.38a1.239 1.239 0 0 0 1.186 1.138l7.763.333h.056a1.24 1.24 0 0 0 1.236-1.095c.593-5.248-.121-11.36-1.431-17.055l-.106-.458.451-.133c5.827-1.722 11.275-2.855 16.246-3.503 3.335-.435 6.003-.6 7.895-.6l.217.001.097.002c.446.018.87-.218 1.101-.61a1.224 1.224 0 0 0-.004-1.252zM71.21 35.227l-3.04-5.07-1.424-2.377.309-.275c7.16-6.386 12.311-12.656 15.706-18.11l.433-.695 12.952 21.603-.824.048c-6.48.378-14.496 1.892-23.516 5.09l-.386.136-.21-.35zm36.876-10.594c.377 0 .733-.166.973-.463 3.762-4.66 4.223-11.24 1.146-16.372S101.083-.067 95.164 1a1.234 1.234 0 0 0-1.001 1.433c.123.67.769 1.115 1.447.993 4.9-.886 9.907 1.377 12.457 5.632 2.552 4.255 2.17 9.708-.95 13.572a1.225 1.225 0 0 0 .192 1.73c.224.18.496.273.778.273z" style="stroke-dasharray: 325, 327; stroke-dashoffset: 0;"></path>
-                            <path d="M101.067 21.923c.376 0 .733-.166.972-.462a8.092 8.092 0 0 0 .646-9.212c-1.732-2.89-5.134-4.428-8.466-3.828a1.234 1.234 0 0 0-1.002 1.432c.123.67.77 1.116 1.447.994a5.707 5.707 0 0 1 5.882 2.66 5.629 5.629 0 0 1-.449 6.413 1.225 1.225 0 0 0 .191 1.73c.225.18.497.273.779.273z" style="stroke-dasharray: 42, 44; stroke-dashoffset: 0;"></path>
-                        </g>
-                    </svg>
-                </div>
-                <div class="list-content goals">
-                    <h3 class="title">New Online Brand Identity</h3>
-                    <p class="description">To update the restaurant’s appeal with a modern cosmopolitan identity, tapping into a larger customer base, while increasing the digital footprint. The old generic name ‘Sushi’ was swapped out for ‘Sushi Fuze’, to better reflect a contemporary restaurant chain that is host to a fusion of dish types.</p>
-                </div>
-            </li>
-
-            <li class="list-item">
-                <div id="container-icon5" class="filling3">
-                    <svg id="obturateur5" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 124 105">
-                        <g fill="none" fill-rule="evenodd" stroke="#1EA65E" stroke-width="2">
-                            <path d="M25.584 23.43h9.631v-8.8a5.153 5.153 0 0 1 5.16-5.154h68.132a5.154 5.154 0 0 1 5.16 5.154v43.758a5.154 5.154 0 0 1-5.16 5.154H77.26V78.31l-.002.88-.005 2.317-.017 7.034-.003 1.355c-.014 5.714-.023 8.813-.026 8.893a13.189 13.189 0 0 1-1.386 5.374h21.225c2.3 0 4.16-1.857 4.16-4.154v-5.95a4.153 4.153 0 0 0-4.16-4.155H85.175V80.65h26.372c6.489 0 11.751-5.255 11.751-11.734v-56.5c0-6.48-5.262-11.734-11.75-11.734H37.333c-6.488 0-11.75 5.255-11.75 11.734V23.43zm79.945 52.257a4.316 4.316 0 1 1 0-8.633 4.318 4.318 0 0 1 4.32 4.312 4.323 4.323 0 0 1-4.32 4.32z" style="stroke-dasharray: 539, 541; stroke-dashoffset: 0;"></path>
-                            <path d="M65.264 49.399l-.24-.434-3.205 3.204v34.938H40.203v6.066a3.856 3.856 0 0 1 1.653-.38 4.319 4.319 0 0 1 4.323 4.313 4.323 4.323 0 0 1-4.323 4.32 3.858 3.858 0 0 1-1.653-.379v.221c0 1.064-.171 2.117-.5 3.166h24.111c3.42 0 6.196-2.772 6.196-6.186V52.41a5.84 5.84 0 0 1-4.746-3.011zm-16.41-9.237l3.677-3.675-.467-.257c-2.009-1.123-3.172-3.3-2.982-5.558H19.899c-3.42 0-6.196 2.772-6.196 6.187v8.86h8.191v-5.557h26.96zM29.275 52.32h-25.1A3.671 3.671 0 0 0 .5 55.99v44.636a3.67 3.67 0 0 0 3.676 3.67h25.1a3.672 3.672 0 0 0 3.676-3.67V55.99a3.672 3.672 0 0 0-3.677-3.67zm-12.547 50.598a3.715 3.715 0 0 1-3.715-3.714 3.71 3.71 0 0 1 3.715-3.703 3.71 3.71 0 0 1 3.712 3.703 3.714 3.714 0 0 1-3.712 3.714zM27.168 89.9H6.287V59.615h20.88V89.9z" style="stroke-dasharray: 563, 565; stroke-dashoffset: 0;"></path>
-                            <path d="M77.306 24.225l-.008-.008a.651.651 0 0 0-.472-.194.662.662 0 0 0-.193.024l-21.914 6.44a.664.664 0 0 0-.481.574c-.03.266.108.53.347.661l6.46 3.56-.471.471-15.588 15.575a3.658 3.658 0 0 0 2.593 6.251c.967 0 1.895-.376 2.593-1.073L66.23 40.46l.321.582 3.239 5.864a.68.68 0 0 0 .671.348.67.67 0 0 0 .573-.478l6.44-21.89a.664.664 0 0 0-.168-.662z" style="stroke-dasharray: 122, 124; stroke-dashoffset: 0;"></path>
-                        </g>
-                    </svg>
-                </div>
-                <div class="list-content goals">
-                    <h3 class="title">Responsive Design/User Flow</h3>
-                    <p class="description">To design a site and app that smoothly scaled across a myriad of devices and screen dimensions. Also, developed a streamlined sitemap that minimizes the number of steps required to accomplish a goal.</p>
-                </div>
-            </li>
-
-            <li class="list-item">
-                <div id="container-icon6" class="filling3">
-                    <svg id="obturateur6" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 113 105">
-                        <g fill="none" fill-rule="evenodd" stroke="#1EA65E" stroke-width="2">
-                            <path d="M107.256.627H5.267C2.695.627.602 2.711.602 5.27v94.546c0 2.56 2.093 4.643 4.665 4.643h101.99c2.572 0 4.665-2.084 4.665-4.643V5.27c0-2.559-2.093-4.643-4.666-4.643zM5.267 2.91h101.99a2.366 2.366 0 0 1 2.368 2.36v9.364H2.899V5.27a2.366 2.366 0 0 1 2.368-2.36zm101.99 99.266H5.266a2.366 2.366 0 0 1-2.368-2.36v-82.9h106.726v82.9a2.366 2.366 0 0 1-2.369 2.36z" style="stroke-dasharray: 1040, 1042; stroke-dashoffset: 0;"></path>
-                            <path d="M8.784 9.913a1.144 1.144 0 0 0 1.149-1.141 1.146 1.146 0 0 0-1.149-1.141 1.144 1.144 0 0 0-1.149 1.141 1.146 1.146 0 0 0 1.149 1.141zm5.275 0a1.144 1.144 0 0 0 1.149-1.141 1.146 1.146 0 0 0-1.149-1.141 1.144 1.144 0 0 0-1.149 1.141 1.146 1.146 0 0 0 1.15 1.141zm5.276 0a1.144 1.144 0 0 0 1.149-1.141 1.146 1.146 0 0 0-1.15-1.141 1.144 1.144 0 0 0-1.149 1.141 1.146 1.146 0 0 0 1.15 1.141zM46.86 56.045c0-2.56-2.093-4.643-4.666-4.643a4.671 4.671 0 0 0-4.42 3.162l-.115.34H27.387l-.115-.34a4.643 4.643 0 0 0-1.028-1.7l-.275-.29 2.82-4.21.298.03c.246.025.456.038.656.038h10.693c3.542 0 6.424-2.87 6.424-6.394V29.782c0-.63-.514-1.141-1.149-1.141H18.265l-.14-.273-.806-1.576a2.918 2.918 0 0 0-2.626-1.653H12.3c-.635 0-1.149.512-1.149 1.141 0 .63.514 1.142 1.149 1.142h2.392a.61.61 0 0 1 .552.351l.02.042 8.659 16.93a6.391 6.391 0 0 0 2.208 2.571l.412.28-2.624 3.918-.317-.051c-.25-.04-.5-.061-.751-.061-2.573 0-4.666 2.084-4.666 4.643 0 2.56 2.093 4.643 4.666 4.643a4.671 4.671 0 0 0 4.42-3.162l.115-.34H37.66l.115.34a4.671 4.671 0 0 0 4.42 3.162c2.573 0 4.666-2.084 4.666-4.643zM19.432 30.924h25.13v11.114c0 2.268-1.85 4.111-4.126 4.111H29.744a4.137 4.137 0 0 1-3.745-2.384l-.021-.043-6.546-12.798zm3.42 27.481a2.366 2.366 0 0 1-2.369-2.36 2.366 2.366 0 0 1 2.369-2.36 2.366 2.366 0 0 1 2.368 2.36 2.366 2.366 0 0 1-2.368 2.36zm19.342 0a2.366 2.366 0 0 1-2.368-2.36 2.366 2.366 0 0 1 2.368-2.36 2.366 2.366 0 0 1 2.369 2.36 2.366 2.366 0 0 1-2.369 2.36zm24.618 8.754h-21.1a2.903 2.903 0 0 0-2.908 2.893v10.505a2.903 2.903 0 0 0 2.907 2.892h21.101a2.903 2.903 0 0 0 2.907-2.892V70.052a2.903 2.903 0 0 0-2.907-2.893zm.61 13.398a.61.61 0 0 1-.61.61h-21.1a.61.61 0 0 1-.61-.61V70.052a.61.61 0 0 1 .61-.61h21.1a.61.61 0 0 1 .61.61v10.505zM35.161 67.159H14.059a2.903 2.903 0 0 0-2.907 2.893v10.505a2.903 2.903 0 0 0 2.907 2.892h21.102a2.903 2.903 0 0 0 2.907-2.892V70.052a2.903 2.903 0 0 0-2.907-2.893zm.61 13.398a.61.61 0 0 1-.61.61H14.059a.61.61 0 0 1-.61-.61V70.052a.61.61 0 0 1 .61-.61h21.102a.61.61 0 0 1 .61.61v10.505zm62.693-13.398H77.363a2.903 2.903 0 0 0-2.907 2.893v10.505a2.903 2.903 0 0 0 2.907 2.892h21.101a2.903 2.903 0 0 0 2.907-2.892V70.052a2.903 2.903 0 0 0-2.907-2.893zm.61 13.398a.61.61 0 0 1-.61.61H77.363a.61.61 0 0 1-.61-.61V70.052a.61.61 0 0 1 .61-.61h21.101a.61.61 0 0 1 .61.61v10.505zM36.92 88.17H12.301c-.635 0-1.149.511-1.149 1.141s.514 1.142 1.149 1.142h24.618c.635 0 1.149-.512 1.149-1.142 0-.63-.514-1.141-1.149-1.141zm31.652 0H43.953c-.635 0-1.149.511-1.149 1.141s.514 1.142 1.149 1.142H68.57c.635 0 1.148-.512 1.148-1.142 0-.63-.513-1.141-1.148-1.141zm31.652 0H75.605c-.635 0-1.149.511-1.149 1.141s.514 1.142 1.149 1.142h24.618c.634 0 1.148-.512 1.148-1.142 0-.63-.514-1.141-1.148-1.141zm-12.31 7.003H75.606c-.635 0-1.149.512-1.149 1.141 0 .63.514 1.142 1.149 1.142h12.309c.634 0 1.148-.512 1.148-1.142 0-.63-.514-1.14-1.148-1.14zm-31.651 0h-12.31c-.634 0-1.148.512-1.148 1.141 0 .63.514 1.142 1.149 1.142h12.309c.635 0 1.148-.512 1.148-1.142 0-.63-.513-1.14-1.148-1.14zm-31.652 0H12.3c-.634 0-1.148.512-1.148 1.141 0 .63.514 1.142 1.149 1.142H24.61c.635 0 1.148-.512 1.148-1.142 0-.63-.513-1.14-1.148-1.14zm33.41-67.751h15.826c.635 0 1.149-.512 1.149-1.142 0-.63-.514-1.14-1.149-1.14H58.02c-.635 0-1.148.51-1.148 1.14 0 .63.513 1.142 1.148 1.142zm42.203 4.72H58.02c-.635 0-1.148.512-1.148 1.142 0 .63.513 1.141 1.148 1.141h42.203c.634 0 1.148-.511 1.148-1.141s-.514-1.142-1.148-1.142zm0 10.506h-33.41c-.635 0-1.15.511-1.15 1.141s.515 1.141 1.15 1.141h33.41c.634 0 1.148-.511 1.148-1.141s-.514-1.141-1.148-1.141zm0 7.003h-33.41c-.635 0-1.15.512-1.15 1.141 0 .63.515 1.142 1.15 1.142h33.41c.634 0 1.148-.512 1.148-1.142 0-.63-.514-1.141-1.148-1.141zm0 7.003h-33.41c-.635 0-1.15.512-1.15 1.142 0 .63.515 1.141 1.15 1.141h33.41c.634 0 1.148-.511 1.148-1.141s-.514-1.142-1.148-1.142zM58.02 44.93h1.759c.634 0 1.148-.511 1.148-1.141s-.514-1.141-1.148-1.141H58.02c-.635 0-1.148.511-1.148 1.141s.513 1.141 1.148 1.141zm0 7.004h1.759c.634 0 1.148-.512 1.148-1.142 0-.63-.514-1.141-1.148-1.141H58.02c-.635 0-1.148.512-1.148 1.141 0 .63.513 1.142 1.148 1.142zm0 7.003h1.759c.634 0 1.148-.511 1.148-1.141s-.514-1.142-1.148-1.142H58.02c-.635 0-1.148.512-1.148 1.142 0 .63.513 1.141 1.148 1.141z" style="stroke-dasharray: 1402, 1404; stroke-dashoffset: 0;"></path>
-                        </g>
-                    </svg>
-                </div>
-                <div class="list-content goals">
-                    <h3 class="title">Order Efficiency and Management</h3>
-                    <p class="description">To provide an additional method for customers to request take-out/delivery by implementing an online ordering system. This efficient alternative offers a checkout process with user-friendly task navigation and does not tax the working memory.</p>
-                </div>
-            </li>
-        </ul>
-
-
-        <h2 class="title2">3. SOLUTIONS</h2>
-
-        <section class="port-section">
-          <div class="temp1">
-            <div class="list-content text-info-arch">
-                <h3 class="title">Information Architecture</h3>
-                <p class="description">First, I created two slightly different maps to outline the navigational layout. The information architecture for the apple watch app served as the starting base, which the second map expanded upon with a little more depth for the general website.</p>
-            </div>
-
-            <div id="arrows-info-arch">
-                <div class="info-arch-label">*Apple Watch</div>
-                <img id="arrows-svg" src="./Matt Breithaupt - UX_UI Design Portfolio_files/Arrows_V2_xkiov1.svg" alt="arrows">
-                <div class="info-arch-label" id="label-mobile-1">*Mobile</div>
-            </div>
-
-            <div class="row watch-info-arch-container">
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="responsive-container2" style="padding-bottom: 56.25%;">
-                        <picture>
-                            <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514654515/portfolio/Apple_Watch_sushi_info_arch.webp" class=" lazyloading" type="image/webp" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514654515/portfolio/Apple_Watch_sushi_info_arch.webp">
-                            <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514654515/portfolio/Apple_Watch_sushi_info_arch.jpg" alt="sitemap1" class=" lazyloaded" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514654515/portfolio/Apple_Watch_sushi_info_arch.jpg">
-                        </picture>
-                    </div>
-                </div>
-                <div id="label-mobile-2" class="info-arch-label">*Mobile</div>
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="responsive-container2" style="padding-bottom: 67.34%;">
-                        <picture>
-                            <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514653955/portfolio/Mobile_sushi_info_arch.webp" class=" lazyloading" type="image/webp" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514653955/portfolio/Mobile_sushi_info_arch.webp">
-                            <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514653955/portfolio/Mobile_sushi_info_arch.jpg" alt="sitemap2" class=" lazyloaded" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514653955/portfolio/Mobile_sushi_info_arch.jpg">
-                        </picture>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </section>
-
-        <div class="temp1 profile-parent">
-            <div class="page-slider">
-
-                <div class="list-content text-profiles-and-user-journey">
-                    <h3 class="title">Profiles and User Journey</h3>
-                    <p class="description">Constructing several character profiles as points of reference, I used these summaries to explore the potential needs of users. I then norrowed down to one profile and conducted a user journey to explore their possible pleasure/pain-points, touch-points, and thoughts as they navigate through all stages of the website. This evaluation helped shine a light on potential usability issues I may have overlooked.</p>
-                </div>
-
-
-                <label for="bio" class="new-label-class">
-                    <p class="profile-bar-text">Profile 1</p>
-                    <div class="divs">
-                        <div id="div1" content-attribute_click="Profile 1" style="display: block;"></div>
-                    </div>
-                    <div content-attribute_hover="Profile 1" class="image">
-                        <picture>
-                            <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831194/portfolio/profile1.webp" alt="person" class=" headshot lazyloading" type="image/webp" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831194/portfolio/profile1.webp">
-                                <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831194/portfolio/profile1.jpg" alt="person" class="headshot lazyloaded" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831194/portfolio/profile1.jpg">
-                        </picture>
-                    </div>
-                </label>
-
-                <input id="bio" type="radio" name="select" checked="">
-
-                <div class="slide slide-one">
-                    <div class="bio-container">
-                        <h4 class="name-of-bio">Rachel</h4>
-                        <p class="start-bio-v2">
-                            <b>Details:</b> In a relationship, skydiving instructor, 28 years old, thrill seeker, lives in an unincorporated area.
-                            <br><b>Quote:</b> “I want someplace that offers light meals for lunch, but can also provide formal dishes for dinner events.”
-                            <br><b>Notes:</b> Rachel loves the Sushi Fuze branded prepackaged shrimp wraps from the local market, yet she enjoys having meals delivered to as well. Her apartment complex is hidden down a poorly marked side street and is easy to miss, so she would like to track the delivery. She would also appreciate quick access to her favorite dishes when ordering online.
-                        </p>
-                        <p class="end-bio-v2">
-                            <b>Health consciousness:</b> High
-                            <br><b>Time constraints:</b> Medium
-                            <br><b>Meal variety:</b> High
-                            <br><b>Digital proficiency:</b> Medium
-                            <br><b>Hobbies:</b> Rock climbing, swimming
-                            <br><b>Spends most time:</b> Small airport runway
-                            <br><b>Social networks:</b> Pinterest, Facebook
-                        </p>
-                    </div>
-                </div>
-
-
-                <label for="bio-2" class="new-label-class">
-                    <p class="profile-bar-text">Profile 2</p>
-                    <div class="divs">
-                        <div id="div2" content-attribute_click="Profile 2"></div>
-                    </div>
-                    <div content-attribute_hover="Profile 2" class="image">
-                        <picture>
-                            <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831202/portfolio/profile2.webp" alt="person" class=" headshot lazyloading" type="image/webp" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831202/portfolio/profile2.webp">
-                                <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831202/portfolio/profile2.jpg" alt="person" class="headshot lazyloaded" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831202/portfolio/profile2.jpg">
-                        </picture>
-                    </div>
-                </label>
-
-                <input id="bio-2" type="radio" name="select">
-
-                <div class="slide slide-two">
-                    <div class="bio-container">
-                        <h4 class="name-of-bio">Adam</h4>
-                        <p class="start-bio-v2">
-                            <b>Details:</b> Married, brand consultant, 41 years old, quality conscious, lives in the suburbs.
-                            <br><b>Quote:</b> “I want a dining environment where I can hold business casual meetings with clients.”
-                            <br><b>Notes:</b> Adam is searching for a new contemporary restaurant that works as an informal public gathering spot with his colleagues and clients. The laid back nature of meeting at the restaurant, as opposed to the boardroom, helps set the tone for the nature his tasks. Yet, Adam remains concerned about accommodating for larger groups and is determined to avoid table wait times that could encroach into the schedules of others accompanying him. Therefore, he prefers to set reservations and place some orders in advance for early evening meetings, taking into account the dinner rush.
-                        </p>
-                        <p class="end-bio-v2">
-                            <b>Health consciousness:</b> Low
-                            <br><b>Time constraints:</b> Medium
-                            <br><b>Meal variety:</b> Medium
-                            <br><b>Digital proficiency:</b> High
-                            <br><b>Hobbies:</b> Reading, blogging
-                            <br><b>Spends most time:</b> Meetings
-                            <br><b>Social networks:</b> LinkedIn, Google+
-                        </p>
-                    </div>
-                </div>
-
-
-                <label for="bio-3" class="new-label-class">
-                    <p class="profile-bar-text">Profile 3</p>
-                    <div class="divs">
-                        <div id="div3" content-attribute_click="Profile 3"></div>
-                    </div>
-                    <div content-attribute_hover="Profile 3" class="image">
-                        <picture>
-                            <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831210/portfolio/profile3.webp" alt="person" class=" headshot lazyloading" type="image/webp" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831210/portfolio/profile3.webp">
-                                <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831210/portfolio/profile3.jpg" alt="person" class="headshot lazyloaded" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831210/portfolio/profile3.jpg">
-                        </picture>
-                    </div>
-                </label>
-
-                <input id="bio-3" type="radio" name="select">
-
-                <div class="slide slide-three">
-                    <div class="bio-container">
-                        <h4 class="name-of-bio">Mike</h4>
-                        <p class="start-bio-v2">
-                            <b>Details:</b> Single, night shift and on-call surgeon, 32 years old, efficient, lives downtown.
-                            <br><b>Quote:</b> “I want a quick meal I can pick up on my way to work.”
-                            <br><b>Notes:</b> Picking up a to-go meal is convenient for Mike, since the restaurant is on his way to work. With erratic work hours, an efficient and reliable service are highly appealing traits make Mike a frequent customer. He has very conservative pallet, in that he sticks with only a handful of familiar meals, opting not to explore different dishes.
-                        </p>
-                        <p class="end-bio-v2">
-                            <b>Health consciousness:</b> High
-                            <br><b>Time constraints:</b> High
-                            <br><b>Meal variety:</b> Low
-                            <br><b>Digital proficiency:</b> Medium
-                            <br><b>Hobbies:</b> Biking, basketball
-                            <br><b>Spends most time:</b> Hospital
-                            <br><b>Social networks:</b> LinkedIn, Facebook
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div id="container5" data-highcharts-chart="0">
-            <div id="highcharts-0s1bt3f-0" dir="ltr" class="highcharts-container " style="position: relative; overflow: hidden; width: 608px; height: 400px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
-                <svg version="1.1" class="highcharts-root" style="font-family:&quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Arial, Helvetica, sans-serif;font-size:12px;" xmlns="http://www.w3.org/2000/svg" width="608" height="400" viewBox="0 0 608 400">
-                    <desc>Created with Highcharts 6.0.6</desc>
-                    <defs>
-                        <clipPath id="highcharts-0s1bt3f-1">
-                            <rect x="0" y="0" width="541" height="177" fill="none"></rect>
-                        </clipPath>
-                    </defs>
-                    <rect fill="#ffffff" class="highcharts-background" x="0" y="0" width="608" height="400" rx="0" ry="0"></rect>
-                    <rect fill="none" class="highcharts-plot-background" x="57" y="150" width="541" height="177"></rect>
-                    <g class="highcharts-grid highcharts-xaxis-grid ">
-                        <path fill="none" class="highcharts-grid-line" d="M 74.5 150 L 74.5 327" opacity="1"></path>
-                        <path fill="none" class="highcharts-grid-line" d="M 290.5 150 L 290.5 327" opacity="1"></path>
-                        <path fill="none" class="highcharts-grid-line" d="M 507.5 150 L 507.5 327" opacity="1"></path>
-                    </g>
-                    <g class="highcharts-grid highcharts-yaxis-grid ">
-                        <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 57 327.5 L 598 327.5" opacity="1"></path>
-                        <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 57 261.5 L 598 261.5" opacity="1"></path>
-                        <path fill="none" stroke="#e6e6e6" stroke-width="1" class="highcharts-grid-line" d="M 57 195.5 L 598 195.5" opacity="1"></path>
-                    </g>
-                    <rect fill="none" class="highcharts-plot-border" x="57" y="150" width="541" height="177"></rect>
-                    <g class="highcharts-axis highcharts-xaxis ">
-                        <path fill="none" class="highcharts-tick" stroke="#ccd6eb" stroke-width="1" d="M 74.5 327 L 74.5 337" opacity="1"></path>
-                        <path fill="none" class="highcharts-tick" stroke="#ccd6eb" stroke-width="1" d="M 290.5 327 L 290.5 337" opacity="1"></path>
-                        <path fill="none" class="highcharts-tick" stroke="#ccd6eb" stroke-width="1" d="M 507.5 327 L 507.5 337" opacity="1"></path>
-                        <path fill="none" class="highcharts-axis-line" stroke="#ccd6eb" stroke-width="1" d="M 57 327.5 L 598 327.5"></path>
-                    </g>
-                    <g class="highcharts-axis highcharts-yaxis ">
-                        <path fill="none" class="highcharts-axis-line" d="M 57 150 L 57 327"></path>
-                    </g>
-                    <g class="highcharts-series-group">
-                        <g class="highcharts-series highcharts-series-0 highcharts-areaspline-series highcharts-color-0 " transform="translate(57,150) scale(1 1)" clip-path="url(#highcharts-0s1bt3f-1)">
-                            <path fill="rgba(124,181,236,0.75)" d="M 18.033333333333 110.90589992531741 C 18.033333333333 110.90589992531741 39.673333333333204 137.34353995519044 54.1 137.34353995519044 C 68.5266666666668 137.34353995519044 75.74000000000021 71.24943988050785 90.166666666667 58.03061986557134 C 104.5933333333322 44.81179985063483 111.8066666666648 52.74309185959598 126.23333333333 44.81179985063483 C 140.65999999999798 36.88050784167215 147.873333333332 18.374159820761776 162.3 18.374159820761776 C 176.726666666668 18.374159820761776 183.94000000000202 163.7811799850635 198.36666666667 163.7811799850635 C 212.79333333333403 163.7811799850635 220.00666666666604 105.61837191933984 234.43333333333 84.46825989544436 C 248.85999999999802 63.318147871542976 256.073333333332 68.60567587752055 270.5 58.03061986557134 C 284.926666666668 47.455563853622124 292.14000000000203 41.63928304705145 306.56666666667 31.592979835698287 C 320.99333333333396 21.54667662434794 328.20666666666597 7.799103808812561 342.63333333333 7.799103808812561 C 357.05999999999796 7.799103808812561 364.273333333332 7.799103808812561 378.7 18.374159820761776 C 393.12666666666803 28.94921583271099 400.34000000000196 84.46825989544436 414.76666666667 84.46825989544436 C 429.19333333333395 84.46825989544436 436.406666666666 71.249439880506 450.83333333333 58.03061986557134 C 465.25999999999806 44.81179985063297 472.473333333332 28.42046303211355 486.9 18.374159820761776 C 501.3266666666679 8.327856609410041 522.96666666667 7.799103808812561 522.96666666667 7.799103808812561 L 522.96666666667 110.90589992531741 C 522.96666666667 110.90589992531741 501.3266666666679 110.90589992531741 486.9 110.90589992531741 C 472.473333333332 110.90589992531741 465.25999999999806 110.90589992531741 450.83333333333 110.90589992531741 C 436.406666666666 110.90589992531741 429.19333333333395 110.90589992531741 414.76666666667 110.90589992531741 C 400.34000000000196 110.90589992531741 393.12666666666803 110.90589992531741 378.7 110.90589992531741 C 364.273333333332 110.90589992531741 357.05999999999796 110.90589992531741 342.63333333333 110.90589992531741 C 328.20666666666597 110.90589992531741 320.99333333333396 110.90589992531741 306.56666666667 110.90589992531741 C 292.14000000000203 110.90589992531741 284.926666666668 110.90589992531741 270.5 110.90589992531741 C 256.073333333332 110.90589992531741 248.85999999999802 110.90589992531741 234.43333333333 110.90589992531741 C 220.00666666666604 110.90589992531741 212.79333333333403 110.90589992531741 198.36666666667 110.90589992531741 C 183.94000000000202 110.90589992531741 176.726666666668 110.90589992531741 162.3 110.90589992531741 C 147.873333333332 110.90589992531741 140.65999999999798 110.90589992531741 126.23333333333 110.90589992531741 C 111.8066666666648 110.90589992531741 104.5933333333322 110.90589992531741 90.166666666667 110.90589992531741 C 75.74000000000021 110.90589992531741 68.5266666666668 110.90589992531741 54.1 110.90589992531741 C 39.673333333333204 110.90589992531741 18.033333333333 110.90589992531741 18.033333333333 110.90589992531741" class="highcharts-area"></path>
-                            <path fill="none" d="M 18.033333333333 110.90589992531741 C 18.033333333333 110.90589992531741 39.673333333333204 137.34353995519044 54.1 137.34353995519044 C 68.5266666666668 137.34353995519044 75.74000000000021 71.24943988050785 90.166666666667 58.03061986557134 C 104.5933333333322 44.81179985063483 111.8066666666648 52.74309185959598 126.23333333333 44.81179985063483 C 140.65999999999798 36.88050784167215 147.873333333332 18.374159820761776 162.3 18.374159820761776 C 176.726666666668 18.374159820761776 183.94000000000202 163.7811799850635 198.36666666667 163.7811799850635 C 212.79333333333403 163.7811799850635 220.00666666666604 105.61837191933984 234.43333333333 84.46825989544436 C 248.85999999999802 63.318147871542976 256.073333333332 68.60567587752055 270.5 58.03061986557134 C 284.926666666668 47.455563853622124 292.14000000000203 41.63928304705145 306.56666666667 31.592979835698287 C 320.99333333333396 21.54667662434794 328.20666666666597 7.799103808812561 342.63333333333 7.799103808812561 C 357.05999999999796 7.799103808812561 364.273333333332 7.799103808812561 378.7 18.374159820761776 C 393.12666666666803 28.94921583271099 400.34000000000196 84.46825989544436 414.76666666667 84.46825989544436 C 429.19333333333395 84.46825989544436 436.406666666666 71.249439880506 450.83333333333 58.03061986557134 C 465.25999999999806 44.81179985063297 472.473333333332 28.42046303211355 486.9 18.374159820761776 C 501.3266666666679 8.327856609410041 522.96666666667 7.799103808812561 522.96666666667 7.799103808812561" class="highcharts-graph" stroke="#7cb5ec" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
-                            <path fill="none" d="M 8.033333333333001 110.90589992531741 L 18.033333333333 110.90589992531741 C 18.033333333333 110.90589992531741 39.673333333333204 137.34353995519044 54.1 137.34353995519044 C 68.5266666666668 137.34353995519044 75.74000000000021 71.24943988050785 90.166666666667 58.03061986557134 C 104.5933333333322 44.81179985063483 111.8066666666648 52.74309185959598 126.23333333333 44.81179985063483 C 140.65999999999798 36.88050784167215 147.873333333332 18.374159820761776 162.3 18.374159820761776 C 176.726666666668 18.374159820761776 183.94000000000202 163.7811799850635 198.36666666667 163.7811799850635 C 212.79333333333403 163.7811799850635 220.00666666666604 105.61837191933984 234.43333333333 84.46825989544436 C 248.85999999999802 63.318147871542976 256.073333333332 68.60567587752055 270.5 58.03061986557134 C 284.926666666668 47.455563853622124 292.14000000000203 41.63928304705145 306.56666666667 31.592979835698287 C 320.99333333333396 21.54667662434794 328.20666666666597 7.799103808812561 342.63333333333 7.799103808812561 C 357.05999999999796 7.799103808812561 364.273333333332 7.799103808812561 378.7 18.374159820761776 C 393.12666666666803 28.94921583271099 400.34000000000196 84.46825989544436 414.76666666667 84.46825989544436 C 429.19333333333395 84.46825989544436 436.406666666666 71.249439880506 450.83333333333 58.03061986557134 C 465.25999999999806 44.81179985063297 472.473333333332 28.42046303211355 486.9 18.374159820761776 C 501.3266666666679 8.327856609410041 522.96666666667 7.799103808812561 522.96666666667 7.799103808812561 L 532.96666666667 7.799103808812561" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" class="highcharts-tracker"></path>
-                        </g>
-                        <g class="highcharts-markers highcharts-series-0 highcharts-areaspline-series highcharts-color-0  highcharts-tracker" transform="translate(57,150) scale(1 1)">
-                            <path fill="#7cb5ec" d="M 22 110.90589992531741 A 4 4 0 1 1 21.99999800000017 110.90189992598408 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 58 137.34353995519044 A 4 4 0 1 1 57.99999800000017 137.3395399558571 Z" class="highcharts-point highcharts-negative highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 94 58.03061986557134 A 4 4 0 1 1 93.99999800000016 58.026619866238 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 130 44.81179985063483 A 4 4 0 1 1 129.99999800000018 44.80779985130149 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 166 18.374159820761776 A 4 4 0 1 1 165.99999800000018 18.37015982142844 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 202 163.7811799850635 A 4 4 0 1 1 201.99999800000018 163.77717998573016 Z" class="highcharts-point highcharts-negative highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 238 84.46825989544436 A 4 4 0 1 1 237.99999800000018 84.46425989611103 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 274 58.03061986557134 A 4 4 0 1 1 273.9999980000002 58.026619866238 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 310 31.592979835698287 A 4 4 0 1 1 309.9999980000002 31.588979836364953 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 346 7.799103808812561 A 4 4 0 1 1 345.9999980000002 7.795103809479225 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 382 18.374159820761776 A 4 4 0 1 1 381.9999980000002 18.37015982142844 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 418 84.46825989544436 A 4 4 0 1 1 417.9999980000002 84.46425989611103 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 454 58.03061986557134 A 4 4 0 1 1 453.9999980000002 58.026619866238 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 490 18.374159820761776 A 4 4 0 1 1 489.9999980000002 18.37015982142844 Z" class="highcharts-point highcharts-color-0"></path>
-                            <path fill="#7cb5ec" d="M 526 7.799103808812561 A 4 4 0 1 1 525.9999980000001 7.795103809479225 Z" class="highcharts-point highcharts-color-0"></path>
-                        </g>
-                    </g>
-                    <text x="304" text-anchor="middle" class="highcharts-title" style="color:#333333;font-size:18px;fill:#333333;" y="24">
-                        <tspan>Rachel's User Journey: Sushi Fuze app</tspan>
-                    </text>
-                    <g class="highcharts-legend" transform="translate(265,360)">
-                        <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" x="0" y="0" width="77" height="25" visibility="visible"></rect>
-                        <g>
-                            <g>
-                                <g class="highcharts-legend-item highcharts-areaspline-series highcharts-color-0 highcharts-series-0" transform="translate(8,3)">
-                                    <text x="21" style="color:#333333;font-size:12px;font-weight:bold;cursor:pointer;fill:#333333;" text-anchor="start" y="15">
-                                        <tspan>Rachel</tspan>
-                                    </text>
-                                    <rect x="2" y="4" width="12" height="12" fill="#7cb5ec" rx="6" ry="6" class="highcharts-point"></rect>
-                                </g>
-                            </g>
-                        </g>
-                    </g>
-                    <g class="highcharts-axis-labels highcharts-xaxis-labels ">
-                        <text x="75.03333333333333" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">
-                            <tspan>Order Phase</tspan>
-                        </text>
-                        <text x="291.4333333333334" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">
-                            <tspan>Checkout Phase</tspan>
-                        </text>
-                        <text x="507.8333333333334" style="color:#666666;cursor:default;font-size:11px;fill:#666666;" text-anchor="middle" transform="translate(0,0)" y="346" opacity="1">
-                            <tspan>Recieve Phase</tspan>
-                        </text>
-                    </g>
-                    <g class="highcharts-axis-labels highcharts-yaxis-labels "></g>
-                </svg><span transform="translate(0,0)" class="highcharts-subtitle" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 12px; position: absolute; white-space: normal; margin-left: 0px; margin-top: 0px; left: -22.5px; top: 34px; color: rgb(102, 102, 102); width: 544px; display: block;"><b>Goal:</b> Order dinner online and have it delivered to her apartment. <br><span style="font-size:16px; color:#ffffff">.</span>
-                <br> <b>Scenario:</b> Busy finishing up work she brought home from the office.
-                <br><span style="font-size:16px; color:#ffffff">.</span>
-                <br> <b>Constraint:</b> With her working memory preoccupied, Rachel wants to use as little mental energy possible.</span>
-                <div class="highcharts-axis-labels highcharts-yaxis-labels " style="position: absolute; left: 0px; top: 0px; opacity: 1;"><span transform="translate(0,0)" opacity="1" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(102, 102, 102); cursor: default; margin-left: 0px; margin-top: 0px; left: 42px; top: 327px; text-overflow: clip; opacity: 1;"></span><span transform="translate(0,0)" opacity="1" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(102, 102, 102); cursor: default; margin-left: 0px; margin-top: 0px; left: 10px; top: 245px; text-overflow: clip; opacity: 1;"><img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899110/portfolio/Mood-positive.svg" alt="mood positive" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(-3em); position: absolute"><p style="position: absolute; line-height: 2.5">Mood</p><img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899099/portfolio/Mood-negative.svg" alt="mood negative" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(3em); position: relative"></span><span transform="translate(0,0)" opacity="1" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 11px; position: absolute; white-space: nowrap; color: rgb(102, 102, 102); cursor: default; margin-left: 0px; margin-top: 0px; left: 42px; top: 195px; text-overflow: clip; opacity: 1;"></span>
-                </div>
-            </div>
-        </div>
-
-        <div class="pad2">
-            <div class="equal-height-pt1">
-                <div class="col-sm-6 col-sm-push-6 equal-height-pt2 solutions-end">
-                    <h3 class="title">Wireframe and Responsive Design</h3>
-                    <p class="description2">Adhering to the mobile first approach, I wireframed the entire website and then adjusted dimensions to cover the various device screen sizes.</p>
-                </div>
-
-                <div class="col-xs-4 col-sm-2 col-sm-pull-6">
-                    <div class="responsive-container2" id="wireframe">
-                        <picture>
-                            <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.webp" class=" lazyloading" type="image/webp" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.webp">
-                            <!-- Fallback -->
-                            <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.jpg" alt="wireframe" class=" lazyloaded" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.jpg">
-                        </picture>
-                    </div>
-                </div>
-
-                <div class="col-xs-8 col-sm-4 col-sm-pull-6">
-                    <div class="responsive-container2" style="padding-bottom: 41.8%;">
-                        <picture>
-                            <source data-sizes="auto" data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.webp" data-srcset=" 
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.webp 500w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.webp 875w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.webp 1175w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.webp 1557w" class=" lazyloading" type="image/webp" srcset=" 
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.webp 500w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.webp 875w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.webp 1175w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.webp 1557w" sizes="375px">
-                            <img alt="responsive sizes" data-sizes="auto" data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg" data-srcset="
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.jpg 500w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.jpg 875w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.jpg 1175w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg 1557w" class="lazyautosizes lazyloaded" sizes="375px" srcset="
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.jpg 500w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.jpg 875w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.jpg 1175w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg 1557w" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg">
-                        </picture>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="pad2">
-            <div class="equal-height-pt1">
-                <div class="col-sm-6 col-md-6 col-lg-6 equal-height-pt2 solutions-end">
-                    <h3 class="title">UI and Digital Assets</h3>
-                    <p class="description2">With a UX structure in place, I designed UI and digital assets that adhered to the brand identity. After importing these deliverables into a copy of the wireframe, they were lain over the structure and received additional size adjustments.</p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                    <div class="responsive-container2 digital-assets" style="padding-bottom: 41.7%;">
-                        <picture>
-                            <source data-sizes="auto" data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.webp" data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.webp 851w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.webp 1182w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.webp 1482w," class=" lazyloading" type="image/webp" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.webp 851w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.webp 1182w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.webp 1482w," sizes="578px">
-                            <img alt="digital assets" data-sizes="auto" data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg" data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.jpg 851w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.jpg 1182w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg 1482w," class="lazyautosizes lazyloaded" sizes="578px" srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.jpg 851w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.jpg 1182w,
-		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg 1482w," src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg">
-                        </picture>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="pad2">
-            <div class="equal-height-pt1">
-                <div class="col-sm-6 col-sm-push-6 equal-height-pt2 solutions-end">
-                    <h3 class="title">Interactive Prototype</h3>
-                    <p class="description2">Finally, I exported the UI assets from the Sketch program into Marvel-App to create an interactive prototype. This mockup can then receive user testing for further input.</p>
-                </div>
-
-                <div class="col-xs-12 col-sm-6 col-sm-pull-6 watch-prototype-container">
-                    <div class="codegena_iframe watch_prototype" data-src="https://marvelapp.com/j2333b?emb=1" style="height:467px;width:100%;max-width:100%;" data-responsive="true" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1520969204/portfolio/watch-prototype-v4-compressor.svg" data-css="border:0px;" data-alt="watch prototype preload placeholder" role="presentation"><img src="./Matt Breithaupt - UX_UI Design Portfolio_files/watch-prototype-v4-compressor.svg" class="thumb"><img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1520969204/portfolio/watch-prototype-v4-compressor.svg" class="thumb">
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1520969204/portfolio/watch-prototype-v4-compressor.svg" class="thumb">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-       
-       
-<div alt="style guide">
-    <h1 class="guide-title">STYLE GUIDE</h1>
-                   
-     <section class="guide-section">    
-        <h2 class="guide-header-first">BUTTONS</h2>
-                                                 
-            <button type="button" class="button-confirm">BUTTON</button> 
-            <pre>
-               <code class="language-markup">
-&lt;button type="button" class="button-confirm"&gt;Button&lt;/button&gt;
-                </code>  
-            </pre>                                       
-                    
-            <button type="button" class="button-confirm-long">BUTTON</button> 
-            <pre>
-               <code class="language-markup">
-&lt;button type="button" class="button-confirm-long"&gt;Button&lt;/button&gt;
-                </code>  
-            </pre>              
-                      
-            <button type="button" class="button-contact">
-                <img class="button-contact-image" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531140795/email_(button).svg"><br>
-                <span class="button-contact-text">Button</span>
-            </button>  
-            <pre>
-                <code class="language-markup">
-&lt;button type="button" class="button-contact"&gt;
-    &lt;img class="button-contact-image" src="./email_(button).svg"&gt;&lt;br&gt;
-    &lt;span class="button-contact-text"&gt;Button&lt;/span&gt;
-&lt;/button&gt; 
-                </code> 
-            </pre>
-               
-            <button type="button" class="button-alt">
-                <img class="button-alt-image" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531144849/nutrition_(button).svg">
-                <span class="button-alt-text">Button</span>
-            </button>
-            <pre>     
-                <code class="language-markup">
-&lt;button type="button" class="button-alt"&gt;
-    &lt;img class="button-alt-image" src="./nutrition_(button).svg"&gt;
-    &lt;span class="button-alt-text"&gt;Button&lt;/span&gt;
-&lt;/button&gt;     
-                </code>         
-            </pre>                     
-                
-            <button type="button" class="button-main">
-                <div class="button-main-outer">
-                    <div class="button-main-inner"></div>
-                </div>                  
-                <span class="button-main-text">Button</span>
-            </button>
-             <pre>     
-                <code class="language-markup">
-&lt;button type="button" class="button-main"&gt;
-    &lt;div class="button-main-outer"&gt;
-        &lt;div class="button-main-inner"&gt;&lt;/div&gt;
-    &lt;/div&gt;                  
-    &lt;span class="button-main-text"&gt;Button&lt;/span&gt;
-&lt;/button&gt;   
-                </code>         
-            </pre>         
-                 
-            <div class="guide-element button-amount-container">  
-                <button type="button" class="button-amount">
-                    <div class="horizontal"></div>
-                </button> 
-                <button type="button" class="button-amount">
-                    <div class="horizontal">
-                        <div class="vertical"></div>
-                    </div>
-                </button> 
-            </div>
-             <pre>     
-                <code class="language-markup">
-&lt;div class="guide-element button-amount-container"&gt;  
-    &lt;button type="button" class="button-amount"&gt;
-        &lt;div class="horizontal"&gt;&lt;/div&gt;
-    &lt;/button&gt; 
-    &lt;button type="button" class="button-amount"&gt;
-        &lt;div class="horizontal"&gt;
-            &lt;div class="vertical"&gt;&lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/button&gt; 
-&lt;/div&gt;
-                </code>         
-            </pre>
-                                
-            <div class="guide-element button-decision-container">  
-                <button type="button" class="button-decision" id="button-approve">
-                    <img class="button-approve-image" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531234869/approve_(button).svg">
-                </button> 
-                <button type="button" class="button-decision" id="button-disapprove">
-                    <img class="button-disapprove-image" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531234878/disapprove_(button).svg">
-                </button> 
-            </div>                  
-            <pre>     
-                <code class="language-markup">
-&lt;div class="guide-element button-decision-container"&gt;  
-    &lt;button type="button" class="button-decision" id="button-approve"&gt;
-        &lt;img class="button-approve-image" src="./approve_(button).svg"&gt;
-    &lt;/button&gt; 
-    &lt;button type="button" class="button-decision" id="button-disapprove"&gt;
-        &lt;img class="button-disapprove-image" src="./disapprove_(button).svg"&gt;
-    &lt;/button&gt; 
-&lt;/div&gt;
-                </code>         
-            </pre>           
- 
-            <button type="button" class="button-delete">
-                <div class="horizontal">
-                    <div class="vertical"></div>
-                </div>
-            </button> 
-            <pre>     
-                <code class="language-markup">
-&lt;button type="button" class="button-delete"&gt;
-    &lt;div class="horizontal"&gt;
-        &lt;div class="vertical"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/button&gt; 
-                </code>         
-            </pre> 
-           
-        <button type="button" class="svg-button-edit">  
-            <svg height="39" viewBox="0 0 39 39" width="39" xmlns="http://www.w3.org/2000/svg"><path d="m37.9296951 1.0707236c1.4282537 1.42824079 1.4258923 3.74320963 0 5.17145041l-1.7234261 1.72341055-5.1726398-5.17145041 1.7234262-1.72341055c1.4281775-1.42702202 3.744386-1.42824079 5.1726397 0zm-25.8538293 20.6832879-1.7222073 6.8936422 6.8937045-1.7234105 17.2354798-17.23532426-5.1726397-5.17145041zm17.1747696-3.3849687v15.7558953h-24.37552949v-24.37530941h15.75718019l4.873811-4.87506188h-25.5060971v34.12543319h34.1257413v-25.5072379z" fill="" transform=""/></svg>
-        </button> 
-        <pre>     
-            <code class="language-markup">
-&lt;button type="button" class="svg-button-edit"&gt;  
-    &lt;svg height="39" viewBox="0 0 39 39" width="39" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="m37.9296951 1.0707236c1.4282537 1.42824079 1.4258923 3.74320963 0 5.17145041l-1.7234261 1.72341055-5.1726398-5.17145041 1.7234262-1.72341055c1.4281775-1.42702202 3.744386-1.42824079 5.1726397 0zm-25.8538293 20.6832879-1.7222073 6.8936422 6.8937045-1.7234105 17.2354798-17.23532426-5.1726397-5.17145041zm17.1747696-3.3849687v15.7558953h-24.37552949v-24.37530941h15.75718019l4.873811-4.87506188h-25.5060971v34.12543319h34.1257413v-25.5072379z" fill="" transform=""/&gt;&lt;/svg&gt;
-&lt;/button&gt; 
-            </code>         
-        </pre>                   
+      </div>	    
     </section>
-                                                            
-                              
-    <section class="guide-section">                 
-        <h2 class="guide-header">FORMS</h2>       
-        <form class="form-element">
-            <div class="guide-radio">
-                <input type="radio" id="radio-1" name="takeout">
-                <label for="radio-1">Delivery</label>
-            </div>
-            <div class="guide-radio">
-                <input type="radio" id="radio-2" name="takeout">
-                <label for="radio-2">Pick Up</label>
-            </div>        
-        </form>
-             <pre>
-                <code class="language-markup">
-&lt;form class="form-element"&gt;
-    &lt;div class="guide-radio"&gt;
-        &lt;input type="radio" id="radio-1" name="takeout"&gt;
-        &lt;label for="radio-1"&gt;Delivery&lt;/label&gt;
-    &lt;/div&gt;
-    &lt;div class="guide-radio"&gt;
-        &lt;input type="radio" id="radio-2" name="takeout"&gt;
-        &lt;label for="radio-2"&gt;Pick Up&lt;/label&gt;
-    &lt;/div&gt;        
-&lt;/form&gt;
-                </code>
-            </pre>           
-                        
-            <div class="form-element">
-                <label for="address" class="input-label">Street Address</label>   
-                <input id="address" class="input-text" type="text" placeholder="123 Main Drive">
-            </div>
-            <pre>
-                <code class="language-markup">
-&lt;div class="form-element"&gt;
-    &lt;label for="address" class="input-label"&gt;Street Address&lt;/label&gt;   
-    &lt;input id="address" class="input-text" type="text" placeholder="123 Main Drive"&gt;
-&lt;/div&gt;
-                </code>
-            </pre>
-            
-            <div class="form-element">
-                <label for="secure" class="input-label">Card Number</label>
-                <input id="secure" class="input-secure" type="text" placeholder="0000 0000 0000 0000">
-            </div>
-            <pre>
-                <code class="language-markup">
-&lt;div class="form-element"&gt;
-    &lt;label for="secure" class="input-label"&gt;Card Number&lt;/label&gt;
-    &lt;input id="secure" class="input-secure" type="text" placeholder="0000 0000 0000 0000"&gt;
-&lt;/div&gt;
-                </code>
-            </pre>  
-            
-            <div class="form-element">
-                <label for="email" class="input-label">Your Email</label>
-                <input id="email" class="input-email" type="text" placeholder="name@service.com">
-            </div>
-            <pre>
-                <code class="language-markup">
-&lt;div class="form-element"&gt;
-    &lt;label for="email" class="input-label"&gt;Your Email&lt;/label&gt;
-    &lt;input id="email" class="input-email" type="text" placeholder="name@service.com"&gt;
-&lt;/div&gt;
-                </code>
-            </pre>
-                     
-            <form class="form-container">      
-                <div class="form-element">
-                    <label for="first-name" class="input-label">First Name</label>
-                    <input id="first-name" class="input-name" type="text" placeholder="Jon">
-                </div>          
-                <div class="form-element">
-                    <label for="last-name" class="input-label">Last Name</label>
-                    <input id="last-name" class="input-name" type="text" placeholder="Smith">
-                </div>   
-            </form>             
-            <pre>
-                <code class="language-markup">
- &lt;form class="form-container"&gt;      
-    &lt;div class="form-element"&gt;
-        &lt;label for="first-name" class="input-label"&gt;First Name&lt;/label&gt;
-        &lt;input id="first-name" class="input-name" type="text" placeholder="Jon"&gt;
-    &lt;/div&gt;          
-    &lt;div class="form-element"&gt;
-        &lt;label for="last-name" class="input-label"&gt;Last Name&lt;/label&gt;
-        &lt;input id="last-name" class="input-name" type="text" placeholder="Smith"&gt;
-    &lt;/div&gt;   
-&lt;/form&gt;
-                </code>
-            </pre>    
-        </section>          
-             
-             
-             
-       <section class="guide-section">    
-            <h2 class="guide-header">TYPOGRAPHY</h2>
-            <div class="typography">
-               <p id="header" class="typography-2">Header</p>
-               <p>Font-size: 50px; Font-weight: bold; Font-family: helvetica;</p> 
-            </div>
-            <div class="typography">
-                <p id="body" class="typography-2">Body and Feedback</p>
-                <p>Font-size: 45px; Font-weight: normal; Font-family: helvetica;</p>
-            </div>
-            <div class="typography">
-                <p id="options" class="typography-2">Options</p>
-                <p>Font-size: 32px; Font-weight: normal; Font-family: helvetica;</p>
-            </div>
-            <div class="typography">
-                <p id="checkout" class="typography-2">Checkout</p>
-                <p>Font-size: 30px; Font-weight: bold; Font-family: helvetica;</p>
-            </div>
-            <div class="typography">
-                <p id="confirmation-button" class="typography-2">CONFIRMATION BUTTON</p>
-                <p>All caps, Font-size: 30px; Font-weight: bold; Letter-spacing: 6px; Font-family: helvetica;</p>
-            </div>
-            <div class="typography">
-                <p id="form-placeholder" class="typography-2">Form Placeholder</p>
-                <p>Font-size: 30px; Font-weight: normal; Font-family: helvetica;</p>
-            </div>
-            <div class="typography">
-                <p id="form-microcopy" class="typography-2">Form Microcopy</p>
-                <p>Font-size: 32px; Font-weight: oblique; Font-family: helvetica;</p>
-            </div>
-            <div class="typography">
-                <p id="checkout-sub" class="typography-2">Checkout Sub</p>
-                <p>Font-size: 26px; Font-weight: normal; Font-family: helvetica;</p>
-            </div>
-            <div class="typography">
-                <p id="footer-links" class="typography-2">Footer Links</p>
-                <p>Font-size: 24px; Font-weight: normal; Font-family: helvetica;</p>
-            </div>
-        </section>      
-       
-         
-        <section class="guide-section">
-            <h2 class="guide-header">COLOR PALETTE</h2>    
-            <ul class="palette-grid">
-                <li class="palette-container">
-                    <figure>
-                        <div id="black" class="palette-1"></div>
-                        <figcaption>#000000</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="white" class="palette-1"></div>
-                        <figcaption>#ebebeb</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="white-two" class="palette-1"></div>
-                        <figcaption>#ffffff</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="bluey-grey" class="palette-1"></div>
-                        <figcaption>#adbec6</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="blue-grey" class="palette-1"></div>
-                        <figcaption>#587c8a</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="dark-grey-blue" class="palette-1"></div>
-                        <figcaption>#33495d</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="greyish-brown" class="palette-1"></div>
-                        <figcaption>#4a4a4a</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="bright-blue" class="palette-1"></div>
-                        <figcaption>#0078ff</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="warm-blue" class="palette-1"></div>
-                        <figcaption>#5952df</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="lightish-green" class="palette-1"></div>
-                        <figcaption>#4ed763</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="tangerine" class="palette-1"></div>
-                        <figcaption>#fe9400</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="maize" class="palette-1"></div>
-                        <figcaption>#efb961</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="peachy-pink" class="palette-1"></div>
-                        <figcaption>#ff9a99</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="coral-pink" class="palette-1"></div>
-                        <figcaption>#ff6b6d</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="strawberry" class="palette-1"></div>
-                        <figcaption>#f92c34</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="strawberry-two" class="palette-1"></div>
-                        <figcaption>#f33940</figcaption>
-                    </figure>
-                </li>
-                <li class="palette-container">
-                    <figure>
-                        <div id="strong-pink" class="palette-1"></div>
-                        <figcaption>#ff0071</figcaption>
-                    </figure>
-                </li>                    
-            </ul>      
-        </section>
-    
-                        
-        <section class="guide-section">
-            <h2 class="guide-header">ICONS</h2>
-            <div class="guide-element">
-                <label class="input-label">Menu Icons</label>
-            </div>        
-            <ul class="icons-grid">
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390433/portfolio/appetizers.svg" class="icons-1" alt="">
-                        <figcaption>appetizers</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390435/portfolio/sake.svg" class="icons-1" alt="">
-                        <figcaption>sake</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390437/portfolio/soup.svg" class="icons-1" alt="">
-                        <figcaption>soup</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390431/portfolio/fried_rice.svg" class="icons-1" alt="">
-                        <figcaption>fried_rice</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390437/portfolio/specials.svg" class="icons-1" alt="">
-                        <figcaption>specials</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390432/portfolio/entrees.svg" class="icons-1" alt="">
-                        <figcaption>entrees</figcaption>
-                    </figure>
-                </li>         
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390347/portfolio/beer.svg" class="icons-1" alt="">
-                        <figcaption>beer</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390435/portfolio/salad.svg" class="icons-1" alt="">
-                        <figcaption>salad</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390434/portfolio/noodles.svg" class="icons-1" alt="">
-                        <figcaption>noodles</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390441/portfolio/wrap.svg" class="icons-1" alt="">
-                        <figcaption>wrap</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390432/portfolio/sides.svg" class="icons-1" alt="">
-                        <figcaption>sides</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390440/portfolio/wine.svg" class="icons-1" alt="">
-                        <figcaption>wine</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390431/portfolio/dumpling.svg" class="icons-1" alt="">
-                        <figcaption>dumpling</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390439/portfolio/vegetables.svg" class="icons-1" alt="">
-                        <figcaption>vegetables</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390432/portfolio/grill.svg" class="icons-1" alt="">
-                        <figcaption>grill</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390439/portfolio/drinks.svg" class="icons-1" alt="">
-                        <figcaption>drinks</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390433/portfolio/juice.svg" class="icons-1" alt="">
-                        <figcaption>juice</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390438/portfolio/sushi_roll.svg" class="icons-1" alt="">
-                        <figcaption>sushi_roll</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390347/portfolio/create_new_profile.svg" class="icons-1" alt="">
-                        <figcaption>new_profile</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390431/portfolio/favorite.svg" class="icons-1" alt="">
-                        <figcaption>favorite</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390432/portfolio/history.svg" class="icons-1" alt="">
-                        <figcaption>history</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390430/portfolio/dollar.svg" class="icons-1" alt="">
-                        <figcaption>dollar</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390435/portfolio/pin.svg" class="icons-1" alt="">
-                        <figcaption>pin</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390431/portfolio/door.svg" class="icons-1" alt="">
-                        <figcaption>door</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390431/portfolio/fruit_smoothie.svg" class="icons-1" alt="">
-                        <figcaption>fruit_smoothie</figcaption>
-                    </figure>
-                </li>
-            </ul>
-           
-            <div class="guide-element">
-                <label class="input-label">Option Icons</label>
-            </div>
-            <ul class="icons-grid">
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528733292/profile.svg" class="icons-1" alt="">
-                        <figcaption>profile</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528733335/locations.svg" class="icons-1" alt="">
-                        <figcaption>locations</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528733370/gift-card.svg" class="icons-1" alt="">
-                        <figcaption>gift_cards</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528733402/contact.svg" class="icons-1" alt="">
-                        <figcaption>contact</figcaption>
-                    </figure>
-                </li>
-            </ul>
-           
-            <div class="guide-element">
-                <label class="input-label">Header Icons</label>
-            </div>
-            <ul class="icons-grid">
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390434/portfolio/menu.svg" class="icons-1" alt="">
-                        <figcaption>menu</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390434/portfolio/logo.svg" class="icons-1" alt="">
-                        <figcaption>logo</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390436/portfolio/cart.svg" class="icons-1" alt="">
-                        <figcaption>cart</figcaption>
-                    </figure>
-                </li>
-            </ul>
 
-            <div class="guide-element">
-                <label class="input-label">Footer Icons</label>
-            </div>
-            <ul class="icons-grid">
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528729095/facebook.svg" class="icons-1" alt="facebook">
-                        <figcaption>facebook</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528729264/instagram.svg" class="icons-1" alt="instagram">
-                        <figcaption>instagram</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528729290/twitter.svg" class="icons-1" alt="twitter">
-                        <figcaption>twitter</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528729278/pinterest.svg" class="icons-1" alt="pinterest">
-                        <figcaption>pinterest</figcaption>
-                    </figure>
-                </li>
-            </ul>     
-       
-            <div class="guide-element">
-                <label class="input-label">Other Icons</label>
-            </div>
-            <ul class="icons-grid">
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531154886/phone_(button)_port.svg" class="icons-1" alt="">
-                        <figcaption>phone_(button)</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531138392/portfolio/phone_(form).svg" class="icons-1" alt="">
-                        <figcaption>phone_(form)</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531156115/email_(button)_port.svg" class="icons-1" alt="">
-                        <figcaption>email_(button)</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531138409/portfolio/email_(form).svg" class="icons-1" alt="">
-                        <figcaption>email_(form)</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531144849/nutrition.svg" class="icons-1" alt="">
-                        <figcaption>nutrition</figcaption>
-                    </figure>
-                </li>
-                <li class="icon-container">
-                    <figure>
-                        <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531138373/portfolio/secure.svg" class="icons-1" alt="">
-                        <figcaption>secure</figcaption>
-                    </figure>
-                </li>
-            </ul>
-        </section>   
+	  <!-- BELOW THE FOLD -->
+
+  <div class="inset-side">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 36">
+      <polygon fill="#929292" fill-rule="evenodd" points="0 0 1440 0 1250.197 36 176.803 36"/>
+    </svg>
+  </div>
+	  
+    <section class="box-container">
+      <div class="box-backdrop"></div>
+      <div class="inset">
+        <div class="mobile-prototype">
+          <h2 class="process-prototype-header">Sushi Fuze: Concept Project</h2>
+ <ul class="list2">
+  <li class="list-item2">
+    <p class="paragraph1">Sushi Fuze is a hypothetical family-run restaurant that’s undertaking an expansion to a chain of additional locations in the surrounding region. The following interactive prototype is the UX/UI design concept meant to serve as the restaurant chain’s new website.</p>
+  </li>
+  <li class="list-item2">
+    <!--Marval App embeds. Iframes.-->
+    <div class="mobile-prototype-container">
+      <div class="codegena_iframe" data-src="https://marvelapp.com/h242jh?emb=1" style="height:705px;width:337px;" data-responsive="true" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1520970340/portfolio/mobile-prototype-v6-compressor.svg" data-css="border:0px;" data-alt="mobile prototype preload placeholder" role="presentation"></div>
+    </div>
+  </li>
+</ul>
+	  <div class="proto-box-bottom-backdrop"></div>
+        </div>
+      </div>
+    </section>
+
+    <hr id="separate-2" />
+
+    <section class="past-container">
+      <div class="past-backdrop"></div>
+      <h2 id="past-header">PAST</h2>
+      <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1509374188/portfolio/triangle2.svg" class="img-responsive triangle-2" alt="triangle 2">
+	    
+<div id="past-container2">
+  <div id="floated" class="responsive-container2">
+  <picture>
+    <source 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.webp" 
+	data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1519922477/portfolio/past_restaurant_edit_c_scale_w_844.webp 844w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.webp 1244w," class="lazyload" 
+type="image/webp"/>
+  <img alt="past restaurant" 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.jpg" 
+	data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1519922477/portfolio/past_restaurant_edit_c_scale_w_844.jpg 844w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1519921629/portfolio/past_restaurant_edit_c_scale_w_1244.jpg 1244w," class="lazyload" />
+  </picture>
+</div> <p class="past-text">Founded in 1967 as ‘Sushi’ by an entrepreneurial couple, this Mom and Pop business flourished as a local staple for years, but had reached a plateau. They have since passed the mantle down to their three sons, who carry on this family-run business for a new generation. Their tenure had reinvigorated business at the original restaurant, to the point where expansion into new markets became a viable option.<br/><br/>Eventually, they were left with one last issue to be addressed, their weak digital footprint. Any chain worth their salt requires a strong online presence to back it up, and the best method to tackle that was with a new website. This meant designing an online user experience centered on intuitive navigation, up-to-date web standards and best practices, user interface visual hierarchy & grouping, minimizing the burden of working memory (saved user info/favorite dishes), managing and directing user attention, outlining and prototyping targeted user flows based on the needs of varied personas and scenarios, and more. This would also be in sync with their new brand identity, target market and business strategy.</p>
+</div>   	    
+      <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1509374198/portfolio/triangle3.svg" class="img-responsive triangle-3" alt="triangle 3">
+    </section>	
 </div>
 
+    <section id="process2">
+      <h2 id="process-header">PROJECT PROCESS</h2>
+    </section>
 
-        <!--**FOOTER**-->
-        <footer class="page-foot" role="contentinfo">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <a title="Virb" href="http://mattbreithaupt.virb.com/" class="outbound" aria-label="outbound Virb additional content">
-                            <svg xmlns="http://www.w3.org/2000/svg" id="social-virb" class="outbound" viewBox="0 0 512 514.5" width="4em" height="4em" color="black">
-                                <path d="M219.828 294.11L182.14 189.5H128l63.28 160h56.142l62.203-160h-52.563zm137.64-128.087c-14.608 0-26.5 12.11-26.5 27.078 0 14.94 11.892 27.032 26.5 27.032 14.657 0 26.532-12.094 26.532-27.03 0-14.97-11.875-27.08-26.53-27.08zM256 2C114.61 2 0 116.61 0 258s114.61 256 256 256 256-114.61 256-256S397.39 2 256 2zm0 472c-119.297 0-216-96.703-216-216S136.703 42 256 42s216 96.703 216 216-96.703 216-216 216z"></path>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="col-xs-6">
-                        <a title="LinkedIn" href="https://www.linkedin.com/in/mattbreithaupt" class="outbound" aria-label="outbound LinkedIn profile">
-                            <svg xmlns="http://www.w3.org/2000/svg" id="social-linkedin" class="outbound" viewBox="0 0 512 514.5" width="4em" height="4em">
-                                <path d="M128.094 385.89h48v-192h-48v192zm192-192c-41.094.69-61.312 30.642-64 32v-32h-48v192h48v-112c0-4.108 10.125-37 48-32 20.344 1.33 31.312 28.235 32 32v112l47.812.22V253.188c-1.687-19.188-11.28-58.61-63.812-59.297zm-168-64c-13.25 0-24 10.735-24 24s10.75 24 24 24 24-10.733 24-24-10.75-24-24-24zM256 2C114.61 2 0 116.61 0 258s114.61 256 256 256 256-114.61 256-256S397.39 2 256 2zm0 472c-119.297 0-216-96.703-216-216S136.703 42 256 42s216 96.703 216 216-96.703 216-216 216z"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </main>
+    <h2 class="title2">1. PROBLEMS</h2>
+    <ul class="list">
+      <li class="list-item">
 
-    <div class="scripts and styling">
-        <script src="./Matt Breithaupt - UX_UI Design Portfolio_files/concat_directions-dist.min.js"></script>
-        <script src="./Matt Breithaupt - UX_UI Design Portfolio_files/prism.js"></script>
-        <!--PAGE LOADING ICON (replacement for splash screen)-->
-        <script>
-            $(window).on("load", function() {
-                $(".loader2-parent, .loader2").fadeOut("fast"), $("body").removeClass("no-scroll")
-            });
+<div id="container-icon1">
+<svg id="obturateur1" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 252 107">
+  <g class="filled-transit fade-in">
+    <g stroke-width="2">
+      <path d="M0 56.971h3.06v2.125h40.392v39.535H37.74v6.376h26.52v-6.376h-5.712V59.096H98.94v-2.125H102V.007H0v56.964zm88.536-6.938v-1.487a4.368 4.368 0 0 0 2.72-4.049c0-2.416-1.948-4.374-4.352-4.374-2.403 0-4.352 1.958-4.352 4.374 0 1.836 1.127 3.4 2.72 4.05v1.486h-32.64v-1.487a4.368 4.368 0 0 0 2.72-4.049c0-.023-.006-.044-.006-.069-.036-2.383-1.966-4.305-4.346-4.305s-4.308 1.922-4.344 4.305c0 .024-.007.044-.007.07 0 1.835 1.126 3.4 2.72 4.048v1.487H15.505v-1.555a4.367 4.367 0 0 0 2.72-4.05c0-2.416-1.948-4.374-4.352-4.374-2.404 0-4.353 1.958-4.353 4.374 0 1.836 1.126 3.401 2.721 4.05v1.555H3.264V3.288h95.472v46.745h-10.2z" transform="translate(149.321 1)"/>
+      <path d="M36.67 7.656l-2.246 22.701h-4.148l-1.95-22.7h8.345zm-.987 26.258v7.46h-6.642v-7.46h6.642zM74.936 7.656L72.69 30.357h-4.148l-1.95-22.7h8.345zm-.987 26.258v7.46h-6.642v-7.46h6.642z" transform="translate(149.321 1)"/>
+    </g>
+    <path class="zhtnUQBl_2" d="M10.096 19.3a3.911 3.901 0 1 1 7.822 0 3.911 3.901 0 1 1-7.822 0" stroke-dasharray="25px,27px" transform="translate(113 53)"/>
+    <path stroke-width="2" d="M27.042 0H.733a.615.615 0 0 0-.616.615v13.733c0 .34.276.615.616.615h2.37a1.512 1.512 0 0 0-.004 1.658l6.6 10.1c.086.131.19.242.305.337v8.369c0 .407.08.787.218 1.137-.01.08-.018.16-.018.242l.015 14.077c0 .988.804 1.788 1.795 1.788h.002a1.792 1.792 0 0 0 1.792-1.791l-.011-12.02c.07.003.14.008.211.008h.042v11.939c0 .988.804 1.79 1.795 1.79.991 0 1.794-.802 1.794-1.79V36.893c.236-.435.372-.926.372-1.465v-8.61-.01c.022-.029.044-.056.064-.087l6.6-10.099a1.51 1.51 0 0 0-.004-1.658h2.37c.34 0 .617-.275.617-.615V.615A.615.615 0 0 0 27.042 0zM14.016 31.222H14l-.797-1.087.617-4.117c.062-.165.088-.34.078-.518l.102-.68h.016l.796 5.315-.796 1.087zm8.115-16.255l-5.875 8.99a4.573 4.573 0 0 0-1.274-.531l-.974.979-.944-.99-.01.002a4.507 4.507 0 0 0-1.466.646l-5.944-9.096-.003-.004h16.493l-.003.004zm4.294-1.234H1.35V1.23h25.075v12.503z" transform="translate(113 53)"/>
+    <path stroke-width="2" d="M15.345 3l-.631 6.38h-1.166L13 3h2.345zm-.277 7.38v2.096H13.2V10.38h1.867z" transform="translate(113 53)"/>
+    <path stroke-width="2" d="M0 56.971h3.076v2.125h40.6v39.535h-5.741v6.376h26.657v-6.376H58.85V59.096h40.6v-2.125h3.076V.007H0v56.964zm88.993-6.938v-1.487a4.368 4.368 0 0 0 2.735-4.049 4.375 4.375 0 0 0-8.75 0c0 1.836 1.133 3.4 2.735 4.05v1.486H52.904v-1.487a4.368 4.368 0 0 0 2.734-4.049c0-.023-.006-.044-.006-.069a4.37 4.37 0 0 0-8.736 0c0 .024-.006.044-.006.07 0 1.835 1.132 3.4 2.734 4.048v1.487h-34.04v-1.555a4.367 4.367 0 0 0 2.735-4.05 4.374 4.374 0 1 0-8.75 0c0 1.836 1.131 3.401 2.734 4.05v1.555H3.281V3.288h95.965v46.745H88.993z" transform="translate(1 1)"/>
+    <path stroke-width="2" d="M36.407 7.656L34.16 30.357h-4.148l-1.95-22.7h8.345zm-.988 26.258v7.46h-6.642v-7.46h6.642zM74.672 7.656l-2.247 22.701h-4.148l-1.95-22.7h8.345zm-.988 26.258v7.46h-6.641v-7.46h6.641z" transform="translate(1 1)"/>
+  </g>
+</svg>
+</div>
+        <div class="list-content problems">
+          <h3 class="title">Small Brand Reach</h3>
+          <p class="description">Recognition for the restaurant ‘Sushi’ was limited to a base of locally driven traffic, built up over the years through community word-of-mouth. This support was not a guarantee following the expansion to a multi-location chain,
+            so a broader appeal became necessary for those unfamiliar with them.</p>
+        </div>
+      </li>
 
-        </script>
-        <!--CUSTOM HIGHCHART-->
-        <script>
-            var chart;
-            $(document).ready(function() {
-                chart = new Highcharts.Chart({
-                    chart: {
-                        renderTo: "container5",
-                        defaultSeriesType: "areaspline"
-                    },
-                    title: {
-                        text: "Rachel's User Journey: Sushi Fuze app",
-                        align: "center"
-                    },
-                    subtitle: {
-                        text: "<b>Goal:</b> Order dinner online and have it delivered to her apartment. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Scenario:</b> Busy finishing up work she brought home from the office. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Constraint:</b> With her working memory preoccupied, Rachel wants to use as little mental energy possible.",
-                        align: "left",
-                        useHTML: !0,
-                        align: "center"
-                    },
-                    xAxis: {
-                        title: {
-                            text: ""
-                        },
-                        tickInterval: 6,
-                        categories: ["Order Phase", "l", "l", "l", "l", "l", "Checkout Phase", "l", "l", "l", "l", "l", "Recieve Phase"],
-                        gridLineWidth: 0
-                    },
-                    yAxis: {
-                        title: {
-                            text: ""
-                        },
-                        endOnTick: !1,
-                        labels: {
-                            formatter: function() {
-                                return 0 == this.value ? '<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899110/portfolio/Mood-positive.svg" alt="mood positive" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(-3em); position: absolute"/>' + '<p style="position: absolute; line-height: 2.5">Mood</p>' + '<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899099/portfolio/Mood-negative.svg" alt="mood negative" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(3em); position: relative"/>' : ""
-                            },
-                            useHTML: !0
-                        }
-                    },
-                    tooltip: {
-                        backgroundColor: null,
-                        borderWidth: 0,
-                        shadow: !1,
-                        crosshairs: !0,
-                        useHTML: !0,
-                        formatter: function() {
-                            return "<b>Thought: </b>" + this.point.myData + "<br/><b>User Action: </b>" + this.point.myData2 + " "
-                        }
-                    },
-                    credits: {
-                        enabled: !1
-                    },
-                    plotOptions: {
-                        series: {
-                            events: {
-                                legendItemClick: function() {
-                                    return !1
-                                }
-                            }
-                        }
-                    },
-                    series: [{
-                        name: "Rachel",
-                        data: [{
-                            y: 0,
-                            myData: "<i>I'll order out, since I need something quick and easy for dinner.</i>",
-                            myData2: "Open Sushi Fuze website"
-                        }, {
-                            y: -1,
-                            myData: "<i>Yet I seem to be blanking on what my login credentials were.</i>",
-                            myData2: "Exit Sushi Fuze website"
-                        }, {
-                            y: 2,
-                            myData: "<i>Oh yeah, I'm still logged into the Sushi Fuze app on my phone, I’ll just order from there.</i>",
-                            myData2: "Open Sushi Fuze app"
-                        }, {
-                            y: 2.5,
-                            myData: "<i>My mind's already set on salmon, let me just find it.</i>",
-                            myData2: "Search entree menu"
-                        }, {
-                            y: 3.5,
-                            myData: "<i>What was that side dish I liked to get with the salmon?</i>",
-                            myData2: "Head to profile, click ‘favorite dishes', select dish"
-                        }, {
-                            y: -2,
-                            myData: "<i>I want the salmon dish prepared without any spices, but the app does not provide a comment option for placing special orders.</i>",
-                            myData2: "Unable to request alternative meal preparations"
-                        }, {
-                            y: 1,
-                            myData: "<i>I believe that's everything, let me double-check.</i>",
-                            myData2: "Head to cart"
-                        }, {
-                            y: 2,
-                            myData: "<i>Yep, that's everything.</i>",
-                            myData2: "Head to checkout"
-                        }, {
-                            y: 3,
-                            myData: "<i>Thankfully, the address and credit card fields autofill with info pulled from my profile, saving me a few steps during checkout.</i>",
-                            myData2: "Approve order"
-                        }, {
-                            y: 3.9,
-                            myData: "<i>Ok, I have confirmation my order went through and should arrive in about 40 minutes, that gives me enough time to complete an important business call.</i>",
-                            myData2: "Arrive at confirmation screen,<br/> click link to tracking screen,<br/> return and exit from confirmation screen"
-                        }, {
-                            y: 3.5,
-                            myData: "<i>I finished my call. The delivery person seems to be taking longer than normal. Was there a delay?</i>",
-                            myData2: "Open Sushi Fuze app"
-                        }, {
-                            y: 1,
-                            myData: "<i>Wait, I can't seem to find the tracking tool again. Shouldn't this feature still be accessible after exiting the confirmation screen?</i>",
-                            myData2: "Search for tracking feature"
-                        }, {
-                            y: 2,
-                            myData: "<i>Oh, it's also located in the widget screen. The delivery should arrive in 5 minutes or so.</i>",
-                            myData2: "Find tracking feature in widget"
-                        }, {
-                            y: 3.5,
-                            myData: "<i>I received a notification that my food has arrived, along with info on the delivery person’s name and picture, helpful for when I buzz them in.</i>",
-                            myData2: "Recieve digital notification that order has arrived"
-                        }, {
-                            y: 3.9,
-                            myData: "<i>Get in my belly!</i>",
-                            myData2: "Buzz in delivery person, receive food, provide tip"
-                        }]
-                    }]
-                })
-            });
+      <li class="list-item">
+       <div id="container-icon2">
+<svg id="obturateur2" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 105 105">
+  <g fill="none" fill-rule="evenodd" stroke="#D7796C" stroke-width="2">
+    <path d="M61.844 82.531H43.156v9.344a7.065 7.065 0 0 1-7.062 7.063H29.53a2.78 2.78 0 0 0-2.781 2.78 2.778 2.778 0 0 0 2.781 2.782H75.47a2.778 2.778 0 0 0 2.781-2.781 2.78 2.78 0 0 0-2.781-2.781h-6.563a7.065 7.065 0 0 1-7.062-7.063v-9.344zM99.258.5H5.742C2.857.5.5 3.025.5 6.152v63.164c0 3.128 2.357 5.653 5.242 5.653h93.516c2.885 0 5.242-2.525 5.242-5.653V6.152C104.5 3.025 102.143.5 99.258.5zm-.32 68.906H6.061V6.062h92.876v63.344z"/>
+    <path d="M50.186 48.9a1.524 1.524 0 0 0 1.55-.407l5.27-5.557a1.498 1.498 0 0 0-.064-2.128 1.52 1.52 0 0 0-2.142.064l-4.626 4.875-1.517-.462c-.003-.94-.142-1.833-.337-2.696h1.436c.422 0 .825-.175 1.113-.484l6.148-6.612a1.5 1.5 0 0 0-.085-2.128 1.529 1.529 0 0 0-2.145.085l-5.697 6.128h-1.878c-1.234-2.218-3.17-3.795-5.415-4.298V6.8c.889-.213 1.562-.97 1.562-1.916a2.016 2.016 0 0 0-2.022-2.007H4.204a2.032 2.032 0 0 0-1.866 1.24 1.984 1.984 0 0 0-.156.767v36.86c0 1.109.905 2.007 2.022 2.007a2.014 2.014 0 0 0 2.023-2.007v-5.919c6.141-4.245 10.918-7.435 16.813-9.401l.27.27c.395.391.913.588 1.43.588.518 0 1.035-.196 1.43-.588.79-.784.79-2.055 0-2.84l-.128-.126c1.868-5.905 4.944-10.691 9.072-16.836h3.65V35.28c-2.283.51-4.242 2.138-5.474 4.415h-1.82l-5.696-6.129a1.529 1.529 0 0 0-2.146-.085 1.5 1.5 0 0 0-.084 2.128l6.148 6.614c.288.308.69.484 1.113.484h1.406c-.182.838-.31 1.701-.31 2.609 0 .03.006.056.006.084l-1.52.465-4.626-4.875a1.521 1.521 0 0 0-2.142-.063 1.498 1.498 0 0 0-.066 2.128l5.271 5.556a1.521 1.521 0 0 0 1.55.407l1.964-.599c.11.425.23.843.385 1.242l-1.385-.399a1.518 1.518 0 0 0-1.509.396l-5.09 5.19a1.499 1.499 0 0 0 .031 2.129c.292.284.676.426 1.057.426.394 0 .79-.151 1.088-.455l4.453-4.542 2.929.843-1.655.735c-.26.114-.48.298-.64.53l-2.745 4.028a1.499 1.499 0 0 0 .404 2.091 1.521 1.521 0 0 0 2.107-.403l2.505-3.671 1.631-.724a2.997 2.997 0 0 0-.166.927c0 .806.332 1.545.876 2.15l-.185.223a1.157 1.157 0 0 0 .158 1.637c.218.18.482.267.745.267.337 0 .673-.145.902-.422l.375-.45a5.47 5.47 0 0 0 1.67.264c.594 0 1.154-.098 1.671-.264l.376.45c.229.277.564.422.902.422.263 0 .528-.087.745-.267.5-.408.569-1.142.158-1.637l-.186-.223c.545-.605.877-1.344.877-2.15 0-.374-.09-.73-.22-1.07l1.685.748 2.504 3.673a1.522 1.522 0 0 0 2.108.402 1.499 1.499 0 0 0 .404-2.09l-2.744-4.029a1.52 1.52 0 0 0-.64-.531l-1.654-.733 2.928-.844 4.452 4.543a1.52 1.52 0 0 0 1.088.456c.381 0 .765-.142 1.057-.427a1.5 1.5 0 0 0 .032-2.129l-5.092-5.19a1.518 1.518 0 0 0-1.51-.397l-1.322.382c.145-.39.25-.802.352-1.216l1.936.59zM9.086 6.893h10.585c-1.51 2.306-2.765 4.476-3.706 6.83l-6.879-6.83zm3.96 9.61c-2.352.98-4.518 2.28-6.82 3.835V9.731l6.82 6.77zm-6.82 6.272c2.998-2.063 5.525-3.653 8.386-4.717l2.918 2.898c-3.94 1.494-7.308 3.635-11.303 6.374v-4.555zm11.317-7.487c1.012-2.867 2.547-5.396 4.552-8.395h4.555c-2.587 3.893-4.72 7.351-6.165 11.317l-2.942-2.922zM6.227 33.38v-3.607c4.685-3.236 8.399-5.698 12.883-7.25l2.33 2.315c-5.335 1.926-9.79 4.81-15.213 8.542zm18.21-11.247l-2.355-2.336c1.48-4.495 3.85-8.216 6.994-12.905h3.61c-3.524 5.275-6.387 9.872-8.25 15.241z"/>
+  </g>
+</svg>
+       </div>
+        <div class="list-content problems">
+          <h3 class="title">Outdated Website/Poor UX</h3>
+          <p class="description">The old website was a relic, last updated in 1998, and did not meet modern web standards. Lacking responsive design, riddled with broken links, dated UI, and usability issues abound, this website needed to be redesigned from the ground up.</p>
+        </div>
+      </li>
 
-        </script>
-        <link href="./Matt Breithaupt - UX_UI Design Portfolio_files/main-dist.min.css" rel="stylesheet">
-        <link href="./Matt Breithaupt - UX_UI Design Portfolio_files/dependencies-dist.min.css" rel="stylesheet">
-        <link href="./Matt Breithaupt - UX_UI Design Portfolio_files/prism.css" rel="stylesheet">        
-        <!-- SERVICE WORKER -->
-        <script>
-            if ("serviceWorker" in navigator) {
-                window.addEventListener("load", function() {
-                    navigator.serviceWorker.register("https://mattbreithaupt.com/service-worker.js").then(function(a) {
-                        console.log("ServiceWorker registration successful with scope: ", a.scope)
-                    }, function(a) {
-                        console.log("ServiceWorker registration failed: ", a)
-                    })
-                })
-            };
+      <li class="list-item">
+       <div id="container-icon3">
+<svg id="obturateur3" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 110 105">
+  <g fill="none" fill-rule="evenodd" stroke="#D7796C" stroke-width="2">
+    <path d="M60.29 60.545c-.325.42-.76.821-1.173 1.156-.542.44-1.04.783-1.559 1.255-.024.02-.017.767-.052.983-.015.093-.13.454-.133.469-.011.005-1.427-.27-1.958-.573-2.154-1.227-4.115-3.7-3.972-6.246.138-2.44 3.06-3.945 4.844-2.491 2.918 2.38-.571 3.764-3.082 5.502.22.883 2.612 2.712 2.612 2.712.603-.264.773-.383 1.328-.73.016-.022 2.066-1.483 2.6-2.456.263-.477.42-.696.577-1.087.806-2.019.214-4.082-1.085-5.726-3.02-3.824-8.755-2.16-10.559 1.912-1.842 4.158.885 8.425 4.151 10.915 1.273.97 3.068 1.844 4.715 1.632 2.08-.268 3.09-1.8 3.31-3.779.104-.917-.085-1.888-.266-2.782a1.588 1.588 0 0 0-.297-.666zm-4.626-10.74V38.96h-2.358v10.994c.747-.133 1.467-.18 2.282-.153l.076.003zm-2.358 34.297h2.357V68.755a9.248 9.248 0 0 1-.657-.264 14.868 14.868 0 0 1-.892-.435 20.895 20.895 0 0 1-.808-.45v16.496z"/>
+    <path d="M69.708 21.234c-4.244-4.123-10.08-6.521-16.153-6.521-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861V17.69l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.006 2.006 0 0 0-.003-.003l.006.006-.003-.003zM65.814 6.116l-1.256-1.263-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zM54.466.532h-1.822v6.09h1.822V.532zM45.66 10.38l1.27-1.277-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zM33.08 56.03c-4.244-4.122-10.08-6.52-16.153-6.52-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861v-4.748l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.006 2.006 0 0 0-.003-.002l.006.006-.003-.003zm-3.894-15.117L27.93 39.65l-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zM17.838 35.33h-1.822v6.09h1.822v-6.09zm-8.806 9.848l1.27-1.277-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zm-5.264-3.784a.778.778 0 0 0 .006.004zm105.01 14.638c-4.244-4.123-10.08-6.521-16.153-6.521-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861v-4.748l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.115 2.115 0 0 0-.003-.003l.006.006-.003-.003zm-3.894-15.118l-1.256-1.263-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zM93.536 35.33h-1.822v6.09h1.822v-6.09zm-8.806 9.848L86 43.9l-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zm14.89 54.197c-4.244-4.123-10.08-6.521-16.153-6.521-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861V95.83l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.006 2.006 0 0 0-.003-.003l.006.006-.003-.003zm-3.894-15.118l-1.256-1.263-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zm-11.348-5.584h-1.822v6.09h1.822v-6.09zm-8.806 9.848l1.27-1.277-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zm-5.264-3.784a.778.778 0 0 0 .006.004zM42.237 99.374c-4.244-4.123-10.08-6.521-16.153-6.521-6.073 0-11.911 2.4-16.15 6.518-.205.207-.277.369-.277.64 0 .27.072.433.278.64l3.526 3.545c.206.207.366.278.633.278.268 0 .428-.071.657-.3 1.389-1.222 2.618-2.115 3.86-2.735.405-.271.625-.566.625-.861V95.83l.331-.119c1.927-.692 4.19-1.022 6.658-1.022 2.075 0 4.092.333 6.618 1.01l.37.1v4.779c0 .371.171.628.572.83 1.547.777 2.827 1.671 3.938 2.788.206.207.366.278.633.278.268 0 .428-.071.633-.278l3.527-3.545c.169-.17.247-.31.27-.504l-.262-.41a2.273 2.273 0 0 0-.287-.363zm0 0a2.006 2.006 0 0 0-.003-.003l.006.006-.003-.003zm-3.894-15.118l-1.256-1.263-4.373 4.397 1.264 1.27c.984-1.173 3.193-3.417 4.365-4.404zm-11.348-5.584h-1.822v6.09h1.822v-6.09zm-8.806 9.848l1.27-1.277-4.241-4.386-1.352 1.358c.421.366 1.063 1.003 2.127 2.07l.113.114a252.88 252.88 0 0 1 2.083 2.12zm-5.264-3.784a.778.778 0 0 0 .006.004z"/>
+  </g>
+</svg>
+       </div>     
+        <div class="list-content problems">
+          <h3 class="title">Encumbured Ordering System</h3>
+          <p class="description">A backed up phone line during peak business hours was a frequent issue. This deterred possible customers attempting order placement and increased the potential of human error for swamped employees. An additional method of placing orders, with POS (Point of Sale) software integration, needed to be provided.</p>
+        </div>
+      </li>
+    </ul>
 
-        </script>
+    <h2 class="title2">2. GOALS</h2>
+    <ul class="list">
+      <li class="list-item">
+       <div id="container-icon4">
+<svg id="obturateur4" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 113 105">
+  <g fill="none" fill-rule="evenodd" stroke="#1EA65E" stroke-width="2">
+    <path d="M89.775 42.313c5.221 3.198 8.126 6.933 8.126 10.634 0 4.655-4.59 9.345-12.52 12.946-2.544 1.156-5.369 2.17-8.43 3.033l-.745.21.114-.766a98.96 98.96 0 0 0 .553-4.384 7.006 7.006 0 0 1-.742.005l-5.24-.225a90.191 90.191 0 0 1-.923 6.443l-.062.341-.342.061c-5.491.985-11.364 1.492-17.374 1.492-6.01 0-11.882-.507-17.375-1.492l-.341-.06-.062-.342c-.992-5.457-1.502-11.292-1.502-17.263 0-5.969.51-11.804 1.502-17.262l.062-.342.341-.061a95.67 95.67 0 0 1 11.567-1.327 8.165 8.165 0 0 1 .147-3.364 8.214 8.214 0 0 1 1.196-2.637 104.85 104.85 0 0 0-11.062 1.024l-.767.113.213-.745c.869-3.043 1.89-5.85 3.053-8.378C42.788 12.089 47.508 7.53 52.19 7.53c3.836 0 7.713 3.064 10.995 8.557 2.841-2.768 6.532-7.262 8.918-10.52A51.682 51.682 0 0 0 52.19 1.598C23.688 1.6.5 24.635.5 52.947c0 28.312 23.188 51.348 51.69 51.348 28.5 0 51.687-23.036 51.687-51.348 0-4.042-.475-8.03-1.406-11.908a8.13 8.13 0 0 1-1.563.116H100.76c-.956 0-2.3.057-3.993.208-2.127.19-4.465.5-6.992.95zM37.438 10.916c-1.343 1.936-2.586 4.138-3.712 6.588-1.708 3.709-3.128 7.93-4.226 12.534l-.072.3-.3.07c-4.636 1.093-8.885 2.504-12.62 4.2-2.468 1.121-4.684 2.355-6.63 3.689L8.6 39.17l.523-1.456c4.604-12.81 14.842-22.982 27.736-27.555l1.463-.519-.885 1.275zM18.996 40.001c2.544-1.156 5.37-2.17 8.433-3.033l.744-.21-.114.765a104.636 104.636 0 0 0-1.125 15.424c0 5.26.38 10.449 1.125 15.424l.114.765-.744-.21c-3.06-.862-5.887-1.876-8.433-3.032-7.93-3.602-12.52-8.292-12.52-12.947 0-4.655 4.59-9.345 12.52-12.946zM9.877 67.597c1.947 1.334 4.164 2.568 6.632 3.69 3.735 1.696 7.983 3.107 12.619 4.198l.3.07.072.3c1.097 4.604 2.518 8.825 4.225 12.536 1.128 2.45 2.37 4.652 3.713 6.587l.884 1.275-1.462-.519C23.966 91.161 13.728 80.99 9.124 68.18L8.6 66.723l1.276.874zM52.19 98.365c-4.683 0-9.402-4.56-13.028-12.438-1.163-2.526-2.184-5.333-3.054-8.378l-.213-.745.767.113c5.01.74 10.233 1.118 15.528 1.118 5.294 0 10.518-.379 15.526-1.118l.767-.113-.213.745c-.868 3.043-1.889 5.85-3.053 8.378-3.626 7.878-8.346 12.438-13.027 12.438zm14.75-3.387c1.343-1.934 2.585-4.136 3.713-6.587 1.708-3.71 3.128-7.93 4.226-12.535l.072-.3.3-.07c4.636-1.092 8.884-2.503 12.618-4.2 2.469-1.121 4.685-2.355 6.632-3.689l1.276-.874-.523 1.456C90.65 80.99 80.413 91.16 67.518 95.735l-1.463.519.885-1.276z"/>
+    <path d="M102.347 32.472L84.624 2.912a1.241 1.241 0 0 0-1.111-.602 1.245 1.245 0 0 0-1.068.675c-.171.334-.593 1.08-1.189 2.047a76.174 76.174 0 0 1-3.615 5.305c-4.084 5.516-9.238 11.217-15.546 16.806l-.109.096-.143.023c-.16.026-.308.078-.44.156L54.1 31.74a1.227 1.227 0 0 0-.432 1.687l6.919 11.54a1.246 1.246 0 0 0 1.708.43l2.857-1.69.18.617c1.307 4.473 2.043 7.898 2.308 11.38a1.239 1.239 0 0 0 1.186 1.138l7.763.333h.056a1.24 1.24 0 0 0 1.236-1.095c.593-5.248-.121-11.36-1.431-17.055l-.106-.458.451-.133c5.827-1.722 11.275-2.855 16.246-3.503 3.335-.435 6.003-.6 7.895-.6l.217.001.097.002c.446.018.87-.218 1.101-.61a1.224 1.224 0 0 0-.004-1.252zM71.21 35.227l-3.04-5.07-1.424-2.377.309-.275c7.16-6.386 12.311-12.656 15.706-18.11l.433-.695 12.952 21.603-.824.048c-6.48.378-14.496 1.892-23.516 5.09l-.386.136-.21-.35zm36.876-10.594c.377 0 .733-.166.973-.463 3.762-4.66 4.223-11.24 1.146-16.372S101.083-.067 95.164 1a1.234 1.234 0 0 0-1.001 1.433c.123.67.769 1.115 1.447.993 4.9-.886 9.907 1.377 12.457 5.632 2.552 4.255 2.17 9.708-.95 13.572a1.225 1.225 0 0 0 .192 1.73c.224.18.496.273.778.273z"/>
+    <path d="M101.067 21.923c.376 0 .733-.166.972-.462a8.092 8.092 0 0 0 .646-9.212c-1.732-2.89-5.134-4.428-8.466-3.828a1.234 1.234 0 0 0-1.002 1.432c.123.67.77 1.116 1.447.994a5.707 5.707 0 0 1 5.882 2.66 5.629 5.629 0 0 1-.449 6.413 1.225 1.225 0 0 0 .191 1.73c.225.18.497.273.779.273z"/>
+  </g>
+</svg>
+       </div>     
+        <div class="list-content goals">
+          <h3 class="title">New Online Brand Identity</h3>
+          <p class="description">To update the restaurant’s appeal with a modern cosmopolitan identity, tapping into a larger customer base, while increasing the digital footprint. The old generic name ‘Sushi’ was swapped out for ‘Sushi Fuze’, to better reflect a contemporary restaurant chain that is host to a fusion of dish types.</p>
+        </div>
+      </li>
+
+      <li class="list-item">
+       <div id="container-icon5">
+<svg id="obturateur5" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 124 105">
+  <g fill="none" fill-rule="evenodd" stroke="#1EA65E" stroke-width="2">
+    <path d="M25.584 23.43h9.631v-8.8a5.153 5.153 0 0 1 5.16-5.154h68.132a5.154 5.154 0 0 1 5.16 5.154v43.758a5.154 5.154 0 0 1-5.16 5.154H77.26V78.31l-.002.88-.005 2.317-.017 7.034-.003 1.355c-.014 5.714-.023 8.813-.026 8.893a13.189 13.189 0 0 1-1.386 5.374h21.225c2.3 0 4.16-1.857 4.16-4.154v-5.95a4.153 4.153 0 0 0-4.16-4.155H85.175V80.65h26.372c6.489 0 11.751-5.255 11.751-11.734v-56.5c0-6.48-5.262-11.734-11.75-11.734H37.333c-6.488 0-11.75 5.255-11.75 11.734V23.43zm79.945 52.257a4.316 4.316 0 1 1 0-8.633 4.318 4.318 0 0 1 4.32 4.312 4.323 4.323 0 0 1-4.32 4.32z"/>
+    <path d="M65.264 49.399l-.24-.434-3.205 3.204v34.938H40.203v6.066a3.856 3.856 0 0 1 1.653-.38 4.319 4.319 0 0 1 4.323 4.313 4.323 4.323 0 0 1-4.323 4.32 3.858 3.858 0 0 1-1.653-.379v.221c0 1.064-.171 2.117-.5 3.166h24.111c3.42 0 6.196-2.772 6.196-6.186V52.41a5.84 5.84 0 0 1-4.746-3.011zm-16.41-9.237l3.677-3.675-.467-.257c-2.009-1.123-3.172-3.3-2.982-5.558H19.899c-3.42 0-6.196 2.772-6.196 6.187v8.86h8.191v-5.557h26.96zM29.275 52.32h-25.1A3.671 3.671 0 0 0 .5 55.99v44.636a3.67 3.67 0 0 0 3.676 3.67h25.1a3.672 3.672 0 0 0 3.676-3.67V55.99a3.672 3.672 0 0 0-3.677-3.67zm-12.547 50.598a3.715 3.715 0 0 1-3.715-3.714 3.71 3.71 0 0 1 3.715-3.703 3.71 3.71 0 0 1 3.712 3.703 3.714 3.714 0 0 1-3.712 3.714zM27.168 89.9H6.287V59.615h20.88V89.9z"/>
+    <path d="M77.306 24.225l-.008-.008a.651.651 0 0 0-.472-.194.662.662 0 0 0-.193.024l-21.914 6.44a.664.664 0 0 0-.481.574c-.03.266.108.53.347.661l6.46 3.56-.471.471-15.588 15.575a3.658 3.658 0 0 0 2.593 6.251c.967 0 1.895-.376 2.593-1.073L66.23 40.46l.321.582 3.239 5.864a.68.68 0 0 0 .671.348.67.67 0 0 0 .573-.478l6.44-21.89a.664.664 0 0 0-.168-.662z"/>
+  </g>
+</svg>
+       </div>     
+        <div class="list-content goals">
+          <h3 class="title">Responsive Design/User Flow</h3>
+          <p class="description">To design a site and app that smoothly scaled across a myriad of devices and screen dimensions. Also, developed a streamlined sitemap that minimizes the number of steps required to accomplish a goal.</p>
+        </div>
+      </li>
+
+      <li class="list-item">
+       <div id="container-icon6">
+<svg id="obturateur6" class="icon" xmlns="http://www.w3.org/2000/svg" height="200" viewBox="0 0 113 105">
+  <g fill="none" fill-rule="evenodd" stroke="#1EA65E" stroke-width="2">
+    <path d="M107.256.627H5.267C2.695.627.602 2.711.602 5.27v94.546c0 2.56 2.093 4.643 4.665 4.643h101.99c2.572 0 4.665-2.084 4.665-4.643V5.27c0-2.559-2.093-4.643-4.666-4.643zM5.267 2.91h101.99a2.366 2.366 0 0 1 2.368 2.36v9.364H2.899V5.27a2.366 2.366 0 0 1 2.368-2.36zm101.99 99.266H5.266a2.366 2.366 0 0 1-2.368-2.36v-82.9h106.726v82.9a2.366 2.366 0 0 1-2.369 2.36z"/>
+    <path d="M8.784 9.913a1.144 1.144 0 0 0 1.149-1.141 1.146 1.146 0 0 0-1.149-1.141 1.144 1.144 0 0 0-1.149 1.141 1.146 1.146 0 0 0 1.149 1.141zm5.275 0a1.144 1.144 0 0 0 1.149-1.141 1.146 1.146 0 0 0-1.149-1.141 1.144 1.144 0 0 0-1.149 1.141 1.146 1.146 0 0 0 1.15 1.141zm5.276 0a1.144 1.144 0 0 0 1.149-1.141 1.146 1.146 0 0 0-1.15-1.141 1.144 1.144 0 0 0-1.149 1.141 1.146 1.146 0 0 0 1.15 1.141zM46.86 56.045c0-2.56-2.093-4.643-4.666-4.643a4.671 4.671 0 0 0-4.42 3.162l-.115.34H27.387l-.115-.34a4.643 4.643 0 0 0-1.028-1.7l-.275-.29 2.82-4.21.298.03c.246.025.456.038.656.038h10.693c3.542 0 6.424-2.87 6.424-6.394V29.782c0-.63-.514-1.141-1.149-1.141H18.265l-.14-.273-.806-1.576a2.918 2.918 0 0 0-2.626-1.653H12.3c-.635 0-1.149.512-1.149 1.141 0 .63.514 1.142 1.149 1.142h2.392a.61.61 0 0 1 .552.351l.02.042 8.659 16.93a6.391 6.391 0 0 0 2.208 2.571l.412.28-2.624 3.918-.317-.051c-.25-.04-.5-.061-.751-.061-2.573 0-4.666 2.084-4.666 4.643 0 2.56 2.093 4.643 4.666 4.643a4.671 4.671 0 0 0 4.42-3.162l.115-.34H37.66l.115.34a4.671 4.671 0 0 0 4.42 3.162c2.573 0 4.666-2.084 4.666-4.643zM19.432 30.924h25.13v11.114c0 2.268-1.85 4.111-4.126 4.111H29.744a4.137 4.137 0 0 1-3.745-2.384l-.021-.043-6.546-12.798zm3.42 27.481a2.366 2.366 0 0 1-2.369-2.36 2.366 2.366 0 0 1 2.369-2.36 2.366 2.366 0 0 1 2.368 2.36 2.366 2.366 0 0 1-2.368 2.36zm19.342 0a2.366 2.366 0 0 1-2.368-2.36 2.366 2.366 0 0 1 2.368-2.36 2.366 2.366 0 0 1 2.369 2.36 2.366 2.366 0 0 1-2.369 2.36zm24.618 8.754h-21.1a2.903 2.903 0 0 0-2.908 2.893v10.505a2.903 2.903 0 0 0 2.907 2.892h21.101a2.903 2.903 0 0 0 2.907-2.892V70.052a2.903 2.903 0 0 0-2.907-2.893zm.61 13.398a.61.61 0 0 1-.61.61h-21.1a.61.61 0 0 1-.61-.61V70.052a.61.61 0 0 1 .61-.61h21.1a.61.61 0 0 1 .61.61v10.505zM35.161 67.159H14.059a2.903 2.903 0 0 0-2.907 2.893v10.505a2.903 2.903 0 0 0 2.907 2.892h21.102a2.903 2.903 0 0 0 2.907-2.892V70.052a2.903 2.903 0 0 0-2.907-2.893zm.61 13.398a.61.61 0 0 1-.61.61H14.059a.61.61 0 0 1-.61-.61V70.052a.61.61 0 0 1 .61-.61h21.102a.61.61 0 0 1 .61.61v10.505zm62.693-13.398H77.363a2.903 2.903 0 0 0-2.907 2.893v10.505a2.903 2.903 0 0 0 2.907 2.892h21.101a2.903 2.903 0 0 0 2.907-2.892V70.052a2.903 2.903 0 0 0-2.907-2.893zm.61 13.398a.61.61 0 0 1-.61.61H77.363a.61.61 0 0 1-.61-.61V70.052a.61.61 0 0 1 .61-.61h21.101a.61.61 0 0 1 .61.61v10.505zM36.92 88.17H12.301c-.635 0-1.149.511-1.149 1.141s.514 1.142 1.149 1.142h24.618c.635 0 1.149-.512 1.149-1.142 0-.63-.514-1.141-1.149-1.141zm31.652 0H43.953c-.635 0-1.149.511-1.149 1.141s.514 1.142 1.149 1.142H68.57c.635 0 1.148-.512 1.148-1.142 0-.63-.513-1.141-1.148-1.141zm31.652 0H75.605c-.635 0-1.149.511-1.149 1.141s.514 1.142 1.149 1.142h24.618c.634 0 1.148-.512 1.148-1.142 0-.63-.514-1.141-1.148-1.141zm-12.31 7.003H75.606c-.635 0-1.149.512-1.149 1.141 0 .63.514 1.142 1.149 1.142h12.309c.634 0 1.148-.512 1.148-1.142 0-.63-.514-1.14-1.148-1.14zm-31.651 0h-12.31c-.634 0-1.148.512-1.148 1.141 0 .63.514 1.142 1.149 1.142h12.309c.635 0 1.148-.512 1.148-1.142 0-.63-.513-1.14-1.148-1.14zm-31.652 0H12.3c-.634 0-1.148.512-1.148 1.141 0 .63.514 1.142 1.149 1.142H24.61c.635 0 1.148-.512 1.148-1.142 0-.63-.513-1.14-1.148-1.14zm33.41-67.751h15.826c.635 0 1.149-.512 1.149-1.142 0-.63-.514-1.14-1.149-1.14H58.02c-.635 0-1.148.51-1.148 1.14 0 .63.513 1.142 1.148 1.142zm42.203 4.72H58.02c-.635 0-1.148.512-1.148 1.142 0 .63.513 1.141 1.148 1.141h42.203c.634 0 1.148-.511 1.148-1.141s-.514-1.142-1.148-1.142zm0 10.506h-33.41c-.635 0-1.15.511-1.15 1.141s.515 1.141 1.15 1.141h33.41c.634 0 1.148-.511 1.148-1.141s-.514-1.141-1.148-1.141zm0 7.003h-33.41c-.635 0-1.15.512-1.15 1.141 0 .63.515 1.142 1.15 1.142h33.41c.634 0 1.148-.512 1.148-1.142 0-.63-.514-1.141-1.148-1.141zm0 7.003h-33.41c-.635 0-1.15.512-1.15 1.142 0 .63.515 1.141 1.15 1.141h33.41c.634 0 1.148-.511 1.148-1.141s-.514-1.142-1.148-1.142zM58.02 44.93h1.759c.634 0 1.148-.511 1.148-1.141s-.514-1.141-1.148-1.141H58.02c-.635 0-1.148.511-1.148 1.141s.513 1.141 1.148 1.141zm0 7.004h1.759c.634 0 1.148-.512 1.148-1.142 0-.63-.514-1.141-1.148-1.141H58.02c-.635 0-1.148.512-1.148 1.141 0 .63.513 1.142 1.148 1.142zm0 7.003h1.759c.634 0 1.148-.511 1.148-1.141s-.514-1.142-1.148-1.142H58.02c-.635 0-1.148.512-1.148 1.142 0 .63.513 1.141 1.148 1.141z"/>
+  </g>
+</svg>
+       </div>     
+        <div class="list-content goals">
+          <h3 class="title">Order Efficiency and Management</h3>
+          <p class="description">To provide an additional method for customers to request take-out/delivery by implementing an online ordering system. This efficient alternative offers a checkout process with user-friendly task navigation and does not tax the working memory.</p>
+        </div>
+      </li>
+    </ul>
+   
+
+    <h2 class="title2">3. SOLUTIONS</h2>
+	
+    <div class="container-fluid temp1">   
+      <div class="list-content text-info-arch">
+        <h3 class="title">Information Architecture</h3>
+        <p class="description">First, I created two slightly different maps to outline the navigational layout. The information architecture for the apple watch app served as the starting base, which the second map expanded upon with a little more depth for the general website.</p>
+      </div>
+
+      <div id="arrows-info-arch">
+        <div class="info-arch-label">*Apple Watch</div>
+        <img id="arrows-svg" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513091243/Arrows_V2.svg" alt="arrows">
+        <div class="info-arch-label" id="label-mobile-1">*Mobile</div>
+      </div>
+	    
+<div class="row watch-info-arch-container">	
+  <div class="col-sm-6 col-md-6 col-lg-6">
+    <div class="responsive-container2" style="padding-bottom: 56.25%;">
+      <picture>
+        <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514654515/portfolio/Apple_Watch_sushi_info_arch.webp" class="lazyload" type="image/webp">
+        <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514654515/portfolio/Apple_Watch_sushi_info_arch.jpg" alt="sitemap1" class="lazyload">
+      </picture>
     </div>
-  </body>
+  </div>
+  <div id="label-mobile-2" class="info-arch-label">*Mobile</div>
+  <div class="col-sm-6 col-md-6 col-lg-6">
+    <div class="responsive-container2" style="padding-bottom: 67.34%;">
+      <picture>
+        <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514653955/portfolio/Mobile_sushi_info_arch.webp" class="lazyload" type="image/webp">
+        <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514653955/portfolio/Mobile_sushi_info_arch.jpg" alt="sitemap2" class="lazyload">
+      </picture>
+    </div>
+  </div>
+ </div>
+</div>	  
+	  
+
+<div class="temp1 profile-parent">    
+ <div class="page-slider">
+  
+      <div class="list-content text-profiles-and-user-journey">
+        <h3 class="title">Profiles and User Journey</h3>
+        <p class="description">Constructing several character profiles as points of reference, I used these summaries to explore the potential needs of users. I then norrowed down to one profile and conducted a user journey to explore their possible pleasure/pain-points, touch-points, and thoughts as they navigate through all stages of the website. This evaluation helped shine a light on potential usability issues I may have overlooked.</p>
+      </div>   
+	
+	 
+ <label for="bio" class="new-label-class">
+    <p class="profile-bar-text">Profile 1</p>
+    <div class="divs">
+      <div id="div1" content-attribute_click="Profile 1"></div>
+    </div>
+    <div content-attribute_hover="Profile 1" class="image">
+      <picture>
+        <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831194/portfolio/profile1.webp" alt="person" class="lazyload headshot" type="image/webp">
+        <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831194/portfolio/profile1.jpg" alt="person" class="lazyload headshot">
+      </picture>
+     </div>
+  </label>
+   
+  <input id="bio" type="radio" name="select" checked>	
+	
+  <div class="slide slide-one">
+     <div class="bio-container">
+        <h4 class="name-of-bio">Rachel</h4>
+        <p class="start-bio-v2">
+          <b>Details:</b> In a relationship, skydiving instructor, 28 years old, thrill seeker, lives in an unincorporated area.
+          <br><b>Quote:</b> “I want someplace that offers light meals for lunch, but can also provide formal dishes for dinner events.”
+          <br><b>Notes:</b> Rachel loves the Sushi Fuze branded prepackaged shrimp wraps from the local market, yet she enjoys having meals delivered to as well. Her apartment complex is hidden down a poorly marked side street and is easy to miss, so she would like to track the delivery. She would also appreciate quick access to her favorite dishes when ordering online.
+        </p>
+        <p class="end-bio-v2">
+          <b>Health consciousness:</b> High
+          <br><b>Time constraints:</b> Medium
+          <br><b>Meal variety:</b> High
+          <br><b>Digital proficiency:</b> Medium
+          <br><b>Hobbies:</b> Rock climbing, swimming
+          <br><b>Spends most time:</b> Small airport runway
+          <br><b>Social networks:</b> Pinterest, Facebook
+        </p>
+      </div>
+  </div>
+	 
+	 
+  <label for="bio-2" class="new-label-class">
+    <p class="profile-bar-text">Profile 2</p>
+    <div class="divs">
+      <div id="div2" content-attribute_click="Profile 2"></div>
+    </div>
+    <div content-attribute_hover="Profile 2" class="image">
+      <picture>
+        <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831202/portfolio/profile2.webp" alt="person" class="lazyload headshot" type="image/webp">
+        <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831202/portfolio/profile2.jpg" alt="person" class="lazyload headshot">
+      </picture>
+    </div>
+  </label>
+   
+  <input id="bio-2" type="radio" name="select">
+   
+  <div class="slide slide-two">
+      <div class="bio-container">
+        <h4 class="name-of-bio">Adam</h4>
+        <p class="start-bio-v2">
+          <b>Details:</b> Married, brand consultant, 41 years old, quality conscious, lives in the suburbs.
+          <br><b>Quote:</b> “I want a dining environment where I can hold business casual meetings with clients.”
+          <br><b>Notes:</b> Adam is searching for a new contemporary restaurant that works as an informal public gathering spot with his colleagues and clients. The laid back nature of meeting at the restaurant, as opposed to the boardroom, helps set the tone for the nature his tasks.
+          Yet, Adam remains concerned about accommodating for larger groups and is determined to avoid table wait times that could encroach into the schedules of others accompanying him. Therefore, he prefers to set reservations and place some orders in advance for early evening meetings, taking into account
+          the dinner rush.
+        </p>
+        <p class="end-bio-v2">
+          <b>Health consciousness:</b> Low
+          <br><b>Time constraints:</b> Medium
+          <br><b>Meal variety:</b> Medium
+          <br><b>Digital proficiency:</b> High
+          <br><b>Hobbies:</b> Reading, blogging
+          <br><b>Spends most time:</b> Meetings
+          <br><b>Social networks:</b> LinkedIn, Google+
+        </p>
+      </div>
+  </div> 
+	 
+	 
+  <label for="bio-3" class="new-label-class">
+    <p class="profile-bar-text">Profile 3</p>
+    <div class="divs">
+      <div id="div3" content-attribute_click="Profile 3"></div>
+    </div>
+    <div content-attribute_hover="Profile 3" class="image">
+      <picture>
+        <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831210/portfolio/profile3.webp" alt="person" class="lazyload headshot" type="image/webp">
+        <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1505831210/portfolio/profile3.jpg" alt="person" class="lazyload headshot">
+      </picture>
+    </div>
+  </label> 
+   
+  <input id="bio-3" type="radio" name="select"> 
+   
+  <div class="slide slide-three">
+      <div class="bio-container">
+        <h4 class="name-of-bio">Mike</h4>
+        <p class="start-bio-v2">
+          <b>Details:</b> Single, night shift and on-call surgeon, 32 years old, efficient, lives downtown.
+          <br><b>Quote:</b> “I want a quick meal I can pick up on my way to work.”
+          <br><b>Notes:</b> Picking up a to-go meal is convenient for Mike, since the restaurant is on his way to work. With erratic work hours, an efficient and reliable service are highly appealing traits make Mike a frequent customer. He has very conservative
+          pallet, in that he sticks with only a handful of familiar meals, opting not to explore different dishes.
+        </p>
+        <p class="end-bio-v2">
+          <b>Health consciousness:</b> High
+          <br><b>Time constraints:</b> High
+          <br><b>Meal variety:</b> Low
+          <br><b>Digital proficiency:</b> Medium
+          <br><b>Hobbies:</b> Biking, basketball
+          <br><b>Spends most time:</b> Hospital
+          <br><b>Social networks:</b> LinkedIn, Facebook
+        </p>
+      </div>
+   </div>
+ </div>           
+</div> 
+
+	
+<div id="container5"></div>	
+
+    <div class="pad2">
+      <div class="equal-height-pt1">
+        <div class="col-sm-6 col-sm-push-6 equal-height-pt2 solutions-end">
+          <h3 class="title">Wireframe and Responsive Design</h3>
+          <p class="description2">Adhering to the mobile first approach, I wireframed the entire website and then adjusted dimensions to cover the various device screen sizes.</p>
+        </div>
+
+        <div class="col-xs-4 col-sm-2 col-sm-pull-6">
+	  <div class="responsive-container2" id="wireframe">
+            <picture>
+              <source data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.webp" class="lazyload" type="image/webp">
+              <!-- Fallback -->
+              <img data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1514737381/portfolio/Mobile_wireframe.jpg" alt="wireframe" class="lazyload">
+            </picture>
+	  </div>
+        </div>
+
+        <div class="col-xs-8 col-sm-4 col-sm-pull-6">
+<div class="responsive-container2" style="padding-bottom: 41.8%;">
+  <picture>
+    <source 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.webp" 
+	data-srcset=" 
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.webp 500w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.webp 875w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.webp 1175w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.webp 1557w" class="lazyload" 
+	type="image/webp" />
+     <img alt="responsive sizes" 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg" 
+	data-srcset="
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963865/portfolio/responsive_dixiwz_c_scale_w_500.jpg 500w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963762/portfolio/responsive_dixiwz_c_scale_w_875.jpg 875w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513963753/portfolio/responsive_dixiwz_c_scale_w_1175.jpg 1175w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513964101/portfolio/responsive_dixiwz_c_scale_w_1557.jpg 1557w" class="lazyload"  />
+  </picture>
+</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="pad2">
+      <div class="equal-height-pt1">
+        <div class="col-sm-6 col-md-6 col-lg-6 equal-height-pt2 solutions-end">
+          <h3 class="title">UI and Digital Assets</h3>
+          <p class="description2">With a UX structure in place, I designed UI and digital assets that adhered to the brand identity. After importing these deliverables into a copy of the wireframe, they were lain over the structure and received additional size adjustments.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+<div class="responsive-container2 digital-assets" style="padding-bottom: 41.7%;">
+  <picture>
+    <source 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.webp" 
+	data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.webp 851w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.webp 1182w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.webp 1482w," class="lazyload" 
+type="image/webp"/>
+  <img alt="digital assets" 
+	data-sizes="auto" 
+	data-src="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg" 
+	data-srcset="https://res.cloudinary.com/dgoasjucg/image/upload/v1513959296/portfolio/digital_assets_moyylt_c_scale_w_851.jpg 851w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959300/portfolio/digital_assets_moyylt_c_scale_w_1182.jpg 1182w,
+		https://res.cloudinary.com/dgoasjucg/image/upload/v1513959305/portfolio/digital_assets_moyylt_c_scale_w_1482.jpg 1482w," class="lazyload" />
+  </picture>
+</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="pad2">
+      <div class="equal-height-pt1">
+        <div class="col-sm-6 col-sm-push-6 equal-height-pt2 solutions-end">
+          <h3 class="title">Interactive Prototype</h3>
+          <p class="description2">Finally, I exported the UI assets from the Sketch program into Marvel-App to create an interactive prototype. This mockup can then receive user testing for further input.</p>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-sm-pull-6 watch-prototype-container">
+          <div class="codegena_iframe watch_prototype" data-src="https://marvelapp.com/j2333b?emb=1" style="height:467px;width:275px;" data-responsive="true" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1520969204/portfolio/watch-prototype-v4-compressor.svg" data-css="border:0px;" data-alt="watch prototype preload placeholder" role="presentation"></div>
+        </div>
+      </div>
+    </div>
+	
+
+    <!--**FOOTER**-->
+    <footer class="page-foot" role="contentinfo">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <a title="Virb" href="http://mattbreithaupt.virb.com" class="outbound" aria-label="outbound Virb additional content">
+		<svg xmlns="http://www.w3.org/2000/svg" id="social-virb" class="outbound" viewBox="0 0 512 514.5" width="4em" height="4em" color="black"><path d="M219.828 294.11L182.14 189.5H128l63.28 160h56.142l62.203-160h-52.563zm137.64-128.087c-14.608 0-26.5 12.11-26.5 27.078 0 14.94 11.892 27.032 26.5 27.032 14.657 0 26.532-12.094 26.532-27.03 0-14.97-11.875-27.08-26.53-27.08zM256 2C114.61 2 0 116.61 0 258s114.61 256 256 256 256-114.61 256-256S397.39 2 256 2zm0 472c-119.297 0-216-96.703-216-216S136.703 42 256 42s216 96.703 216 216-96.703 216-216 216z"/></svg>
+	    </a>
+          </div>
+          <div class="col-xs-6">
+            <a title="LinkedIn" href="https://www.linkedin.com/in/mattbreithaupt" class="outbound" aria-label="outbound LinkedIn profile">  
+		<svg xmlns="http://www.w3.org/2000/svg" id="social-linkedin" class="outbound" viewBox="0 0 512 514.5" width="4em" height="4em"><path d="M128.094 385.89h48v-192h-48v192zm192-192c-41.094.69-61.312 30.642-64 32v-32h-48v192h48v-112c0-4.108 10.125-37 48-32 20.344 1.33 31.312 28.235 32 32v112l47.812.22V253.188c-1.687-19.188-11.28-58.61-63.812-59.297zm-168-64c-13.25 0-24 10.735-24 24s10.75 24 24 24 24-10.733 24-24-10.75-24-24-24zM256 2C114.61 2 0 116.61 0 258s114.61 256 256 256 256-114.61 256-256S397.39 2 256 2zm0 472c-119.297 0-216-96.703-216-216S136.703 42 256 42s216 96.703 216 216-96.703 216-216 216z"/></svg>
+	    </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+		
+<div class="scripts and styling">
+   <script src="https://mattbreithaupt.com/JS/concat_directions-dist.min.js"></script>	
+   <!--PAGE LOADING ICON (replacement for splash screen)--><script>$(window).on("load",function(){$(".loader2-parent, .loader2").fadeOut("fast"),$("body").removeClass("no-scroll")});</script>
+   <!--CUSTOM HIGHCHART--><script>var chart;$(document).ready(function(){chart=new Highcharts.Chart({chart:{renderTo:"container5",defaultSeriesType:"areaspline"},title:{text:"Rachel's User Journey: Sushi Fuze app",align:"center"},subtitle:{text:"<b>Goal:</b> Order dinner online and have it delivered to her apartment. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Scenario:</b> Busy finishing up work she brought home from the office. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Constraint:</b> With her working memory preoccupied, Rachel wants to use as little mental energy possible.",align:"left",useHTML:!0,align:"center"},xAxis:{title:{text:""},tickInterval:6,categories:["Order Phase","l","l","l","l","l","Checkout Phase","l","l","l","l","l","Recieve Phase"],gridLineWidth:0},yAxis:{title:{text:""},endOnTick:!1,labels:{formatter:function(){return 0==this.value?'<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899110/portfolio/Mood-positive.svg" alt="mood positive" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(-3em); position: absolute"/>' + '<p style="position: absolute; line-height: 2.5">Mood</p>' + '<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899099/portfolio/Mood-negative.svg" alt="mood negative" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(3em); position: relative"/>':""},useHTML:!0}},tooltip:{backgroundColor:null,borderWidth:0,shadow:!1,crosshairs:!0,useHTML:!0,formatter:function(){return"<b>Thought: </b>"+this.point.myData+"<br/><b>User Action: </b>"+this.point.myData2+" "}},credits:{enabled:!1},plotOptions:{series:{events:{legendItemClick:function(){return!1}}}},series:[{name:"Rachel",data:[{y:0,myData:"<i>I'll order out, since I need something quick and easy for dinner.</i>",myData2:"Open Sushi Fuze website"},{y:-1,myData:"<i>Yet I seem to be blanking on what my login credentials were.</i>",myData2:"Exit Sushi Fuze website"},{y:2,myData:"<i>Oh yeah, I'm still logged into the Sushi Fuze app on my phone, I’ll just order from there.</i>",myData2:"Open Sushi Fuze app"},{y:2.5,myData:"<i>My mind's already set on salmon, let me just find it.</i>",myData2:"Search entree menu"},{y:3.5,myData:"<i>What was that side dish I liked to get with the salmon?</i>",myData2:"Head to profile, click ‘favorite dishes', select dish"},{y:-2,myData:"<i>I want the salmon dish prepared without any spices, but the app does not provide a comment option for placing special orders.</i>",myData2:"Unable to request alternative meal preparations"},{y:1,myData:"<i>I believe that's everything, let me double-check.</i>",myData2:"Head to cart"},{y:2,myData:"<i>Yep, that's everything.</i>",myData2:"Head to checkout"},{y:3,myData:"<i>Thankfully, the address and credit card fields autofill with info pulled from my profile, saving me a few steps during checkout.</i>",myData2:"Approve order"},{y:3.9,myData:"<i>Ok, I have confirmation my order went through and should arrive in about 40 minutes, that gives me enough time to complete an important business call.</i>",myData2:"Arrive at confirmation screen,<br/> click link to tracking screen,<br/> return and exit from confirmation screen"},{y:3.5,myData:"<i>I finished my call. The delivery person seems to be taking longer than normal. Was there a delay?</i>",myData2:"Open Sushi Fuze app"},{y:1,myData:"<i>Wait, I can't seem to find the tracking tool again. Shouldn't this feature still be accessible after exiting the confirmation screen?</i>",myData2:"Search for tracking feature"},{y:2,myData:"<i>Oh, it's also located in the widget screen. The delivery should arrive in 5 minutes or so.</i>",myData2:"Find tracking feature in widget"},{y:3.5,myData:"<i>I received a notification that my food has arrived, along with info on the delivery person’s name and picture, helpful for when I buzz them in.</i>",myData2:"Recieve digital notification that order has arrived"},{y:3.9,myData:"<i>Get in my belly!</i>",myData2:"Buzz in delivery person, receive food, provide tip"}]}]})});</script>	
+   <link href="https://mattbreithaupt.com/CSS/main-dist.min.css" rel="stylesheet" />
+   <link href="https://mattbreithaupt.com/CSS/dep/dependencies-dist.min.css" rel="stylesheet" />
+   <!-- SERVICE WORKER --><script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("https://mattbreithaupt.com/service-worker.js").then(function(a){console.log("ServiceWorker registration successful with scope: ",a.scope)},function(a){console.log("ServiceWorker registration failed: ",a)})})};</script>	
+</div>
+</body>
 </html>
