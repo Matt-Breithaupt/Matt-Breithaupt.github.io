@@ -1242,7 +1242,7 @@ input[id^="bio"]:checked + label + .bio-container {
   #arrows-info-arch {
     display: flex;
     align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 }
 
