@@ -568,7 +568,8 @@ ul {
     background: #aaa;
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
-    z-index: -1;
+    z-index: initial;
+    /*z-index: -1;*/
   }
 }
 
