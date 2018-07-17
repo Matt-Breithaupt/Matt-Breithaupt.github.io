@@ -2372,3 +2372,18 @@ input[type=text] {
     height: 54px;
     margin-right: 20px;
 }
+
+
+@media (min-width: 45em) {
+    .sidebar {
+        position: sticky;
+        width: 16 rem;
+        top: 0;
+    }
+}
+
+.sidebar {
+    position: sticky;
+    width: 16 rem;
+    top: 0;
+}
