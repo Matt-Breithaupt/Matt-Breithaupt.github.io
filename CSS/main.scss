@@ -2377,12 +2377,18 @@ input[type=text] {
 .sidebar-item {
     padding: 1em 2em;
     cursor: pointer;
+	background-color: #2c3e50;
 }
 .sidebar-item:hover {
-    background-color: #3115151a;
+	background-color: #46586a;
+}
+.sidebar-item:active {
+	background-color: #132537;
+}
+.sidebar-link {
+	color: #ffffff;
 }
 .sidebar-list {
 	position: absolute;
-	background-color: #00ff00;
 	width: 18em;
 }
