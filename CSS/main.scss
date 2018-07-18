@@ -1615,6 +1615,7 @@ input[type=text] {
 @media (min-width: 45em) {
     .guide-section {
         margin-left: 18em;
+        padding: 0 3em;
     }
 }
 
@@ -2368,11 +2369,9 @@ input[type=text] {
 @media (min-width: 45em) {
     .sidebar {
         position: sticky;
-        width: 18em;
         top: 0;
         float: left;
         text-align: left;
-        background-color: #00ff00;
     }
 }
 .sidebar-item {
@@ -2381,4 +2380,9 @@ input[type=text] {
 }
 .sidebar-item:hover {
     background-color: #3115151a;
+}
+.sidebar-list {
+	position: absolute;
+	background-color: #00ff00;
+	width: 18em;
 }
