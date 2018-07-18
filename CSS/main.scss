@@ -1602,11 +1602,6 @@ input[type=text] {
     margin-bottom: 0;
 }
 
-@media (min-width: 45em) {
-    .guide-section {
-        margin-left: 18em;
-    }
-}
 .port-section {
     margin-left: 2em;
     margin-right: 2em;
@@ -1616,6 +1611,11 @@ input[type=text] {
     text-align: left;
     margin-left: 2em;
     margin-right: 2em;
+}
+@media (min-width: 45em) {
+    .guide-section {
+        margin-left: 18em;
+    }
 }
 
 .guide-title {
