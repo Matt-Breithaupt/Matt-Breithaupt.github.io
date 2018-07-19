@@ -539,38 +539,34 @@ type="image/webp"/>
       </div>
     </div>
 
-    <!--<div class="test-background">Test</div>-->	
-    <!--<button type="button" class="button-confirm">BUTTON</button> 
+
+
 <div alt="style guide">
-    <h1 class="guide-title">STYLE GUIDE</h1>
-    
-    <div class="test-background">Test</div>
-    <div class="sidebar-item">Test</div>
+<h1 class="guide-title">STYLE GUIDE</h1>
 
     <div class="sidebar">
         <ul class="sidebar-list">
             <li class="sidebar-item">
-                <a href="#buttons">Buttons</a>
+                <a href="#buttons" class="sidebar-link">Buttons</a>
             </li>
             <li class="sidebar-item">
-                <a href="#forms">Forms</a>
+                <a href="#forms" class="sidebar-link">Forms</a>
             </li>
             <li class="sidebar-item">
-                <a href="#typography">Typography</a>
+                <a href="#typography" class="sidebar-link">Typography</a>
             </li>
             <li class="sidebar-item">
-                <a href="#color-palette">Color Palette</a>
+                <a href="#color-palette" class="sidebar-link">Color Palette</a>
             </li>
             <li class="sidebar-item">
-                <a href="#icons">Icons</a>
+                <a href="#icons" class="sidebar-link">Icons</a>
             </li>
         </ul>
-    </div>-->      
-                               
-                   
-     <section class="guide-section" id="buttons">    
-        <h2 class="guide-header-first">BUTTONS</h2>
-                                                 
+    </div>                                   
+         
+                             
+     <h2 class="guide-header-first" id="buttons">BUTTONS</h2>
+     <section class="guide-section">     
             <button type="button" class="button-confirm">BUTTON</button> 
             <pre>
                <code class="language-markup">
@@ -700,10 +696,10 @@ type="image/webp"/>
             </code>         
         </pre>                   
     </section>
-                                                            
-                              
-    <section class="guide-section" id="forms">                 
-        <h2 class="guide-header">FORMS</h2>       
+             
+                                                       
+    <h2 class="guide-header" id="forms">FORMS</h2>                    
+    <section class="guide-section">                             
         <form class="form-element">
             <div class="guide-radio">
                 <input type="radio" id="radio-1" name="takeout">
@@ -795,9 +791,8 @@ type="image/webp"/>
         </section>          
              
              
-             
-       <section class="guide-section" id="typography">    
-            <h2 class="guide-header">TYPOGRAPHY</h2>
+       <h2 class="guide-header" id="typography">TYPOGRAPHY</h2>     
+       <section class="guide-section">       
             <div class="typography">
                <p id="header" class="typography-2">Header</p>
                <p>Font-size: 50px; Font-weight: bold; Font-family: helvetica;</p> 
@@ -837,8 +832,8 @@ type="image/webp"/>
         </section>      
        
          
-        <section class="guide-section" id="color-palette">
-            <h2 class="guide-header">COLOR PALETTE</h2>    
+        <h2 class="guide-header" id="color-palette">COLOR PALETTE</h2>
+        <section class="guide-section">                
             <ul class="palette-grid">
                 <li class="palette-container">
                     <figure>
@@ -945,9 +940,9 @@ type="image/webp"/>
             </ul>      
         </section>
     
-                        
-        <section class="guide-section" id="icons">
-            <h2 class="guide-header">ICONS</h2>
+         
+        <h2 class="guide-header" id="icons">ICONS</h2>               
+        <section class="guide-section">        
             <div class="guide-element">
                 <label class="input-label">Menu Icons</label>
             </div>        
@@ -1258,8 +1253,8 @@ type="image/webp"/>
    <script src="https://mattbreithaupt.com/JS/concat_directions-dist.min.js"></script>	
    <!--PAGE LOADING ICON (replacement for splash screen)--><script>$(window).on("load",function(){$(".loader2-parent, .loader2").fadeOut("fast"),$("body").removeClass("no-scroll")});</script>
    <!--CUSTOM HIGHCHART--><script>var chart;$(document).ready(function(){chart=new Highcharts.Chart({chart:{renderTo:"container5",defaultSeriesType:"areaspline"},title:{text:"Rachel's User Journey: Sushi Fuze app",align:"center"},subtitle:{text:"<b>Goal:</b> Order dinner online and have it delivered to her apartment. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Scenario:</b> Busy finishing up work she brought home from the office. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Constraint:</b> With her working memory preoccupied, Rachel wants to use as little mental energy possible.",align:"left",useHTML:!0,align:"center"},xAxis:{title:{text:""},tickInterval:6,categories:["Order Phase","l","l","l","l","l","Checkout Phase","l","l","l","l","l","Recieve Phase"],gridLineWidth:0},yAxis:{title:{text:""},endOnTick:!1,labels:{formatter:function(){return 0==this.value?'<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899110/portfolio/Mood-positive.svg" alt="mood positive" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(-3em); position: absolute"/>' + '<p style="position: absolute; line-height: 2.5">Mood</p>' + '<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899099/portfolio/Mood-negative.svg" alt="mood negative" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(3em); position: relative"/>':""},useHTML:!0}},tooltip:{backgroundColor:null,borderWidth:0,shadow:!1,crosshairs:!0,useHTML:!0,formatter:function(){return"<b>Thought: </b>"+this.point.myData+"<br/><b>User Action: </b>"+this.point.myData2+" "}},credits:{enabled:!1},plotOptions:{series:{events:{legendItemClick:function(){return!1}}}},series:[{name:"Rachel",data:[{y:0,myData:"<i>I'll order out, since I need something quick and easy for dinner.</i>",myData2:"Open Sushi Fuze website"},{y:-1,myData:"<i>Yet I seem to be blanking on what my login credentials were.</i>",myData2:"Exit Sushi Fuze website"},{y:2,myData:"<i>Oh yeah, I'm still logged into the Sushi Fuze app on my phone, I’ll just order from there.</i>",myData2:"Open Sushi Fuze app"},{y:2.5,myData:"<i>My mind's already set on salmon, let me just find it.</i>",myData2:"Search entree menu"},{y:3.5,myData:"<i>What was that side dish I liked to get with the salmon?</i>",myData2:"Head to profile, click ‘favorite dishes', select dish"},{y:-2,myData:"<i>I want the salmon dish prepared without any spices, but the app does not provide a comment option for placing special orders.</i>",myData2:"Unable to request alternative meal preparations"},{y:1,myData:"<i>I believe that's everything, let me double-check.</i>",myData2:"Head to cart"},{y:2,myData:"<i>Yep, that's everything.</i>",myData2:"Head to checkout"},{y:3,myData:"<i>Thankfully, the address and credit card fields autofill with info pulled from my profile, saving me a few steps during checkout.</i>",myData2:"Approve order"},{y:3.9,myData:"<i>Ok, I have confirmation my order went through and should arrive in about 40 minutes, that gives me enough time to complete an important business call.</i>",myData2:"Arrive at confirmation screen,<br/> click link to tracking screen,<br/> return and exit from confirmation screen"},{y:3.5,myData:"<i>I finished my call. The delivery person seems to be taking longer than normal. Was there a delay?</i>",myData2:"Open Sushi Fuze app"},{y:1,myData:"<i>Wait, I can't seem to find the tracking tool again. Shouldn't this feature still be accessible after exiting the confirmation screen?</i>",myData2:"Search for tracking feature"},{y:2,myData:"<i>Oh, it's also located in the widget screen. The delivery should arrive in 5 minutes or so.</i>",myData2:"Find tracking feature in widget"},{y:3.5,myData:"<i>I received a notification that my food has arrived, along with info on the delivery person’s name and picture, helpful for when I buzz them in.</i>",myData2:"Recieve digital notification that order has arrived"},{y:3.9,myData:"<i>Get in my belly!</i>",myData2:"Buzz in delivery person, receive food, provide tip"}]}]})});</script>	
-   <link href="https://mattbreithaupt.com/CSS/main-dist.min.css" rel="stylesheet" />
-   <link href="https://mattbreithaupt.com/CSS/dep/dependencies-dist.min.css" rel="stylesheet" />
+   <link href="../CSS/main-dist.min.css" rel="stylesheet" />
+   <link href="../CSS/dep/dependencies-dist.min.css" rel="stylesheet" />
    <!-- SERVICE WORKER --><script>if("serviceWorker" in navigator){window.addEventListener("load",function(){navigator.serviceWorker.register("https://mattbreithaupt.com/service-worker.js").then(function(a){console.log("ServiceWorker registration successful with scope: ",a.scope)},function(a){console.log("ServiceWorker registration failed: ",a)})})};</script>	
    <style>.mobile-prototype-container .responsive_iframe{height:705px;}</style> 
 </div>
