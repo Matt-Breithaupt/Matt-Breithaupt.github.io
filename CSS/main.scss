@@ -1598,15 +1598,6 @@ pre {
     margin-right: 2em !important;
 }
 
-input[type=text] {
-    margin-bottom: 0;
-    border: 2px solid #587c8a;
-	box-shadow: inset 0 2px 3px 1px #0000001f;
-    border-radius: 6px;
-    font-size: 30px;
-	background-color: #ffffff;
-}
-
 .port-section {
     margin-left: 2em;
     margin-right: 2em;
@@ -1640,6 +1631,23 @@ input[type=text] {
     margin-top: 1em;
     margin-bottom: 1em;
     text-align: center;
+}
+
+input[type=text] {
+    max-width: 558.2px;
+    width: 100%;
+    height: 61.1px;
+    border: 2px solid #587c8a;
+    box-shadow: inset 0 2px 3px 1px #0000001f;
+    border-radius: 6px;
+    font-size: 30px;
+    background-color: #ffffff;
+    margin-bottom: 0;
+}
+input[type=text]:focus {
+    background-color: #fafafa;
+    border-color: #999999;
+    outline: none;
 }
 
 
@@ -1679,29 +1687,16 @@ input[type=text] {
 }
 
 .input-text {
-    max-width: 558.2px;
-    width: 100%;
-    height: 61.1px;
-    margin-bottom: 20px;
     padding-left: 16px;
 }
-
 .input-text:focus {
-    background-color: #fafafa;
-    border-color: #999999;
-    outline: none;
+
 }
 
 .input-secure {
     max-width: 558.2px;
     width: 100%;
     height: 61.1px;
-    border-radius: 6px;
-    background-color: #ffffff;
-    border: 2px solid #ccc;
-    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.07);
-    border-radius: 6px;
-    font-size: 30px;
     background-image: url('https://res.cloudinary.com/dgoasjucg/image/upload/v1531138373/portfolio/secure.svg');
     background-size: 1em;
     background-repeat: no-repeat;
@@ -1710,7 +1705,6 @@ input[type=text] {
     margin-bottom: 20px;
     padding-left: 16px;
 }
-
 .input-secure:focus {
     background-color: #fafafa;
     border-color: #999999;
@@ -1721,19 +1715,13 @@ input[type=text] {
     max-width: 558.2px;
     width: 100%;
     height: 61.1px;
-    border-radius: 6px;
-    background-color: #ffffff;
-    border: 2px solid #ccc;
-    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.07);
     padding-left: 64px;
-    font-size: 30px;
     background-image: url('https://res.cloudinary.com/dgoasjucg/image/upload/v1531138409/portfolio/email_(form).svg');
     background-size: 1em;
     background-repeat: no-repeat;
     background-position: 16px;
     margin-bottom: 20px;
 }
-
 .input-email:focus {
     background-color: #fafafa;
     border-color: #999999;
@@ -1744,15 +1732,9 @@ input[type=text] {
 .input-name {
     width: 100%;
     height: 61.1px;
-    border-radius: 6px;
-    background-color: #ffffff;
-    border: 2px solid #ccc;
-    box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.07);
-    font-size: 30px;
     margin-bottom: 20px;
     padding-left: 16.2px;
 }
-
 .input-name:focus {
     background-color: #fafafa;
     border-color: #999999;
