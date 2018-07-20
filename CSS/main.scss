@@ -1693,17 +1693,19 @@ input[type=text]:focus {
     background-image: url('https://res.cloudinary.com/dgoasjucg/image/upload/v1531138373/portfolio/secure.svg');
     background-size: 1em;
     background-repeat: no-repeat;
-    background-position: right;
-    padding-right: 16px;
-    padding-left: 16px;
+    background-origin: border-box;
+	background-position: 95%;
+    padding-left: 5%;
+    padding-right: 15%; 
 }
 
 .input-email {
-    padding-left: 64px;
     background-image: url('https://res.cloudinary.com/dgoasjucg/image/upload/v1531138409/portfolio/email_(form).svg');
     background-size: 1em;
     background-repeat: no-repeat;
+    background-origin: border-box;
     background-position: 16px;
+    padding-left: 64px;
 }
 
 .input-name {
