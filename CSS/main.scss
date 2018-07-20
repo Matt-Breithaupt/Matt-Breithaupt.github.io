@@ -1866,9 +1866,11 @@ input[type=text]:focus {
     box-shadow: inset 0 -6px 0 0 #BC862E;
 }
 
-.button-confirm:hover {
-    background: #FFD590;
-    box-shadow: inset 0 -6px 0 0 #EFB961;
+@media (min-width: 45em) {
+    .button-confirm:hover {
+        background: #FFD590;
+        box-shadow: inset 0 -6px 0 0 #EFB961;
+    }
 }
 
 .button-confirm:active {
@@ -1892,9 +1894,11 @@ input[type=text]:focus {
     box-shadow: inset 0 -6px 0 0 #BC862E;
 }
 
-.button-confirm-long:hover {
-    background: #FFD590;
-    box-shadow: inset 0 -6px 0 0 #EFB961;
+@media (min-width: 45em) {
+    .button-confirm-long:hover {
+        background: #FFD590;
+        box-shadow: inset 0 -6px 0 0 #EFB961;
+    }
 }
 
 .button-confirm-long:active {
@@ -1917,9 +1921,11 @@ input[type=text]:focus {
     box-shadow: inset 0 -6px 0 0 #BC862E;
 }
 
-.button-contact:hover {
-    background: #FFD590;
-    box-shadow: inset 0 -6px 0 0 #EFB961;
+@media (min-width: 45em) {
+    .button-contact:hover {
+        background: #FFD590;
+        box-shadow: inset 0 -6px 0 0 #EFB961;
+    }
 }
 
 .button-contact:active {
@@ -2019,9 +2025,11 @@ input[type=text]:focus {
     margin-left: 2.35em;
 }
 
-.button-main:hover .button-main-outer {
-    transition: border-width 0.3s ease-in-out;
-    border: 39px solid #0078FF;
+@media (min-width: 45em) {
+    .button-main:hover .button-main-outer {
+        transition: border-width 0.3s ease-in-out;
+        border: 39px solid #0078FF;
+    }
 }
 
 .button-main-text {
@@ -2048,8 +2056,10 @@ input[type=text]:focus {
     justify-content: center;
 }
 
-.button-amount:hover {
-    background: #1D94FF;
+@media (min-width: 45em) {
+    .button-amount:hover {
+        background: #1D94FF;
+    }
 }
 
 .button-amount:active {
@@ -2135,8 +2145,10 @@ input[type=text]:focus {
     justify-content: center;
 }
 
-.button-delete:hover {
-    background: #d1d2d3;
+@media (min-width: 45em) {
+    .button-delete:hover {
+        background: #d1d2d3;
+    }
 }
 
 .button-delete:active {
@@ -2154,8 +2166,10 @@ input[type=text]:focus {
     background: 0;
 }
 
-.svg-button-edit:hover {
-    fill: #B3B3B3;
+@media (min-width: 45em) {
+    .svg-button-edit:hover {
+        fill: #B3B3B3;
+    }
 }
 
 .svg-button-edit:active {
