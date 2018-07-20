@@ -1990,9 +1990,11 @@ input[type=text]:focus {
     border: 0;
 }
 
-.button-main:hover {
-    background: #F8F8F8;
-    box-shadow: inset 0 -6px 0 0 #ebebeb;
+@media (min-width: 45em) {
+	.button-main:hover {
+    		background: #F8F8F8;
+    		box-shadow: inset 0 -6px 0 0 #ebebeb;
+	}
 }
 
 .button-main:active {
