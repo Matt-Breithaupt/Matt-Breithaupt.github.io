@@ -1864,6 +1864,7 @@ input[type=text]:focus {
     color: #ffffff;
     background: #EFB961;
     box-shadow: inset 0 -6px 0 0 #BC862E;
+    user-select: none;
 }
 
 @media (min-width: 45em) {
@@ -1892,6 +1893,7 @@ input[type=text]:focus {
     color: #ffffff;
     background: #EFB961;
     box-shadow: inset 0 -6px 0 0 #BC862E;
+    user-select: none;
 }
 
 @media (min-width: 45em) {
@@ -1999,6 +2001,7 @@ input[type=text]:focus {
     background: #ebebeb;
     box-shadow: inset 0 -6px 0 0 #B8B8B8;
     border: 0;
+    user-select: none;
 }
 
 @media (min-width: 45em) {
