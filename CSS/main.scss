@@ -1939,6 +1939,8 @@ input[type=text]:focus {
 .button-contact-image {
     height: 73.3px;
     width: initial;
+    pointer-events: none;
+	user-select: none;
 }
 
 .button-contact-text {
