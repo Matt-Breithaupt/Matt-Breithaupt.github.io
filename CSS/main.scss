@@ -1979,6 +1979,7 @@ input[type=text]:focus {
     width: 98.5px;
     height: 98.6px;
     pointer-events: none;
+    user-select: none;
 }
 
 .button-alt-text {
