@@ -2000,7 +2000,7 @@ input[type=text]:focus {
     display: inline-flex;
     max-width: 725px;
     width: 100%;
-    height: 149.6px;
+    height: 8.8rem;
     background: #ebebeb;
     box-shadow: inset 0 -6px 0 0 #B8B8B8;
     border: 0;
@@ -2020,12 +2020,12 @@ input[type=text]:focus {
 }
 
 .button-main-outer {
-    min-width: 78px;
-    width: 78px;
-    height: 78px;
+    min-width: 7.8rem;
+    width: 7.8rem;
+    height: 78rem;
     background-color: #FFFFFF;
     transition: border-width 0.3s ease-in-out;
-    border: solid 14px #0078ff;
+    border: solid .9rem #0078ff;
     border-radius: 50%;
     display: inline-flex;
     justify-content: center;
@@ -2035,15 +2035,14 @@ input[type=text]:focus {
 @media (min-width: 45em) {
     .button-main:hover .button-main-outer {
         transition: border-width 0.3s ease-in-out;
-        border: 39px solid #0078FF;
+        border: 2.9rem solid #0078FF;
     }
 }
 
 .button-main-text {
     width: 335px;
-    height: 37px;
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 3rem;
     line-height: 0.82;
     color: #000000;
     align-self: center;
