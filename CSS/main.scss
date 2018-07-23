@@ -1680,6 +1680,7 @@ input[type=text] {
     font-size: 1.76rem;
     background-color: #ffffff;
     margin-bottom: 0;
+    padding-left: 1.6rem;
 }
 input[type=text]:focus {
     background-color: #fafafa;
@@ -1706,7 +1707,7 @@ input[type=text]:focus {
     background-repeat: no-repeat;
     background-origin: border-box;
     background-position: 16px;
-    padding-left: 5.4rem;
+    padding-left: 4rem !important;
 }
 
 .input-name {
