@@ -1594,8 +1594,6 @@ pre {
 
 .language-css {
     white-space: pre-wrap !important;
-    margin-left: 2em !important;
-    margin-right: 2em !important;
 }
 
 .port-section {
@@ -2193,27 +2191,37 @@ input[type=text]:focus {
 
 #header {
     font-family: Helvetica;
-    font-size: 50px;
+    font-size: 2.93rem;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
+/*@media (min-width: 45em) {
+    #header {
+        font-size: 5rem;
+    }
+}*/
 
 #body {
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 2.64rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
+/*@media (min-width: 45em) {
+    #body {
+        font-size: 4.5rem;
+    }
+}*/
 
 #feedback {
     font-family: Helvetica;
-    font-size: 45px;
+    font-size: 2.64rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
@@ -2221,75 +2229,112 @@ input[type=text]:focus {
     letter-spacing: normal;
 }
 
+
 #options {
     font-family: Helvetica;
-    font-size: 32px;
+    font-size: 1.88rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
+/*@media (min-width: 45em) {
+    #options {
+        font-size: 3.2rem;
+    }
+}*/
 
 #checkout {
     font-family: Helvetica;
-    font-size: 30px;
+    font-size: 1.76rem;
     font-weight: bold;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
+/*@media (min-width: 45em) {
+    #checkout {
+        font-size: 3rem;
+    }
+}*/
 
 #confirmation-button {
     font-family: Helvetica;
-    font-size: 30px;
+    font-size: 1.76rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 6px;
 }
+/*@media (min-width: 45em) {
+    #confirmation-button {
+        font-size: 3rem;
+    }
+}*/
 
 #form-placeholder {
     font-family: Helvetica;
-    font-size: 30px;
+    font-size: 1.76rem;
+    opacity: 0.26;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
+/*@media (min-width: 45em) {
+    #form-placeholder {
+        font-size: 3rem;
+    }
+}*/
 
 #form-microcopy {
     font-family: Helvetica;
-    font-size: 30px;
+    font-size: 1.76rem;
     font-weight: normal;
     font-style: oblique;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
+/*@media (min-width: 45em) {
+    #form-microcopy {
+        font-size: 3rem;
+    }
+}*/
 
 #checkout-sub {
     font-family: Helvetica;
-    font-size: 26px;
+    font-size: 1.53rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
+/*@media (min-width: 45em) {
+    #checkout-sub {
+        font-size: 2.6rem;
+    }
+}*/
 
 #footer-links {
     font-family: Helvetica;
-    font-size: 24px;
+    font-size: 1.41rem;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
 }
+/*@media (min-width: 45em) {
+    #footer-links {
+        font-size: 2.4rem;
+    }
+}*/
 
 
 /**CUSTOM RADIO**/
