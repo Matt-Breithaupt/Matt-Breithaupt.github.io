@@ -2091,6 +2091,10 @@ input[type=text]:focus {
     vertical-align: middle;
     align-self: center;
 }
+.button-amount-image {
+    pointer-events: none;
+    user-select: none;
+}
 
 .button-amount-container {
     width: 132.5px;
