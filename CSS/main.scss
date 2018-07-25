@@ -2350,7 +2350,8 @@ input[type=text]:focus {
 .guide-radio label {
     position: relative;
     display: inline-block;
-    padding-left: 60px;
+    padding-left: 3.87rem;
+    font-style: oblique;
 }
 
 .guide-radio label::before,
@@ -2362,8 +2363,8 @@ input[type=text]:focus {
 
 /*Outer-box*/
 .guide-radio label::before {
-    height: 54px;
-    width: 54px;
+    height: 3.17rem;
+    width: 3.17rem;
 	border: 2px solid #587c8a;
 	box-shadow: inset 0 2px 3px 1px #0000001f;
     border-radius: 8px;
@@ -2392,8 +2393,9 @@ input[type=text]:focus {
 
 /*Save for last*/
 .guide-radio {
-    height: 54px;
-    margin-right: 20px;
+    width: 11.8rem;
+    height: 3.17rem;
+    margin-right: 2rem;
 }
 
 .sidebar {
