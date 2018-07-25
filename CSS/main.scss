@@ -2157,6 +2157,11 @@ input[type=text]:focus {
     justify-content: center;
 }
 
+.button-delete-image {
+    pointer-events: none;
+    user-select: none;
+}
+
 @media (min-width: 45em) {
     .button-delete:hover {
         background: #d1d2d3;
