@@ -1864,6 +1864,7 @@ input[type=text]:focus {
     font-weight: bold;
     letter-spacing: 6px;
     text-align: center;
+    text-transform: uppercase;
     color: #ffffff;
     background: #EFB961;
     box-shadow: inset 0 -6px 0 0 #BC862E;
@@ -1893,6 +1894,7 @@ input[type=text]:focus {
     font-weight: bold;
     letter-spacing: 6px;
     text-align: center;
+    text-transform: uppercase;
     color: #ffffff;
     background: #EFB961;
     box-shadow: inset 0 -6px 0 0 #BC862E;
@@ -1923,20 +1925,20 @@ input[type=text]:focus {
     line-height: 1.16px;
     color: #ffffff;
     background: #EFB961;
-    box-shadow: inset 0 -6px 0 0 #BC862E;
+    box-shadow: inset 0 -4px 0 0 #BC862E;
     user-select: none;
 }
 
 @media (min-width: 45em) {
     .button-contact:hover {
         background: #FFD590;
-        box-shadow: inset 0 -6px 0 0 #EFB961;
+        box-shadow: inset 0 -4px 0 0 #EFB961;
     }
 }
 
 .button-contact:active {
     background: #BB914C;
-    box-shadow: inset 0 6px 0 0 #885E19;
+    box-shadow: inset 0 4px 0 0 #885E19;
 }
 
 .button-contact-image {
@@ -1947,7 +1949,10 @@ input[type=text]:focus {
 }
 
 .button-contact-text {
-    width: 81px;
+    font-weight: bold;
+	letter-spacing: 6px;
+	margin-top: .5rem;
+	text-transform: uppercase;
     font-family: Helvetica;
     font-size: 1.7rem;
     line-height: 1.16;
