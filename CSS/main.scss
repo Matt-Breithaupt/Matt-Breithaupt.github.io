@@ -2160,7 +2160,8 @@ input[type=text]:focus {
 .button-delete-image {
     pointer-events: none;
     user-select: none;
-    min-width: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
 @media (min-width: 45em) {
