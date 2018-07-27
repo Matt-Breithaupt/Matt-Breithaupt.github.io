@@ -2419,7 +2419,7 @@ input[type=text]:focus {
 .sidebar-item:active {
 	background-color: #132537;
 }
-.sidebar-link, .sidebar-link:hover, .sidebar-link:active {
+.sidebar-link, .sidebar-link:hover, .sidebar-link:active, .sidebar-link:focus {
     padding: 1em 2em;
 	display: block;
 	color: #ffffff;
