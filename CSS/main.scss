@@ -2425,10 +2425,11 @@ input[type=text]:focus {
 	color: #ffffff;
 }
 .sidebar-list {
-	position: absolute;
+	/*position: absolute;*/
 	width: 18em;
     height: 100vh;
     background-color: #33495d;
+    margin-bottom: -10px;
 }
 .sidebar-logo {
 	display: block;
