@@ -352,16 +352,17 @@ ul {
     background-color: #9f80b5;
 }
 
-.process-prototype-header {
+.project-prototype-header {
     margin-top: 0;
     padding-top: 20px;
-    font-size: 2.1em;
+    font-size: 3.4rem;
     color: #33495d;
+    font-weight: bold;
 }
 
 @media (min-width: 45em) {
-    .process-prototype-header {
-        font-size: 3.5em;
+    .project-prototype-header {
+        font-size: 5.6rem;
     }
 }
 
