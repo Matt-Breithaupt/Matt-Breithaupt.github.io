@@ -857,13 +857,7 @@ ul {
 
 .past-container {
     position: relative;
-    .past-backdrop {
-        position: absolute;
-        top: -5%;
-        height: 109%;
-        width: 100%;
-        background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1517007646/portfolio/Founding_background_pre-tile_v2.png");
-    }
+    background-image: url(https://res.cloudinary.com/dgoasjucg/image/upload/v1517007646/portfolio/Founding_background_pre-tile_v2.png);
     .triangle-2 {
         position: relative;
         height: 4em;
