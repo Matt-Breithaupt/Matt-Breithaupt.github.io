@@ -158,8 +158,9 @@
 }
 
 .overflow-wrapper {
-    /*overflow: hidden;*/
-    margin-top: -50px;
+    overflow: hidden;
+    transform: translateY(-50px);
+    /*margin-top: -50px;*/
 }
 
 /*RESERVED SPACE BEFORE AN IMAGE LOADS*/
@@ -921,6 +922,7 @@ ul {
 
 #process2 {
     position: relative;
+    transform: translateY(-50px);
 }
 
 #process-header {
