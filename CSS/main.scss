@@ -2437,5 +2437,9 @@ pre {
 
 
 .contact-wrapper {
-    height: 10rem;
+    height: 15rem;
+}
+#contact-form {
+    display: flex;
+    flex-flow: column;
 }
