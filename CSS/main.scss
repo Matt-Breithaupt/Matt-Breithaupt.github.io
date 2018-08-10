@@ -2438,6 +2438,8 @@ pre {
 
 .contact-wrapper {
     height: 15rem;
+    display: flex;
+    justify-content: center;
 }
 #contact-form {
     display: flex;
