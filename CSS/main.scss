@@ -925,6 +925,10 @@ ul {
     transform: translateY(-50px);
 }
 
+#process::before {
+	content:"";
+}
+
 #process-header {
     position: relative;
     transform: translateY(-1px) !important;
