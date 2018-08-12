@@ -927,6 +927,9 @@ ul {
 
 #process::before {
 	content:"";
+    display: block;
+    height: 50px;
+    margin: -50px;
 }
 
 #process-header {
