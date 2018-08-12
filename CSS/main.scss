@@ -1583,6 +1583,12 @@ input[id^="bio"]:checked + label + .bio-container {
 
 
 /**STYLE GUIDE**/
+#style-guide::before {
+	content:"";
+	display: block;
+	height: 50px;
+	margin-top: -50px;
+}
 
 pre {
     padding: 0 !important;
@@ -2445,6 +2451,12 @@ pre {
 }
 
 
+#contact::before {
+	content:"";
+	display: block;
+	height: 50px;
+	margin-top: -50px;
+}
 .contact-wrapper {
     height: 30rem;
     display: flex;
