@@ -353,7 +353,7 @@ ul {
     background-color: #9f80b5;
 }
 
-.project-prototype-header {
+.parent-header {
     margin-top: 0;
     padding-top: 20px;
     font-size: 3.4rem;
@@ -362,7 +362,7 @@ ul {
 }
 
 @media (min-width: 45em) {
-    .project-prototype-header {
+    .parent-header {
         font-size: 5.6rem;
     }
 }
