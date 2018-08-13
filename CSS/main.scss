@@ -2450,6 +2450,16 @@ pre {
     border-bottom: #0000005c solid 1px;
 }
 
+.triangle-3 {
+    display: none;
+}
+@media (min-width: 45em) {
+    .triangle-3 {
+        width: 18em;
+        position: absolute;
+    }
+}
+
 
 #contact::before {
 	content:"";
