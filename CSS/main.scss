@@ -2458,10 +2458,18 @@ pre {
         width: 18em;
         position: absolute;
         transform: translateY(-1px);
+        z-index: 3;
     }
 }
 
 
+@media (min-width: 45em) {
+	#contact-header {
+		background-color: #ff9a99;
+		line-height: 9.2rem;
+		transform: translateY(-1px);
+	}
+}
 #contact::before {
 	content:"";
 	display: block;
