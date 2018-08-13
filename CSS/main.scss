@@ -2450,9 +2450,7 @@ pre {
 .sidebar-item, .sidebar-logo {
     border-bottom: #0000005c solid 1px;
 }
-.triangle-sidebar-top {
-	display: none;
-}
+
 @media (min-width: 45em) {
 	.triangle-sidebar-top {
 		width: 18em;
@@ -2461,8 +2459,8 @@ pre {
 		z-index: 3;
 	}
 }
-.triangle-sidebar-bottom {
-    display: none;
+.triangle-sidebar-top {
+	display: none;
 }
 @media (min-width: 45em) {
     .triangle-sidebar-bottom {
@@ -2471,6 +2469,9 @@ pre {
         transform: translateY(-1px);
         z-index: 3;
     }
+}
+.triangle-sidebar-bottom {
+    display: none;
 }
 
 
