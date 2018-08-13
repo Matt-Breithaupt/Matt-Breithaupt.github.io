@@ -2449,7 +2449,17 @@ pre {
 .sidebar-item, .sidebar-logo {
     border-bottom: #0000005c solid 1px;
 }
-
+.triangle-sidebar-top {
+	display: none;
+}
+@media (min-width: 45em) {
+	.triangle-sidebar-top {
+		width: 18em;
+		position: absolute;
+		transform: translateY(1px) scaleX(-1);
+		z-index: 3;
+	}
+}
 .triangle-sidebar-bottom {
     display: none;
 }
@@ -2463,6 +2473,13 @@ pre {
 }
 
 
+@media (min-width: 45em) {
+	#style-guide-header {
+		background-color: #ff9a99;
+		line-height: 9.2rem;
+		transform: translateY(1px);
+	}
+}
 @media (min-width: 45em) {
 	#contact-header {
 		background-color: #ff9a99;
