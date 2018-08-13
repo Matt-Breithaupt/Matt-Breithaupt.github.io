@@ -2450,11 +2450,11 @@ pre {
     border-bottom: #0000005c solid 1px;
 }
 
-.triangle-3 {
+.triangle-sidebar-bottom {
     display: none;
 }
 @media (min-width: 45em) {
-    .triangle-3 {
+    .triangle-sidebar-bottom {
         width: 18em;
         position: absolute;
         transform: translateY(-1px);
