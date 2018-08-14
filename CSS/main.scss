@@ -472,7 +472,7 @@ ul {
 .page-foot {
     overflow: hidden;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     background-color: #2c3e50;
 }
 
@@ -1587,7 +1587,7 @@ input[id^="bio"]:checked + label + .bio-container {
 	content:"";
 	display: block;
 	height: 50px;
-	margin-top: -50px;
+	margin-top: -100px;
 }
 
 pre {
@@ -2458,7 +2458,7 @@ pre {
 	.triangle-sidebar-top {
 		width: 18em;
 		position: absolute;
-		transform: translateY(1px) scaleX(-1);
+		transform: /*translateY(1px)*/ scaleX(-1);
 		z-index: 3;
         display: block;
 	}
@@ -2482,7 +2482,7 @@ pre {
 	#style-guide-header {
 		background-color: #ff9a99;
 		line-height: 9.2rem;
-		transform: translateY(1px);
+		/*transform: translateY(1px);*/
 	}
 }
 @media (min-width: 45em) {
