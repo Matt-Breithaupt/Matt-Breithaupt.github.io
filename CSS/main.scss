@@ -1583,6 +1583,11 @@ input[id^="bio"]:checked + label + .bio-container {
 
 
 /**STYLE GUIDE**/
+@media (min-width: 45em) {
+	#style-guide::before {
+		margin-top: -50px;
+	}
+}
 #style-guide::before {
 	content:"";
 	display: block;
