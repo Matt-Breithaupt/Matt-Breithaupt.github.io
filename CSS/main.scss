@@ -2482,7 +2482,6 @@ pre {
 }
 
 
-
 @media (min-width: 45em) {
 	#style-guide-header {
 		background-color: #ff9a99;
@@ -2490,6 +2489,8 @@ pre {
 		/*transform: translateY(1px);*/
 	}
 }
+
+
 @media (min-width: 45em) {
 	#contact-header {
 		background-color: #ff9a99;
@@ -2502,6 +2503,9 @@ pre {
 	display: block;
 	height: 50px;
 	margin-top: -50px;
+}
+.contact-field {
+    width: 100%;
 }
 .contact-wrapper {
     height: 30rem;
@@ -2517,6 +2521,7 @@ pre {
     margin-bottom: 1.5rem;
     height: 3.59rem;
     padding-left: 1rem;
+    width: 100%;
 }
 #contact-message {
     height: 10rem!important;
