@@ -1275,81 +1275,24 @@ Font-size: 14.1px; Font-weight: normal; Font-family: helvetica;
 </div>
 
 
-    <!--<div id="contact">
-        <h2 class="parent-header" id="contact-header">CONTACT</h2>
-        <div class="contact-wrapper">   
-            <form id="contactForm" class="col-xs-10 col-sm-6" method="post" role="form" aria-label="contact form">
-                <input name="contactName" id="contact-name" class="contact-input" placeholder="Name" type="text" data-error-empty="Please provide your name">
-                <input name="contactEmail" id="contact-email" class="contact-input" placeholder="Email" type="email" data-error-empty="Please provide your email">
-                <textarea name="contactMessage" id="contact-message" class="contact-input" placeholder="Message" data-error-empty="Please provide your message"></textarea>
-                <button type="submit" id="contact-send" class="col-xs-10 col-sm-6" data-error-message="Error" data-sending-message="Sending…" data-ok-message="Message sent">
-                    <span>SEND MESSAGE</span>
-                </button>
-                <input type="hidden" name="_subject" value="Portfolio website contact">
-                <input type="text" name="_gotcha" style="display:none">
-            </form>
-            <script>
-                var contactForm =  document.getElementById('contactForm');
-                contactForm.setAttribute('action', 'https://formspree.io/' + 'matt' + '.' + 'breithaupt' + '@' + 'gmail' + '.' + 'com');
-            </script> 
-        </div> 
-    </div>-->
-    
-    <div id="contact">
-        <h2 class="parent-header" id="contact-header">CONTACT</h2>
-        <div class="contact-wrapper">   
-            <form id="contactForm" class="col-xs-10 col-sm-6" target="_self" onsubmit="" action="javascript: postToGoogle()">
-                <fieldset class="contact-field">
-                    <input id="contact-email" name="contactEmail" type="email" class="contact-input" placeholder="Email" type="email" data-error-empty="Please provide your email"></input>
-                </fieldset>
-                <fieldset class="contact-field">
-                    <input id="contact-name" name="contactName" type="text" class="contact-input" placeholder="Name" type="text" data-error-empty="Please provide your name"></input>
-                </fieldset>
-                <fieldset class="contact-field">
-                    <textarea id="contact-message" name="contactMessage" class="contact-input" placeholder="Message" data-error-empty="Please provide your message"></textarea>
-                </fieldset>
-                <button type="submit" id="contact-send" class="col-xs-10 col-sm-6" data-error-message="Error" data-sending-message="Sending…" data-ok-message="Message sent">
-                    <span>SEND MESSAGE</span>
-                </button>
-            </form>
-        </div> 
+<div id="contact">
+    <h2 class="parent-header" id="contact-header">CONTACT</h2>
+    <div class="contact-wrapper">
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSf0h14fIDorYVG9tWSBkxvKNrzHIutrsgXz7lKz39Tmf8tR7g/formResponse?embedded=true" target="_self" method="POST" id="mG61Hd" class="col-xs-10 col-sm-6 contact-form">
+            <input type="email" class="quantumWizTextinputPaperinputInput exportInput contact-input" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Email" data-error-empty="Please provide your email" />
+            <input type="text" class="quantumWizTextinputPaperinputInput exportInput contact-input" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Name" aria-describedby="i.desc.1633920210 i.err.1633920210" name="entry.2005620554" value="" required dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Name" data-error-empty="Please provide your name" />
+            <textarea class="quantumWizTextinputPapertextareaInput exportTextarea contact-input" jsname="YPqjbf" data-rows="1" tabindex="0" aria-label="Message" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required name="entry.839337160" dir="auto" data-initial-dir="auto" data-initial-value="" aria-describedby="i.desc.1846923513 i.err.1846923513" id="contact-message" placeholder="Message" data-error-empty="Please provide your message"></textarea>
+            <label class="docssharedWizToggleLabeledContainer"></label>
+            <input type="hidden" name="emailReceipt" jsname="L9xHkb">
+            <button type="submit" id="contact-send" class="col-xs-10 col-sm-6" data-error-message="Error" data-sending-message="Sending…" data-ok-message="Message sent">
+                <content class="quantumWizButtonPaperbuttonContent">
+                    <span class="quantumWizButtonPaperbuttonLabel exportLabel">SEND MESSAGE</span>
+                </content>
+            </button>
+            <input type="hidden" name="fvv" value="1"><input type="hidden" name="draftResponse" value="[null,null,&quot;2871091062347031746&quot;]"><input type="hidden" name="pageHistory" value="0"><input type="hidden" name="fbzx" value="2871091062347031746">
+        </form>
     </div>
-    <script>
-        function postToGoogle() {
-            var field1 = $('#contact-email').val();
-            var field2 = $('#contact-name').val();
-            var field3 = $('#contact-message').val();
-
-            $.ajax({
-                url: "https://docs.google.com/forms/d/e/1FAIpQLSf0h14fIDorYVG9tWSBkxvKNrzHIutrsgXz7lKz39Tmf8tR7g/formResponse",
-                data: {
-                    "emailAddress": field1,
-                    "entry.2005620554": field2,
-                    "entry.839337160": field3
-                },
-                type: "POST",
-                dataType: "xml",
-                statusCode: {
-                    0: function() {
-                        //Success message
-                    },
-                    200: function() {
-                        //Success Message
-                    }
-                }
-            });
-        }
-/* $(document).ready(function() {
-   $('#contactForm').submit(function() {
-     postToGoogle();
-     return false;
-   });
-   
-});*/
-    </script>
-
-
-<!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf0h14fIDorYVG9tWSBkxvKNrzHIutrsgXz7lKz39Tmf8tR7g/viewform?embedded=true" width="700" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
+</div>
 	
 
     <!--**FOOTER**-->
