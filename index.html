@@ -79,10 +79,13 @@ body{overflow-y:scroll;overflow-x:hidden;height:100%;margin:0;perspective:306px;
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
               <li>
-                  <a class="navbar-link" title="Virb" href="http://mattbreithaupt.virb.com">Additional Content</a> 
+                  <a class="navbar-link" title="Process" href="#process">Process</a> 
               </li>
               <li>
-                  <a class="navbar-link" title="LinkedIn" href="https://www.linkedin.com/in/mattbreithaupt">Learn More Or Get In Touch</a> 
+                  <a class="navbar-link" title="Style Guide" href="#style-guide">Style Guide</a> 
+              </li>
+              <li>
+                  <a class="navbar-link" title="Contact" href="#contact">Contact</a> 
               </li>
             </ul>
           </div>
@@ -140,7 +143,7 @@ body{overflow-y:scroll;overflow-x:hidden;height:100%;margin:0;perspective:306px;
     <div class="box-backdrop"></div>
     <div class="inset">
         <div class="mobile-prototype">
-            <h2 class="project-prototype-header">CONCEPT PROJECT</h2>
+            <h2 class="parent-header">CONCEPT PROJECT</h2>
             <ul class="list2">
                 <li class="list-item2">
                     <p class="title2">Sushi Fuze</p>
@@ -186,9 +189,9 @@ type="image/webp"/>
     </section>	
 </div>
 
-    <section id="process2">
-      <h2 id="process-header">PROJECT PROCESS</h2>
-    </section>
+   
+<section id="process">
+    <h1 id="process-header">PROJECT PROCESS</h1>
 
     <h2 class="title2">1. PROBLEMS</h2>
     <ul class="list">
@@ -545,17 +548,18 @@ type="image/webp"/>
       </div>
     </div>
 
+</section>
 
 
-<div alt="style guide">
 
+<div id="style-guide">
+
+    <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1509374198/portfolio/triangle3.svg" class="triangle-sidebar-top">
     <div class="sidebar">
         <ul class="sidebar-list">
-
-                <div class="sidebar-logo">
-			        <img class="" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390434/portfolio/logo.svg"></img>
-		        </div>
-
+            <div class="sidebar-logo">
+                <img class="" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1528390434/portfolio/logo.svg"></img>
+            </div>
             <li class="sidebar-item">
                 <a href="#buttons" class="sidebar-link">Buttons</a>
             </li>
@@ -571,10 +575,11 @@ type="image/webp"/>
             <li class="sidebar-item">
                 <a href="#icons" class="sidebar-link">Icons</a>
             </li>
+            <div class="sidebar-bottom"></div>
         </ul>
     </div>                                   
       
-    <h1 class="guide-title">STYLE GUIDE</h1>   
+    <h1 class="parent-header" id="style-guide-header">STYLE GUIDE</h1>   
                              
      <h2 class="guide-header-first" id="buttons">BUTTONS</h2>
      <section class="guide-section">     
@@ -1264,11 +1269,80 @@ Font-size: 14.1px; Font-weight: normal; Font-family: helvetica;
                         <figcaption>secure</figcaption>
                     </figure>
                 </li>
-            </ul> 
-        </section>   
+            </ul>       
+        </section>           
+    <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1509374188/portfolio/triangle2.svg" class="triangle-sidebar-bottom">     
 </div>
 
 
+    <!--<div id="contact">
+        <h2 class="parent-header" id="contact-header">CONTACT</h2>
+        <div class="contact-wrapper">   
+            <form id="contactForm" class="col-xs-10 col-sm-6" method="post" role="form" aria-label="contact form">
+                <input name="contactName" id="contact-name" class="contact-input" placeholder="Name" type="text" data-error-empty="Please provide your name">
+                <input name="contactEmail" id="contact-email" class="contact-input" placeholder="Email" type="email" data-error-empty="Please provide your email">
+                <textarea name="contactMessage" id="contact-message" class="contact-input" placeholder="Message" data-error-empty="Please provide your message"></textarea>
+                <button type="submit" id="contact-send" class="col-xs-10 col-sm-6" data-error-message="Error" data-sending-message="Sending…" data-ok-message="Message sent">
+                    <span>SEND MESSAGE</span>
+                </button>
+                <input type="hidden" name="_subject" value="Portfolio website contact">
+                <input type="text" name="_gotcha" style="display:none">
+            </form>
+            <script>
+                var contactForm =  document.getElementById('contactForm');
+                contactForm.setAttribute('action', 'https://formspree.io/' + 'matt' + '.' + 'breithaupt' + '@' + 'gmail' + '.' + 'com');
+            </script> 
+        </div> 
+    </div>-->
+    
+    <div id="contact">
+        <h2 class="parent-header" id="contact-header">CONTACT</h2>
+        <div class="contact-wrapper">   
+            <form id="contactForm" class="col-xs-10 col-sm-6" target="_self" onsubmit="" action="javascript: postToGoogle()">
+                <fieldset class="contact-field">
+                    <input id="contact-email" name="contactEmail" type="email" class="contact-input" placeholder="Email" type="email" data-error-empty="Please provide your email"></input>
+                </fieldset>
+                <fieldset class="contact-field">
+                    <input id="contact-name" name="contactName" type="text" class="contact-input" placeholder="Name" type="text" data-error-empty="Please provide your name"></input>
+                </fieldset>
+                <fieldset class="contact-field">
+                    <textarea id="contact-message" name="contactMessage" class="contact-input" placeholder="Message" data-error-empty="Please provide your message"></textarea>
+                </fieldset>
+                <button type="submit" id="contact-send" class="col-xs-10 col-sm-6" data-error-message="Error" data-sending-message="Sending…" data-ok-message="Message sent">
+                    <span>SEND MESSAGE</span>
+                </button>
+            </form>
+        </div> 
+    </div>
+    <script>
+        function postToGoogle() {
+            var field1 = $('#contact-email').val();
+            var field2 = $('#contact-name').val();
+            var field3 = $('#contact-message').val();
+
+            $.ajax({
+                url: "https://docs.google.com/forms/d/e/1FAIpQLSf0h14fIDorYVG9tWSBkxvKNrzHIutrsgXz7lKz39Tmf8tR7g/formResponse",
+                data: {
+                    "emailAddress": field1,
+                    "entry.2005620554": field2,
+                    "entry.839337160": field3
+                },
+                type: "POST",
+                dataType: "xml",
+                statusCode: {
+                    0: function() {
+                        //Success message
+                    },
+                    200: function() {
+                        //Success Message
+                    }
+                }
+            });
+        }
+    </script>
+
+
+<!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf0h14fIDorYVG9tWSBkxvKNrzHIutrsgXz7lKz39Tmf8tR7g/viewform?embedded=true" width="700" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>-->
 	
 
     <!--**FOOTER**-->
@@ -1276,14 +1350,14 @@ Font-size: 14.1px; Font-weight: normal; Font-family: helvetica;
       <div class="container">
         <div class="row">
           <div class="col-xs-6">
-            <a title="Virb" href="http://mattbreithaupt.virb.com" class="outbound" aria-label="outbound Virb additional content">
-		<svg xmlns="http://www.w3.org/2000/svg" id="social-virb" class="outbound" viewBox="0 0 512 514.5" width="4em" height="4em" color="black"><path d="M219.828 294.11L182.14 189.5H128l63.28 160h56.142l62.203-160h-52.563zm137.64-128.087c-14.608 0-26.5 12.11-26.5 27.078 0 14.94 11.892 27.032 26.5 27.032 14.657 0 26.532-12.094 26.532-27.03 0-14.97-11.875-27.08-26.53-27.08zM256 2C114.61 2 0 116.61 0 258s114.61 256 256 256 256-114.61 256-256S397.39 2 256 2zm0 472c-119.297 0-216-96.703-216-216S136.703 42 256 42s216 96.703 216 216-96.703 216-216 216z"/></svg>
-	    </a>
+            <a title="LinkedIn" href="https://www.linkedin.com/in/mattbreithaupt" class="outbound" aria-label="outbound LinkedIn profile">  
+		        <svg xmlns="http://www.w3.org/2000/svg" id="social-linkedin" class="outbound" viewBox="0 0 512 514.5" width="4em" height="4em"><path d="M128.094 385.89h48v-192h-48v192zm192-192c-41.094.69-61.312 30.642-64 32v-32h-48v192h48v-112c0-4.108 10.125-37 48-32 20.344 1.33 31.312 28.235 32 32v112l47.812.22V253.188c-1.687-19.188-11.28-58.61-63.812-59.297zm-168-64c-13.25 0-24 10.735-24 24s10.75 24 24 24 24-10.733 24-24-10.75-24-24-24zM256 2C114.61 2 0 116.61 0 258s114.61 256 256 256 256-114.61 256-256S397.39 2 256 2zm0 472c-119.297 0-216-96.703-216-216S136.703 42 256 42s216 96.703 216 216-96.703 216-216 216z"/></svg>
+	        </a>
           </div>
           <div class="col-xs-6">
-            <a title="LinkedIn" href="https://www.linkedin.com/in/mattbreithaupt" class="outbound" aria-label="outbound LinkedIn profile">  
-		<svg xmlns="http://www.w3.org/2000/svg" id="social-linkedin" class="outbound" viewBox="0 0 512 514.5" width="4em" height="4em"><path d="M128.094 385.89h48v-192h-48v192zm192-192c-41.094.69-61.312 30.642-64 32v-32h-48v192h48v-112c0-4.108 10.125-37 48-32 20.344 1.33 31.312 28.235 32 32v112l47.812.22V253.188c-1.687-19.188-11.28-58.61-63.812-59.297zm-168-64c-13.25 0-24 10.735-24 24s10.75 24 24 24 24-10.733 24-24-10.75-24-24-24zM256 2C114.61 2 0 116.61 0 258s114.61 256 256 256 256-114.61 256-256S397.39 2 256 2zm0 472c-119.297 0-216-96.703-216-216S136.703 42 256 42s216 96.703 216 216-96.703 216-216 216z"/></svg>
-	    </a>
+            <a title="Virb" href="http://mattbreithaupt.virb.com" class="outbound" aria-label="outbound Virb additional content">
+		        <svg xmlns="http://www.w3.org/2000/svg" id="social-virb" class="outbound" viewBox="0 0 512 514.5" width="4em" height="4em" color="black"><path d="M219.828 294.11L182.14 189.5H128l63.28 160h56.142l62.203-160h-52.563zm137.64-128.087c-14.608 0-26.5 12.11-26.5 27.078 0 14.94 11.892 27.032 26.5 27.032 14.657 0 26.532-12.094 26.532-27.03 0-14.97-11.875-27.08-26.53-27.08zM256 2C114.61 2 0 116.61 0 258s114.61 256 256 256 256-114.61 256-256S397.39 2 256 2zm0 472c-119.297 0-216-96.703-216-216S136.703 42 256 42s216 96.703 216 216-96.703 216-216 216z"/></svg>
+	        </a>
           </div>
         </div>
       </div>
