@@ -273,7 +273,6 @@ a.outbound {
         color: #18bc9c;
     }
 }
-
 svg.outbound {
     fill: white;
     text-decoration: none;
@@ -282,6 +281,26 @@ svg.outbound {
         fill: #18bc9c;
     }
 }
+
+a.outboundV2 {
+    color: red;
+    text-decoration: none;
+    &:focus,
+    &:hover {
+        color: #18bc9c;
+    }
+}
+svg.outboundV2 {
+    fill: red;
+    text-decoration: none;
+    &:focus,
+    &:hover {
+        fill: #18bc9c;
+    }
+}
+
+
+
 
 section {
     margin: auto;
