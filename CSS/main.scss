@@ -284,42 +284,21 @@ svg.outbound {
 
 a.outboundV2 {
     color: red;
-    text-decoration: none;
     &:focus,
     &:hover {
         color: #18bc9c;
+        text-decoration: none;
     }
 }
 svg.outboundV2 {
     fill: red;
     stroke: red;
-    text-decoration: none;
     &:focus,
     &:hover {
         fill: #18bc9c;
         stroke: #18bc9c;
     }
 }
-/*svg.outboundV2, g.outboundV2 {
-    fill: red;
-    stroke: red;
-    text-decoration: none;
-    &:focus,
-    &:hover {
-        fill: #18bc9c;
-        stroke: #18bc9c;
-    }
-}*/
-/*svg.outboundV2 * {
-    fill: red;
-    stroke: red;
-    text-decoration: none;
-    &:focus,
-    &:hover {
-        fill: #18bc9c;
-        stroke: #18bc9c;
-    }
-}*/
 
 
 
