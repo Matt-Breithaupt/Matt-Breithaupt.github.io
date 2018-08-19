@@ -283,20 +283,16 @@ svg.outbound {
 }
 
 a.outboundV2 {
-    color: red;
     &:focus,
     &:hover {
-        color: #18bc9c;
         text-decoration: none;
     }
 }
 svg.outboundV2 {
     fill: red;
-    stroke: red;
     &:focus,
     &:hover {
         fill: #18bc9c;
-        stroke: #18bc9c;
     }
 }
 
