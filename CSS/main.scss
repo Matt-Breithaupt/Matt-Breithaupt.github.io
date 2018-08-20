@@ -2533,6 +2533,11 @@ pre {
     display: flex;
     justify-content: center;
 }
+@media (min-width: 45em) {
+	.contact-form-wrapper {
+		width: 83.3%;
+	}
+}
 .contact-statement {
     text-align: left;
     font-size: 18px;
