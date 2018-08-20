@@ -2572,10 +2572,17 @@ pre {
     padding-top: 8px;
 }
 #contact-send {
-	background: #565656;
+	background: #656363;
 	color: #fff;
 	line-height: 3.6rem;
 	border: none;
+    &:focus, 
+	&:hover {
+		background: #807d7d;
+	}
+    &:active {
+        background: #565656;
+	}
 }
 .footer-text {
     color: white;
