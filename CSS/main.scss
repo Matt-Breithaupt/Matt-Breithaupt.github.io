@@ -2520,8 +2520,13 @@ pre {
 	height: 50px;
 	margin-top: -50px;
 }
+#contact {
+    margin-right: 0!important; 
+    margin-left: 0!important;
+}
 .contact-info-wrapper {
     margin-bottom: 2rem;
+    width: 83.3%;
 }
 .contact-form-wrapper {
     margin-bottom: 3rem;
@@ -2538,6 +2543,8 @@ pre {
 .contact-form {
     display: flex;
     flex-flow: column;
+    padding-left: 0!important; 
+    padding-right: 0!important;
 }
 .contact-field {
     width: 100%;
