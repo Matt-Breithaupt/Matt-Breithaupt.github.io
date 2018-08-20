@@ -2520,17 +2520,27 @@ pre {
 	height: 50px;
 	margin-top: -50px;
 }
-.contact-field {
-    width: 100%;
+.contact-links-wrapper {
+    margin-bottom: 2rem;
 }
-.contact-wrapper {
-    height: 30rem;
+.contact-form-wrapper {
+    margin-bottom: 3rem;
     display: flex;
     justify-content: center;
+}
+.contact-statement {
+    text-align: left;
+}
+.contact-icons {
+    display: flex; 
+    justify-content: space-evenly;
 }
 .contact-form {
     display: flex;
     flex-flow: column;
+}
+.contact-field {
+    width: 100%;
 }
 .contact-input {
     /*border: 1px solid #3d3d3d;
