@@ -265,23 +265,6 @@
 
 /** LINKS **/
 
-a.outbound {
-    color: white;
-    text-decoration: none;
-    &:focus,
-    &:hover {
-        color: #18bc9c;
-    }
-}
-svg.outbound {
-    fill: white;
-    text-decoration: none;
-    &:focus,
-    &:hover {
-        fill: #18bc9c;
-    }
-}
-
 a.outboundV2 {
     &:focus,
     &:hover {
@@ -299,6 +282,12 @@ svg.outboundV2 {
         fill: #1e2a35;
     }
 }
+@media (max-width: 45em) {
+    svg.outboundV2 {
+        transition: background 0.2s ease-out;
+    }
+}
+
 
 
 
