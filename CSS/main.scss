@@ -292,7 +292,8 @@ svg.outboundV2 {
     fill: #2c3e50;
     &:focus,
     &:hover {
-        fill: #44627d;
+        /*fill: #44627d;*/
+        fill: #5c84a9;
     }
     &:active {
         fill: #1e2a35;
@@ -2585,7 +2586,8 @@ pre {
 	border: none;
     &:focus, 
 	&:hover {
-        background: #44627d;
+        /*background: #44627d;*/
+        background: #5c84a9;
 	}
     &:active {
         background: #1e2a35;
