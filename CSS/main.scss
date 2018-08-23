@@ -2510,6 +2510,11 @@ pre {
     margin-bottom: 2rem;
     width: 83.3%;
 }
+@media (min-width: 45em) {
+	.contact-info-wrapper {
+		width: 100%;
+	}
+}
 .contact-form-wrapper {
     margin-bottom: 3rem;
     display: flex;
