@@ -160,6 +160,7 @@
 .overflow-wrapper {
     overflow: hidden;
     transform: translateY(-50px);
+    -webkit-transform: translateY(0);
     /*margin-top: -50px;*/
 }
 
