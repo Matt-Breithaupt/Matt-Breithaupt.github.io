@@ -21,6 +21,8 @@
 
 .past-text {
     text-align: left;
+    line-height: 28px; 
+    font-size: 16px;
 }
 
 @media (max-width: 45em) {
@@ -180,19 +182,6 @@
     }
 }
 
-.description2 {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    margin-bottom: 20px;
-    text-align: left;
-    font-size: 1.3em;
-}
-
-@media (min-width: 45em) {
-    .description2 {
-        font-size: 1em;
-    }
-}
 
 #wireframe {
     padding-bottom: 100%;
@@ -508,20 +497,18 @@ ul {
 }
 
 /*Mobile view: default*/
-
 .description {
-    padding: 0 1.5em;
+    padding: 0 2.1rem;
     text-align: left;
     margin: 0 0 20px;
-    font-size: 1.3em;
+    line-height: 28px; 
+    font-size: 16px;
 }
-
 /*Desktop query*/
-
 @media (min-width: 45em) {
     .description {
-        margin: 0 0 10px;
-        font-size: 1em;
+        font-size: 1.4rem;
+        line-height: 20px;
     }
 }
 
@@ -529,7 +516,8 @@ ul {
     text-align: left;
     max-width: 80%;
     padding-bottom: 10px;
-    font-size: 1.1em;
+    line-height: 28px; 
+    font-size: 16px;
 }
 
 @media (min-width: 45em) {
