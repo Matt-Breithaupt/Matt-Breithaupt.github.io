@@ -527,11 +527,6 @@ ul {
     }
 }
 
-.temp1 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
 .card2 {
     margin-bottom: 30px;
 }
@@ -1056,6 +1051,8 @@ ul {
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /*Removes circular radio button*/
@@ -1237,53 +1234,6 @@ input[id^="bio"]:checked + label + .bio-container {
     }
 }
 
-
-
-
-
-
-
-/*Mobile view: default*/
-
-.start-bio-v2 {
-    width: 83%;
-    text-align: left;
-    display: block;
-    font-size: 16px;
-}
-
-/**Desktop view**/
-
-@media (min-width: 45em) {
-    .start-bio-v2 {
-        width: 65%;
-        padding-right: 3em;
-        text-align: left;
-        display: inline-block;
-        font-size: 14px;
-    }
-}
-
-/*Mobile view: default*/
-
-.end-bio-v2 {
-    width: 83%;
-    text-align: left;
-    display: block;
-    padding-bottom: 15px;
-    font-size: 16px;
-}
-
-/**Desktop view**/
-
-@media (min-width: 45em) {
-    .end-bio-v2 {
-        width: 25%;
-        text-align: left;
-        display: inline-block;
-        font-size: 14px;
-    }
-}
 
 /*Mobile view: default*/
 
