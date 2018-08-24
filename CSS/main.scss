@@ -1147,6 +1147,7 @@ input[type="radio"] {
 .bio-container {
     background-color: #eeeeee;
     overflow: hidden;
+    padding-bottom: 15px;
 }
 
 /*Mobile view: default*/
@@ -1195,6 +1196,11 @@ input[id^="bio"]:checked + label + .bio-container {
     .bio-container > p {
         vertical-align: top;
     }
+}
+
+.bio-content {
+    display: inline-flex;
+    flex-flow: column;
 }
 
 /*Mobile view: default*/
