@@ -1211,7 +1211,7 @@ input[id^="bio"]:checked + label + .bio-container {
 
 
 /*Mobile view: default*/
-.start-bio {
+.start-bio-v3 {
     width: 83%;
     text-align: left;
     display: inline-flex;
@@ -1220,7 +1220,7 @@ input[id^="bio"]:checked + label + .bio-container {
 }
 /**Desktop view**/
 @media (min-width: 45em) {
-    .start-bio {
+    .start-bio-v3 {
         width: 65%;
         padding-right: 3em;
         text-align: left;
@@ -1230,7 +1230,7 @@ input[id^="bio"]:checked + label + .bio-container {
     }
 }
 /*Mobile view: default*/
-.end-bio {
+.end-bio-v3 {
     width: 83%;
     text-align: left;
     display: inline-flex;
@@ -1240,7 +1240,7 @@ input[id^="bio"]:checked + label + .bio-container {
 }
 /**Desktop view**/
 @media (min-width: 45em) {
-    .end-bio {
+    .end-bio-v3 {
         width: 25%;
         text-align: left;
         display: inline-flex;
