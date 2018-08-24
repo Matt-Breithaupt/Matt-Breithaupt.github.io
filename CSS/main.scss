@@ -1198,20 +1198,9 @@ input[id^="bio"]:checked + label + .bio-container {
     }
 }
 
-.bio-content {
-    display: inline-flex;
-    flex-flow: column;
-    width: 65%;
-    padding-right: 3em;
-    text-align: left;
-}
-
-
-
-
 
 /*Mobile view: default*/
-.start-bio-v3 {
+.start-bio {
     width: 83%;
     text-align: left;
     display: inline-flex;
@@ -1220,7 +1209,7 @@ input[id^="bio"]:checked + label + .bio-container {
 }
 /**Desktop view**/
 @media (min-width: 45em) {
-    .start-bio-v3 {
+    .start-bio {
         width: 65%;
         padding-right: 3em;
         text-align: left;
@@ -1230,17 +1219,16 @@ input[id^="bio"]:checked + label + .bio-container {
     }
 }
 /*Mobile view: default*/
-.end-bio-v3 {
+.end-bio {
     width: 83%;
     text-align: left;
     display: inline-flex;
     flex-flow: column;
-    padding-bottom: 15px;
     font-size: 16px;
 }
 /**Desktop view**/
 @media (min-width: 45em) {
-    .end-bio-v3 {
+    .end-bio {
         width: 25%;
         text-align: left;
         display: inline-flex;
@@ -1320,16 +1308,6 @@ input[id^="bio"]:checked + label + .bio-container {
     .name-of-bio {
         width: 91%;
     }
-}
-
-/* Additional styling */
-
-.start-bio {
-    width: 70%;
-}
-
-.end-bio {
-    width: 30%;
 }
 
 /*Mobile view: default*/
