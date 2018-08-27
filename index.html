@@ -143,19 +143,44 @@ body{overflow-y:scroll;overflow-x:hidden;height:100%;margin:0;perspective:306px;
     <div class="box-backdrop"></div>
     <div class="inset">
         <div class="mobile-prototype">
-            <h2 class="parent-header">CONCEPT PROJECT</h2>
-            <ul class="list2">
-                <li class="list-item2">
+            <h2 class="parent-header">-CONCEPT PROJECT-</h2>
+            <div class="intro">
+                <div class="intro-item">
                     <p class="title2">Sushi Fuze</p>
                     <p class="paragraph1">Sushi Fuze is a hypothetical family-run restaurant in the process of converting their single outlet into a chain. This expansion would fill multiple new storefronts in counties adjacent to the original location, followed by plans of spreading further east if the first crop of stores prove successful. The following interactive prototype is the UX/UI design concept meant to serve as the restaurant chain’s new website.</p>
-                </li>
-                <li class="list-item2">
+                    <div class="tool-segment">
+                        <p class="title2">Tools Used:</p>
+                        <div class="grouped-tools">
+                           <div>
+                                <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1535318450/sketch.svg" class="col-xs-4 tool"><span>Sketch</span></img>
+                            </div>
+                            <div>
+                                <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1535318492/marvel.svg" class="col-xs-4 tool"><span>Marvel</span></img>
+                            </div>
+                            <div>
+                                <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1535318630/Zeplin.svg" class="col-xs-4 tool"><span>Zeplin</span></img>
+                            </div>
+                        </div>
+                        <div class="grouped-tools">
+                            <div>
+                                <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1535382316/brackets.svg" class="col-xs-4 tool"><span>Brackets</span></img>
+                            </div>
+                            <div>
+                                <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1535318336/GitHub.svg" class="col-xs-4 tool"><span>GitHub</span></img>
+                            </div>
+                            <div>
+                                <img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1535381392/prepros.svg" class="col-xs-4 tool"><span>Prepros</span></img>
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+                <div class="intro-item">
                     <!--Marval App embeds. Iframes.-->
                     <div class="mobile-prototype-container">
                         <div class="codegena_iframe" data-src="https://marvelapp.com/h242jh?emb=1" style="height:705px;width:337px;" data-responsive="true" data-img="https://res.cloudinary.com/dgoasjucg/image/upload/v1520970340/portfolio/mobile-prototype-v6-compressor.svg" data-css="border:0px;" data-alt="mobile prototype preload placeholder" role="presentation"></div>
                     </div>
-                </li>
-            </ul>
+                </div>             
+            </div> 
             <div class="proto-box-bottom-backdrop"></div>
         </div>
     </div>
@@ -1317,7 +1342,7 @@ Font-size: 14.1px; Font-weight: normal; Font-family: helvetica;
 
     <div class="col-xs-12 col-sm-6">
         <div class="contact-form-wrapper">
-            <form action="https://docs.google.com/forms/d/e/1FAIpQLSf0h14fIDorYVG9tWSBkxvKNrzHIutrsgXz7lKz39Tmf8tR7g/formResponse?embedded=true" target="_self" method="POST" id="mG61Hd" class="col-xs-12 contact-form">
+            <form action="" target="_self" method="POST" id="mG61Hd" class="col-xs-12 contact-form">
                 <input type="email" class="quantumWizTextinputPaperinputInput exportInput contact-input" jsname="YPqjbf" autocomplete="email" tabindex="0" aria-label="Your email" name="emailAddress" value="" required dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Email" data-error-empty="Please provide your email" />
                 <input type="text" class="quantumWizTextinputPaperinputInput exportInput contact-input" jsname="YPqjbf" autocomplete="off" tabindex="0" aria-label="Name" aria-describedby="i.desc.1633920210 i.err.1633920210" name="entry.2005620554" value="" required dir="auto" data-initial-dir="auto" data-initial-value="" placeholder="Name" data-error-empty="Please provide your name" />
                 <textarea class="quantumWizTextinputPapertextareaInput exportTextarea contact-input" jsname="YPqjbf" data-rows="1" tabindex="0" aria-label="Message" jscontroller="gZjhIf" jsaction="input:Lg5SV;ti6hGc:XMgOHc;rcuQ6b:WYd;" required name="entry.839337160" dir="auto" data-initial-dir="auto" data-initial-value="" aria-describedby="i.desc.1846923513 i.err.1846923513" id="contact-message" placeholder="Message" data-error-empty="Please provide your message"></textarea>
@@ -1328,7 +1353,7 @@ Font-size: 14.1px; Font-weight: normal; Font-family: helvetica;
                     <span class="quantumWizButtonPaperbuttonLabel exportLabel">SEND MESSAGE</span>
                 </content>
                 </button>
-                <input id="website" name="website" type="text" value="" style="display:none" tabindex="-1" autocomplete="off" />
+                <input id="website" name="website" type="text" value="" tabindex="-1" autocomplete="off" />
                 <input type="hidden" name="fvv" value="1"><input type="hidden" name="draftResponse" value="[null,null,&quot;2871091062347031746&quot;]"><input type="hidden" name="pageHistory" value="0"><input type="hidden" name="fbzx" value="2871091062347031746">
             </form>
         </div>
@@ -1347,6 +1372,8 @@ Font-size: 14.1px; Font-weight: normal; Font-family: helvetica;
    <!--PAGE LOADING ICON (replacement for splash screen)--><script>$(window).on("load",function(){$(".loader2-parent, .loader2").fadeOut("fast"),$("body").removeClass("no-scroll")});</script>
    <!--FORM HONEY SCRIPT-->
    <script>$('form').submit(function(){if ($('input#website').val().length != 0) {return false;}});</script>
+   <script>$("#website").css("display", "none");</script>
+   <script>$(document).ready(function(){if($("html").hasClass("js")){$("form#mG61Hd").attr("action","https://docs.google.com/forms/d/e/1FAIpQLSf0h14fIDorYVG9tWSBkxvKNrzHIutrsgXz7lKz39Tmf8tR7g/formResponse?embedded=true")}});</script>
    <!--CUSTOM HIGHCHART--><script>var chart;$(document).ready(function(){chart=new Highcharts.Chart({chart:{renderTo:"container5",defaultSeriesType:"areaspline"},title:{text:"Rachel's User Journey: Sushi Fuze app",align:"center"},subtitle:{text:"<b>Goal:</b> Order dinner online and have it delivered to her apartment. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Scenario:</b> Busy finishing up work she brought home from the office. <br/><span style='font-size:16px; color:#ffffff'>.</span><br/> <b>Constraint:</b> With her working memory preoccupied, Rachel wants to use as little mental energy possible.",align:"left",useHTML:!0,align:"center"},xAxis:{title:{text:""},tickInterval:6,categories:["Order Phase","l","l","l","l","l","Checkout Phase","l","l","l","l","l","Recieve Phase"],gridLineWidth:0},yAxis:{title:{text:""},endOnTick:!1,labels:{formatter:function(){return 0==this.value?'<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899110/portfolio/Mood-positive.svg" alt="mood positive" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(-3em); position: absolute"/>' + '<p style="position: absolute; line-height: 2.5">Mood</p>' + '<img src="https://res.cloudinary.com/dgoasjucg/image/upload/v1502899099/portfolio/Mood-negative.svg" alt="mood negative" style="vertical-align: middle; width: 32px; height: 32px; transform: translateY(3em); position: relative"/>':""},useHTML:!0}},tooltip:{backgroundColor:null,borderWidth:0,shadow:!1,crosshairs:!0,useHTML:!0,formatter:function(){return"<b>Thought: </b>"+this.point.myData+"<br/><b>User Action: </b>"+this.point.myData2+" "}},credits:{enabled:!1},plotOptions:{series:{events:{legendItemClick:function(){return!1}}}},series:[{name:"Rachel",data:[{y:0,myData:"<i>I'll order out, since I need something quick and easy for dinner.</i>",myData2:"Open Sushi Fuze website"},{y:-1,myData:"<i>Yet I seem to be blanking on what my login credentials were.</i>",myData2:"Exit Sushi Fuze website"},{y:2,myData:"<i>Oh yeah, I'm still logged into the Sushi Fuze app on my phone, I’ll just order from there.</i>",myData2:"Open Sushi Fuze app"},{y:2.5,myData:"<i>My mind's already set on salmon, let me just find it.</i>",myData2:"Search entree menu"},{y:3.5,myData:"<i>What was that side dish I liked to get with the salmon?</i>",myData2:"Head to profile, click ‘favorite dishes', select dish"},{y:-2,myData:"<i>I want the salmon dish prepared without any spices, but the app does not provide a comment option for placing special orders.</i>",myData2:"Unable to request alternative meal preparations"},{y:1,myData:"<i>I believe that's everything, let me double-check.</i>",myData2:"Head to cart"},{y:2,myData:"<i>Yep, that's everything.</i>",myData2:"Head to checkout"},{y:3,myData:"<i>Thankfully, the address and credit card fields autofill with info pulled from my profile, saving me a few steps during checkout.</i>",myData2:"Approve order"},{y:3.9,myData:"<i>Ok, I have confirmation my order went through and should arrive in about 40 minutes, that gives me enough time to complete an important business call.</i>",myData2:"Arrive at confirmation screen,<br/> click link to tracking screen,<br/> return and exit from confirmation screen"},{y:3.5,myData:"<i>I finished my call. The delivery person seems to be taking longer than normal. Was there a delay?</i>",myData2:"Open Sushi Fuze app"},{y:1,myData:"<i>Wait, I can't seem to find the tracking tool again. Shouldn't this feature still be accessible after exiting the confirmation screen?</i>",myData2:"Search for tracking feature"},{y:2,myData:"<i>Oh, it's also located in the widget screen. The delivery should arrive in 5 minutes or so.</i>",myData2:"Find tracking feature in widget"},{y:3.5,myData:"<i>I received a notification that my food has arrived, along with info on the delivery person’s name and picture, helpful for when I buzz them in.</i>",myData2:"Recieve digital notification that order has arrived"},{y:3.9,myData:"<i>Get in my belly!</i>",myData2:"Buzz in delivery person, receive food, provide tip"}]}]})});</script>	
    <link href="../CSS/main-dist.min.css" rel="stylesheet" />
    <link href="../CSS/dep/dependencies-dist.min.css" rel="stylesheet" />
