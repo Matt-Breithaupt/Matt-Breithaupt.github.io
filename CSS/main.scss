@@ -2570,3 +2570,45 @@ pre {
 .tool-segment {
     padding: 0 .9rem 1rem;
 }
+
+
+
+
+
+@media
+  (min-width: 400px) {
+  .hero-image-v2 {
+    background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1516129780/portfolio/hero-image_j4bgrz_c_scale_w_400.webp");
+  }
+}
+@media
+  (min-width: 993px) {
+  .hero-image-v2 {
+    background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1516129784/portfolio/hero-image_j4bgrz_c_scale_w_993.webp");
+  }
+}
+@media
+  (min-width: 1378px) {
+  .hero-image-v2 {
+    background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1516129796/portfolio/hero-image_j4bgrz_c_scale_w_1378.webp");
+  }
+}
+@media
+  (min-width: 1765px) {
+  .hero-image-v2 {
+    background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1516129800/portfolio/hero-image_j4bgrz_c_scale_w_1765.webp");
+  }
+}
+@media
+  (min-width: 1995px) {
+  .hero-image-v2 {
+    background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1516129804/portfolio/hero-image_j4bgrz_c_scale_w_1995.webp");
+  }
+}
+
+.hero-image-v2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
