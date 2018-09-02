@@ -2582,6 +2582,7 @@ pre {
 }
 @media (max-width: 45em) {
     .hero {
+        position: fixed;
         bottom: 0;
         right: 0;
     }
