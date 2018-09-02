@@ -2580,8 +2580,14 @@ pre {
     background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1516129796/portfolio/hero-image_j4bgrz_c_scale_w_1378.webp");
   }
 }
+@media (max-width: 44em) {
+    .hero {
+        bottom: 0;
+        right: 0;
+    }
+}
 
-@media (min-width: 1378px) {
+/*@media (min-width: 1378px) {
     .hero-image-v2 {
         background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1516129796/portfolio/hero-image_j4bgrz_c_scale_w_1378.webp");
     }
@@ -2595,7 +2601,7 @@ pre {
     .hero-image-v2 {
         background-image: url("https://res.cloudinary.com/dgoasjucg/image/upload/v1516129804/portfolio/hero-image_j4bgrz_c_scale_w_1995.webp");
     }
-}
+}*/
 
 .hero-image-v2 {
   background-attachment: fixed;
