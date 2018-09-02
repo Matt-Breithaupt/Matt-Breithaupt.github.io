@@ -71,16 +71,18 @@
     }
 }
 
+/*.list2*/
 @media (min-width: 45em) {
-    /*.list2*/ .intro {
+    .intro {
         display: flex;
         justify-content: center;
         margin-bottom: 0;
     }
 }
 
+/*.list-item2*/
 @media (min-width: 45em) {
-    /*.list-item2*/ .intro-item {
+    .intro-item {
         width: 40%;
         display: inline-block;
     }
