@@ -2824,7 +2824,6 @@ print {
 
 .panel-default>.panel-heading a {
   display: block;
-  padding: 10px 15px;
   text-decoration: none;
 }
 
@@ -2846,4 +2845,29 @@ print {
 
 .panel-default>.panel-heading a[aria-expanded="true"] {
   background-color: #eee;
+}
+
+.user-testing-button {
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 15px;
+    background: #fff;
+}
+
+.user-testing-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**Mobile view: default**/
+.heatmap {
+    display: block;
+}
+/**Desktop view: enable photo**/
+@media (min-width: 45em) {
+    .heatmap {
+        width: 50%;
+        display: inline-block
+    }
 }
