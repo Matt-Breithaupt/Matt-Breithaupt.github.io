@@ -1273,6 +1273,7 @@ input[id^="bio"]:checked + label + .bio-container {
         display: flex;
         align-items: flex-end;
         justify-content: space-evenly;
+        margin-bottom: -30px;
     }
 }
 
@@ -1282,6 +1283,7 @@ input[id^="bio"]:checked + label + .bio-container {
     font-weight: bold;
     color: #1078b1;
     font-style: italic;
+    margin-top: 10px;
 }
 
 /*Mobile view: default*/
