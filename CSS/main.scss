@@ -2690,3 +2690,9 @@ pre {
 .incorrect-selection {
 	color: red;
 }
+
+@media (max-width: 45em) {
+    .task {
+        text-align: left;
+    }
+}
