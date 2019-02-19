@@ -2671,3 +2671,22 @@ pre {
         display: inline-block
     }
 }
+
+@media (max-width: 45em) {
+    .heatmap-description {
+        text-align: left;
+    }
+}
+@media (min-width: 45em) {
+    .heatmap-description {
+        width: 50%;
+        display: inline-block;
+    }
+}
+
+.correct-selection {
+	color: green;
+}
+.incorrect-selection {
+	color: red;
+}
