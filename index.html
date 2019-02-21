@@ -749,7 +749,7 @@ type="image/webp"/>
     <h1 class="parent-header" id="style-guide-header">STYLE GUIDE</h1>   
              
                              
-    <p class="description grouped-tools">My front-end style guide remains accessible throughout the design process for stakeholders to review, while my components and markup are available to the development team for implementation.</p>                                         
+    <p class="description grouped-tools">My front-end style guide remains accessible throughout the design process for stakeholders to review, while my component markup and visual specifications are available to the development team for implementation.</p>                                         
                                                              
                     
      <h2 class="guide-header-first" id="buttons">BUTTONS</h2>
@@ -759,12 +759,73 @@ type="image/webp"/>
                <code class="language-markup">
 &lt;button type="button" class="button-confirm"&gt;BUTTON&lt;/button&gt;
                 </code>  
-            </pre>                                       
+            </pre>
+            <pre>
+               <code class="language-css">
+.button-confirm {
+    width: 16.15rem;
+    height: 4.87rem;
+    border: 0;
+    border-radius: 4px;
+    font-family: Helvetica;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #EFB961;
+    box-shadow: inset 0 -4px 0 0 #BC862E;
+    user-select: none;
+}
+@media (min-width: 45em) {
+    .button-confirm:hover {
+        background: #FFD590;
+        box-shadow: inset 0 -4px 0 0 #EFB961;
+    }
+}
+.button-confirm:active {
+    background: #BB914C;
+    box-shadow: inset 0 4px 0 0 #885E19;
+}
+                </code>  
+            </pre>                                         
                     
             <button type="button" class="button-confirm-long">BUTTON</button> 
             <pre>
                <code class="language-markup">
 &lt;button type="button" class="button-confirm-long"&gt;BUTTON&lt;/button&gt;
+                </code>  
+            </pre>  
+            <pre>
+               <code class="language-css">
+.button-confirm-long {
+    max-width: 100%;
+    width: 32.8rem;
+    height: 4.2rem;
+    border: 0;
+    border-radius: 4px;
+    font-family: Helvetica;
+    font-size: 1.7rem;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #EFB961;
+    box-shadow: inset 0 -4px 0 0 #BC862E;
+    user-select: none;
+}
+@media (min-width: 45em) {
+    .button-confirm-long:hover {
+        background: #FFD590;
+        box-shadow: inset 0 -4px 0 0 #EFB961;
+    }
+}
+.button-confirm-long:active {
+    background: #BB914C;
+    box-shadow: inset 0 4px 0 0 #885E19;
+}
                 </code>  
             </pre>              
                       
@@ -780,6 +841,53 @@ type="image/webp"/>
 &lt;/button&gt; 
                 </code> 
             </pre>
+            <pre>
+               <code class="language-css">
+.button-contact {
+    width: 16.8rem;
+    height: 8.7rem;
+    border: 0;
+    border-radius: 12px;
+    font-family: Helvetica;
+    font-size: 32px;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 1.16px;
+    color: #ffffff;
+    background: #EFB961;
+    box-shadow: inset 0 -4px 0 0 #BC862E;
+    user-select: none;
+}
+@media (min-width: 45em) {
+    .button-contact:hover {
+        background: #FFD590;
+        box-shadow: inset 0 -4px 0 0 #EFB961;
+    }
+}
+.button-contact:active {
+    background: #BB914C;
+    box-shadow: inset 0 4px 0 0 #885E19;
+}
+.button-contact-image {
+    width: 5.4rem;
+    height: 4.3rem;
+    pointer-events: none;
+	user-select: none;
+}
+.button-contact-text {
+    font-weight: bold;
+	letter-spacing: 6px;
+    display: block;
+	margin-top: .5rem;
+	text-transform: uppercase;
+    font-family: Helvetica;
+    font-size: 1.7rem;
+    line-height: 1.16;
+    text-align: center;
+    color: #ffffff;
+}
+                </code>  
+            </pre>  
                
             <button type="button" class="button-alt">
                 <img class="button-alt-image" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1531144849/nutrition_(button).svg">
@@ -792,7 +900,49 @@ type="image/webp"/>
     &lt;span class="button-alt-text"&gt;Button&lt;/span&gt;
 &lt;/button&gt;     
                 </code>         
-            </pre>                     
+            </pre> 
+            <pre>
+               <code class="language-css">
+.button-alt {
+    display: inline-flex;
+    width: 15.9rem;
+    height: 5.8rem;
+    border-radius: 4px;
+    background: #BFBFBF;
+    box-shadow: inset 0 -4px 0 0 #8C8C8C;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+@media (min-width: 45em) {
+    .button-alt:hover {
+        background: #D9D9D9;
+        box-shadow: inset 0 -4px 0 0 #C0C0C0;
+    }
+}
+.button-alt:active {
+    background: #A6A6A6;
+    box-shadow: inset 0 4px 0 0 #737373;
+}
+.button-alt-image {
+    width: 5.8rem;
+    height: 5.8rem;
+    pointer-events: none;
+    user-select: none;
+}
+.button-alt-text {
+    align-self: center;
+    width: 130px;
+    font-family: Helvetica;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #000000;
+    line-height: normal;
+    user-select: none;
+    text-align: left;
+}
+                </code>  
+            </pre>                    
                 
             <button type="button" class="button-main">
                 <div class="button-main-outer">
@@ -809,7 +959,59 @@ type="image/webp"/>
     &lt;span class="button-main-text"&gt;Button&lt;/span&gt;
 &lt;/button&gt;   
                 </code>         
-            </pre>         
+            </pre>   
+            <pre>
+               <code class="language-css">
+.button-main {
+    display: inline-flex;
+    max-width: 45em;
+    width: 100%;
+    height: 8.8rem;
+    background: #ebebeb;
+    box-shadow: inset 0 -4px 0 0 #B8B8B8;
+    border: 0;
+    user-select: none;
+}
+@media (min-width: 45em) {
+	.button-main:hover {
+        background: #F8F8F8;
+        box-shadow: inset 0 -4px 0 0 #ebebeb;
+	}
+}
+.button-main:active {
+    background: #D2D2D2;
+    box-shadow: inset 0 4px 0 0 #9F9F9F;
+}
+.button-main-outer {
+    min-width: 4.6rem;
+    width: 4.6rem;
+    height: 4.6rem;
+    background-color: #FFFFFF;
+    transition: border-width 0.3s ease-in-out;
+    border: solid .9rem #0078ff;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: 4%;
+}
+@media (min-width: 45em) {
+    .button-main:hover .button-main-outer {
+        transition: border-width 0.3s ease-in-out;
+        border: 2.3rem solid #0078FF;
+    }
+}
+.button-main-text {
+    width: 335px;
+    font-family: Helvetica;
+    font-size: 3rem;
+    line-height: 0.82;
+    color: #000000;
+    align-self: center;
+    margin-left: 5%;
+    text-align: left;
+}
+                </code>  
+            </pre>        
                  
             <div class="guide-element button-amount-container">  
                 <button type="button" class="button-amount">
@@ -831,6 +1033,35 @@ type="image/webp"/>
 &lt;/div&gt;
                 </code>         
             </pre>
+            <pre>
+               <code class="language-css">
+.button-amount {
+    width: 39.2px;
+    height: 38.8px;
+    background-color: #037aff;
+    border-radius: 50%;
+    border: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+@media (min-width: 45em) {
+    .button-amount:hover {
+        background: #1D94FF;
+    }
+}
+.button-amount:active {
+    background: #0061E6;
+}
+.button-amount-image {
+    pointer-events: none;
+    user-select: none;
+}
+.button-amount-container {
+    width: 132.5px;
+    justify-content: space-between;
+}
+                </code>  
+            </pre>  
                                 
             <div class="guide-element button-decision-container">  
                 <button type="button" class="button-decision" id="button-approve">
@@ -851,7 +1082,45 @@ type="image/webp"/>
     &lt;/button&gt; 
 &lt;/div&gt;
                 </code>         
-            </pre>           
+            </pre>  
+            <pre>
+               <code class="language-css">
+.button-decision {
+    width: 91px;
+    height: 91px;
+    border-radius: 50%;
+    border: 0;
+    display: inline-flex;
+    justify-content: center;
+}
+.button-decision-container {
+    width: 303px;
+    justify-content: space-between;
+}
+#button-approve {
+    background-color: #4ED763;
+}
+#button-approve:hover {
+    background-color: #68F17D;
+}
+#button-approve:active {
+    background-color: #35BE4A;
+}
+#button-disapprove {
+    background-color: #F92C34;
+}
+#button-disapprove:hover {
+    background-color: #FF464E;
+}
+#button-disapprove:active {
+    background-color: #E0131B;
+}
+.button-approve-image,
+.button-disapprove-image {
+    width: 60%;
+}
+                </code>  
+            </pre>          
  
             <button type="button" class="button-delete">
                 <img class="button-delete-image" src="https://res.cloudinary.com/dgoasjucg/image/upload/v1532620169/delete.svg">
@@ -863,6 +1132,33 @@ type="image/webp"/>
 &lt;/button&gt;
                 </code>         
             </pre> 
+            <pre>
+               <code class="language-css">
+.button-delete {
+    width: 39px;
+    height: 39px;
+    border: 0;
+    border-radius: 3px;
+    background: #b7b8b9;
+    display: inline-flex;
+    justify-content: center;
+}
+.button-delete-image {
+    pointer-events: none;
+    user-select: none;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+@media (min-width: 45em) {
+    .button-delete:hover {
+        background: #d1d2d3;
+    }
+}
+.button-delete:active {
+    background: #9e9fa0;
+}
+                </code>  
+            </pre>
            
         <button type="button" class="svg-button-edit">  
             <svg height="39" viewBox="0 0 39 39" width="39" xmlns="http://www.w3.org/2000/svg"><path d="m37.9296951 1.0707236c1.4282537 1.42824079 1.4258923 3.74320963 0 5.17145041l-1.7234261 1.72341055-5.1726398-5.17145041 1.7234262-1.72341055c1.4281775-1.42702202 3.744386-1.42824079 5.1726397 0zm-25.8538293 20.6832879-1.7222073 6.8936422 6.8937045-1.7234105 17.2354798-17.23532426-5.1726397-5.17145041zm17.1747696-3.3849687v15.7558953h-24.37552949v-24.37530941h15.75718019l4.873811-4.87506188h-25.5060971v34.12543319h34.1257413v-25.5072379z" fill="" transform=""/></svg>
@@ -873,7 +1169,24 @@ type="image/webp"/>
     &lt;svg height="39" viewBox="0 0 39 39" width="39" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path d="m37.9296951 1.0707236c1.4282537 1.42824079 1.4258923 3.74320963 0 5.17145041l-1.7234261 1.72341055-5.1726398-5.17145041 1.7234262-1.72341055c1.4281775-1.42702202 3.744386-1.42824079 5.1726397 0zm-25.8538293 20.6832879-1.7222073 6.8936422 6.8937045-1.7234105 17.2354798-17.23532426-5.1726397-5.17145041zm17.1747696-3.3849687v15.7558953h-24.37552949v-24.37530941h15.75718019l4.873811-4.87506188h-25.5060971v34.12543319h34.1257413v-25.5072379z" fill="" transform=""/&gt;&lt;/svg&gt;
 &lt;/button&gt; 
             </code>         
-        </pre>                   
+        </pre>  
+        <pre>
+            <code class="language-css">
+.svg-button-edit {
+    fill: #999999;
+    border: 0;
+    background: 0;
+}
+@media (min-width: 45em) {
+    .svg-button-edit:hover {
+        fill: #B3B3B3;
+    }
+}
+.svg-button-edit:active {
+    fill: #808080;
+}
+            </code>  
+        </pre>                 
     </section>
              
                                                                           
@@ -902,7 +1215,57 @@ type="image/webp"/>
     &lt;/div&gt;        
 &lt;/form&gt;
                 </code>
-            </pre>           
+            </pre>
+            <pre>
+               <code class="language-css">
+.guide-radio input[type="radio"] {
+    opacity: 0;
+}
+.guide-radio label {
+    position: relative;
+    display: inline-block;
+    padding-left: 3.87rem;
+    font-style: oblique;
+}
+.guide-radio label::before,
+.guide-radio label::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+}
+/*Outer-box*/
+.guide-radio label::before {
+    height: 3.17rem;
+    width: 3.17rem;
+	border: 2px solid #587c8a;
+	box-shadow: inset 0 2px 3px 1px #0000001f;
+    border-radius: 8px;
+    left: 0;
+}
+/*Mark*/
+.guide-radio label::after {
+    width: 22px;
+    height: 22px;
+    background-color: #000000;
+    border-radius: 8px;
+    top: 16px;
+    left: 16px;
+}
+/*Hide the mark by default*/
+.guide-radio input[type="radio"] + label::after {
+    content: none;
+}
+/*Unhide the mark on the checked state*/
+.guide-radio input[type="radio"]:checked + label::after {
+    content: "";
+}
+.guide-radio {
+    width: 11.8rem;
+    height: 3.17rem;
+    margin-right: 2rem;
+}
+                </code>  
+            </pre>             
                         
             <div class="form-element">
                 <label for="address" class="input-label">Street Address</label>   
@@ -916,6 +1279,32 @@ type="image/webp"/>
 &lt;/div&gt;
                 </code>
             </pre>
+            <pre>
+               <code class="language-css">
+.form-element {
+    flex-grow: 3;
+    max-width: 453px;
+    width: 100%;
+}
+.guide-section input[type=text] {
+    max-width: 558.2px;
+    width: 100%;
+    height: 3.59rem;
+    border: 2px solid #587c8a;
+    box-shadow: inset 0 2px 3px 1px #0000001f;
+    border-radius: 6px;
+    font-size: 1.76rem;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    padding-left: 1.6rem;
+}
+.guide-section input[type=text]:focus {
+    background-color: #fafafa;
+    box-shadow: inset 0 2px 5px 3px #0000001f;
+    outline: none;
+}
+                </code>  
+            </pre> 
             
             <div class="form-element">
                 <label for="secure" class="input-label">Card Number</label>
@@ -928,7 +1317,42 @@ type="image/webp"/>
     &lt;input id="secure" class="input-secure" type="text" placeholder="0000 0000 0000 0000"&gt;
 &lt;/div&gt;
                 </code>
-            </pre>  
+            </pre>
+            <pre>
+               <code class="language-css">
+.form-element {
+    flex-grow: 3;
+    max-width: 453px;
+    width: 100%;
+}
+.guide-section input[type=text] {
+    max-width: 558.2px;
+    width: 100%;
+    height: 3.59rem;
+    border: 2px solid #587c8a;
+    box-shadow: inset 0 2px 3px 1px #0000001f;
+    border-radius: 6px;
+    font-size: 1.76rem;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    padding-left: 1.6rem;
+}
+.guide-section input[type=text]:focus {
+    background-color: #fafafa;
+    box-shadow: inset 0 2px 5px 3px #0000001f;
+    outline: none;
+}
+.input-secure {
+    background-image: url('secure.svg');
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 95%;
+    padding-left: 5%;
+    padding-right: 15%; 
+}
+                </code>  
+            </pre>    
             
             <div class="form-element">
                 <label for="email" class="input-label">Your Email</label>
@@ -942,6 +1366,40 @@ type="image/webp"/>
 &lt;/div&gt;
                 </code>
             </pre>
+            <pre>
+               <code class="language-css">
+.form-element {
+    flex-grow: 3;
+    max-width: 453px;
+    width: 100%;
+}
+.guide-section input[type=text] {
+    max-width: 558.2px;
+    width: 100%;
+    height: 3.59rem;
+    border: 2px solid #587c8a;
+    box-shadow: inset 0 2px 3px 1px #0000001f;
+    border-radius: 6px;
+    font-size: 1.76rem;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    padding-left: 1.6rem;
+}
+.guide-section input[type=text]:focus {
+    background-color: #fafafa;
+    box-shadow: inset 0 2px 5px 3px #0000001f;
+    outline: none;
+}
+.input-email {
+    background-image: url('email_(form).svg');
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    background-position: 16px;
+    padding-left: 4rem !important;
+}
+                </code>  
+            </pre>  
                      
             <form class="form-container">      
                 <div class="form-element">
@@ -968,7 +1426,38 @@ type="image/webp"/>
     &lt;/div&gt;   
 &lt;/form&gt;
                 </code>
-            </pre>    
+            </pre>
+            <pre>
+               <code class="language-css">
+.form-container {
+    display: flex;
+    margin-bottom: 0;
+    justify-content: space-between;
+}
+.form-element {
+    flex-grow: 3;
+    max-width: 453px;
+    width: 100%;
+}
+.guide-section input[type=text] {
+    max-width: 558.2px;
+    width: 100%;
+    height: 3.59rem;
+    border: 2px solid #587c8a;
+    box-shadow: inset 0 2px 3px 1px #0000001f;
+    border-radius: 6px;
+    font-size: 1.76rem;
+    background-color: #ffffff;
+    margin-bottom: 0;
+    padding-left: 1.6rem;
+}
+.guide-section input[type=text]:focus {
+    background-color: #fafafa;
+    box-shadow: inset 0 2px 5px 3px #0000001f;
+    outline: none;
+}
+                </code>  
+            </pre>
         </section>          
              
                    
