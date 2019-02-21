@@ -2703,3 +2703,22 @@ pre {
 .language-markup + .language-css {
 	margin-top: -32.5px!important;
 }
+
+.panel-heading {
+	background: #ddd;
+}
+.user-testing-button {
+	background: #f5f5f5;
+}
+.user-testing-button:hover {
+	background: #fff;
+}
+.user-testing-button:active {
+	background: #bbb;
+}
+.panel-body {
+	background: #f5f5f5;
+}
+.panel .panel-default {
+	border: none;
+}
