@@ -431,7 +431,9 @@ ul {
     color: white;
     border-radius: 10px;
     p {
-        flex: 1 1 0%;
+        flex-grow:1;
+	    flex-shrink: 1;
+	    flex-basis: 0%;
     }
 }
 
